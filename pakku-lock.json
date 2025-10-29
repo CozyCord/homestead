@@ -396,6 +396,9 @@
         },
         {
             "pakku_id": "XxTYhopNoOgQC0UV",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -4633,7 +4636,7 @@
             ]
         },
         {
-            "pakku_id": "uqWqNzL74tj5hhJV",
+            "pakku_id": "bqX8nbxHGq1jhipQ",
             "pakku_links": [
                 "kENRr32k5BWk2WCE"
             ],
@@ -4652,6 +4655,30 @@
                 "modrinth": "jkb861Ih"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "duckling-3.0.0-fabric.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4620/539/duckling-3.0.0-fabric.jar",
+                    "id": "4620539",
+                    "parent_id": "597248",
+                    "hashes": {
+                        "sha1": "13efd4f4f41d181879d1e9438b171adb259805aa",
+                        "md5": "f5c037a1d0a9a6882d0732a2c5a97b50"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 140790,
+                    "date_published": "2023-07-02T06:46:32.667Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "duckling-fabric-1.20.4-4.0.0.jar",
@@ -11883,6 +11910,9 @@
         },
         {
             "pakku_id": "DcFzYCwxtXTG9r5C",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -12239,25 +12269,48 @@
             ]
         },
         {
-            "pakku_id": "fGQFnc89Asollesk",
+            "pakku_id": "tUMyqHNLsVHv1QJk",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw"
             ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "selene",
-                "modrinth": "selene"
+                "modrinth": "moonlight",
+                "curseforge": "selene"
             },
             "name": {
-                "curseforge": "Moonlight Lib",
-                "modrinth": "Selene"
+                "modrinth": "Moonlight Lib",
+                "curseforge": "Moonlight Lib"
             },
             "id": {
-                "curseforge": "499980",
-                "modrinth": "hRandqZM"
+                "modrinth": "twkfQtEc",
+                "curseforge": "499980"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moonlight-1.20-2.16.15-fabric.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/kD8s6Jem/moonlight-1.20-2.16.15-fabric.jar",
+                    "id": "kD8s6Jem",
+                    "parent_id": "twkfQtEc",
+                    "hashes": {
+                        "sha512": "51a3114127357226fc62d36c9ceee3d2d12a2f46ce5f2f648cb0bbb3954f1e07246b38ac6aaa4002f3c85501be4f8b74290f12596dbc322b7e440cf2158042fd",
+                        "sha1": "bfd9c4cc99e96b696cf779c74b6010666875b99d"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1309703,
+                    "date_published": "2025-10-18T08:20:26.046521Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "moonlight-1.20-2.16.15-fabric.jar",
@@ -16429,6 +16482,9 @@
         },
         {
             "pakku_id": "AxFRaCQqgeTSiZPw",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "sawmill"
@@ -17165,6 +17221,9 @@
         },
         {
             "pakku_id": "8wcyuM2fKvsHgPBK",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -17888,6 +17947,9 @@
         },
         {
             "pakku_id": "Y40pEGct7EndZSp2",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -18362,6 +18424,9 @@
         },
         {
             "pakku_id": "bywVzyqGkcJlHoFC",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -18710,6 +18775,9 @@
         },
         {
             "pakku_id": "eEQ237adXAV1EI6L",
+            "pakku_links": [
+                "tUMyqHNLsVHv1QJk"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -18780,7 +18848,8 @@
             "pakku_links": [
                 "fGQFnc89Asollesk",
                 "oIkIn5hRgKWLtPUw",
-                "eEQ237adXAV1EI6L"
+                "eEQ237adXAV1EI6L",
+                "tUMyqHNLsVHv1QJk"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -21818,18 +21887,52 @@
             ]
         },
         {
-            "pakku_id": "Jk9v4FO3V5lPK1oD",
+            "pakku_id": "xFFoL8LjNHg6CmTQ",
+            "pakku_links": [
+                "NKXhwMDx6U6c2wz7",
+                "tl2C8Npt9xQbxhmK",
+                "yiAXfXryFYH6URTW"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
+                "modrinth": "lets-do-brewery-farmcharm-compat",
                 "curseforge": "lets-do-brewery-farm-charm-compat"
             },
             "name": {
+                "modrinth": "[Let's Do] Brewery - Farm&Charm Compat",
                 "curseforge": "[Let's Do] Brewery - Farm&Charm Compat"
             },
             "id": {
+                "modrinth": "b7NV2plI",
                 "curseforge": "1038106"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "letsdo-brewery-fabric-2.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/b7NV2plI/versions/W2QrBsrL/letsdo-brewery-fabric-2.0.6.jar",
+                    "id": "W2QrBsrL",
+                    "parent_id": "b7NV2plI",
+                    "hashes": {
+                        "sha512": "9fe9c809215874453f1f7d832975d0855b0d66e0b8b4933a4182aadeed52899b4b9c49680cd1a7325eefafe72541b3ba6b44e90ee4039b21a6a14ccc7afcff35",
+                        "sha1": "626c51b6474da30250b7ad793f8d210943b8c819"
+                    },
+                    "required_dependencies": [
+                        "HJetCzWo",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 2030105,
+                    "date_published": "2025-08-04T18:12:50.668238Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "letsdo-brewery-fabric-2.0.6.jar",
@@ -21963,18 +22066,48 @@
             ]
         },
         {
-            "pakku_id": "r0wz82FJ9VsUfp3I",
+            "pakku_id": "3HbBQ5Ei75fqcyg6",
+            "pakku_links": [
+                "tl2C8Npt9xQbxhmK"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
+                "modrinth": "lets-do-herbalbrews",
                 "curseforge": "lets-do-herbal-brews"
             },
             "name": {
+                "modrinth": "[Let's Do] HerbalBrews",
                 "curseforge": "[Let's Do] HerbalBrews"
             },
             "id": {
+                "modrinth": "Eh11TaTm",
                 "curseforge": "951221"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "letsdo-herbalbrews-fabric-1.0.12.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Eh11TaTm/versions/txZ8qKXK/letsdo-herbalbrews-fabric-1.0.12.jar",
+                    "id": "txZ8qKXK",
+                    "parent_id": "Eh11TaTm",
+                    "hashes": {
+                        "sha512": "c3517c065c22d6117b80bed8f135cef068319dea79a21873733c4bf2679571675363e277601d8fbffbf0b7b96427f4fc7951d2812053e99e45a9f9ac483c0d08",
+                        "sha1": "9776b9cd5c06dd76fc7d4b75de971eec9d84bb26"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ"
+                    ],
+                    "size": 729071,
+                    "date_published": "2025-04-24T09:29:10.684521Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "letsdo-herbalbrews-fabric-1.0.12.jar",
