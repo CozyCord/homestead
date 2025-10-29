@@ -1,0 +1,7 @@
+{
+    "name": "Homestead",
+    "version": "1.2.3",
+    "overrides": [
+        "config"
+    ]
+}
