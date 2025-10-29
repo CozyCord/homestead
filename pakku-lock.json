@@ -824,6 +824,52 @@
             ]
         },
         {
+            "pakku_id": "kjJprJFkYXvdxTPt",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "balm",
+                "modrinth": "balm"
+            },
+            "name": {
+                "curseforge": "Balm",
+                "modrinth": "Balm"
+            },
+            "id": {
+                "curseforge": "531761",
+                "modrinth": "MBAkmtvl"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "balm-fabric-1.20.1-7.3.37.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/qCk04klC/balm-fabric-1.20.1-7.3.37.jar",
+                    "id": "qCk04klC",
+                    "parent_id": "MBAkmtvl",
+                    "hashes": {
+                        "sha512": "2fddc3053091ec9e9939f873f01a06752698adf56b0405df17c13e1f6359daa009dc8e194bb9591b172cc013900b9891b52993b779efb338b5d977b4099ae2da",
+                        "sha1": "f152937a8064f70ec65667e29d18ac8830bf6028"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 608287,
+                    "date_published": "2025-10-09T16:45:39.829090Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kticgUyqbTCcCDzo",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw"
@@ -3106,7 +3152,8 @@
         {
             "pakku_id": "rrbvMjOgUuOu5Gka",
             "pakku_links": [
-                "A6Jp4c1LJbGIlIBS"
+                "A6Jp4c1LJbGIlIBS",
+                "ZIg4EuIn4I0v6Am8"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -15208,7 +15255,8 @@
             "pakku_id": "0lNwhg1f1veDTkuS",
             "pakku_links": [
                 "A6Jp4c1LJbGIlIBS",
-                "MKb98LF9JG2D53R2"
+                "MKb98LF9JG2D53R2",
+                "ZIg4EuIn4I0v6Am8"
             ],
             "type": "MOD",
             "slug": {
@@ -16297,7 +16345,9 @@
             "pakku_links": [
                 "GAB4XgFwdlQ9DRVR",
                 "kENRr32k5BWk2WCE",
-                "G14JdOLH88jbv8md"
+                "G14JdOLH88jbv8md",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -18630,16 +18680,24 @@
             ]
         },
         {
-            "pakku_id": "LGlxE25jGVaIxmKJ",
+            "pakku_id": "n4YUt76bmLUZcqtU",
+            "pakku_links": [
+                "GAB4XgFwdlQ9DRVR",
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "sun-and-moon-celestial-configuration"
+                "curseforge": "sun-and-moon-celestial-configuration",
+                "modrinth": "celestial-config"
             },
             "name": {
-                "curseforge": "Sun and Moon Celestial Configuration"
+                "curseforge": "Sun and Moon Celestial Configuration",
+                "modrinth": "Sun and Moon Celestial Configuration"
             },
             "id": {
-                "curseforge": "656398"
+                "curseforge": "656398",
+                "modrinth": "C5tEOKu9"
             },
             "files": [
                 {
@@ -18664,20 +18722,50 @@
                     "required_dependencies": [],
                     "size": 137613,
                     "date_published": "2024-07-05T13:31:21.833Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/C5tEOKu9/versions/wCZadXy8/Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                    "id": "wCZadXy8",
+                    "parent_id": "C5tEOKu9",
+                    "hashes": {
+                        "sha512": "c61c49f86141a08d4aeee3102bfcb72ca5dba37de3ae0968917435256e8574b9aad55a70bbf83e536f93d822807dc2ffc529e2bb1b97b8101a62aca29acc8664",
+                        "sha1": "0f14d49b738fcde70e1e0a1419ef1bb6a8ba16d0"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "P7dR8mSH"
+                    ],
+                    "size": 137613,
+                    "date_published": "2024-07-05T14:35:19.044720Z"
                 }
             ]
         },
         {
-            "pakku_id": "ccPOSdDBqgjI8SHK",
+            "pakku_id": "vR697H0b0i6BXBhv",
             "type": "SHADER",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "super-duper-vanilla-shaders"
+                "curseforge": "super-duper-vanilla-shaders",
+                "modrinth": "super-duper-vanilla"
             },
             "name": {
-                "curseforge": "Super Duper Vanilla Shaders"
+                "curseforge": "Super Duper Vanilla Shaders",
+                "modrinth": "Super Duper Vanilla"
             },
             "id": {
-                "curseforge": "534748"
+                "curseforge": "534748",
+                "modrinth": "LMIZZNxZ"
             },
             "files": [
                 {
@@ -18703,6 +18791,49 @@
                     "required_dependencies": [],
                     "size": 2851664,
                     "date_published": "2025-07-08T20:37:09.347Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "superDuperVanilla.zip",
+                    "mc_versions": [
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/LMIZZNxZ/versions/KB0sOLSc/superDuperVanilla.zip",
+                    "id": "KB0sOLSc",
+                    "parent_id": "LMIZZNxZ",
+                    "hashes": {
+                        "sha512": "231b47716d5dab68fd1409c65750589c234d4d63312b3f8634342477686ae6db88edb9ecc3c5662fca245e71b16f16e2933e50751d13d5b06e7d3e26f8d9ebaf",
+                        "sha1": "f2d6d259368e8b8d8807abb1ac28aaa7cff85b8c"
+                    },
+                    "required_dependencies": [],
+                    "size": 2851664,
+                    "date_published": "2025-07-08T20:37:25.552588Z"
                 }
             ]
         },
@@ -19116,21 +19247,25 @@
             ]
         },
         {
-            "pakku_id": "aGDmH515nCeWvPAh",
+            "pakku_id": "xrkrmYNmdebfXj4o",
             "pakku_links": [
                 "ak1GhJzhdZyV9DtG",
-                "fPwEXrGZPmSKZTIV",
-                "CfCDmfyzbIntDswZ"
+                "CfCDmfyzbIntDswZ",
+                "fPwEXrGZPmSKZTIV"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "things-fabric"
+                "curseforge": "things-fabric",
+                "modrinth": "things"
             },
             "name": {
-                "curseforge": "Things [Fabric]"
+                "curseforge": "Things [Fabric]",
+                "modrinth": "Things"
             },
             "id": {
-                "curseforge": "456151"
+                "curseforge": "456151",
+                "modrinth": "VzAGdu9D"
             },
             "files": [
                 {
@@ -19159,6 +19294,33 @@
                     ],
                     "size": 930355,
                     "date_published": "2023-12-02T22:14:07.593Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "things-0.3.3+1.20.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/VzAGdu9D/versions/FLzUUyOd/things-0.3.3+1.20.jar",
+                    "id": "FLzUUyOd",
+                    "parent_id": "VzAGdu9D",
+                    "hashes": {
+                        "sha512": "a79c8dbe581046fb9e86ffd987408e7e1651718252a40133b0473d8838857fffa8de51ba799fc09f5d5da9c204d81680878d48fc3c747d6617d44b2d615cbf25",
+                        "sha1": "7c1df2914ddda8b22b93d8823b8c5f3a7076afd4"
+                    },
+                    "required_dependencies": [
+                        "5aaWibi9",
+                        "D5h9NKNI",
+                        "ccKDOlHs"
+                    ],
+                    "size": 930355,
+                    "date_published": "2023-12-02T22:14:05.769552Z"
                 }
             ]
         },
@@ -19237,16 +19399,20 @@
             ]
         },
         {
-            "pakku_id": "A6Jp4c1LJbGIlIBS",
+            "pakku_id": "ZIg4EuIn4I0v6Am8",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "toms-storage-fabric"
+                "curseforge": "toms-storage-fabric",
+                "modrinth": "toms-storage"
             },
             "name": {
-                "curseforge": "Tom's Simple Storage Mod (Fabric)"
+                "curseforge": "Tom's Simple Storage Mod (Fabric)",
+                "modrinth": "Tom's Simple Storage Mod"
             },
             "id": {
-                "curseforge": "396826"
+                "curseforge": "396826",
+                "modrinth": "XZNI4Cpy"
             },
             "files": [
                 {
@@ -19270,6 +19436,28 @@
                     "required_dependencies": [],
                     "size": 1537265,
                     "date_published": "2025-04-13T11:20:35.213Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "toms_storage_fabric-1.20-1.7.1.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/nvqkBIsD/toms_storage_fabric-1.20-1.7.1.jar",
+                    "id": "nvqkBIsD",
+                    "parent_id": "XZNI4Cpy",
+                    "hashes": {
+                        "sha512": "0e94f6b240fe7afc93b1c314806edb6b8ffb5b7c2827051cb336bcb48c64e3e5e5199ca09fac1d3b9da58b1b85544a9e90af015fa73aa795a0bce04fb6d6048d",
+                        "sha1": "adef379e843b6788f0743b035e4658e043baf2f5"
+                    },
+                    "required_dependencies": [],
+                    "size": 1537265,
+                    "date_published": "2025-04-13T11:20:38.378109Z"
                 }
             ]
         },
@@ -19628,24 +19816,29 @@
             ]
         },
         {
-            "pakku_id": "7BuvyqNBl5WXhiIg",
+            "pakku_id": "cVv4SrFZWO7m3K62",
             "pakku_links": [
-                "kticgUyqbTCcCDzo"
+                "kticgUyqbTCcCDzo",
+                "kjJprJFkYXvdxTPt"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "trashslot-fabric-edition"
+                "curseforge": "trashslot",
+                "modrinth": "trashslot"
             },
             "name": {
-                "curseforge": "TrashSlot (Outdated Versions)"
+                "curseforge": "TrashSlot",
+                "modrinth": "TrashSlot"
             },
             "id": {
-                "curseforge": "547689"
+                "curseforge": "235577",
+                "modrinth": "vRYk0bv7"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "trashslot-fabric-1.20-15.1.1.jar",
+                    "file_name": "trashslot-fabric-1.20-15.1.2.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -19654,35 +19847,65 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6077/694/trashslot-fabric-1.20-15.1.1.jar",
-                    "id": "6077694",
-                    "parent_id": "547689",
+                    "url": "https://edge.forgecdn.net/files/6319/120/trashslot-fabric-1.20-15.1.2.jar",
+                    "id": "6319120",
+                    "parent_id": "235577",
                     "hashes": {
-                        "sha1": "b777e868e0487bbb137cf55a25d2e178af2bb13b",
-                        "md5": "467c18ea8f451fc2fa876972502385c7"
+                        "sha1": "55e03316fc54fc7f0338582b691815715f94c416",
+                        "md5": "a69037d4bab06ee7c8e5738df9bb4978"
                     },
                     "required_dependencies": [
                         "500525"
                     ],
-                    "size": 118434,
-                    "date_published": "2025-01-11T19:24:55.230Z"
+                    "size": 118472,
+                    "date_published": "2025-03-18T15:00:21.660Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "trashslot-fabric-1.20-15.1.1.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vRYk0bv7/versions/Ve2pngwH/trashslot-fabric-1.20-15.1.1.jar",
+                    "id": "Ve2pngwH",
+                    "parent_id": "vRYk0bv7",
+                    "hashes": {
+                        "sha512": "a2d752dc5d6d551b20f8393579d4ba306ea6b953e50d7be60fdeb5c8b985e00a24043a7a481e0729df6e512b3bc12dfb32ef32bd355d7c6aecd4ea1ef032f9d6",
+                        "sha1": "33e0320209d0653afe4a5c5aadfc778ca2e46bda"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 118435,
+                    "date_published": "2025-01-11T19:24:54.049743Z"
                 }
             ]
         },
         {
-            "pakku_id": "R9StA72zMj41nxva",
+            "pakku_id": "wZi4S163t23oH8f5",
             "pakku_links": [
-                "G14JdOLH88jbv8md"
+                "GAB4XgFwdlQ9DRVR",
+                "Gmn1QABY9cbQP5MT",
+                "oIkIn5hRgKWLtPUw"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "travelers-titles-fabric"
+                "curseforge": "travelers-titles-fabric",
+                "modrinth": "travelers-titles"
             },
             "name": {
-                "curseforge": "Traveler's Titles (Fabric)"
+                "curseforge": "Traveler's Titles (Fabric)",
+                "modrinth": "Traveler's Titles"
             },
             "id": {
-                "curseforge": "590990"
+                "curseforge": "590990",
+                "modrinth": "JtifUr64"
             },
             "files": [
                 {
@@ -19710,6 +19933,32 @@
                     ],
                     "size": 345764,
                     "date_published": "2024-01-28T20:30:06.020Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "TravelersTitles-1.20-Fabric-4.0.2.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JtifUr64/versions/MbifZGB0/TravelersTitles-1.20-Fabric-4.0.2.jar",
+                    "id": "MbifZGB0",
+                    "parent_id": "JtifUr64",
+                    "hashes": {
+                        "sha512": "a8af88107664482f907e5e797156f677e79f96009b834a77f38c184cc651b88db5adac2f4edd8c6945a199157eedd9a366774f7a52458e8286fdbb492d4d8787",
+                        "sha1": "9698f7347b3c98276e4d4035e731e34e926e82d0"
+                    },
+                    "required_dependencies": [
+                        "Ua7DFN59",
+                        "9s6osm5g",
+                        "P7dR8mSH"
+                    ],
+                    "size": 345764,
+                    "date_published": "2024-01-28T20:30:11.867199Z"
                 }
             ]
         },
@@ -20329,21 +20578,48 @@
             ]
         },
         {
-            "pakku_id": "yV8GIr096uDNhQL2",
+            "pakku_id": "EwZk4Xkc09PPh9eN",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
+                "modrinth": "villagersplus",
                 "curseforge": "villagersplus-fabric"
             },
             "name": {
+                "modrinth": "VillagersPlus",
                 "curseforge": "VillagersPlus (FABRIC)"
             },
             "id": {
+                "modrinth": "oHGMwNDR",
                 "curseforge": "809542"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/oHGMwNDR/versions/Tl5Kx50I/VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
+                    "id": "Tl5Kx50I",
+                    "parent_id": "oHGMwNDR",
+                    "hashes": {
+                        "sha512": "22f52954d5a4dd954bb675903fd4e51375157c10f79754dcf10ec6e8f1020f751d87e2aad1bf0a6f55400c8a58c42e27f497e20c822baef0fcca98c44113babb",
+                        "sha1": "9f761a0446dddf49db5e1067c5bcbcfc71d4d9b8"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 356336,
+                    "date_published": "2023-12-31T15:20:01.418525Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
@@ -20859,16 +21135,23 @@
             ]
         },
         {
-            "pakku_id": "G14JdOLH88jbv8md",
+            "pakku_id": "Gmn1QABY9cbQP5MT",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "yungs-api-fabric"
+                "curseforge": "yungs-api-fabric",
+                "modrinth": "yungs-api"
             },
             "name": {
-                "curseforge": "YUNG's API (Fabric)"
+                "curseforge": "YUNG's API (Fabric)",
+                "modrinth": "YUNG's API"
             },
             "id": {
-                "curseforge": "421649"
+                "curseforge": "421649",
+                "modrinth": "Ua7DFN59"
             },
             "files": [
                 {
@@ -20894,25 +21177,55 @@
                     ],
                     "size": 1396331,
                     "date_published": "2024-09-30T06:14:01.507Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsApi-1.20-Fabric-4.0.6.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/lscV1N5k/YungsApi-1.20-Fabric-4.0.6.jar",
+                    "id": "lscV1N5k",
+                    "parent_id": "Ua7DFN59",
+                    "hashes": {
+                        "sha512": "90fea70f21cd09bdeefe9cb6bd23677595b32156b1b8053611449504ba84a21ee1e13e5a620851299090ce989f41b97b9b4bdc98def1ccecb33115e19553c64e",
+                        "sha1": "8d39c739b534e7351e9fdabf045f171a4e45c98a"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1396331,
+                    "date_published": "2024-09-30T06:14:05.780560Z"
                 }
             ]
         },
         {
-            "pakku_id": "5mMUvSsT4DCLOT7U",
+            "pakku_id": "oE7vLGP7W6WQe2Wm",
             "pakku_links": [
-                "oIkIn5hRgKWLtPUw",
                 "GAB4XgFwdlQ9DRVR",
-                "G14JdOLH88jbv8md"
+                "oIkIn5hRgKWLtPUw",
+                "G14JdOLH88jbv8md",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-better-dungeons-fabric"
+                "curseforge": "yungs-better-dungeons-fabric",
+                "modrinth": "yungs-better-dungeons"
             },
             "name": {
-                "curseforge": "YUNG's Better Dungeons (Fabric)"
+                "curseforge": "YUNG's Better Dungeons (Fabric)",
+                "modrinth": "YUNG's Better Dungeons"
             },
             "id": {
-                "curseforge": "525586"
+                "curseforge": "525586",
+                "modrinth": "o1C1Dkj5"
             },
             "files": [
                 {
@@ -20940,23 +21253,57 @@
                     ],
                     "size": 944170,
                     "date_published": "2024-04-18T05:10:10.597Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/nidyvq2m/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                    "id": "nidyvq2m",
+                    "parent_id": "o1C1Dkj5",
+                    "hashes": {
+                        "sha512": "02ee00641aea2e80806923c1d97a366b82eb6d6e1d749fc8fb4eeddeddea718c08f5a87ba5189427f747801b899abe5a6138a260c7e7f949e5e69b4065ac5464",
+                        "sha1": "cb4ea32fe75c9dbcd62f6f3d3f912c1b79ac697a"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "Ua7DFN59",
+                        "P7dR8mSH"
+                    ],
+                    "size": 944170,
+                    "date_published": "2024-04-18T05:10:15.900493Z"
                 }
             ]
         },
         {
-            "pakku_id": "hekT2vW0WE2n0KyU",
+            "pakku_id": "8jJ4XDNOGwr3xj3i",
             "pakku_links": [
-                "G14JdOLH88jbv8md"
+                "G14JdOLH88jbv8md",
+                "GAB4XgFwdlQ9DRVR",
+                "oIkIn5hRgKWLtPUw",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-better-end-island-fabric"
+                "curseforge": "yungs-better-end-island-fabric",
+                "modrinth": "yungs-better-end-island"
             },
             "name": {
-                "curseforge": "YUNG's Better End Island (Fabric)"
+                "curseforge": "YUNG's Better End Island (Fabric)",
+                "modrinth": "YUNG's Better End Island"
             },
             "id": {
-                "curseforge": "901350"
+                "curseforge": "901350",
+                "modrinth": "2BwBOmBQ"
             },
             "files": [
                 {
@@ -20984,25 +21331,85 @@
                     ],
                     "size": 517369,
                     "date_published": "2024-03-19T02:34:08.800Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2BwBOmBQ/versions/qJTsmyiE/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+                    "id": "qJTsmyiE",
+                    "parent_id": "2BwBOmBQ",
+                    "hashes": {
+                        "sha512": "cb63d9cdd69f955ed8044aec6f03aedbf76fdb53fd97826b254b68e3559941df301b714260505d165c58c276aa7ea7c11c2fada7509cb731f10b1815d5633b87",
+                        "sha1": "169bc72b247240b79cad00751e2d5a2b7493a389"
+                    },
+                    "required_dependencies": [
+                        "Ua7DFN59",
+                        "P7dR8mSH",
+                        "9s6osm5g"
+                    ],
+                    "size": 517369,
+                    "date_published": "2024-03-19T02:34:12.881686Z"
                 }
             ]
         },
         {
-            "pakku_id": "sqg4ABG3CsVgHPYL",
+            "pakku_id": "PuB8rOsF3rIwOgz2",
             "pakku_links": [
-                "G14JdOLH88jbv8md"
+                "GAB4XgFwdlQ9DRVR",
+                "G14JdOLH88jbv8md",
+                "oIkIn5hRgKWLtPUw",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
+                "modrinth": "yungs-better-mineshafts",
                 "curseforge": "yungs-better-mineshafts-fabric"
             },
             "name": {
+                "modrinth": "YUNG's Better Mineshafts",
                 "curseforge": "YUNG's Better Mineshafts (Fabric)"
             },
             "id": {
+                "modrinth": "HjmxVlSr",
                 "curseforge": "373591"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/qLnQnqXS/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                    "id": "qLnQnqXS",
+                    "parent_id": "HjmxVlSr",
+                    "hashes": {
+                        "sha512": "82d6e361ef403471beaaf2fa86964af541df167da56f53b820e5abfac693f63dd5d6c0aafbc9e9baa947b42a57c79f069ed6ede55e680a2523d2ca7f2e538b13",
+                        "sha1": "dda3af404d6958f6fed882b8b4ae7827ac78944b"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "Ua7DFN59",
+                        "P7dR8mSH"
+                    ],
+                    "size": 621495,
+                    "date_published": "2023-09-25T20:44:36.121185Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
@@ -21032,16 +21439,27 @@
             ]
         },
         {
-            "pakku_id": "AZARXqEW4FOxN4an",
+            "pakku_id": "X8CAeJunnutXUhT9",
+            "pakku_links": [
+                "GAB4XgFwdlQ9DRVR",
+                "G14JdOLH88jbv8md",
+                "oIkIn5hRgKWLtPUw",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
+            ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-better-nether-fortresses-fabric"
+                "curseforge": "yungs-better-nether-fortresses-fabric",
+                "modrinth": "yungs-better-nether-fortresses"
             },
             "name": {
-                "curseforge": "YUNG's Better Nether Fortresses (Fabric)"
+                "curseforge": "YUNG's Better Nether Fortresses (Fabric)",
+                "modrinth": "YUNG's Better Nether Fortresses"
             },
             "id": {
-                "curseforge": "817666"
+                "curseforge": "817666",
+                "modrinth": "Z2mXHnxP"
             },
             "files": [
                 {
@@ -21069,24 +21487,57 @@
                     ],
                     "size": 760974,
                     "date_published": "2024-03-18T23:17:06.207Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/FL88RLRu/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                    "id": "FL88RLRu",
+                    "parent_id": "Z2mXHnxP",
+                    "hashes": {
+                        "sha512": "a752f0dea20fa86e6d3a4f87d180af706b2ad5e3d434185aaa624692fc55329a2e2e410e67f843ec982e7b90ae63565b4aed43adbee6c50ded403ef50d91d7fd",
+                        "sha1": "837560db615bad870809e09436e943c4324301d1"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "P7dR8mSH",
+                        "Ua7DFN59"
+                    ],
+                    "size": 760974,
+                    "date_published": "2024-03-18T23:17:16.093842Z"
                 }
             ]
         },
         {
-            "pakku_id": "O1WXLVMQYx3i25hf",
+            "pakku_id": "ecoAKitQxj7jheHz",
             "pakku_links": [
                 "GAB4XgFwdlQ9DRVR",
-                "G14JdOLH88jbv8md"
+                "G14JdOLH88jbv8md",
+                "oIkIn5hRgKWLtPUw",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-better-strongholds-fabric"
+                "curseforge": "yungs-better-strongholds-fabric",
+                "modrinth": "yungs-better-strongholds"
             },
             "name": {
-                "curseforge": "YUNG's Better Strongholds (Fabric)"
+                "curseforge": "YUNG's Better Strongholds (Fabric)",
+                "modrinth": "YUNG's Better Strongholds"
             },
             "id": {
-                "curseforge": "480684"
+                "curseforge": "480684",
+                "modrinth": "kidLKymU"
             },
             "files": [
                 {
@@ -21114,23 +21565,57 @@
                     ],
                     "size": 611598,
                     "date_published": "2023-09-25T20:59:31.213Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kidLKymU/versions/yV6hn0bB/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                    "id": "yV6hn0bB",
+                    "parent_id": "kidLKymU",
+                    "hashes": {
+                        "sha512": "e70c8daa91e88d8af97e99201264c9646c82a8cf1966b87ca1e53b591e7f1ed3cee2f8875dbe88f9b58e2a7d151fded34896bb4bd23f33f2bfef4c590fbba850",
+                        "sha1": "f7a5eb03935abe845c6691ae99ae42889fdd5da1"
+                    },
+                    "required_dependencies": [
+                        "Ua7DFN59",
+                        "9s6osm5g",
+                        "P7dR8mSH"
+                    ],
+                    "size": 611598,
+                    "date_published": "2023-09-25T20:59:35.972605Z"
                 }
             ]
         },
         {
-            "pakku_id": "gfp0pFxQH8QIYjsq",
+            "pakku_id": "ImfLD2TtxMy6PpQZ",
             "pakku_links": [
-                "G14JdOLH88jbv8md"
+                "oIkIn5hRgKWLtPUw",
+                "G14JdOLH88jbv8md",
+                "GAB4XgFwdlQ9DRVR",
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-bridges-fabric"
+                "curseforge": "yungs-bridges-fabric",
+                "modrinth": "yungs-bridges"
             },
             "name": {
-                "curseforge": "YUNG's Bridges (Fabric)"
+                "curseforge": "YUNG's Bridges (Fabric)",
+                "modrinth": "YUNG's Bridges"
             },
             "id": {
-                "curseforge": "590988"
+                "curseforge": "590988",
+                "modrinth": "Ht4BfYp6"
             },
             "files": [
                 {
@@ -21158,25 +21643,57 @@
                     ],
                     "size": 266481,
                     "date_published": "2023-09-26T06:06:02.703Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsBridges-1.20-Fabric-4.0.3.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/hvfjXu8d/YungsBridges-1.20-Fabric-4.0.3.jar",
+                    "id": "hvfjXu8d",
+                    "parent_id": "Ht4BfYp6",
+                    "hashes": {
+                        "sha512": "3cdd923781fe6446466670bce8132bbc0a1ee27ae9a76bb25bf0010c0e79c821ce1dc606405e3ffa00f22d92629aa1cd7cc680a17c98dfcf338166372b85dab1",
+                        "sha1": "e6be5c5fb116b50ff75910015b19fcc6dadaf4e6"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "Ua7DFN59",
+                        "P7dR8mSH"
+                    ],
+                    "size": 266481,
+                    "date_published": "2023-09-26T06:06:06.835059Z"
                 }
             ]
         },
         {
-            "pakku_id": "FuzxuaLvhKPhjgYn",
+            "pakku_id": "cfw4Fabfg9OgD9cd",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw",
+                "G14JdOLH88jbv8md",
                 "GAB4XgFwdlQ9DRVR",
-                "G14JdOLH88jbv8md"
+                "hvxhPhBCTDbVsDjy",
+                "Gmn1QABY9cbQP5MT"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "yungs-extras-fabric"
+                "curseforge": "yungs-extras-fabric",
+                "modrinth": "yungs-extras"
             },
             "name": {
-                "curseforge": "YUNG's Extras (Fabric)"
+                "curseforge": "YUNG's Extras (Fabric)",
+                "modrinth": "YUNG's Extras"
             },
             "id": {
-                "curseforge": "590993"
+                "curseforge": "590993",
+                "modrinth": "ZYgyPyfq"
             },
             "files": [
                 {
@@ -21204,6 +21721,32 @@
                     ],
                     "size": 342639,
                     "date_published": "2023-09-26T05:57:33.967Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "YungsExtras-1.20-Fabric-4.0.3.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZYgyPyfq/versions/pfVTUz1L/YungsExtras-1.20-Fabric-4.0.3.jar",
+                    "id": "pfVTUz1L",
+                    "parent_id": "ZYgyPyfq",
+                    "hashes": {
+                        "sha512": "9fb06e136b12548ca9cb82d5d1035d760b74c7acded4b0d01ea29fb1e47c4666e1f289e6ce3e0c77510bc4bd10a64946e17633f99f60b5424a535d8d88025412",
+                        "sha1": "356c7fa28e0929317c151d75ead603035521eaa3"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "Ua7DFN59",
+                        "9s6osm5g"
+                    ],
+                    "size": 342639,
+                    "date_published": "2023-09-26T05:57:38.126521Z"
                 }
             ]
         },
@@ -21962,18 +22505,51 @@
             ]
         },
         {
-            "pakku_id": "WaOQznlFB90nALVH",
+            "pakku_id": "9pys42G7DR0e2vKB",
+            "pakku_links": [
+                "tl2C8Npt9xQbxhmK",
+                "NKXhwMDx6U6c2wz7"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
+                "modrinth": "lets-do-candlelight-farmcharm-compat",
                 "curseforge": "lets-do-candlelight-farm-charm-compat"
             },
             "name": {
+                "modrinth": "[Let's Do] Candlelight - Farm&Charm compat",
                 "curseforge": "[Let's Do] Candlelight - Farm&Charm Compat"
             },
             "id": {
+                "modrinth": "qwbArkQk",
                 "curseforge": "1038117"
             },
             "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "letsdo-candlelight-fabric-2.0.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qwbArkQk/versions/RUk2PHO1/letsdo-candlelight-fabric-2.0.5.jar",
+                    "id": "RUk2PHO1",
+                    "parent_id": "qwbArkQk",
+                    "hashes": {
+                        "sha512": "6a2daf556a3f0a665d45e9ee560551e955d2e340dd05e5d778db8d371d320f9a629e4a813465d378e5ac9ca07e63b96a2eaaa01f3079dbc7455b274559497a56",
+                        "sha1": "fda38107a8fbf90fc4208be0f996b8f81f28b5e8"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ",
+                        "HJetCzWo"
+                    ],
+                    "size": 2494711,
+                    "date_published": "2025-08-05T10:54:56.980623Z"
+                },
                 {
                     "type": "curseforge",
                     "file_name": "letsdo-candlelight-fabric-2.0.5.jar",
