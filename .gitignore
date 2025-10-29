@@ -1,1 +1,53 @@
-﻿build/
+﻿# Minecraft
+local/
+saves/
+mods/
+logs/
+crash-reports/
+backups/
+resourcepacks/
+server-resource-packs/
+screenshots/
+downloads/
+
+icon.png
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+emi.json
+
+# Pakku
+build/
+!.pakku/
+!pakku.jar
+!pakku.json
+!pakku-lock.json
+
+# VSCode
+!/.vscode/*.code-workspace
+/.vscode/*
+
+# ProbeJS
+/kubejs/probe/
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+/kubejs/*/jsconfig.json
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
