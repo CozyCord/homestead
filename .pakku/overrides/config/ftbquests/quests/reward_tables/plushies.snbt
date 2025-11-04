@@ -1,0 +1,21 @@
+{
+	id: "395CFBC1D39021F7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "perfectplushies:nyf_plushie" }
+		{ item: "perfectplushies:sirjain_plushie" }
+		{ item: "perfectplushies:sizableshrimp_plushie" }
+		{ item: "perfectplushies:tslat_plushie" }
+		{ item: "perfectplushies:silk_plushie" }
+		{ item: "perfectplushies:june_plushie" }
+		{ item: "perfectplushies:daniel_plushie" }
+		{ item: "perfectplushies:gamerpotion_plushie" }
+		{ item: "perfectplushies:joosh_plushie" }
+		{ item: "perfectplushies:rocris_plushie" }
+		{ item: "perfectplushies:geode_plushie" }
+		{ item: "perfectplushies:gamerpotion_plushie_rare", weight: 0.2f }
+		{ item: "perfectplushies:sirjain_plushie_rare", weight: 0.1f }
+	]
+	title: "plushies"
+}

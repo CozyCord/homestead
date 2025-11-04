@@ -1,0 +1,795 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "herbal_hexesz"
+	group: ""
+	icon: "hexalia:verdant_grimoire"
+	id: "21DA3B35FFCBF19D"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/homestead/herbal_hexes.png"
+			rotation: 0.0d
+			width: 0.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/herbal_hexes_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/herbal_hexes.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Hexalia, a mod focused around nature based magic! "
+				""
+				"In this unique mod you’ll grow magical herbs and crops, perform rituals and create special brews to help you become a great witch and give you more tools for your journey through the world. "
+				""
+				"To get you started you’ll need to gather some magical plants. First gather the four magical herbs that will be the base of your magic. "
+			]
+			id: "32B932B74284FF9D"
+			tasks: [{
+				id: "6276167EA9E3716A"
+				title: "Welcome To Hexalia!"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32B932B74284FF9D"]
+			description: [
+				"Magical herbs grow in many places, but the best place to find them is the Enchanted Bayou, where all four magical herbs grow. Ghost ferns are exclusive to these bayous. That said the other three can be found in the following biomes:"
+				""
+				"Spirit Blooms are native to swamps and Mangrove swamps. "
+				""
+				"Dreamshrooms are found in Old growth Pine Taiga and Mushroom Field biomes."
+				""
+				"Siren kelp is found in Ocean and Deep Ocean biomes. You should gather a good amount of these as they’re the base to create the dirt required to duplicate these special herbs."
+			]
+			id: "5063703BFDF49E1C"
+			rewards: [
+				{
+					id: "74E29CE335018E0D"
+					item: "hexalia:verdant_grimoire"
+					type: "item"
+				}
+				{
+					id: "59267CCA5D79A1E9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Visit an Enchanted Bayou or other biomes to find the 4 magical herbs"
+			tasks: [
+				{
+					id: "18E555746F9E7DDC"
+					item: "hexalia:dreamshroom"
+					type: "item"
+				}
+				{
+					id: "5B3BC0A1555EE64B"
+					item: "hexalia:spirit_bloom"
+					type: "item"
+				}
+				{
+					id: "7B55F0E91393C19B"
+					item: "hexalia:ghost_fern"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "571E0C9B853A79CA"
+					item: "hexalia:siren_kelp"
+					type: "item"
+				}
+			]
+			title: "Herbs Of Might and Magic"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5063703BFDF49E1C"]
+			description: ["Saltsprouts may not have the same magic properties as the magical herbs, but they’re no less important. They can be crushed into salt with a mortar and pestle to create salts you will need for rituals or for purifying salts later on. They grow naturally on sand, but can also be planted on Infused Dirt."]
+			id: "0491DFA4A0C8400B"
+			rewards: [
+				{
+					count: 3
+					id: "068114E99859BBD7"
+					item: "hexalia:saltsprout"
+					type: "item"
+				}
+				{
+					id: "2183F214A5043569"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "4E5A1E91DF6FCBB2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Visit a desert and look for a Barren Hut to obtain Saltsprouts."
+			tasks: [{
+				id: "609AA0526338A865"
+				item: "hexalia:saltsprout"
+				type: "item"
+			}]
+			title: "Structures and Saltsprouts"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0491DFA4A0C8400B"]
+			description: ["This special dirt is vital to your magical garden. When you plant magical herbs on this dirt you can bonemeal them to duplicate them. You can also hoe it to make Infused Farmland which allows your crops to grow without a water source! You can even plant Sugar cane on this rich soil."]
+			id: "6D6C1F72F284C0B1"
+			rewards: [
+				{
+					count: 5
+					id: "69D291E25BDFFF3F"
+					item: "hexalia:infused_dirt"
+					type: "item"
+				}
+				{
+					id: "092F19ACC38443A2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Combine 2 Dirt with 2 Siren Kelp in a crafting table."
+			tasks: [{
+				id: "0DCB254CA5324EA7"
+				item: "hexalia:infused_dirt"
+				type: "item"
+			}]
+			title: "Spilling Dirt and Planting Seeds"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D6C1F72F284C0B1"]
+			description: ["You usually have to process your magical herbs to use them, but they can be used in their raw form by burning them in a censer to provide an aoe effect in the area they’re burned in. Prevent fire damage or make hostile mobs neutral with a combination of burnt herbs. See your grimoire and look up the censer in the blocks section for the specific combinations and what they do!"]
+			id: "42B3BACDD80247CE"
+			rewards: [
+				{
+					id: "51889DF330623456"
+					item: "hexalia:wither_candle_skull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "10D6F061E44C6E69"
+					item: "hexalia:dahlia"
+					type: "item"
+				}
+				{
+					id: "1A2025FC6507A246"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a Censer by combining 3 logs, 2 coal, and 2 bricks."
+			tasks: [{
+				id: "746467012AE909A9"
+				item: "hexalia:censer"
+				type: "item"
+			}]
+			title: "Herbal Incense"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42B3BACDD80247CE"]
+			description: ["Magical herbs must be crushed up for various rituals and brews unique to hexalia. Luckily the mortar and pestle are easily crafted from a bowl and stone block. Once craft simply place the mortar and pestle in a crafting table with the herb you wish to crush up."]
+			id: "18B0100C3B9B5D38"
+			rewards: [
+				{
+					count: 3
+					id: "6EF6758ADD1F1648"
+					item: "hexalia:begonia"
+					type: "item"
+				}
+				{
+					id: "42F001BFD079633E"
+					item: "hexalia:witch_salad"
+					type: "item"
+				}
+				{
+					id: "3AE523482921B892"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a mortar and pestle by combining a bowl with a stone block."
+			tasks: [{
+				id: "2A53816DC723F786"
+				item: {
+					Count: 1
+					id: "hexalia:mortar_and_pestle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18B0100C3B9B5D38"]
+			description: [
+				"Some rituals and brews require tree resin. To get said resin you’ll need to use a stone dagger on dark oak or cotton wood trees."
+				""
+				"&7&oShhh, you can also use it on the Farmer's Delight Cutting Board ;)&r&r"
+			]
+			hide_dependency_lines: true
+			id: "6486D3D5918599A8"
+			rewards: [
+				{
+					count: 4
+					id: "573AFB6647629562"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "544A58C575B6DEC2"
+					item: "hexalia:cottonwood_sapling"
+					type: "item"
+				}
+				{
+					id: "75E9047CB769B92D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a stone dagger by combining a stick with a cobblestone block."
+			tasks: [
+				{
+					id: "462EF56F538BC2E3"
+					item: {
+						Count: 1
+						id: "hexalia:stone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "753277D5C2CD0CA4"
+					item: { Count: 3, id: "hexalia:tree_resin" }
+					type: "item"
+				}
+			]
+			title: "Sticks and Stones"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6486D3D5918599A8"]
+			description: ["You’re drawing close to tapping into the magic of the materials you’ve gathered so far, but to do so you’ll need to craft a special tool to help you channel that magic. This is done through the Hex Focus! To obtain a ritual table and perform rituals you’ll need the Hex Focus. It can also activate special enchanted plants you can make through rituals that have various uses. "]
+			id: "6504CD999F1EA929"
+			rewards: [
+				{
+					count: 4
+					id: "67BD342A7FA3CC8E"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E6559A04B6CCDC4"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "2CE3FB694ED5F781"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Combine a stick, any leaf block, and an Amethyst Shard diagonally in a crafting table."
+			tasks: [{
+				id: "489BE581EBE93D3C"
+				item: "hexalia:hex_focus"
+				type: "item"
+			}]
+			title: "A Magical Tool"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6504CD999F1EA929"]
+			description: [
+				"It’s time to get your ritual table set up! To perform rituals you’ll need enough space as every ritual requires grown crops to perform. Once you’ve picked a good spot, place down some cobbled or normal deepslate and right-click on it with your Hex Focus to change it into a ritual table. To create the braziers place down wood planks of any kind and right click them with a stone dagger while sneaking. With the table as the center, follow the below picture:"
+				""
+				"{image:ftbquests:textures/homestead/ritual_setup.png width:165 height:100 align:center}"
+			]
+			id: "7E3964250F0EE163"
+			rewards: [
+				{
+					count: 8
+					id: "378931AD9A565AB1"
+					item: "hexalia:salt"
+					type: "item"
+				}
+				{
+					id: "767CAF2802A3080C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Obtain a piece of cobbled or normal deepslate, 4 ritual braziers, and 16 Infused Dirt"
+			tasks: [
+				{
+					count: 4L
+					id: "2EACC2AB46E20F53"
+					item: { Count: 4, id: "hexalia:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "25C6409A3E772AC6"
+					item: "minecraft:cobbled_deepslate"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "53F11254CD398401"
+					item: { Count: 16, id: "hexalia:infused_dirt" }
+					type: "item"
+				}
+			]
+			title: "Ritual Table and Set Up"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E3964250F0EE163"]
+			description: [
+				"Now that you’ve set up your ritual table it’s time to perform some rituals! There are two major rituals: The Ritual of Transmutation and the Ritual of Moonlight. "
+				""
+				"First let’s perform the ritual of transmutation and create a Rabbage. This useful crop can be used as a throwing weapon that induces bleeding in your enemy. Right-click each brazier with some hexalia salt first. Place a beetroot seed on the ritual table, then place dream paste, a poppy, an iron nugget, and a sweet berry on the braziers. Right-click with your hex focus and poof! Rabbage seeds acquired. Check your Grimoire for more items you can make!"
+			]
+			id: "2E56970957B56B51"
+			rewards: [
+				{
+					count: 4
+					id: "61CB2DC65FBE3AAD"
+					item: "hexalia:rabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "75EC9597A5A749E9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain a Rabbage Seed"
+			tasks: [{
+				id: "0AEB966F590520EA"
+				item: "hexalia:rabbage_seeds"
+				type: "item"
+			}]
+			title: "Ritual of Transmutation"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E56970957B56B51"]
+			description: [
+				"The second ritual is much simpler than the ritual of transmutation. To perform it simply place the required item on a ritual brazier with two celestial blooms planted near the brazier and wait for the item to transform. "
+				""
+				"For this quest, place a glow berry on a ritual brazier with 2 celestial blooms planted nearby."
+			]
+			id: "2F1F286E20C77088"
+			rewards: [
+				{
+					count: 3
+					id: "408330F5D6C4397D"
+					item: "hexalia:celestial_crystal"
+					type: "item"
+				}
+				{
+					id: "69FCDABEDA717D19"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a Gale Berry"
+			tasks: [{
+				id: "75C28B5924F3A0FA"
+				item: "hexalia:galeberries"
+				type: "item"
+			}]
+			title: "Moonlight Ritual"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Hexalia doesn’t just add magical plants for rituals, it also has magical crops! Use them to create foods that provide you with interesting and useful buffs. "
+				""
+				"Sunfire Tomatoes are found in vanilla savannas. Be careful though, if you walk over them they’ll set you on fire! "
+				""
+				"Mandrakes are found in Forests and Birch Forest biomes. These plants can be used to stun enemies by holding right click with them or be made into a tasty stew. Be sure to wear earplugs when farming them, otherwise they’ll stun you!"
+				""
+				"Chill Berries can be found in taigas and snowy taigas. Be careful not to walk over these as well or you’ll start to freeze."
+			]
+			id: "49AE5E7D6E8EDDDC"
+			rewards: [
+				{
+					count: 3
+					id: "2EAD24252DCA8242"
+					item: "hexalia:sunfire_tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "15F8CB851A6A5980"
+					item: "hexalia:mandrake_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2510274B0181FBDF"
+					item: "hexalia:chillberries"
+					type: "item"
+				}
+				{
+					id: "1444802638DAEA94"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Collect 1 Sunfire Tomato seed, 1 Mandrake seed and 1 Chillberry"
+			tasks: [
+				{
+					id: "3C4A9494F0656631"
+					item: "hexalia:sunfire_tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "4121410D5CE7FE7D"
+					item: "hexalia:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "5B8E9C8F0594509D"
+					item: "hexalia:chillberries"
+					type: "item"
+				}
+			]
+			title: "Magical Plants"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"A magical kick of speed from a super spicy sandwich. Eating this grants you Speed II for 45 seconds."
+				""
+				"Combine Bread, Sunfire Tomatoes, and any cooked meat in a crafting table."
+			]
+			id: "41C73F879A727077"
+			rewards: [
+				{
+					count: 8
+					id: "60095C98DDA10BBA"
+					item: "hexalia:spicy_sandwich"
+					type: "item"
+				}
+				{
+					id: "48950CD1C43CFC20"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a Spicy Sandwich"
+			tasks: [{
+				id: "79265F60AAD74401"
+				item: "hexalia:spicy_sandwich"
+				type: "item"
+			}]
+			title: "Spicy Speed"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This stuffing stew grants the Overfed buff, preventing Saturation loss for 45 seconds."
+				""
+				"Combine Mandrake, Potato, Carrot and Bowl in a crafting table."
+			]
+			id: "664A6ADE83A8D6BB"
+			rewards: [
+				{
+					count: 8
+					id: "7C27E77613F1124A"
+					item: "hexalia:mandrake_stew"
+					type: "item"
+				}
+				{
+					id: "1206947B09772D23"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft Mandrake Stew"
+			tasks: [{
+				id: "5C422CA5753AABCF"
+				item: "hexalia:mandrake_stew"
+				type: "item"
+			}]
+			title: "Stew Stuffed"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"A cold tart pie that grants Fire Resistance II for 45 seconds."
+				""
+				"Combine Sugar, Wheat, Egg and Chillberries."
+			]
+			id: "6CADBDC18B992C24"
+			rewards: [
+				{
+					count: 8
+					id: "72806704ECDCE48B"
+					item: "hexalia:chillberry_pie"
+					type: "item"
+				}
+				{
+					id: "358C29DF2C86C67B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a Chillberry Pie"
+			tasks: [{
+				id: "067372429605DEAD"
+				item: "hexalia:chillberry_pie"
+				type: "item"
+			}]
+			title: "Brrrr"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F1F286E20C77088"]
+			description: [
+				"A witch-esque mod like Hexalia wouldn’t be complete without some potion brewing! You’ll need a small cauldron, a heat source, and the special bottles Hexalia adds for your brews. The mod provides a cute rustic oven you can use to warm your cauldron. This is crafted with 5 deepslate, coal in the center and 3 around across the top. The small cauldron is also crafted with 5 deepslate and 2 copper ingots. Finally the rustic bottles are made with 2 glass and a piece of clay. Happy brewing!"
+				""
+				"Recipes can be found in the grimoire under brewing."
+			]
+			id: "2363634EC47074DA"
+			rewards: [
+				{
+					count: 10
+					id: "638E4E6C1DF560C9"
+					item: "hexalia:rustic_bottle"
+					type: "item"
+				}
+				{
+					id: "7EE75F49FA544F8E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft a Rustic Oven, Small Cauldron, and a Rustic Bottle"
+			tasks: [
+				{
+					id: "43B606B1D9602689"
+					item: "hexalia:rustic_oven"
+					type: "item"
+				}
+				{
+					id: "404B8DCA56AA6650"
+					item: "hexalia:small_cauldron"
+					type: "item"
+				}
+				{
+					id: "409763BEA91714B4"
+					item: "hexalia:rustic_bottle"
+					type: "item"
+				}
+			]
+			title: "Bottled Brews"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Combine an ender pearl, tree resin, and spirit powder in a small cauldron."
+				""
+				"Grants the Homestead effect which teleports you back to your assigned spawn point such as your bed."
+			]
+			id: "150D4607A7091E79"
+			rewards: [{
+				id: "4F1E78DE1351AE3D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Homestead"
+			tasks: [{
+				id: "1912A4BDDBA10C71"
+				item: "hexalia:brew_of_homestead"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Combine a slimeball, feather, and spider eye in a small cauldron."
+				""
+				"Grants the Slimewalker effect which negates fall damage and allows you to bounce upwards if you press the sneak key."
+			]
+			id: "69B78F2EF325ED2A"
+			rewards: [{
+				id: "271133E58D68B8E7"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Slimewalker"
+			tasks: [{
+				id: "25C56D3A29470C72"
+				item: "hexalia:brew_of_slimewalker"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Combine a cactus, mandrake, and ghost powder in a small cauldron."
+				""
+				"Grants the Spikeskin effect, which increases toughness and reflects a portion of damage received like the thorns enchant. "
+			]
+			id: "2AED578F02503DBD"
+			rewards: [{
+				id: "0683A3788D468E44"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Spikeskin"
+			tasks: [{
+				id: "093D894E96C96AAE"
+				item: "hexalia:brew_of_spikeskin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Combine a piece of flint, a gold nugget, and a mandrake in a small cauldron."
+				""
+				"Grants the Siphon effect, increasing mining speed and makes items attract to you from a further distance."
+			]
+			id: "3BD3806660C5524E"
+			rewards: [{
+				id: "42AAB80C8301BE67"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Siphon"
+			tasks: [{
+				id: "1E39E51FE049FA5F"
+				item: "hexalia:brew_of_siphon"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Combine a moon berry, sunfire tomato, and black dye in a small cauldron."
+				""
+				"Grants the Daybloom effect that allows you to move faster and regeneration during the day, however darkness will harm you."
+			]
+			id: "558A339C8458333B"
+			rewards: [{
+				id: "3E95A4951263A484"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Daybloom"
+			tasks: [{
+				id: "0DAE51BEE6EE94B7"
+				item: "hexalia:brew_of_daybloom"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Combine raw beef, siren paste, and a saltsprout in a small cauldron."
+				""
+				"Grants the Bloodlust effect that makes you stronger and heals you for a portion of the damage you deal."
+			]
+			id: "3751615A4576BDC5"
+			rewards: [{
+				id: "4C8F5F0990B8721E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Bloodlust"
+			tasks: [{
+				id: "687405731B27E71E"
+				item: "hexalia:brew_of_bloodlust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Combine dream paste, a spider eye, and black dye in a small cauldron."
+				""
+				"Grants the Arachnid Grace effect that allows you to freely move through cobwebs, climb up walls vertically, and makes you immune to poison."
+			]
+			id: "6A5D5065AAA2943E"
+			rewards: [{
+				id: "7B7E4D7721EC3E0A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Brew up a Brew of Arachnid Grace"
+			tasks: [{
+				id: "4BB222A9E6E4B340"
+				item: "hexalia:brew_of_arachnid_grace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A magical ray of Night Vision from a super cold cookie. Eating this grants you Night Vision II for 45 seconds."
+				""
+				"Combine Sugar, 2 Wheat, and a Galeberry in a crafting table."
+			]
+			id: "11761FA3599C239D"
+			rewards: [
+				{
+					count: 8
+					id: "23AF3D9AA69E1C0B"
+					item: "hexalia:galeberries_cookie"
+					type: "item"
+				}
+				{
+					id: "62C5A507D542306A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "1EC8C9232BA1C779"
+				item: "hexalia:galeberries_cookie"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+	]
+	title: "Herbal Hexes"
+}

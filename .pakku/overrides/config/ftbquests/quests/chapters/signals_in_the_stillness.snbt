@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "signals_in_the_stillness"
+	group: ""
+	icon: "wirelessredstone:circuit"
+	id: "70DC1A2DFAABA529"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/signals_in_the_stillness.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_down_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.571428571428577d
+			y: -5.261904761904759d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_up_base"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.19047619047619d
+			y: 3.261904761904759d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_down_base"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.142857142857146d
+			y: -5.214285714285715d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/pointed_redstone_up_tip_merge_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.476190476190482d
+			y: 3.69047619047619d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_down_tip_merge"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.952380952380949d
+			y: -5.214285714285715d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/pointed_redstone_down_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -5.642857142857146d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_up_tip_2"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.42857142857143d
+			y: 3.261904761904759d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/pointed_redstone_up_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.999999999999993d
+			y: 3.261904761904759d
+		}
+		{
+			height: 4.0d
+			image: "wirelessredstone:item/circuit"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/pointed_redstone_down_tip_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.4761904761904745d
+			y: -5.642857142857146d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/redstone_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&4&lWireless Redstone&r&r lets you transmit redstone signals &nwirelessly&r using a system of &lTransmitters&r, &lReceivers&r, and tools like &lRemotes&r and &lSniffers&r. All of these tools use a shared crafting component: the &lCircuit&r. You'll need a few of these along your journey."]
+			id: "1FA32046C76E1A9F"
+			rewards: [{
+				id: "4B1C8D35EC4C034B"
+				item: "wirelessredstone:circuit"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Complete to begin exploring the Wireless Redstone mod."
+			tasks: [{
+				id: "23AB2E9A1C831AB3"
+				title: "Whispers of the Signal"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FA32046C76E1A9F"]
+			description: ["The Redstone Transmitter sends redstone power wirelessly to a Redstone Receiver on the same frequency. You can power it using any normal redstone input (torch, block, lever, etc.). Right-click it to change the frequency. Multiple systems can run in parallel on different channels."]
+			hide_dependency_lines: true
+			id: "3AA72919D6430202"
+			rewards: [
+				{
+					id: "72AC8A382CEF10AE"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "3D53C79B8C6D529C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "25B2F77A1FF63567"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Redstone Transmitter."
+			tasks: [{
+				id: "40D4FD123DDD7EE3"
+				item: "wirelessredstone:redstone_transmitter"
+				type: "item"
+			}]
+			title: "Send the Signal"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FA32046C76E1A9F"]
+			description: ["The Redstone Receiver receives power from any Redstone Transmitter on the same frequency. Right-click it to change its frequency. Match it to a Transmitter’s frequency to complete a wireless circuit."]
+			hide_dependency_lines: true
+			id: "14CC3C18F57BD06A"
+			rewards: [
+				{
+					id: "0B2D8C3AAD70AD90"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "677B7830E82F0E69"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "3E39EEE8CDD13D02"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Redstone Receiver."
+			tasks: [{
+				id: "5AE64C75C0E3C4BC"
+				item: "wirelessredstone:redstone_receiver"
+				type: "item"
+			}]
+			title: "Catch the Signal"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FA32046C76E1A9F"]
+			description: ["The Frequency Sniffer helps you locate the Transmitter tied to a specific frequency. Shift-right-click to set the frequency. Then right-click to highlight the corresponding transmitter in bright red for 10 seconds—even through blocks and across any distance. It also posts the block's coordinates to chat."]
+			hide_dependency_lines: true
+			id: "085C6F73E84613BF"
+			rewards: [
+				{
+					id: "432C4603A90E60C0"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "01EBB9E967AF23E4"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "26FF5BB62CFADA66"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Frequency Sniffer."
+			tasks: [{
+				id: "63932F4922E82FBA"
+				item: "wirelessredstone:frequency_sniffer"
+				type: "item"
+			}]
+			title: "Find the Source"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FA32046C76E1A9F"]
+			description: ["The Remote manually powers a Redstone Transmitter. Shift-right-click to set a frequency. Then right-click to activate the transmitter at that frequency for as long as the click is held. Perfect for toggling devices from afar."]
+			hide_dependency_lines: true
+			id: "44C805C63ECF871F"
+			rewards: [
+				{
+					id: "333A6F6742D8D835"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "56138C9C7FEEDEC7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "13B0AD5B9E51277A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Remote."
+			tasks: [{
+				id: "6BAB29D5B3CBDAAC"
+				item: "wirelessredstone:remote"
+				type: "item"
+			}]
+			title: "Remote Control"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FA32046C76E1A9F"]
+			description: ["The Frequency Tool copies and pastes frequencies between transmitters and receivers. Shift-right-click to set a frequency. Right-click to apply it to a block. To copy a block's frequency, shift-right-click the block with the tool, then right-click another to paste."]
+			hide_dependency_lines: true
+			id: "4CD3CDE44A8E3EBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "377F200D94FDAFDC"
+					table_id: 6828356437669856216L
+					type: "random"
+				}
+				{
+					id: "2B4BD3323F65A45B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Frequency Tool."
+			tasks: [{
+				id: "489B701B1A46152C"
+				item: "wirelessredstone:frequency_tool"
+				type: "item"
+			}]
+			title: "Channel Manager"
+			x: 1.0d
+			y: -4.5d
+		}
+	]
+	title: "Signals in the Stillness"
+}

@@ -1,0 +1,27 @@
+{
+	id: "4DA00AA8650DF0C9"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 16, item: "minecraft:poppy" }
+		{ count: 16, item: "minecraft:dandelion" }
+		{ count: 16, item: "minecraft:blue_orchid" }
+		{ count: 16, item: "minecraft:allium" }
+		{ count: 16, item: "minecraft:azure_bluet" }
+		{ count: 16, item: "minecraft:red_tulip" }
+		{ count: 16, item: "minecraft:orange_tulip" }
+		{ count: 16, item: "minecraft:white_tulip" }
+		{ count: 16, item: "minecraft:pink_tulip" }
+		{ count: 16, item: "minecraft:oxeye_daisy" }
+		{ count: 16, item: "minecraft:cornflower" }
+		{ count: 16, item: "minecraft:lily_of_the_valley" }
+		{ count: 16, item: "minecraft:torchflower" }
+		{ count: 16, item: "minecraft:wither_rose" }
+		{ count: 16, item: "minecraft:pink_petals" }
+		{ count: 16, item: "minecraft:lilac" }
+		{ count: 16, item: "minecraft:rose_bush" }
+		{ count: 16, item: "minecraft:peony" }
+		{ count: 16, item: "minecraft:pitcher_plant" }
+	]
+	title: "flowers"
+}

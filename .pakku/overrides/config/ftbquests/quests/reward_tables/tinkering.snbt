@@ -1,0 +1,11 @@
+{
+	id: "54DF4668EE4F278F"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 16, item: "minecraft:redstone_lamp" }
+		{ count: 16, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:lantern" }
+	]
+	title: "tinkering"
+}

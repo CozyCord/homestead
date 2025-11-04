@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tranquilitea"
+	group: ""
+	icon: "herbalbrews:tea_kettle"
+	id: "0D9804F9E5DE9298"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/tranquili_tea.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/tea_quest_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Nature provides many gifts for you to use, one such being a delicious cup of tea. Each type of tea provides a beneficial effect well worth brewing. "
+				""
+				"To begin, simply use some shears on a vanilla flower for a tea blossom. This special little sprout, once planted and grown, will get you started on your journey for the perfect cup of tea!"
+			]
+			id: "6E190A742E3CEC06"
+			rewards: [
+				{
+					count: 4
+					id: "6C6CA7704BCA32E5"
+					item: "herbalbrews:tea_blossom"
+					type: "item"
+				}
+				{
+					id: "57A73EBAB3AE2EDA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			subtitle: "Collect 1 tea blossom."
+			tasks: [{
+				id: "21394A24570B6E37"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			title: "Nature's Zen"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E190A742E3CEC06"]
+			description: [
+				"The most well-known and loved teas are the result of the ancient art of drying leaves from the tea blossom plant. You too can indulge in this art and create your own. Dry green tea leaves for a drink or further combine and dry them for black tea. You can also mix the 2 for oolong!"
+				""
+				"Craft together 9 green tea leaves harvested from the tea blossoms you’ve grown in a crafting table and place down the resulting block. Wait for it to become a dried green tea leaf block and break for dried green tea. Repeat with dried green tea to make black tea. Combine 4 dried green tea and 4 dried black tea to make an oolong. "
+			]
+			id: "72C738487D350BA7"
+			rewards: [
+				{
+					count: 9
+					id: "001322146D626FE6"
+					item: "herbalbrews:dried_green_tea"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "5067FE0B382787B6"
+					item: "herbalbrews:dried_black_tea"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain dried green tea."
+			tasks: [{
+				id: "7CCBA5502FEA7E12"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			title: "An Ancient Art"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72C738487D350BA7"]
+			description: [
+				"The noble tea blossom may provide the key to 3 different teas but that isn't the only way to make a great cup of tea. Many other plants can be used. Don't forget some sugar and milk!"
+				""
+				"Rooibos can be found in Savanna biomes. If you’re struggling to find them in a savanna try looking in a Steppe or similar hot biomes. Hibiscus and coffee grow in jungle biomes. Lavender and Yerba Mate can be found at higher elevation biomes near mountainous areas such as Cherry groves or Meadow biomes."
+			]
+			id: "0D2B73B68E5C9B0C"
+			rewards: [
+				{
+					count: 4
+					id: "1C8322F69C73126D"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B4E1A2A501571FC"
+					item: "herbalbrews:hibiscus"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B197400A765348C"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01F31BE6469CBEF9"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64BC37DFCCAC5FE0"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D8DD0A271205F62"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "13907F141AF5CA74"
+					item: "luphieclutteredmod:luphie_small_jars_of_tea_leaves"
+					type: "item"
+				}
+			]
+			subtitle: "Collect 1 Rooibos leaf, 1 Hibiscus, 1 Lavender, 1 Yerba Mate, 1 Coffee bean, 1 sugar and 1 bucket of milk  "
+			tasks: [
+				{
+					id: "635A34CABCA9EE70"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "6178D8D2191F2E2E"
+					item: "herbalbrews:hibiscus"
+					type: "item"
+				}
+				{
+					id: "7D5936C45626AC3B"
+					item: "herbalbrews:lavender"
+					type: "item"
+				}
+				{
+					id: "16C3E072CEDA116F"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "57B38694B42EC823"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "503D7542FAD419B7"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "4B3F9773A254712D"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			title: "Varie-TEA"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D2B73B68E5C9B0C"]
+			description: [
+				"If you give to nature, nature will always give back. While things like coffee, rooibos and yerba mate can be planted and farmed, flowers like lavender and hibiscus cannot. Luckily they can easily be duplicated using bone meal to save you from having to find more."
+				""
+				"&lTip: To get Lavender in a brewable state use shears to harvest lavender blossoms. Be sure you duplicated them first as lavender blossoms can’t be replanted!&r"
+			]
+			id: "506DA5422221D74F"
+			rewards: [
+				{
+					count: 32
+					id: "1DE271B9AE7CA454"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "4AE6E58C6150A573"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Duplicate Hibiscus or Lavender blossoms (Submit 5)"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "068D9FB0F5749BF8"
+					item: { Count: 5, id: "herbalbrews:hibiscus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "7CD59237ACD58D3E"
+					item: { Count: 5, id: "herbalbrews:lavender_blossom" }
+					type: "item"
+				}
+			]
+			title: "Double Flower Power"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["506DA5422221D74F"]
+			description: [
+				"You have the materials, now it’s time for the tools! The kettle is your all-in-one setup for brewing. Place it above a stove or similar heat source and begin your brewing adventures. "
+				""
+				"&n&oCraft the Stove from HerbalBrews!&r&r"
+			]
+			id: "5978544AFB9E828E"
+			rewards: [
+				{
+					id: "77B66E0D41D78648"
+					item: "meadow:wooden_water_bucket"
+					type: "item"
+				}
+				{
+					id: "3DD356F400A28BCB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Stove and a Copper or Iron Tea kettle "
+			tasks: [
+				{
+					id: "099463B8C5EBAF79"
+					item: "herbalbrews:stove"
+					type: "item"
+				}
+				{
+					id: "57BD5BA769843764"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DFAEEF9AFF3E71B"]
+			description: ["The stove warms your kettle, but most teas require higher temperatures. Your kettle can be further warmed by placing blaze powder into the allotted slot. The kettle will lose this heat over time so keep an eye on it!"]
+			id: "4A5D17F68F3119BE"
+			rewards: [{
+				count: 12
+				id: "776D06125D7FFCD7"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			subtitle: "Obtain blaze powder."
+			tasks: [{
+				id: "759A2B3E3A687571"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "Temperature Control"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A5D17F68F3119BE"]
+			description: ["You’ve done all the prep work and know how to use the kettle. It’s time to sit back, relax, and enjoy your warm reward."]
+			id: "2AD31B05E260528B"
+			rewards: [
+				{
+					id: "79D8A01DB67AC3F4"
+					item: "luphieclutteredmod:luphie_tea_kettle"
+					type: "item"
+				}
+				{
+					id: "2BF4D1DF71C0B69C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Brew Green Tea"
+			tasks: [{
+				id: "7001960F0D810348"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			title: "Tea Time"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AD31B05E260528B"]
+			description: ["Every tea has a unique flavor and buff, so challenge yourself and make them all! Coffee can be brewed alone or combined with milk to make milk coffee. To make Black tea, Hibiscus, Lavender and Yerba mate you’ll need sugar. The rest will brew without anything added so long as you have enough water and heat. Become a tea master!"]
+			id: "18B3D20B8788D1BD"
+			rewards: [
+				{
+					count: 16
+					id: "235488EEA939F4E4"
+					item: "herbalbrews:dried_green_tea"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7D024E4A1E72892A"
+					item: "herbalbrews:dried_black_tea"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A55DEAB564A735C"
+					item: "herbalbrews:dried_oolong_tea"
+					type: "item"
+				}
+				{
+					id: "54E709BEB648298E"
+					item: "justoutdoorstuffs:patio_tea_set"
+					type: "item"
+				}
+			]
+			subtitle: "Brew all the tea from Let's Do Herbal Brews"
+			tasks: [
+				{
+					id: "7BE4584CE9B3A66F"
+					item: "herbalbrews:green_tea"
+					type: "item"
+				}
+				{
+					id: "20CA50C238AAD54B"
+					item: "herbalbrews:black_tea"
+					type: "item"
+				}
+				{
+					id: "516483C5AED6ABA2"
+					item: "herbalbrews:hibiscus_tea"
+					type: "item"
+				}
+				{
+					id: "782D2C8A69F6E98D"
+					item: "herbalbrews:lavender_tea"
+					type: "item"
+				}
+				{
+					id: "7BA08E062B67E95C"
+					item: "herbalbrews:rooibos_tea"
+					type: "item"
+				}
+				{
+					id: "49FEC8F9C354489C"
+					item: "herbalbrews:oolong_tea"
+					type: "item"
+				}
+				{
+					id: "25C01333333AC6CD"
+					item: "herbalbrews:yerba_mate_tea"
+					type: "item"
+				}
+			]
+			title: "Tea Ceremony"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18B3D20B8788D1BD"]
+			description: ["You’ve mastered the art of tea and found your favorite flavor, but are you ready for the secret power your tea holds? If you combine 3 of each of the different dried teas in a crafting table you can create an herbal infusion. This special infusion can be used in a brewing cauldron to take your potion-making to another level."]
+			id: "6EEC5B7B137EE103"
+			rewards: [
+				{
+					count: 5
+					id: "401B4C8C575E6FD6"
+					item: "herbalbrews:herbal_infusion"
+					type: "item"
+				}
+				{
+					id: "7B58D1DCA5344D66"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Brewing Cauldron, Craft an Herbal Infusion"
+			tasks: [
+				{
+					id: "32C87664FED7A401"
+					item: "herbalbrews:cauldron"
+					type: "item"
+				}
+				{
+					id: "09C94F4F4C8754DB"
+					item: "herbalbrews:herbal_infusion"
+					type: "item"
+				}
+			]
+			title: "An Herbal Secret"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EEC5B7B137EE103"]
+			description: ["Have you ever wished you could drink several potions all at once? Now you can! With a brewing cauldron and herbal infusion you can combine 3 potions of your choice together into a single flask. Note: Adding the same potions together does not enhance the effect"]
+			id: "76E075064E3F17A0"
+			rewards: [
+				{
+					id: "75D9EAC4B96EA405"
+					item: "herbalbrews:herbalbrews_banner"
+					type: "item"
+				}
+				{
+					id: "204DD3F9EA79B08E"
+					item: "luphieclutteredmod:luphie_darkwood_cabinet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75705A19F9E3B997"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Brew a Flask"
+			tasks: [{
+				id: "16659D9E21D5B7DF"
+				item: "herbalbrews:flask"
+				type: "item"
+			}]
+			title: "Three in One Power Potion"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5978544AFB9E828E"]
+			description: [
+				"With tools and materials in hand you’re ready to begin learning to brew. You should start with the easiest to brew tea, rooibos!  "
+				""
+				"The kettle can be intimidating at first but it’s actually quite simple. Put a rooibos leaf into the top left square area and a glass bottle in the square beneath it. Then put a bucket of water in the square next to the measured bars on the right to fill it with water. When done right the progress arrow should begin to fill."
+			]
+			id: "2DFAEEF9AFF3E71B"
+			rewards: [
+				{
+					id: "517DBAE03E09F9A0"
+					item: {
+						Count: 1
+						id: "herbalbrews:jug"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "01B56DBDA38EF7BA"
+					item: "herbalbrews:tea_leaf_crate"
+					type: "item"
+				}
+				{
+					id: "56B3856EE62CF5A7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Brew a cup of Rooibos tea"
+			tasks: [{
+				id: "2608CA92AFC9C50D"
+				item: "herbalbrews:copper_tea_kettle"
+				type: "item"
+			}]
+			title: "Steep Your Heart Out"
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: "Tranquili-TEA"
+}

@@ -1,0 +1,583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "58C25CBD3341DC76"
+	images: [{
+		click: "#49B1251816EA4218"
+		height: 6.0d
+		hover: [
+			"Welcome to the Tips Page!"
+			"          Click Me!"
+		]
+		image: "minecraft:textures/gui/info_icon.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.5d
+		y: -4.0d
+	}]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&l&oWelcome, Traveler!&r"
+				""
+				"&7Here lies the &l&nTips Page&r&7 — your go-to guide for all things cozy, clever, and occasionally chaotic. Whether you’re knee-deep in crops, diving into the world of gears and gadgets, or simply soaking in the beauty of the wilds around you, this is the place to be."
+				""
+				"&7This section is dedicated to all the &oextra knowledge&r — the tidbits, tricks, and treasures of wisdom — that don’t quite fit into the main questlines but are &lno less important&r to your journey. From mod-specific mechanics to general building hacks, from crafting secrets to overlooked interactions, these pages are designed to &lhelp you build a better world&r, one block at a time."
+				""
+				"&7Here, you’ll find &lhandy tips&r for surviving and thriving, &oinsightful notes&r on lesser-known mod features, and &lcreative advice&r to inspire your next great idea. Whether you're experimenting with automation, decorating your homestead, or navigating the nuances of your newest tool, these insights will guide you along the way."
+				""
+				"&mThis isn’t just a help section&m — &lthis is your toolbox, your cheat sheet, your friend in the fog.&r"
+				""
+				"&7So read on, take notes, and don’t be afraid to come back often. The world of Homestead is vast and vibrant — and with a little guidance, you’ll shape it into something truly magical."
+				""
+				"&lYou’ve got this. 🌿"
+			]
+			id: "49B1251816EA4218"
+			invisible: true
+			shape: "square"
+			size: 5.0d
+			tasks: [{
+				id: "34AAE1E6983BD2C3"
+				title: "Welcome to the Tips Page!"
+				type: "checkmark"
+			}]
+			x: 0.4642857142857153d
+			y: -4.017857142857146d
+		}
+		{
+			description: [
+				"Upgrade your storage with larger chests and barrels from dirt to netherite tiers."
+				""
+				"Use a Dolly to move full chests without unpacking."
+				""
+				"Add Locks and Keys to keep your loot safe in multiplayer."
+			]
+			icon: "ironchests:diamond_chest"
+			id: "7DF4A71CE3985EE9"
+			tasks: [{
+				id: "2DFF33356C7C140B"
+				title: "Iron Chests: Restocked"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Lootr makes chests and barrels player-bound, so everyone gets their own unique loot."
+				""
+				"Don’t break loot containers!! Leave them for others to enjoy too."
+			]
+			icon: "lootr:lootr_chest"
+			id: "70D5524715BEAA10"
+			tasks: [{
+				id: "4E8DC4FAA0619F6E"
+				title: "Lootr"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Chop one log with an axe, and the whole tree falls with a smooth animation; branches, leaves, and all. Items drop neatly where you broke it."
+				""
+				"Hold Shift to break just one log without felling the tree."
+				"Warning: Trees connected to builds can bring down your house, so make sure to use Shift near structures!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FF2A6C97ED4224A"
+			tasks: [{
+				id: "69FD5EBF9205F65A"
+				title: "Panda's Falling Tree's"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			description: ["Quickly delete unwanted items by dragging them into the trash can icon in your inventory. It saves the last item in case you change your mind, but only until you throw in another. After that, it's gone for good. Use with care!"]
+			icon: "trashcans:item_trash_can"
+			id: "06EC0F06D47E5243"
+			tasks: [{
+				id: "3C6580DF851774BD"
+				title: "Trash Can Slot"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			description: ["Find seashells along the shore and right-click to open them! They’re mini loot boxes with snacks, gear, and coastal goodies."]
+			icon: "beachparty:seashell"
+			id: "03C2FB950A9DFA99"
+			tasks: [{
+				id: "154B405EF221A5B4"
+				title: "Let's Do Beachparty Seashells"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"In the Twigs mod, seashells can be crafted into bonemeal. Just an extra way to get some bonemeal if you need it!"
+				""
+				"&oThis is a huge tip for our peaceful players :)&r"
+			]
+			icon: "twigs:tangerine_seashell"
+			id: "191BEE4673E23683"
+			tasks: [{
+				id: "2DC782F82BE9CC29"
+				title: "Twigs Seashells!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Skip the crafting table and collect twigs from the forest floor or dropped leaves and craft them directly into sticks."
+				""
+				"This tip is really good for early game stick needs; ladders, torches, or even some early tools."
+				""
+				"Especially if you dont wanna waste your precious wooden planks."
+			]
+			icon: "twigs:twig"
+			id: "71C047A46A1F158F"
+			tasks: [{
+				id: "2577767C191A084D"
+				title: "Twigs into Sticks!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Place a flower on grass and right-click with bonemeal to duplicate it."
+				""
+				"Works with most single-block flowers"
+				""
+				"For tall flowers, just right-click the flower itself to duplicate."
+			]
+			icon: "natures_spirit:yellow_wildflower"
+			id: "7CCF924A05DA76C6"
+			tasks: [{
+				id: "03A059564CC3D8F4"
+				title: "Flower Power!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"If you find some Sunflowers, from the Spawn mod, and they have that brown center, go ahead and right click on them to be able to harvest their seeds!"
+				""
+				"You can use these to tame Hamsters or even use them as a food source if you cook them!"
+			]
+			icon: "spawn:roasted_sunflower_seeds"
+			id: "73D692AD71F2A091"
+			tasks: [{
+				id: "2314429774B6B4D9"
+				title: "Sunflowers: Seeds of Sunshine!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Don’t let the name fool you! These pipes offer easy item transport with clever features."
+				""
+				"Items flow through pipes in the direction they’re facing."
+				""
+				"Connect to chests, barrels, hoppers, or even shoot items out if they are unblocked."
+				""
+				"Copper Fittings control flow and direction, with redstone support."
+				""
+				"Dispensers = boosted launch, Droppers = steady output."
+				""
+				"Waxed pipes go faster and don’t oxidize. Use lightning rods to reverse oxidation."
+				""
+				"Waterlogged pipes drip to hydrate farmland below, grow sugar cane, hurt Endermen, and send smoke if a campfire is behind them."
+				""
+				"They also carry vibrations and Note Block sounds, and bubbles underwater just for fun."
+			]
+			icon: "simple_copper_pipes:copper_pipe"
+			id: "1EF602A50E861F46"
+			tasks: [{
+				id: "31212E6E6B0A8FBE"
+				title: "Simple Copper Pipes"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Place or destroy blocks in bulk with magical wands."
+				""
+				"&lWands:&r Stone, Iron, Diamond, and Infinity; higher tiers = more reach and blocks."
+				""
+				"&lModes:&r Shift + Scroll to change direction (horizontal, vertical, etc.)."
+				""
+				"&lCores:&r Upgrade your wand for new abilities:"
+				""
+				"Construction Core: Build in front of you."
+				""
+				"Angel Core: Place blocks midair or behind surfaces."
+				""
+				"Destruction Core: Instantly remove blocks, with undo support."
+				""
+				"&lTips:&r"
+				""
+				"Pulls from shulker boxes and offhand blocks."
+				""
+				"Infinity Wand is lava-proof."
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "1A90A13DEC730B55"
+			tasks: [{
+				id: "3E2EF41C7753D390"
+				title: "Construction Wands"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: ["A portable crafting table you can use anywhere! Just right-click it while its in your hand!"]
+			icon: "craftingpad:craftingpad"
+			id: "193FFCA0EC8F69CF"
+			tasks: [{
+				id: "244DCED79B1BA139"
+				title: "Crafting Pad"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Mute annoying sounds like mobs, machines, or portals; Globally or in specific areas."
+				""
+				"&lHow it works:&r"
+				""
+				"- Open the GUI from your inventory or with a hotkey"
+				""
+				"- Click to mute any sound or adjust its volume"
+				""
+				"- Preview sounds before muting"
+				""
+				"&lAnchors:&r"
+				"Set up to 10 zones to silence sounds in specific areas (like farms or workshops). Customize each with a name and range."
+			]
+			icon: "minecraft:music_disc_pigstep"
+			id: "577E3E7F53834444"
+			tasks: [{
+				id: "39FC2FEC741B5DED"
+				title: "Extreme Sound Muffler"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Add stylish, functional umbrellas to your world!"
+				""
+				"Craft with 5 Leather + 2 Sticks"
+				""
+				"Dye like leather armor or apply patterns (including pride flags and themed designs)"
+				""
+				"&lEnchantments:&r"
+				""
+				"Gliding → Slow falling"
+				""
+				"Wind Catching → Rise with campfire smoke"
+				""
+				"Place umbrellas in stands for cozy, rain-blocking decor!"
+			]
+			icon: {
+				Count: 1
+				id: "umbrellas:umbrella"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DFBB5C5D53F2EE3"
+			tasks: [{
+				id: "119A36B1F47CCA12"
+				title: "Umbrellas"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Fishing is now magical and rewarding! Catch over 35 new fish and eels, each with unique uses."
+				""
+				"&lFish = Potions&r"
+				""
+				"Magma Cod → Fire Resistance"
+				""
+				"Rainy Bass → Water Breathing"
+				""
+				"Cloudy Crab → Slow Falling"
+				""
+				"&lUnique Rods:&r Each rod type offers different effects."
+				""
+				"&lLoot Crates:&r Reel in rare crates filled with biome-themed treasure."
+			]
+			icon: {
+				Count: 1
+				id: "gofish:soul_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A12AF8EC722627B"
+			tasks: [{
+				id: "1A01B22DAA989385"
+				title: "GoFish"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Speed up smelting with redstone-powered Bellows!"
+				""
+				"- Place next to a furnace (any side but the top)"
+				""
+				"- Activate with redstone to boost smelting speed"
+				""
+				"- Use a Redstone Torch for constant power and max efficiency"
+			]
+			icon: "supplementaries:bellows"
+			id: "657455402FA79E5B"
+			tasks: [{
+				id: "4FECB2AC79DC0422"
+				title: "Fanning the Flames"
+				type: "checkmark"
+			}]
+			title: "Fanning the Flames"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Do not throw away that Zombie Flesh! Thats littering! Use it for good instead!"
+				""
+				"You can smelt Rotten Flesh in a furnace to get Leather."
+			]
+			icon: "minecraft:leather"
+			id: "6CCF735475110060"
+			tasks: [{
+				id: "4F9E29C180DD720B"
+				title: "Rotten to Refined!"
+				type: "checkmark"
+			}]
+			title: "Rotten to Refined!"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Wool is now fully flexible and reusable!"
+				""
+				"Right-click with dye to recolor wool blocks, beds, and carpets in-world; No crafting table needed."
+				""
+				"Craft any wool block into 4 string when you're low on thread."
+				""
+				"Swap colors freely with any standard dye; No more waste."
+			]
+			icon: "minecraft:white_wool"
+			id: "037D019B5F37707F"
+			tasks: [{
+				id: "5CF89BCEA083F186"
+				title: "Wool Tweaks!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Minisheep from Let’s Do: WilderNature are tiny, fluffy, and rideable companions."
+				""
+				"Tame them with Sheared Grass, then saddle up for a cozy, compact mount."
+			]
+			icon: "wildernature:minisheep_spawn_egg"
+			id: "2033778989209CE2"
+			tasks: [{
+				id: "47D8BB0C83A8BDD1"
+				title: "Minisheep"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"The Mossbloom is a tameable, rideable creature found in mossy biomes, added by the Clutter mod."
+				""
+				"Feed it Glow Berries to gain its trust, then saddle up and ride."
+			]
+			icon: "clutter:mossbloom_antler"
+			id: "271D8569B1FFA1D1"
+			tasks: [{
+				id: "14014DC76B0D116A"
+				title: "Mossbloom"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Add charm to your outdoor builds with a variety of decorative path blocks."
+				""
+				"Crafted from wood, gravel, stone, and bricks, these blocks blend naturally into any setting."
+				""
+				"Just search them up in JEI with \" @macaw \""
+			]
+			icon: "mcwpaths:cherry_planks_path"
+			id: "1088813B7A8F78BD"
+			tasks: [{
+				id: "558A4C22807EBB86"
+				title: "Macaw's Paths and Pavings"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Trowel places random blocks from your hotbar, making textured builds easy and natural."
+				""
+				"Load your hotbar with blocks, right-click with the Trowel, and it’ll pick one at random to place."
+			]
+			icon: "trowel:trowel"
+			id: "792671B2BB0E8F4F"
+			tasks: [{
+				id: "2A1EC75AFDAA03EE"
+				title: "Trowel"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/homestead/saddle_recipe.png width:103 height:50 align:center}"
+				""
+				"&l3 Leather&r"
+				"&l2 Rope&r "
+				"&o(Rope from Supplementaries or Farmer's Delight)&r"
+				"&l2 Iron Ingots"
+			]
+			icon: "minecraft:saddle"
+			id: "67A53B779633EB50"
+			tasks: [{
+				id: "49C90C11D35336AE"
+				title: "Saddle"
+				type: "checkmark"
+			}]
+			title: "Craftable Saddle"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/homestead/nametag_recipe.png width:103 height:50 align:center}"
+				""
+				"&l1 String"
+				"&l1 Iron Ingot&r"
+				"&l1 Paper&r&r"
+			]
+			icon: "minecraft:name_tag"
+			id: "59160BFCA583C3FF"
+			tasks: [{
+				id: "20EE26F5AA273F68"
+				title: "Craftable Nametag"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Just Hammers mod adds in many hammers that help with mining blocks faster!"
+				""
+				"Use hammers to mine huge areas at once, from 3x3 to a massive 5x5x5."
+				""
+				"They never fully break, so repair them in an anvil to keep smashing!"
+			]
+			id: "4A53F0D858F61974"
+			tasks: [{
+				id: "7001514EB82DB8CB"
+				item: {
+					Count: 1
+					id: "justhammers:netherite_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammers!"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The ExcavatorsAndHammers mod adds in Excavators and Hammers made by our CozyStudios team!"
+				""
+				"Excavators clear dirt, sand, gravel, and more in a 3x3 area."
+				""
+				"They can be repaired in anvil with their given tool material."
+			]
+			id: "352C52678503D2FF"
+			tasks: [{
+				id: "15392C70F1FC0909"
+				item: {
+					Count: 1
+					id: "excavatorsandhammers:diamond_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Excavators!"
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	title: "TIPS"
+}

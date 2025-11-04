@@ -1,0 +1,734 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers_beneath"
+	group: ""
+	icon: "chipped:nether_jack_o_lantern"
+	id: "256D3CD013C0243D"
+	images: [
+		{
+			height: 7.0d
+			image: "ftbquests:textures/homestead/embers_beneath.png"
+			order: 100
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -0.25d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/campfire_fire"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 3.95d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/campfire_fire"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: 3.95d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/campfire_fire"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0357142857142847d
+			y: 3.95d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_base"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_middle"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_frustum"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_frustum"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone_down_middle"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -0.25d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -0.25d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone"
+			rotation: 180.0d
+			width: 3.0d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone"
+			rotation: 180.0d
+			width: 3.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.0d
+			y: 0.0535714285714306d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.0d
+			y: -0.5892857142857153d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.75d
+			x: -5.0d
+			y: 0.0892857142857082d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.75d
+			x: -5.0d
+			y: -0.5892857142857153d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/ember_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -0.25d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["These ruined lands hold what remains of an ancient material deep beneath, artifacts of a time long past. If you covet these ancient scraps, you’ll need to go very deep. Y-15~13 is ideal for your strip mining or blast mining needs. Remember, beds explode in the nether, just be careful."]
+			id: "7A98142DDB538501"
+			rewards: [
+				{
+					count: 2
+					id: "7D1BAB0375A6332B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "255EF53D5FBB138E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Find 4x Ancient Debris."
+			tasks: [{
+				count: 4L
+				id: "3C7E487D2AAA465A"
+				item: { Count: 4, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			title: "Deep Heat"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			description: ["Debris gathered, it’s time to refine it into scraps in a furnace. Once you have 4, mix the scraps together with 4 gold and, behold, your first Netherite Ingot. This single ingot holds the power to upgrade an item into something stronger, provided you have the tools."]
+			id: "7B75CD19C1398019"
+			rewards: [
+				{
+					id: "5688E514F02549CC"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0DACB35F002CB67B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Make a Netherite Ingot."
+			tasks: [{
+				id: "15B4D3B3B383693E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Refined Rage"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: ["Blaze Rods drop from Blazes in Nether Fortresses; be careful of the heat!"]
+			id: "39B874D8794D12A0"
+			rewards: [
+				{
+					id: "16B3CDD30ADCD853"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75E5E5899797C859"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Get 8x Blaze Rods."
+			tasks: [{
+				count: 8L
+				id: "0F24A90A60F0941F"
+				item: { Count: 8, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			title: "Hot Tempered"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Look for Nether Wart in soul sand patches inside Nether Fortresses."]
+			id: "73B2A642C18817DF"
+			rewards: [
+				{
+					count: 10
+					id: "45E8BA4DFFF77734"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "7FF2D4FA0C5DC86E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Find 10x Nether Wart."
+			tasks: [{
+				count: 10L
+				id: "6E92567ED4E959BD"
+				item: { Count: 10, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			title: "Spores and Shadows"
+			x: -6.464285714285715d
+			y: 0.6607142857142847d
+		}
+		{
+			description: ["These massive brick structures spawn Wither Skeletons, Blazes, and valuable loot."]
+			id: "507E90592F5A4EF3"
+			rewards: [
+				{
+					id: "5D036137A4A6D78E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5DA739B4F849ACAA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Find a Nether Fortress."
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "64EDA5DF482ABA49"
+				structure: "#betterfortresses:better_fortresses"
+				type: "structure"
+			}]
+			title: "Structure in the Fire"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: ["These guys hit like poison darts, so be careful"]
+			id: "4A25CB26061EC9D7"
+			optional: true
+			rewards: [
+				{
+					id: "3DA5400756D86B89"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "69EC9F5A8AC48AFF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 10 Wither Skeletons."
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "4881C3098BB552ED"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Boney Boys"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: ["Fireproof foes that hover and spit flames!"]
+			id: "5757918F1AFF3C7E"
+			optional: true
+			rewards: [
+				{
+					id: "03B90538EB7FBB24"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "20EAAB6BF337D233"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 25 Blazes."
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "53EEE3E9949FA09F"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Air is Lava"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["If only he could be happy..."]
+			id: "722B5668B8F62FF7"
+			optional: true
+			rewards: [
+				{
+					id: "310D0D4DAC408F7A"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "5BAD7490DCED3559"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 5 Ghasts."
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "1D20E95E04AD2030"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Crying Shame"
+			x: 5.5d
+			y: -1.3392857142857153d
+		}
+		{
+			description: ["These little guys are so cute and fiery but will chase after you like your spicy ex"]
+			id: "1C75F2C9862DD065"
+			optional: true
+			rewards: [
+				{
+					id: "28814629A6DD9A20"
+					item: "nethersdelight:magma_gelatin"
+					type: "item"
+				}
+				{
+					id: "061DEFC25CED9BFD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 20 Magma Cubes."
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "6D40686ED672187E"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Slime and Fire"
+			x: 5.5d
+			y: -0.3392857142857153d
+		}
+		{
+			description: ["Get some ice from Johnny Dang and these guys wont mess with you"]
+			id: "2025BAC1FFBAB232"
+			optional: true
+			rewards: [
+				{
+					id: "07FE0B57256F9BB2"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01EF1DF8FA3C7630"
+					item: "ironchests:gold_chest"
+					type: "item"
+				}
+				{
+					id: "35CEA5C5AEEB8261"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 25 Piglins."
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "69BC3B523669A62C"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Pride of the Piglins"
+			x: 5.5d
+			y: 0.6607142857142847d
+		}
+		{
+			description: ["Kick their axe!"]
+			id: "7D057D118EDF8ED5"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "0B673167061CEC02"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "30144D3FE803A232"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "116538F9403081E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 10 Piglin Brutes."
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "7E30627A42AD0BAC"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Brute Force"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["They may be the most harmless things in the Nether…"]
+			id: "76227463400FA209"
+			optional: true
+			rewards: [
+				{
+					id: "3F57A4268CCBEDC9"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "4E9D595816DC375C"
+					item: {
+						Count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "659DD9DB8BA43CBF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 10 Striders."
+			tasks: [{
+				entity: "minecraft:strider"
+				id: "4976A69801939CD6"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Lava Walkers No More"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Its That Time..."
+				""
+				"Find a Smithing Template in Nether Loot."
+				""
+				"Duplicate it with the following recipe"
+				""
+				"{image:ftbquests:textures/homestead/netherite_upgrade_smithing_template.png width:100 height:50 align:center}"
+				""
+				"Then Use this Smithing Template on an Obsidian tool/armor piece with a Netherite Ingot to upgrade to Netherite."
+				""
+				"{image:ftbquests:textures/homestead/netherite_helmet_smithing.png width:100 height:22 align:center}"
+			]
+			id: "5D0DAD184B953AFB"
+			rewards: [
+				{
+					id: "72C1C7881869FAD9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "024EAE74F83AAE4C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116442C0779BBB9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Make a Full Netherite Tool Set"
+			tasks: [
+				{
+					id: "3F9A535A46F03F43"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2B3075A4C32F5BF5"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14561E1889A5CF8A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5018B80CED7273DE"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B1B20A5B808876"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blackened Knight"
+			x: -6.464285714285715d
+			y: -1.3392857142857153d
+		}
+		{
+			description: ["Upgrade your Elytra with Netherite for extra resilience."]
+			id: "75696CD7F1A3D933"
+			rewards: [
+				{
+					id: "068EAF83BBCF559B"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "00D1084A9EB7C90E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft a Netherite Glider."
+			tasks: [{
+				id: "3A0B1465701D8ED5"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wings of Ash"
+			x: -6.464285714285715d
+			y: -0.3392857142857153d
+		}
+		{
+			description: ["Use Looting and aim high; these skulls are needed to summon the Wither."]
+			id: "04F96404FD2E0932"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "19EB13013FD32513"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "62994CF8B8BF2A74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Get 3x Wither Skeleton Skulls."
+			tasks: [{
+				count: 3L
+				id: "0FF3E2CB807FA679"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			title: "Trophy Hunt"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: ["3 wither skulls placed atop sand filled with souls summons forth the extremely destructive and dangerous Wither. Kill it and claim your prize, it’s stellar core."]
+			id: "7EA630A30FAF8AF4"
+			rewards: [
+				{
+					id: "4E47F5F4DB77EC4F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "26362B0D1BE5C7C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Get a Nether Star."
+			tasks: [{
+				id: "0B74213C8D544946"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Stellar Core"
+			x: -5.0d
+			y: -3.0d
+		}
+	]
+	title: "Embers Beneath"
+}

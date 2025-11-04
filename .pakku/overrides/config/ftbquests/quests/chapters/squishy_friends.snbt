@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "squishy_friends"
+	group: ""
+	icon: "perfectplushies:sirjain_plushie_rare"
+	id: "059FE08C5E90B4B5"
+	images: [
+		{
+			height: 13.0d
+			image: "ftbquests:textures/homestead/squishy_friends.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/squishy_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.0d
+			y: -0.25d
+		}
+	]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Can't believe you found me breh"]
+			id: "5054F72F0C199008"
+			rewards: [
+				{
+					count: 4
+					id: "4A25F8CFD36DCFA5"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A94CF0A2F9D9DB0"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69D06B66C4019EF4"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Xodk Plushie"
+			tasks: [{
+				id: "022D354FD1A0BB7E"
+				item: "perfectplushies:nyf_plushie"
+				type: "item"
+			}]
+			title: "Best Admin Ever"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			description: ["You rolled a 20!"]
+			id: "5B9207614E6F8ED6"
+			rewards: [
+				{
+					id: "57CC0E13A9B9D1C9"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "0142FFF617A35D91"
+					item: "herbalbrews:green_tea"
+					type: "item"
+				}
+				{
+					id: "76B0AC3989C9A6AA"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "deeperdarker:echoer"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Yuki Plushie"
+			tasks: [{
+				id: "472E169745DC0760"
+				item: "perfectplushies:sirjain_plushie"
+				type: "item"
+			}]
+			title: "Best Artist I Know!"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: ["The biggest bully you will ever meet"]
+			id: "3825CF6442A89F11"
+			rewards: [
+				{
+					id: "2A53452E370F979D"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "5786D5D86A71322D"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+				{
+					id: "596856A46FFABBD1"
+					item: "clutter:mossbloom_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Meleon Plushie"
+			tasks: [{
+				id: "06583F9E31B465E3"
+				item: "perfectplushies:sizableshrimp_plushie"
+				type: "item"
+			}]
+			title: "Worst Admin Ever"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: ["The Noblest of Knights roaming in the Kingdom of Homestead"]
+			id: "74A40509071E96CE"
+			rewards: [
+				{
+					id: "6520F22EECE386E8"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0690C26820EACE"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E18DFD66196B266"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2977BAF623F6BBBA"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D9B74661AAC6550"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "796F5C072E374C3B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a SirWagselot Plushie"
+			tasks: [{
+				id: "0FCB616821E2461E"
+				item: "perfectplushies:tslat_plushie"
+				type: "item"
+			}]
+			title: "Knight in Shining Armor"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			description: ["You're my friend now!"]
+			id: "464AD5BA52D693F6"
+			rewards: [
+				{
+					id: "296840E7BD2F47E1"
+					item: "clutter:propeller_cap"
+					type: "item"
+				}
+				{
+					id: "75DCFBD61CD45DBA"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+				{
+					id: "685CFDCAD42A0EEF"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"I Only Use This During PVP\",\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Rod Plushie"
+			tasks: [{
+				id: "4B4AA9F9741109FA"
+				item: "perfectplushies:silk_plushie"
+				type: "item"
+			}]
+			title: "Preschool Bud"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&d&lBUFFOONERY&r&r"
+				""
+				"&4&lPOOPY HEAD NO MACARONI&r&r"
+			]
+			id: "5B68F276515C6987"
+			rewards: [
+				{
+					id: "70202F8A7C36AE0B"
+					item: "clutter:butterfly_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "42B088952AA6BED8"
+					item: "clutter:decorated_elytra_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Mama Plushie"
+			tasks: [{
+				id: "5755AC67B9946A1F"
+				item: "perfectplushies:june_plushie"
+				type: "item"
+			}]
+			title: "Loves Her Squish"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: ["Just here to annoy Lyn <3"]
+			id: "6DE2ADB5C2E9CAD8"
+			rewards: [
+				{
+					id: "514A92247CD112C0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "00EDB806CAD42AF8"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "54954C85D949B562"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4E2E72649B285EDB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3D422F2F7482D764"
+					item: "luphieclutteredmod:luphie_tall_paper_stack"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Cobra Plushie"
+			tasks: [{
+				id: "6EA114503F0C760C"
+				item: "perfectplushies:daniel_plushie"
+				type: "item"
+			}]
+			title: "Money Man"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: ["Has the cutest dog &lEVER&r"]
+			id: "101A55FB3F5F4FC8"
+			rewards: [
+				{
+					id: "088C86405385E021"
+					item: "wildernature:dog_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2720F2B8F181EC7A"
+					item: "perfectplushies:dog_plushie"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "39A0EF2F32A3E7FB"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a BreezyBry Plushie"
+			tasks: [{
+				id: "77D98FE54DE04FFD"
+				item: "perfectplushies:gamerpotion_plushie"
+				type: "item"
+			}]
+			title: "Breezy"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["The Noblest of Wives to the one and only SirWagselot"]
+			id: "249025368F4E5167"
+			rewards: [
+				{
+					count: 8
+					id: "4FBA6762893C87DD"
+					item: "twigs:allium_paper_lantern"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "467CF7266962C001"
+					item: "natures_spirit:snapdragon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "38011D8809031FED"
+					item: "natures_spirit:pink_wisteria_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a LadyWagselot Plushie"
+			tasks: [{
+				id: "6E5B86B14711AF86"
+				item: "perfectplushies:joosh_plushie"
+				type: "item"
+			}]
+			title: "The Noblest of Wives"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: ["&lMORE RAM&r"]
+			id: "1730E73D814D0E0B"
+			rewards: [
+				{
+					id: "04F96721803B16FB"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "03A297E0BF4F0BA0"
+					item: {
+						Count: 1
+						id: "dummmmmmy:target_dummy"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Dummy\",\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "014104B8676E5E3C"
+					item: {
+						Count: 1
+						id: "friendsandfoes:totem_of_freezing"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Im Lagging\",\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Lyn Plushie"
+			tasks: [{
+				id: "766DA2B765DF49E9"
+				item: "perfectplushies:rocris_plushie"
+				type: "item"
+			}]
+			title: "4GB"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: ["Toast Toast Toast!"]
+			id: "5A11DB7523DE5F68"
+			rewards: [
+				{
+					id: "48939DA0F419671D"
+					item: "farm_and_charm:farmers_bread"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "17BB1615F0C5FEDA"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "2E00BC650B03B527"
+					item: "luphieclutteredmod:luphie_sliced_bread"
+					type: "item"
+				}
+				{
+					id: "21C54D69FE834196"
+					item: "clutter:bread"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Nylon Plushie"
+			tasks: [{
+				id: "2F891E7226DBC454"
+				item: "perfectplushies:geode_plushie"
+				type: "item"
+			}]
+			title: "Toast Lover"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"\"Hi\" c: "
+				"*disconnects* "
+				"\"tokimiya is typing…”"
+			]
+			id: "3B99020FF9729327"
+			rewards: [
+				{
+					count: 32
+					id: "7A97832B238E4D8A"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30CF9454649D2162"
+					item: "biomeswevegone:osiria_rose"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "02193368C94DCC89"
+					item: "twigs:pink_packed_silt"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Tokimiya Plushie"
+			tasks: [{
+				id: "325A43D033929B57"
+				item: "perfectplushies:gamerpotion_plushie_rare"
+				type: "item"
+			}]
+			title: "The Waifu"
+			x: 1.0d
+			y: -5.232142857142861d
+		}
+		{
+			description: ["“Stay cozy, little mushrooms!”"]
+			id: "0BC4230942EC9273"
+			rewards: [
+				{
+					id: "3DE6AC024EBA4432"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "52C4C02A49F5A94A"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "luphieclutteredmod:luphie_mushroom_painting"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FF88CFA43D8AA86"
+					item: "luphieclutteredmod:luphie_mushroom_lamp"
+					type: "item"
+				}
+				{
+					id: "7CBD869B0AEAB243"
+					item: "luphieclutteredmod:luphie_blue_glowshroom_terrarium"
+					type: "item"
+				}
+				{
+					id: "17DEE3FA1F2AEFAA"
+					item: "luphieclutteredmod:luphie_mushroom_terrarium"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a Tokimi Plushie"
+			tasks: [{
+				id: "67D544C643164163"
+				item: "perfectplushies:sirjain_plushie_rare"
+				type: "item"
+			}]
+			title: "Modpack Dev"
+			x: -2.5d
+			y: -5.267857142857146d
+		}
+	]
+	title: "Squishy Friends"
+}

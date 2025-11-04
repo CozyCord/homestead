@@ -1,0 +1,1839 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "roots_that_run_deep"
+	group: ""
+	icon: "spelunkery:tangle_roots"
+	id: "3E5E175DD327839E"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/roots_that_run_deep.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/roots_quest_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: 1.0d
+			y: -5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Rock by rock, you will build a kingdom… or at least a cosy cobbled deepslate hut."]
+			id: "5349E0C38C031F1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34228F757EC3DC6F"
+				table_id: 8585761087875589383L
+				type: "random"
+			}]
+			subtitle: "Gathering the Foundations"
+			tasks: [{
+				block: "minecraft:deepslate"
+				block_type: 0
+				checkItem: false
+				id: "02DA05BAB18E7AD0"
+				type: "questsadditions:break"
+				value: 25000L
+			}]
+			title: "Stone by Stone"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			description: ["Going deep? Take your torches and your bravery!"]
+			id: "1724A7754CB44ADF"
+			rewards: [
+				{
+					id: "16B9A1DF1A51ECCD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21C50681FD4DDEF0"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+			]
+			subtitle: "Descend into the depths and get a bucket of lava, and smelt 64 Cobbled Deepslate into Deepslate"
+			tasks: [
+				{
+					id: "77CA2ED62176ABDF"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7A75803959A167C9"
+					item: { Count: 64, id: "minecraft:deepslate" }
+					type: "item"
+				}
+			]
+			title: "Deep Delver"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: ["How much wood could a woodchuck chuck if a woodchuck could chuck wood? A lot"]
+			id: "21C27F6552136974"
+			rewards: [{
+				id: "5F692DEA9B396350"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			subtitle: "Gather 1000 logs of any type."
+			tasks: [{
+				count: 1000L
+				id: "1843858976F30887"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Natural Reserves"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["Mushrooms: nature’s umbrella and a cozy friend."]
+			id: "7FFA209E3B6B99D9"
+			rewards: [
+				{
+					count: 16
+					id: "2445FA50364DBDF7"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+				{
+					id: "480960E099021C4E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Harvest 100 mushrooms."
+			tasks: [{
+				count: 100L
+				id: "458BF6234C94F652"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:mushrooms)"
+					}
+				}
+				title: "Any #c:mushrooms"
+				type: "item"
+			}]
+			title: "Fungal Foundations"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Two buckets are better than one. Infinite water? Witchcraft."]
+			id: "01019DB76E61913F"
+			rewards: [{
+				id: "549F6F666AB29AFC"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Collect 2 water buckets."
+			tasks: [{
+				count: 2L
+				id: "2373866F97906A51"
+				item: { Count: 2, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			title: "Flow and Function"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01019DB76E61913F"]
+			description: ["How is this?.. Possible?.."]
+			id: "3408C836B3D2E763"
+			rewards: [{
+				id: "2C90E75A70B6229B"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Craft a Bater Wucket"
+			tasks: [{
+				id: "131CC80B35427382"
+				item: "things:bater_wucket"
+				title: "Craft 1x Bater Wucket"
+				type: "item"
+			}]
+			title: "Witchcraft"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Bricks? Never heard of them. Smooth stone is where it’s at.&l"]
+			id: "43EC615E2B0F6AE5"
+			rewards: [
+				{
+					count: 128
+					id: "27993925B7B83710"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "70DA9DCF17FCFFCD"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2BB3D2F71FDFA75F"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "Smelt 1000 stone."
+			tasks: [{
+				count: 1000L
+				id: "5672F51D7C2A04D6"
+				item: "minecraft:stone"
+				title: "Smelt 1,000 Stone"
+				type: "item"
+			}]
+			title: "Stoneheart"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			description: ["Iron is the glue that holds this family together."]
+			id: "71D3DBF93EB85909"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67A4CDB4DED69B91"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					id: "2D0A1784A961F635"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Mine 2048 iron ore."
+			tasks: [{
+				block: "minecraft:iron_ore"
+				block_type: 0
+				checkItem: false
+				id: "76492EAE848FEDBC"
+				type: "questsadditions:break"
+				value: 2048L
+			}]
+			title: "Iron Veins"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: ["There is one of you, 61 biomes, sounds like a challenge to me!"]
+			id: "117233DA2D10A7CD"
+			rewards: [{
+				id: "013ABA4B9993EA88"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 4
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "minecraft:thorns"
+								lvl: 3
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1
+							}
+							{
+								id: "minecraft:depth_strider"
+								lvl: 3
+							}
+							{
+								id: "minecraft:soul_speed"
+								lvl: 3
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Explore all Regions Unexplored Biomes"
+			tasks: [{
+				advancement: "regions_unexplored:pioneer"
+				criterion: ""
+				id: "6810B068967C11FE"
+				title: "Explore all Regions Unexplored Biomes"
+				type: "advancement"
+			}]
+			title: "Grounded Traveler"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: ["The ultimate cozy collection, but where are they?"]
+			id: "4EEDFDE36D6699E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F5A03F1D086AC91"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					id: "4066F95DF95D534C"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			subtitle: "Collect The Entirety of The CozyCord Team Plushies"
+			tasks: [
+				{
+					id: "5BB23C47C1BD79D0"
+					item: "perfectplushies:nyf_plushie"
+					type: "item"
+				}
+				{
+					id: "6253D0862F88E865"
+					item: "perfectplushies:sirjain_plushie"
+					type: "item"
+				}
+				{
+					id: "62E75C2C728A4C4B"
+					item: "perfectplushies:sizableshrimp_plushie"
+					type: "item"
+				}
+				{
+					id: "22C0653C5AAF2337"
+					item: "perfectplushies:silk_plushie"
+					type: "item"
+				}
+				{
+					id: "57D04579AEF10AC3"
+					item: "perfectplushies:june_plushie"
+					type: "item"
+				}
+				{
+					id: "40242794A76A99E8"
+					item: "perfectplushies:daniel_plushie"
+					type: "item"
+				}
+				{
+					id: "730C3040015073BF"
+					item: "perfectplushies:rocris_plushie"
+					type: "item"
+				}
+				{
+					id: "3A3156E9482A4209"
+					item: "perfectplushies:geode_plushie"
+					type: "item"
+				}
+				{
+					id: "6616F0178190D5D1"
+					item: "perfectplushies:gamerpotion_plushie_rare"
+					type: "item"
+				}
+				{
+					id: "21C6D8E1FBE77E76"
+					item: "perfectplushies:sirjain_plushie_rare"
+					type: "item"
+				}
+			]
+			title: "Mystery Inc."
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: ["Collect &levery&r legendary upgrade to harness the power of the mines."]
+			id: "157AE0A435D66D95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10C33ABAA19B8DC4"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					id: "590B101D23BBF253"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			subtitle: "Collect all Mythic Upgrades Pickaxes."
+			tasks: [
+				{
+					id: "733E179EE8BC9CC2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32E5AEA3B805A905"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A6A5CDDB63B9978"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10684AE04484423C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3858EC8E3533E55C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ED0A5856A8CAC4E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71618FB2D9CA57AB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Upgrades Upgrades Upgrades!"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			description: ["The dead know better than to underestimate you now!"]
+			id: "079E15B555F3E4A4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E561FD66DF3CDA"
+				table_id: 8585761087875589383L
+				type: "random"
+			}]
+			subtitle: "Kill 1,000 Zombies."
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "548429A51CC53870"
+				type: "kill"
+				value: 1000L
+			}]
+			title: "Undead and Over It"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["You have found a Ribbits Village! If not friends, why friend shaped?"]
+			id: "3F7CB7A15424A77D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A115156A7D55330"
+					table_id: 6828356437669856216L
+					type: "random"
+				}
+				{
+					id: "5A93C19CCAE4FC95"
+					item: "ribbits:maraca"
+					type: "item"
+				}
+			]
+			subtitle: "Visit A Ribbit's Village!"
+			tasks: [{
+				icon: "perfectplushies:frog_plushie"
+				id: "76B99963C5C6A090"
+				structure: "ribbits:ribbit_village"
+				title: "Visit A Ribbit's Village!"
+				type: "structure"
+			}]
+			title: "Hop On In"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Catch &levery&r Go Fish crate to become the one and only angler of the cozy seas."]
+			id: "7B8899D1A8FEAF3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6184B05160994222"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					id: "513CC0A9E492E2B1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Collect 1x of each Go Fish crate"
+			tasks: [
+				{
+					id: "091EAD29AB845077"
+					item: "gofish:wooden_crate"
+					type: "item"
+				}
+				{
+					id: "16C74873AA6EAC2A"
+					item: "gofish:iron_crate"
+					type: "item"
+				}
+				{
+					id: "35395A3EFB5CE642"
+					item: "gofish:golden_crate"
+					type: "item"
+				}
+				{
+					id: "2FAB474130ACC916"
+					item: "gofish:diamond_crate"
+					type: "item"
+				}
+				{
+					id: "0C2FA797B19F8BE0"
+					item: "gofish:frosted_crate"
+					type: "item"
+				}
+				{
+					id: "0E16C608F3BF1446"
+					item: "gofish:slimey_crate"
+					type: "item"
+				}
+				{
+					id: "27F9DF688223CCF3"
+					item: "gofish:supply_crate"
+					type: "item"
+				}
+				{
+					id: "2290EA0F4A98E310"
+					item: "gofish:fiery_crate"
+					type: "item"
+				}
+				{
+					id: "46D74D7D4EE7A169"
+					item: "gofish:soul_crate"
+					type: "item"
+				}
+				{
+					id: "714ABD421EDC8144"
+					item: "gofish:gilded_blackstone_crate"
+					type: "item"
+				}
+				{
+					id: "58FDEAA6001CA9C2"
+					item: "gofish:astral_crate"
+					type: "item"
+				}
+				{
+					id: "2D0B95A4468C2397"
+					item: "gofish:end_crate"
+					type: "item"
+				}
+			]
+			title: "Catch ’Em All"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Got yourself a chest monster? Build a storage drawer system to tame the beast."]
+			id: "044EA145ED8013B7"
+			rewards: [
+				{
+					id: "299AA942D731298C"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "27AF42AB134665EB"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "44FB4EB021305E1D"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+			]
+			subtitle: "Create a Storage Drawer's system"
+			tasks: [
+				{
+					id: "450B162A1AF95E68"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5B05807BEE844713"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(storagedrawers:drawers)"
+						}
+					}
+					title: "Any #storagedrawers:drawers"
+					type: "item"
+				}
+			]
+			title: "Drawer Décor"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: ["Collect &levery&r sapling from &levery&r mod in the game."]
+			id: "6EFBF3915FF714F2"
+			rewards: [{
+				id: "42FA63A1748BDFD3"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_axe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 10
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 10
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collect All Saplings"
+			tasks: [
+				{
+					id: "7D15F7067E6D5FB8"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1D05141324EF45FA"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "22D63BEE528E7972"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "5BB527717A922FE7"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "38E4299B192477BF"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "01BFAEFD4E1E4971"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "45484A2DD35D3267"
+					item: "natures_spirit:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "130AA4FF8E1A5AF2"
+					item: "natures_spirit:sugi_sapling"
+					type: "item"
+				}
+				{
+					id: "403BAA31757F32E6"
+					item: "natures_spirit:white_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "3E87AD2717C9DC30"
+					item: "natures_spirit:blue_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "1D50A6EE7AA2FE12"
+					item: "natures_spirit:pink_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "282A1E4223CE997F"
+					item: "natures_spirit:purple_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "63F3352C1A1F08D8"
+					item: "natures_spirit:fir_sapling"
+					type: "item"
+				}
+				{
+					id: "3967CA216C3A7809"
+					item: "natures_spirit:willow_sapling"
+					type: "item"
+				}
+				{
+					id: "3C2C529A8A8FFE2F"
+					item: "natures_spirit:aspen_sapling"
+					type: "item"
+				}
+				{
+					id: "31126DC9E0C6A8AB"
+					item: "natures_spirit:red_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "130C88B941F79E3E"
+					item: "natures_spirit:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "05159810E7DD1F8C"
+					item: "natures_spirit:yellow_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "7F8B8CE6FAC8492B"
+					item: "natures_spirit:cypress_sapling"
+					type: "item"
+				}
+				{
+					id: "14FC76D7551A9BEF"
+					item: "natures_spirit:olive_sapling"
+					type: "item"
+				}
+				{
+					id: "28FBA8D21BD12594"
+					item: "natures_spirit:joshua_sapling"
+					type: "item"
+				}
+				{
+					id: "739EAB95589C058C"
+					item: "natures_spirit:ghaf_sapling"
+					type: "item"
+				}
+				{
+					id: "450116D8B8B1C857"
+					item: "natures_spirit:palo_verde_sapling"
+					type: "item"
+				}
+				{
+					id: "3CBBD1BE09BEBC3A"
+					item: "natures_spirit:cedar_sapling"
+					type: "item"
+				}
+				{
+					id: "32410EEB2E966EB9"
+					item: "natures_spirit:larch_sapling"
+					type: "item"
+				}
+				{
+					id: "02CFCACAA17AE339"
+					item: "natures_spirit:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "47CA7366A6CC60E5"
+					item: "natures_spirit:saxaul_sapling"
+					type: "item"
+				}
+				{
+					id: "336933DBE0BF3F32"
+					item: "biomeswevegone:aspen_sapling"
+					type: "item"
+				}
+				{
+					id: "6E5F3740F3C40C24"
+					item: "biomeswevegone:baobab_sapling"
+					type: "item"
+				}
+				{
+					id: "36FE03AAEEE100DC"
+					item: "biomeswevegone:blue_enchanted_sapling"
+					type: "item"
+				}
+				{
+					id: "724BADC0C8B161A6"
+					item: "biomeswevegone:cika_sapling"
+					type: "item"
+				}
+				{
+					id: "5E4EC591438E4B47"
+					item: "biomeswevegone:cypress_sapling"
+					type: "item"
+				}
+				{
+					id: "166EC1051EAA9C2C"
+					item: "biomeswevegone:ebony_sapling"
+					type: "item"
+				}
+				{
+					id: "1E1427092F1A5158"
+					item: "biomeswevegone:fir_sapling"
+					type: "item"
+				}
+				{
+					id: "5FA6A045E2A1FE6C"
+					item: "biomeswevegone:green_enchanted_sapling"
+					type: "item"
+				}
+				{
+					id: "06E6AC95A0AE5259"
+					item: "biomeswevegone:holly_sapling"
+					type: "item"
+				}
+				{
+					id: "38D0F075B3734CB0"
+					item: "biomeswevegone:ironwood_sapling"
+					type: "item"
+				}
+				{
+					id: "168EA4AEC72C5A1D"
+					item: "biomeswevegone:jacaranda_sapling"
+					type: "item"
+				}
+				{
+					id: "5D8E6F29888CF427"
+					item: "biomeswevegone:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "747EE99FF2C19C6E"
+					item: "biomeswevegone:maple_sapling"
+					type: "item"
+				}
+				{
+					id: "578A3634233D2FB1"
+					item: "biomeswevegone:palm_sapling"
+					type: "item"
+				}
+				{
+					id: "737F64F6423E0A2E"
+					item: "biomeswevegone:pine_sapling"
+					type: "item"
+				}
+				{
+					id: "6180EA6EEA13DA07"
+					item: "biomeswevegone:rainbow_eucalyptus_sapling"
+					type: "item"
+				}
+				{
+					id: "349768228FBAFA18"
+					item: "biomeswevegone:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "241E2785479154C8"
+					item: "biomeswevegone:white_sakura_sapling"
+					type: "item"
+				}
+				{
+					id: "44511315382BA962"
+					item: "biomeswevegone:yellow_sakura_sapling"
+					type: "item"
+				}
+				{
+					id: "61880303BFC3DD98"
+					item: "biomeswevegone:skyris_sapling"
+					type: "item"
+				}
+				{
+					id: "3A9EDF09787D1A65"
+					item: "biomeswevegone:white_mangrove_sapling"
+					type: "item"
+				}
+				{
+					id: "5B3C305435AA8768"
+					item: "biomeswevegone:willow_sapling"
+					type: "item"
+				}
+				{
+					id: "16765B759102583B"
+					item: "biomeswevegone:witch_hazel_sapling"
+					type: "item"
+				}
+				{
+					id: "0878C3EF7B0989CE"
+					item: "biomeswevegone:zelkova_sapling"
+					type: "item"
+				}
+				{
+					id: "6F3E1FEA0C224E48"
+					item: "biomeswevegone:palo_verde_sapling"
+					type: "item"
+				}
+				{
+					id: "463E43ACE9F97552"
+					item: "biomeswevegone:araucaria_sapling"
+					type: "item"
+				}
+				{
+					id: "3104EEA344A4F882"
+					item: "biomeswevegone:blue_spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "7535C5DE774C3308"
+					item: "biomeswevegone:brown_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "1067EA6449C6D666"
+					item: "biomeswevegone:brown_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1E9D1C438897251E"
+					item: "biomeswevegone:brown_zelkova_sapling"
+					type: "item"
+				}
+				{
+					id: "6989D1403F62281C"
+					item: "biomeswevegone:indigo_jacaranda_sapling"
+					type: "item"
+				}
+				{
+					id: "35B99AAEEAB22478"
+					item: "biomeswevegone:orange_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "27FF289775ABA59A"
+					item: "biomeswevegone:orange_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1983F3109BE04347"
+					item: "biomeswevegone:orange_spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "274F72E0E54FB845"
+					item: "biomeswevegone:orchard_sapling"
+					type: "item"
+				}
+				{
+					id: "2CB0BB947B282A84"
+					item: "biomeswevegone:red_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "55583BA995FEF374"
+					item: "biomeswevegone:red_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "34519ED80E50681F"
+					item: "biomeswevegone:red_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1C79755CFB4DB77E"
+					item: "biomeswevegone:red_spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "43F111E6BF806E04"
+					item: "biomeswevegone:silver_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "5C18A7BC37CB614B"
+					item: "biomeswevegone:yellow_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "4B27B273D2035155"
+					item: "biomeswevegone:yellow_spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "6327F84E98C759DB"
+					item: "biomeswevegone:yucca_sapling"
+					type: "item"
+				}
+				{
+					id: "3C8314AAD43AE7B7"
+					item: "clutter:kiwi_tree_sapling"
+					type: "item"
+				}
+				{
+					id: "61ADF312E3185FD4"
+					item: "clutter:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "2A8D705DBCC64BFE"
+					item: "deeperdarker:echo_sapling"
+					type: "item"
+				}
+				{
+					id: "649E85EAAC849B63"
+					item: "expandeddelight:cinnamon_sapling"
+					type: "item"
+				}
+				{
+					id: "402C50230107055F"
+					item: "meadow:pine_sapling"
+					type: "item"
+				}
+				{
+					id: "17C6C2B68AFC3484"
+					item: "regions_unexplored:alpha_sapling"
+					type: "item"
+				}
+				{
+					id: "688EE20439151415"
+					item: "regions_unexplored:apple_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "38E7062B64C47788"
+					item: "regions_unexplored:ashen_sapling"
+					type: "item"
+				}
+				{
+					id: "06C5370867F6B0B0"
+					item: "regions_unexplored:bamboo_sapling"
+					type: "item"
+				}
+				{
+					id: "1343B119F0E2250C"
+					item: "regions_unexplored:baobab_sapling"
+					type: "item"
+				}
+				{
+					id: "058AD588C2055B01"
+					item: "regions_unexplored:blackwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3BF4340D2FB523E9"
+					item: "regions_unexplored:brimwood_sapling"
+					type: "item"
+				}
+				{
+					id: "1731DB4A3C9B590B"
+					item: "regions_unexplored:cobalt_sapling"
+					type: "item"
+				}
+				{
+					id: "4FB451C13813FEEB"
+					item: "regions_unexplored:cypress_sapling"
+					type: "item"
+				}
+				{
+					id: "49FFC919CD15CB25"
+					item: "regions_unexplored:dead_pine_sapling"
+					type: "item"
+				}
+				{
+					id: "012A8163F7DED96C"
+					item: "regions_unexplored:dead_sapling"
+					type: "item"
+				}
+				{
+					id: "50ED624CCA3CD54B"
+					item: "regions_unexplored:eucalyptus_sapling"
+					type: "item"
+				}
+				{
+					id: "754ED989BEBB4820"
+					item: "regions_unexplored:flowering_sapling"
+					type: "item"
+				}
+				{
+					id: "01254688AC345BB8"
+					item: "regions_unexplored:joshua_sapling"
+					type: "item"
+				}
+				{
+					id: "69EBCE3EFA5CFA00"
+					item: "regions_unexplored:kapok_sapling"
+					type: "item"
+				}
+				{
+					id: "096B228FA50C6964"
+					item: "regions_unexplored:larch_sapling"
+					type: "item"
+				}
+				{
+					id: "27D3A600E41C581A"
+					item: "regions_unexplored:golden_larch_sapling"
+					type: "item"
+				}
+				{
+					id: "48FC33CD03039747"
+					item: "regions_unexplored:magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "588B55F0C111621F"
+					item: "regions_unexplored:blue_magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "4B257F46E598191A"
+					item: "regions_unexplored:pink_magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "4E505BDF958CB7AB"
+					item: "regions_unexplored:white_magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "57174C8063EDCDD0"
+					item: "regions_unexplored:maple_sapling"
+					type: "item"
+				}
+				{
+					id: "7ED7B77DA23A3652"
+					item: "regions_unexplored:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "71167AE2E688448A"
+					item: "regions_unexplored:red_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "0AF9A85D5BEFF46E"
+					item: "regions_unexplored:mauve_sapling"
+					type: "item"
+				}
+				{
+					id: "7F886AA054010ED9"
+					item: "regions_unexplored:palm_sapling"
+					type: "item"
+				}
+				{
+					id: "3DB14BD52F8C2F55"
+					item: "regions_unexplored:pine_sapling"
+					type: "item"
+				}
+				{
+					id: "4D1DEA8EA136BA9D"
+					item: "regions_unexplored:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "63C2AB52981111B1"
+					item: "regions_unexplored:silver_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "4DCEA9326A3D204B"
+					item: "regions_unexplored:enchanted_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "1F3CF684B636D5B6"
+					item: "regions_unexplored:small_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "7BB9F2DFD10C1E7E"
+					item: "regions_unexplored:socotra_sapling"
+					type: "item"
+				}
+				{
+					id: "144CB681CE44AAFF"
+					item: "regions_unexplored:willow_sapling"
+					type: "item"
+				}
+				{
+					id: "489CB351B09BD6B4"
+					item: "vinery:dark_cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "5B2D6FD6E3784326"
+					item: "vinery:apple_tree_sapling"
+					type: "item"
+				}
+			]
+			title: "Wood you like some variety?"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			description: ["The worms are eternally grateful."]
+			id: "7E6DAB4B18ABC0EF"
+			rewards: [
+				{
+					id: "15AA4B1512CBBB0A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+								{
+									id: "minecraft:fortune"
+									lvl: 3
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4C9824FE70E95537"
+					item: "farm_and_charm:kernels"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "68904D427EC4A7AF"
+					item: "farm_and_charm:barley_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0EDA8592136758B7"
+					item: "farm_and_charm:lettuce_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Plant crops on 1000 farmland"
+			tasks: [{
+				block: "minecraft:farmland"
+				block_type: 0
+				checkItem: false
+				id: "42B68AEE1334ED2B"
+				isItemInteraction: true
+				type: "questsadditions:use"
+				value: 1000L
+			}]
+			title: "Worm Whisperer"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			description: ["A potato for your thoughts?"]
+			id: "1F393F62C247D315"
+			rewards: [
+				{
+					id: "3F3B5438BC93F4BE"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1F9B2B9778F5C63E"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "14D3551A5E38460C"
+					item: "farm_and_charm:pasta_with_onion_sauce"
+					type: "item"
+				}
+				{
+					id: "14B91EA7E8CBAE2C"
+					item: "farm_and_charm:simple_tomato_soup"
+					type: "item"
+				}
+			]
+			subtitle: "Harvest 250 carrots, 250 potatoes, 250 onions and 250 tomatoes."
+			tasks: [
+				{
+					count: 250L
+					id: "73983D61CA131EA7"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "0C3A41D73EC7F369"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "50429E58734C75B0"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "04D36C7C4E55AD72"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+			]
+			title: "Root Veggie Royalty"
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			description: ["Open every chest you see, it may have loot! It may not! It probably will."]
+			id: "06D0E4C501443773"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36E0A30A05DF70FB"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "522008F018C41D1C"
+					table_id: 4133455367915971063L
+					type: "random"
+				}
+			]
+			subtitle: "Open 100 loot chests"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "483E3A8ABA33DD6D"
+				type: "advancement"
+			}]
+			title: "Loot Goblin Supreme"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			description: ["E-I-E-I-O-M-G that’s a lot of moo!"]
+			id: "1CEA1E67FC3A8B0F"
+			rewards: [
+				{
+					id: "57A3ADA1CFA997B0"
+					item: "animal_feeding_trough:feeding_trough"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77D06CC170B18782"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "42E5657F9935097F"
+					item: {
+						Count: 1
+						id: "supplementaries:jar"
+						tag: {
+							BlockEntityTag: {
+								FluidHolder: {
+									count: 12
+									id: "milk:still_milk"
+								}
+								Items: [ ]
+								id: "supplementaries:jar"
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11474C381660FB89"
+					item: "cratedelight:cookie_bag"
+					type: "item"
+				}
+			]
+			subtitle: "Breed 100 Cows"
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:cow"
+				id: "3DD0532A9050CD34"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 100L
+			}]
+			title: "Old McCozy Had a Farm"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"All those steps and you found… nothing. Congrats! "
+				""
+				"&8&n&oNo the numbers are not wrong, one whole block is worth 128! So multiply that by 50,000 and you get 6.4 Million!&r&r&r"
+			]
+			id: "1793D9CDA5CB10C7"
+			rewards: [{
+				id: "7355DF225A13598F"
+				item: {
+					Count: 1
+					id: "obsidianequipment:obsidian_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Reach 50,000 blocks walked"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "meadow:fur_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "07DAFE773DDBAF28"
+				stat: "minecraft:walk_one_cm"
+				title: "Walk 50,000 blocks"
+				type: "stat"
+				value: 6400000
+			}]
+			title: "Diggy Diggy Stats"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			description: ["You’re not obsessed, you’re rooted for growth!"]
+			id: "2A573FC228D165BA"
+			rewards: [
+				{
+					count: 16
+					id: "017BE3B1249250A4"
+					item: "beautify:hanging_pot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "130FAA8A78E601B7"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "38F51759735B1A94"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					id: "2BB470546B66856B"
+					item: "luphieclutteredmod:luphie_flower_desk_lamp"
+					type: "item"
+				}
+				{
+					id: "48729132357D81E0"
+					item: {
+						Count: 1
+						id: "candlelight:flower_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Collect 500 of any flower"
+			tasks: [{
+				count: 500L
+				id: "15CB133A7A9C1CB7"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)"
+					}
+				}
+				title: "Any #minecraft:flowers"
+				type: "item"
+			}]
+			title: "Flora Fanatic"
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			description: ["Melting rocks for fun, you are the rock now! "]
+			id: "7836400749B807FA"
+			rewards: [
+				{
+					id: "62A757B49D7B0599"
+					item: "things:mining_gloves"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640DA70A90EF9382"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+			]
+			subtitle: "Smelt 25,000 stone"
+			tasks: [{
+				consume_items: true
+				count: 25000L
+				id: "2CFE140DD49020BD"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "Stuck Between a Rock and a…"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			description: ["Sweet but it’ll stab ya."]
+			id: "575C8E7F528E4573"
+			rewards: [
+				{
+					id: "08C38179D5F28FB6"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7B67CCD705DD5711"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "76E4EC9FD762906A"
+					item: "clutter:sweet_berry_food_box"
+					type: "item"
+				}
+				{
+					id: "7EF6C69AEE6804FE"
+					item: "farm_and_charm:grandmothers_strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "228943E25AD1303C"
+					item: "farm_and_charm:strawberry_bag"
+					type: "item"
+				}
+				{
+					id: "0E1DD5CF6A3017E9"
+					item: "biomeswevegone:blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "587F843DBCF83EF1"
+					item: "luphieclutteredmod:luphie_plated_blueberry_muffin"
+					type: "item"
+				}
+			]
+			subtitle: "Harvest 500 sweet berries, 500 Strawberries, and 500 Blueberries."
+			tasks: [
+				{
+					count: 500L
+					id: "7795989CCE7D9024"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "5C92D78972628341"
+					item: "farm_and_charm:strawberry"
+					type: "item"
+				}
+				{
+					count: 500L
+					icon: "biomeswevegone:blueberries"
+					id: "153E42ED619E654E"
+					item: "biomeswevegone:blueberries"
+					type: "item"
+				}
+			]
+			title: "Berry Bonanza"
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			description: ["Look at you go! Learning a skele&lton.&r"]
+			id: "415E1E2E1F0FD0BC"
+			rewards: [
+				{
+					id: "4B24A73631A77198"
+					item: "justoutdoorstuffs:garden_hose"
+					type: "item"
+				}
+				{
+					id: "105ED8B20C1CE563"
+					item: "justoutdoorstuffs:garden_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FEBA84645C6E04F"
+					item: "farm_and_charm:fertilizer"
+					type: "item"
+				}
+				{
+					id: "07B5A015DEBB5EE9"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "119628EE21ED5570"
+					item: {
+						Count: 1
+						id: "meadow:watering_can"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft 500 bonemeal"
+			tasks: [{
+				count: 500L
+				id: "584F224EB964C72B"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "Fertilizer Fanatic"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			description: ["It may be weird and ugly, but you love it now."]
+			id: "08783F659C8946BE"
+			rewards: [
+				{
+					id: "33E811CC9929458D"
+					item: "things:arm_extender"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082D28B2355EB589"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+			]
+			subtitle: "Collect 15,000 tuff blocks"
+			tasks: [{
+				block: "minecraft:tuff"
+				block_type: 0
+				checkItem: false
+				id: "7D26E77B9BB21ACA"
+				type: "questsadditions:break"
+				value: 15000L
+			}]
+			title: "Tuff Enough?"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			description: ["Dirt glorious dirt! It is everywhere! "]
+			id: "04556BCB5B4EE188"
+			rewards: [
+				{
+					id: "1656CD57A9B458C4"
+					item: "spawn:ant_farm"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5DD63DF2ADDE7277"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "41E73862B9572D0C"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Place 5,000 dirt blocks"
+			tasks: [{
+				block: "minecraft:dirt"
+				block_type: 0
+				id: "4A4A20522CC3A3A8"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 5000L
+			}]
+			title: "Dirt Depot"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Do you even have lungs? You have become one with water."
+				""
+				"&8&n&oThe numbers are still not wrong, swimming one block is worth 128! Then multiply that by 10,000 and you get 1.28 Million!&r&r&r"
+			]
+			id: "1DAFA16DACE341E9"
+			rewards: [
+				{
+					id: "268B2D426CE44FAC"
+					item: {
+						Count: 1
+						id: "beachparty:trunks"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32D98BC6D3AEC78A"
+					item: {
+						Count: 1
+						id: "beachparty:swim_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD641A6BBAA44FE"
+					item: {
+						Count: 1
+						id: "beachparty:crocs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Swim 10,000 blocks"
+			tasks: [{
+				icon: "minecraft:water_bucket"
+				id: "30AAE4195248A5E7"
+				stat: "minecraft:swim_one_cm"
+				type: "stat"
+				value: 1280000
+			}]
+			title: "Swimfan 3000"
+			x: -1.5d
+			y: -9.0d
+		}
+	]
+	title: "Roots That Run Deep"
+}

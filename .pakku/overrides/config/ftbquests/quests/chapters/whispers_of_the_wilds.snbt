@@ -1,0 +1,875 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whispers_of_the_wilds"
+	group: ""
+	icon: "minecraft:compass"
+	id: "4FF8FBBF1EA0E633"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/the_whispers_of_the_wilds.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/whispers_quest_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The wilds just got a little friendlier."]
+			id: "630A0F8FE31DB885"
+			rewards: [{
+				count: 2
+				id: "7811B26022CFD5D3"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Tame a fox, a wolf, a cat, or a parrot."
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "5BF31AA5D9D54BE0"
+				type: "advancement"
+			}]
+			title: "Friend of the Forest"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Bee careful! They’re watching."]
+			id: "45009CCE0AC3453A"
+			rewards: [{
+				count: 3
+				id: "208979BAA8F25C93"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			subtitle: "Collect honey from a beehive using a bottle."
+			tasks: [{
+				block: "minecraft:beehive"
+				block_type: 0
+				checkItem: false
+				id: "3885C45198FA2C0A"
+				isItemInteraction: false
+				title: "Collect honey from a beehive."
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Buzz Buzz"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["After hearing the call, you answered. And you lived."]
+			id: "51B8BD05569AAEA8"
+			rewards: [
+				{
+					count: 32
+					id: "5695A4D85083C83B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2BFDF528B576E907"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use a Totem of Undying."
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "0A18B447670C70F5"
+				type: "advancement"
+			}]
+			title: "Call of the Wild"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: ["This world is starting to feel like home."]
+			id: "29DACA5BA50939B6"
+			rewards: [
+				{
+					id: "2D5B44F1444638BC"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "4220C8B3115CB0D8"
+					item: "brewery:beer_oat"
+					type: "item"
+				}
+				{
+					id: "41F0AFF370FDA561"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Reach day 500."
+			tasks: [{
+				days: 500
+				id: "0B995AF2034CF547"
+				type: "questsadditions:days"
+			}]
+			title: "Feels Like Home"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			description: ["You’ve gained mastery of the skies. Just.. don’t look down."]
+			id: "524CAFCF9B479A4B"
+			rewards: [
+				{
+					count: 8
+					id: "790CEFCE4EB378B5"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "48CB4126FCE2ABF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Glide with Elytra for 5,000 blocks."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0529A94E8EC1BC35"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 5000
+			}]
+			title: "Featherlight"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: ["These mountains are abundant in more than just fallen snow."]
+			id: "4FCD14C35DFA0AF5"
+			rewards: [
+				{
+					id: "105B94EB9FD3B53A"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45DE30C79BD7E552"
+					item: "meadow:alpine_poppy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3782F5137D9A635E"
+					item: "biomeswevegone:alpine_bellflower"
+					type: "item"
+				}
+			]
+			subtitle: "Collect 32 Alpine Salt"
+			tasks: [{
+				count: 32L
+				id: "7516838B00908A4C"
+				item: { Count: 32, id: "meadow:alpine_salt" }
+				type: "item"
+			}]
+			title: "Crystals Among the Peaks"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: ["Aaanndd X marks the spot!"]
+			id: "509113AF406B4DAF"
+			rewards: [
+				{
+					id: "60439AFD65D387B3"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "393400EAA079F732"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "7B8F8C6ED1C9916D"
+					item: "villagersplus:oceanographer_table"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7DC558CDB9F07790"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "61AC726935391D7F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Find 50 Loot Chests."
+			tasks: [{
+				block: "lootr:lootr_chest"
+				block_type: 0
+				checkItem: false
+				id: "6E085B85CB91033B"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 50L
+			}]
+			title: "Burrowed Secrets"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			description: ["The sand and rocks look burnt.. You’ve got to take a picture of this."]
+			id: "1B6519F2535B8FBB"
+			rewards: [
+				{
+					id: "2513A12C1035805A"
+					item: "camerapture:camera"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "26EDB1ECD94DA547"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "205A88842177D386"
+					item: "camerapture:album"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a badlands and mesa biome."
+			tasks: [
+				{
+					biome: "#c:badlands"
+					icon: "minecraft:dead_bush"
+					id: "6D18ECDC147AF61C"
+					title: "Visit a badlands biome."
+					type: "biome"
+				}
+				{
+					biome: "#c:mesa"
+					icon: "minecraft:terracotta"
+					id: "5AEB1C95F1E53320"
+					title: "Visit a mesa biome."
+					type: "biome"
+				}
+			]
+			title: "Canyon Echoes"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You're not just fishing anymore. You're curating an aquatic art gallery."
+				"Cod? Caught. Salmon? Slammin’. Pufferfish? Spicy."
+			]
+			id: "4961ABF6DA33A89A"
+			rewards: [{
+				id: "1AA40ED1A317E0C6"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get 8 of each Vanilla fish."
+			tasks: [
+				{
+					count: 8L
+					id: "1D1C4F01DF72CB36"
+					item: { Count: 3, id: "minecraft:tropical_fish" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "254F9875A5744B88"
+					item: { Count: 3, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "367858AB4C04FE1A"
+					item: { Count: 3, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6827B4ED85862D85"
+					item: { Count: 3, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			title: "Catch of the Block"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["Did you know that mosses were among the first plants on Earth? Didn’t think you’d learn something today, did you?"]
+			id: "6365B4DF8C61DE55"
+			rewards: [
+				{
+					count: 32
+					id: "37C13F697191979D"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "78F113AA99A54FE0"
+					item: "meadow:mossy_limestone_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Harvest 100 moss blocks."
+			tasks: [{
+				count: 100L
+				id: "070DD090266493AE"
+				item: { Count: 100, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			title: "Ancient Greens"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["Hold on to your horses! Don't let them fall off the cliff!!"]
+			id: "7BE87D3F9F99C2C8"
+			rewards: [
+				{
+					id: "6884EF3F5FD18B93"
+					item: "minecraft:globe_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "5379DEF630BFD5B5"
+					item: "minecraft:loom"
+					type: "item"
+				}
+			]
+			subtitle: "Vist a Windswept biome."
+			tasks: [{
+				biome: "#c:windswept"
+				id: "63A4B50019EF6CB6"
+				title: "Visit a windswept biome."
+				type: "biome"
+			}]
+			title: "Windswept Wonder"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Rustling leaves, hanging vines, and colorful creatures..Some louder than others."]
+			id: "12C1663D83B35B3C"
+			rewards: [
+				{
+					count: 16
+					id: "4EB8D7883CD5D8DA"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6AD3C56DF948F273"
+					item: "minecraft:vine"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Jungle biome."
+			tasks: [{
+				biome: "#c:jungle"
+				icon: "minecraft:jungle_sapling"
+				id: "6D7A2603F60FF7A4"
+				title: "Visit a Jungle biome."
+				type: "biome"
+			}]
+			title: "Jungle Beats"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"“Honey?”"
+				""
+				"“What?”"
+				""
+				"“Where’s my super suit?”"
+				""
+				"“What?”"
+				""
+				"“Where - is - my - &b&lSUPER&r&r - &f&lSUIT?!?&r&r"
+			]
+			id: "1EC5506A0D39CAC5"
+			rewards: [
+				{
+					count: 16
+					id: "61396AD22C492FEF"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2F3B17FFD935FD66"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+			]
+			subtitle: "Visit an Ice Spikes biome."
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				icon: "minecraft:ice"
+				id: "447B889B1D1FE99D"
+				title: "Visit an Ice Spikes biome."
+				type: "biome"
+			}]
+			title: "Frozen Over"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pandas eat it. You hoard it. Balance."]
+			id: "636E70886C04DF0A"
+			rewards: [
+				{
+					id: "4A245605333DF60A"
+					item: "clutter:panda_plushie"
+					type: "item"
+				}
+				{
+					id: "4C0D78A0ED23F247"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Collect 64 bamboo."
+			tasks: [{
+				count: 64L
+				id: "1A0DE2DD6E571E1D"
+				item: { Count: 64, id: "minecraft:bamboo" }
+				type: "item"
+			}]
+			title: "Bamboo Grove"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["A place where stone and flower coexist—like a rock concert with excellent landscaping."]
+			id: "56E0D4BA4A798624"
+			rewards: [
+				{
+					id: "7F908D9614BF3059"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32EF70904EE234A5"
+					item: "biomeswevegone:overgrown_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Crag Garden biome."
+			tasks: [{
+				biome: "biomeswevegone:crag_gardens"
+				icon: "biomeswevegone:rocky_stone"
+				id: "5FF28568D9CCFC3D"
+				title: "Visit a Crag Gardens biome."
+				type: "biome"
+			}]
+			title: "Stone Blossoms"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Damn, damn, damn, double damn!"]
+			id: "16DA613E67313417"
+			rewards: [
+				{
+					id: "33FD363CDB64C764"
+					item: "biomeswevegone:witch_hazel_blossom"
+					type: "item"
+				}
+				{
+					id: "60FC9D1412AF05F3"
+					item: {
+						Count: 1
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Weeping Witch Forest biome."
+			tasks: [{
+				biome: "biomeswevegone:weeping_witch_forest"
+				icon: "biomeswevegone:witch_hazel_sapling"
+				id: "5B8CFB112A40742F"
+				title: "Visit a Weeping Witch Forest biome."
+				type: "biome"
+			}]
+			title: "Witch Tears"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["Woah.. those trees are tall. So that’s where Skyrise comes from."]
+			id: "65965C1AA647732A"
+			rewards: [{
+				id: "41197FF4BE0A624A"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Visit a Skyrise Vale biome."
+			tasks: [{
+				biome: "biomeswevegone:skyrise_vale"
+				icon: "biomeswevegone:skyris_sapling"
+				id: "2B7522B5F8B91DF5"
+				title: "Visit a Skyrise Vale biome."
+				type: "biome"
+			}]
+			title: "Breath of the Vale"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["It’s green. It’s glowing. It’s gorgeous."]
+			id: "409EEF25369883DA"
+			rewards: [
+				{
+					count: 10
+					id: "1F6504ECA3372B9E"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "5F22173AC256403E"
+					item: "clutter:mossbloom_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Lush Cave biome."
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: "minecraft:spore_blossom"
+				id: "2D243488F3897143"
+				title: "Visit a Lush Cave biome."
+				type: "biome"
+			}]
+			title: "Glimmerglen"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["It only takes one bullet!"]
+			id: "5DF3AE4D95C6E87D"
+			rewards: [
+				{
+					id: "64B934A15DF848EE"
+					item: "clutter:cowboy_hat"
+					type: "item"
+				}
+				{
+					id: "6F31560DD1ABCC46"
+					item: "clutter:chameleon_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Saguaro Desert biome."
+			tasks: [{
+				biome: "regions_unexplored:saguaro_desert"
+				icon: "regions_unexplored:saguaro_cactus"
+				id: "4DCA9C296CA3FAEE"
+				title: "Visit a Saguaro Desert biome."
+				type: "biome"
+			}]
+			title: "Rango"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Kinda hot in these Rhinos!"]
+			id: "6C82F2CE58B0B4F5"
+			rewards: [
+				{
+					id: "70ECBA0CB6C16474"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "022FB9245E3710A4"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			subtitle: "Visit an Ironwood Gour biome."
+			tasks: [{
+				biome: "biomeswevegone:ironwood_gour"
+				icon: "biomeswevegone:ironwood_sapling"
+				id: "0201A279DA804679"
+				title: "Visit an Ironwood Gour biome."
+				type: "biome"
+			}]
+			title: "When Nature Calls"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: ["Forgotten no more."]
+			id: "5CB06507E73B8EEE"
+			rewards: [
+				{
+					count: 8
+					id: "3A39BFF416E52752"
+					item: "biomeswevegone:wood_blewit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1C537EF0C8676D6B"
+					item: "biomeswevegone:green_mushroom"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "531EB77289AAA02D"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Forgotten Forest biome."
+			tasks: [{
+				biome: "biomeswevegone:forgotten_forest"
+				icon: "biomeswevegone:green_mushroom"
+				id: "36487AE10B80AA45"
+				title: "Visit a Forgotten Forest biome."
+				type: "biome"
+			}]
+			title: "Lost but Found"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: ["Rolling hills, buzzing bees, and more flowers than your inventory can handle."]
+			id: "05489524CC750B48"
+			rewards: [
+				{
+					count: 8
+					id: "3234D8AEC44CCF05"
+					item: "meadow:pine_sapling"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E65513910A02F71"
+					item: "regions_unexplored:daisy"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Meadow biome."
+			tasks: [{
+				biome: "minecraft:meadow"
+				icon: "meadow:pine_sapling"
+				id: "61F73CC6B34B5850"
+				title: "Visit a Meadow biome."
+				type: "biome"
+			}]
+			title: "Where the Wind Waits"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: ["Echoes of a world beyond your reach… for now."]
+			id: "7AD422F32DF13DF6"
+			rewards: [
+				{
+					count: 4
+					id: "4E0B1167ADC21F11"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "63D1195118DE3A60"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Ruined Portal."
+			tasks: [{
+				icon: "minecraft:crying_obsidian"
+				id: "6E9F30FA2AF404AC"
+				structure: "#minecraft:ruined_portal"
+				title: "Find a Ruined Portal."
+				type: "structure"
+			}]
+			title: "Ancient Echoes"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["After 250 sunrises and 250 nights spent building, exploring, fighting, and growing, you’re finally starting to feel this world become your domain, your dream, your home."]
+			id: "1DEA56CD931C198F"
+			rewards: [
+				{
+					id: "63E3FF6976DC55FB"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E8AD5D32B12BF19"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5BF3C053E5500D3D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Reach Day 250"
+			tasks: [{
+				days: 250
+				id: "4BE0F8133D56D57B"
+				title: "Reach Day 250"
+				type: "questsadditions:days"
+			}]
+			title: "Seasons in the Soul"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: ["I wonder who lives here?"]
+			id: "32DBB2BFEC7227DA"
+			rewards: [
+				{
+					id: "00E510D52E89EC63"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "401190EFB7298ACA"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Aspen Manor."
+			tasks: [{
+				icon: "friendsandfoes:totem_of_illusion"
+				id: "099151E7EE6CEF11"
+				structure: "#biomeswevegone:aspen_manors"
+				title: "Find an Aspen Manor."
+				type: "structure"
+			}]
+			title: "Homely Manor"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: ["You’re part of the world's story now. How will you shape it in the future?"]
+			id: "0F0D320FDED6D64D"
+			rewards: [
+				{
+					id: "7825C4EC6C5C7F70"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A5889B4B29C3C7E"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "5AE89C803EDF6953"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6108667D13FC564E"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "06CE27829020C773"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Reach Day 1000."
+			tasks: [{
+				days: 1000
+				id: "5903C5D78B23F2B1"
+				title: "Reach Day 1000"
+				type: "questsadditions:days"
+			}]
+			title: "The Thousandth Dawn"
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	title: "Whispers of the Wilds"
+}

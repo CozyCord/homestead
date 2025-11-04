@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mastery"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "modrinth_logo_mod:modrinth_logo"
+	id: "64ED43A1D474C2F9"
+	order_index: 23
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"5E51CE307C7FF32E"
+			"057610FA840B735C"
+			"0051425A676C2F09"
+			"256D3CD013C0243D"
+			"0214FF591265942D"
+			"1B9668460B819C10"
+			"74F05990B94AD569"
+			"2FD1B0E89119D89F"
+			"3E5E175DD327839E"
+			"5CDDF7AD0DD2A82E"
+			"54A1B3284683F6AA"
+			"70DC1A2DFAABA529"
+			"059FE08C5E90B4B5"
+			"4FBC0450A0666A2B"
+			"1DDD6B080EBF906A"
+			"35A97991FD282F5D"
+			"6F669BF5B524F3F0"
+			"0D9804F9E5DE9298"
+			"4A65EE790A11CCC7"
+			"4FF8FBBF1EA0E633"
+			"58C25CBD3341DC76"
+			"49664D6FD9B4B02B"
+			"21DA3B35FFCBF19D"
+		]
+		description: [
+			"You did it."
+			""
+			"You completed all the quests."
+			""
+			"I hope you enjoyed it just as much as I loved creating it."
+			""
+			"- Tokimi"
+		]
+		id: "152DB93C47A8BE63"
+		rewards: [
+			{
+				id: "132DCEF6DD87D49F"
+				item: "modrinth_logo_mod:modrinth_logo"
+				type: "item"
+			}
+			{
+				id: "435C0DF6FFE6E90E"
+				type: "xp"
+				xp: 100000
+			}
+			{
+				count: 5
+				id: "3BC29E3929CAA98F"
+				item: {
+					Count: 1
+					id: "cozystudioscore:golden_leaf"
+					tag: { }
+				}
+				type: "item"
+			}
+			{
+				count: 8
+				id: "130024212984CE39"
+				item: "cozystudioscore:tranquil_lantern"
+				type: "item"
+			}
+			{
+				count: 4
+				id: "3524070832379572"
+				item: "cozystudioscore:fernling_spawn_egg"
+				type: "item"
+			}
+			{
+				count: 4
+				id: "1D744560766051BA"
+				item: "cozystudioscore:mushling_spawn_egg"
+				type: "item"
+			}
+			{
+				count: 4
+				id: "02F18771F1749E61"
+				item: "cozystudioscore:mystical_elk_spawn_egg"
+				type: "item"
+			}
+			{
+				count: 64
+				id: "0BEC8FD3645BF9F3"
+				item: "cozystudioscore:cozy_crumbs"
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "49E64373A18D5329"
+			type: "checkmark"
+		}]
+		title: "Mastery"
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "MASTERY"
+}

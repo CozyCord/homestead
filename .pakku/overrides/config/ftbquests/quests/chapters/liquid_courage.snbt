@@ -1,0 +1,1123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "liquid_courage"
+	group: ""
+	icon: "brewery:beer_barley"
+	id: "2FD1B0E89119D89F"
+	images: [
+		{
+			height: 12.0d
+			image: "ftbquests:textures/homestead/liquid_courage.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/liquid_courage_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Hop Seeds are rare drops from grass. They're the foundation of every good brew."]
+			id: "25CF21D8894F57A0"
+			rewards: [{
+				count: 4
+				id: "09D08BF96B753686"
+				item: "alcocraftplus:hop_seeds"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Break grass until you receive 1x Hop Seeds."
+			tasks: [{
+				count: 8L
+				id: "2D830510DB981988"
+				item: { Count: 8, id: "alcocraftplus:hop_seeds" }
+				type: "item"
+			}]
+			title: "Hoppin' Good Start"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25CF21D8894F57A0"]
+			description: ["Hops grow downward! Plant them on the underside of any solid block."]
+			id: "44E1E7887623DD4E"
+			rewards: [{
+				count: 8
+				id: "543FEEB6D8894105"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			subtitle: "Plant 8x Hop Seeds beneath a block to begin growing."
+			tasks: [{
+				block: "alcocraftplus:hop"
+				block_type: 0
+				id: "745077924E465A4E"
+				replace: false
+				replaced: "minecraft:air"
+				title: "Place 8x Hop Seeds"
+				type: "questsadditions:place"
+				value: 8L
+			}]
+			title: "Vertical Farming"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44E1E7887623DD4E"]
+			description: ["Mature hops can be harvested by hand—no breaking required."]
+			id: "3780747549EB3165"
+			rewards: [{
+				count: 8
+				id: "331063DD769D09E2"
+				item: "alcocraftplus:hop"
+				type: "item"
+			}]
+			subtitle: "Right-click the fully grown hops to harvest 8x Hop."
+			tasks: [{
+				count: 8L
+				id: "04DB314014193F03"
+				item: { Count: 8, id: "alcocraftplus:hop" }
+				type: "item"
+			}]
+			title: "Time to Harvest"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3780747549EB3165"]
+			description: ["Dry Seeds add depth and body to your brews. Just toast 'em in a furnace."]
+			id: "25CE04B347A6979E"
+			rewards: [{
+				count: 32
+				id: "57C429DAB621C609"
+				item: "alcocraftplus:dry_seeds"
+				type: "item"
+			}]
+			subtitle: "Smelt Wheat Seeds in a Furnace to create 32x Dry Seeds."
+			tasks: [{
+				count: 32L
+				id: "7BA1F0D7D059D86A"
+				item: { Count: 32, id: "alcocraftplus:dry_seeds" }
+				type: "item"
+			}]
+			title: "Smokin' Seeds"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25CE04B347A6979E"]
+			description: [
+				"The Keg is your fermentation station. It stores water and transforms ingredients into drinks."
+				""
+				"{image:ftbquests:textures/homestead/keg_recipe.png width:103 height:50 align:center}"
+			]
+			id: "512211AD135E5128"
+			rewards: [{
+				id: "11F7A5C96A140FF3"
+				item: "alcocraftplus:keg"
+				type: "item"
+			}]
+			subtitle: "Craft 1x Keg."
+			tasks: [{
+				id: "338EC17A0ECB7491"
+				item: "alcocraftplus:keg"
+				type: "item"
+			}]
+			title: "Keg Stand"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["512211AD135E5128"]
+			description: ["You’ll need a full keg of water before you can start brewing."]
+			id: "2B50B025A2C46356"
+			rewards: [{
+				count: 4
+				id: "77B4A07C46F4B737"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Right-click a Keg with 4 Water Buckets to fully fill it."
+			tasks: [
+				{
+					block: "alcocraftplus:keg"
+					block_type: 0
+					checkItem: false
+					id: "320E2685DC305FF9"
+					isItemInteraction: false
+					type: "questsadditions:use"
+					value: 4L
+				}
+				{
+					count: 4L
+					id: "343CBC2B8E6052D1"
+					item: { Count: 5, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			title: "Just Add Water"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: ["Gives Regeneration. A bright and revitalizing drink."]
+			hide_dependency_lines: true
+			id: "68679A2078FCFE69"
+			rewards: [{
+				id: "05A854802EDB4D37"
+				item: "alcocraftplus:sun_pale_ale"
+				type: "item"
+			}]
+			subtitle: "Brew Sun Pale Ale in a full Keg with: Hop, Dry Seeds, Sunflower, Glistering Melon Slice."
+			tasks: [{
+				id: "6061587B03760024"
+				item: "alcocraftplus:sun_pale_ale"
+				type: "item"
+			}]
+			title: "Sun Pale Ale"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Haste. Great for mining sessions."]
+			hide_dependency_lines: true
+			id: "4CC88FD6A64AD3AB"
+			rewards: [{
+				id: "63D50B59BFFD6A61"
+				item: "alcocraftplus:digger_bitter"
+				type: "item"
+			}]
+			subtitle: "Brew Digger Bitter with: Hop, Dry Seeds, Glow Lichen, Diamond."
+			tasks: [{
+				id: "2EC6B2A1E11033D4"
+				item: "alcocraftplus:digger_bitter"
+				type: "item"
+			}]
+			title: "Digger Bitter"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Fire Resistance. Toasty and toasty."]
+			hide_dependency_lines: true
+			id: "57195848638B5779"
+			rewards: [{
+				id: "7FD0696A0C5AEF8B"
+				item: "alcocraftplus:nether_porter"
+				type: "item"
+			}]
+			subtitle: "Brew Nether Porter with: Hop, Dry Seeds, Golden Nugget, Blaze Powder."
+			tasks: [{
+				id: "646BAFFDFEE4A8B8"
+				item: "alcocraftplus:nether_porter"
+				type: "item"
+			}]
+			title: "Nether Porter"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Wither Touch. Strike and watch enemies wither."]
+			hide_dependency_lines: true
+			id: "4CF6B17360872DCA"
+			rewards: [{
+				id: "1B3E51218949FDC7"
+				item: "alcocraftplus:wither_stout"
+				type: "item"
+			}]
+			subtitle: "Brew Wither Stout with: Hop, Dry Seeds, Nether Wart, Wither Skeleton Skull."
+			tasks: [{
+				id: "500E771A3F7E3D1A"
+				item: "alcocraftplus:wither_stout"
+				type: "item"
+			}]
+			title: "Wither Stout"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Attraction. Pulls in nearby items."]
+			hide_dependency_lines: true
+			id: "1ECF0EE8B3147079"
+			rewards: [{
+				id: "4B9C5C889F1BD40F"
+				item: "alcocraftplus:magnet_pilsner"
+				type: "item"
+			}]
+			subtitle: "Brew Magnet Pilsner with: Hop, Dry Seeds, Iron Nugget, Redstone."
+			tasks: [{
+				id: "370923A024D94E55"
+				item: "alcocraftplus:magnet_pilsner"
+				type: "item"
+			}]
+			title: "Magnet Pilsner"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Water Breathing and Dolphin’s Grace. Swim like the tides."]
+			hide_dependency_lines: true
+			id: "0D44A0A5DC0D4F00"
+			rewards: [{
+				id: "54BDC96D6471687E"
+				item: "alcocraftplus:drowned_ale"
+				type: "item"
+			}]
+			subtitle: "Brew Drowned Ale with: Hop, Dry Seeds, Prismarine Crystal, Prismarine Shard."
+			tasks: [{
+				id: "72353E4D3D87AF91"
+				item: "alcocraftplus:drowned_ale"
+				type: "item"
+			}]
+			title: "Drowned Ale"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			description: ["Gives Night Vision and Well Rested (no more phantoms!)."]
+			hide_dependency_lines: true
+			id: "6BFB884A22D59DA7"
+			rewards: [{
+				id: "061612C0416AB5D5"
+				item: "alcocraftplus:night_rauch"
+				type: "item"
+			}]
+			subtitle: "Brew Night Rauch with: Hop, Dry Seeds, Charcoal, Phantom Membrane."
+			tasks: [{
+				id: "0EEA044815618B50"
+				item: "alcocraftplus:night_rauch"
+				type: "item"
+			}]
+			title: "Night Rauch"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Gives Frosty. Walk on water… literally."]
+			hide_dependency_lines: true
+			id: "7FA1605F6BE8F5CF"
+			rewards: [{
+				id: "0D33D7FCD402FB64"
+				item: "alcocraftplus:ice_beer"
+				type: "item"
+			}]
+			subtitle: "Brew Ice Beer with: Hop, Dry Seeds, Snowball, Packed Ice."
+			tasks: [{
+				id: "3B06D1475F16A302"
+				item: "alcocraftplus:ice_beer"
+				type: "item"
+			}]
+			title: "Ice Beer"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Gives Health Boost and Saturation. Cozy and hearty."]
+			hide_dependency_lines: true
+			id: "431C6DED723DD222"
+			rewards: [{
+				id: "1D8C56AE14900275"
+				item: "alcocraftplus:kvass"
+				type: "item"
+			}]
+			subtitle: "Brew Kvass with: Hop, Apple, Honeycomb, Bread."
+			tasks: [{
+				id: "69D4CA7D1A275E19"
+				item: "alcocraftplus:kvass"
+				type: "item"
+			}]
+			title: "Kvass"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			description: ["Gives Luck. Chase rainbows and rare drops."]
+			hide_dependency_lines: true
+			id: "539FBDBDD538B5E7"
+			rewards: [{
+				id: "2BA0FDA150E44076"
+				item: "alcocraftplus:leprechaun_cider"
+				type: "item"
+			}]
+			subtitle: "Brew Leprechaun Cider with: Hop, Dry Seeds, Emerald, Rabbit Foot."
+			tasks: [{
+				id: "746512789F38B065"
+				item: "alcocraftplus:leprechaun_cider"
+				type: "item"
+			}]
+			title: "Leprechaun Cider"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Gives Levitation and Slow Falling. A bouncy, floaty brew."]
+			hide_dependency_lines: true
+			id: "2AC4773869F2C993"
+			rewards: [{
+				id: "4D3364787546AC41"
+				item: "alcocraftplus:chorus_ale"
+				type: "item"
+			}]
+			subtitle: "Brew Chorus Ale with: Hop, Dry Seeds, Phantom Membrane, Chorus Fruit."
+			tasks: [{
+				id: "07262FCB2494FE7A"
+				item: "alcocraftplus:chorus_ale"
+				type: "item"
+			}]
+			title: "Chorus Ale"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: ["Gives Flight. Yep. Flight."]
+			hide_dependency_lines: true
+			id: "5AA8FCF2F4FB8117"
+			rewards: [{
+				id: "1FBBC527A18A7032"
+				item: "alcocraftplus:nether_star_lager"
+				type: "item"
+			}]
+			subtitle: "Brew Nether Star Lager with: Hop, Dry Seeds, Diamond, Nether Star."
+			tasks: [{
+				id: "08C6324F0CFF0F4D"
+				item: "alcocraftplus:nether_star_lager"
+				type: "item"
+			}]
+			title: "Nether Star Lager"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"These seeds are rare but essential. Look for them in Taiga villages and outposts."
+				""
+				"Or their bushes you can find in the wild!"
+			]
+			id: "133718A3FD0C25E7"
+			rewards: [{
+				count: 8
+				id: "290B86A177F53220"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Find 8x Hop Seeds in the wild, structures or villages."
+			tasks: [{
+				count: 8L
+				id: "06FEF5D9904DD0FE"
+				item: { Count: 8, id: "brewery:hops_seeds" }
+				type: "item"
+			}]
+			title: "Hunt for Hops"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["133718A3FD0C25E7"]
+			description: ["Barley grows in Rivers, Plains, Sunflower Plains, or Savannas"]
+			id: "60FE47595880A1A6"
+			rewards: [{
+				count: 8
+				id: "73D0C3D4AF72E0D7"
+				item: "farm_and_charm:barley_seeds"
+				type: "item"
+			}]
+			subtitle: "Find 8x Barley Seeds in the wild, structures or villages."
+			tasks: [{
+				count: 8L
+				id: "4206861A818BF818"
+				item: { Count: 8, id: "farm_and_charm:barley_seeds" }
+				type: "item"
+			}]
+			title: "Barley Bonanza"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60FE47595880A1A6"]
+			description: ["Corn grows in Plains, Savannas, and Badlands."]
+			id: "48C349C8ACAD4A5C"
+			rewards: [{
+				count: 8
+				id: "38E240A4EFD1FC9B"
+				item: "farm_and_charm:kernels"
+				type: "item"
+			}]
+			subtitle: "Find 8x Corn Kernels in the wild, structures or villages."
+			tasks: [{
+				count: 8L
+				id: "4734B85C4CCC5858"
+				item: { Count: 8, id: "farm_and_charm:kernels" }
+				type: "item"
+			}]
+			title: "Corn Quest"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["398F2BE56C7FEB0D"]
+			description: [
+				"Use Barley in the middle and String on both sides in a crafting table."
+				""
+				"{image:ftbquests:textures/homestead/rope_recipe.png width:103 height:50 align:center}"
+			]
+			id: "1B28CB294EACE04C"
+			rewards: [{
+				count: 8
+				id: "7CE43A8FFC3CBBC0"
+				item: "brewery:rope"
+				type: "item"
+			}]
+			subtitle: "Craft 8x Rope using Barley and String."
+			tasks: [{
+				count: 8L
+				id: "25B950AFA7419FA7"
+				item: { Count: 8, id: "brewery:rope" }
+				type: "item"
+			}]
+			title: "Bundle Up"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B28CB294EACE04C"]
+			description: ["Cultivate your new crops—they’re the base of everything."]
+			id: "0A92F6114413C556"
+			rewards: [
+				{
+					count: 8
+					id: "23038EADB0990FB3"
+					item: "brewery:hops"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "49D65027A382D022"
+					item: "farm_and_charm:barley"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "72FD1B2B4586CDE4"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E34031C463F0E34"
+					item: "farm_and_charm:oat"
+					type: "item"
+				}
+			]
+			subtitle: "Grow and harvest 8x each of Hops, Barley, Corn, and Oat."
+			tasks: [
+				{
+					count: 8L
+					id: "03CC58054C2F638E"
+					item: { Count: 8, id: "brewery:hops" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5C8E5FE7D7149D20"
+					item: { Count: 8, id: "farm_and_charm:barley" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6EB8B2CA9163D8B0"
+					item: { Count: 8, id: "farm_and_charm:corn" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57EE0731685A7E06"
+					item: { Count: 8, id: "farm_and_charm:oat" }
+					type: "item"
+				}
+			]
+			title: "Grow the Goods"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A92F6114413C556"]
+			description: [
+				"Silage drying begins with storage—silos are stackable and efficient."
+				""
+				"{image:ftbquests:textures/homestead/wooden_silo_recipe.png width:103 height:50 align:center}"
+			]
+			id: "4DCB8817B8B15692"
+			rewards: [{
+				id: "1290C2272B32ADCD"
+				item: "farm_and_charm:silo_wood"
+				type: "item"
+			}]
+			subtitle: "Craft 8x Wooden Silos. (Tip: You can stack them up to 9 tall!)"
+			tasks: [{
+				count: 8L
+				id: "18E94EDEE49CE876"
+				item: { Count: 8, id: "farm_and_charm:silo_wood" }
+				type: "item"
+			}]
+			title: "Stacking Storage"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DCB8817B8B15692"]
+			id: "190F9645D217253D"
+			rewards: [
+				{
+					count: 8
+					id: "53FD2FC322E3CCF5"
+					item: "brewery:dried_wheat"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B515137AD0554B6"
+					item: "brewery:dried_barley"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "19DAA22B352AA5A1"
+					item: "brewery:dried_corn"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0EB93015BDDCD408"
+					item: "brewery:dried_oat"
+					type: "item"
+				}
+			]
+			subtitle: "Dry 8x Wheat, 8x Corn, 8x Oat and 8x Barley using the Silo."
+			tasks: [
+				{
+					count: 8L
+					id: "681E8D42032E8F07"
+					item: { Count: 8, id: "brewery:dried_wheat" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F76AE2CCED4090E"
+					item: { Count: 8, id: "brewery:dried_barley" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "703BABE56E1DE4D4"
+					item: { Count: 8, id: "brewery:dried_corn" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E23159C83896D35"
+					item: { Count: 8, id: "brewery:dried_oat" }
+					type: "item"
+				}
+			]
+			title: "Crop Conversion"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48C349C8ACAD4A5C"]
+			description: ["Oat is found in Meadows and Taigas"]
+			id: "398F2BE56C7FEB0D"
+			rewards: [{
+				count: 8
+				id: "3D500371D9463A8C"
+				item: "farm_and_charm:oat_seeds"
+				type: "item"
+			}]
+			subtitle: "Find 8x Oat Seeds in the wild, structures or villages."
+			tasks: [{
+				count: 8L
+				id: "4D0FE45DC5744586"
+				item: { Count: 8, id: "farm_and_charm:oat_seeds" }
+				type: "item"
+			}]
+			title: "Oat to Know You"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BA946C6734053CB"]
+			description: [
+				"{image:ftbquests:textures/homestead/brewingstation_recipe.png width:103 height:50 align:center}"
+				"The heart of your operation. You'll need this to brew anything!"
+				""
+				"&lStart by inserting ingredients, then water. Monitor effects during the brew to avoid summoning the Booze!&r"
+				""
+				"&lTo start the process, click on the furnace with some coal. &r"
+				""
+				"&lThen the minigame starts. &r"
+				""
+				"&n&lThe 3 following things can happen: &r&r"
+				""
+				"&lBubbles will appear.&r To get rid of them, right click them with an empty bucket. "
+				""
+				"&lThe water will get drained.&r To counter this, add more water. "
+				""
+				"&lRedstone particles will appear.&r To counter that, walk to the side of the brewingstation, and right click the timer. "
+				""
+				"After enough time passes, and if you did it correctly while watching what happens, your water will turn into a nice golden liquor. "
+				""
+				"Right click on it with empty beer mugs to retrieve your liquor you just made. "
+				""
+				"&0&lIf you miss a step&r&r, or let it run without doing anything, it will &6&lsummon a Booze&r&r. An entity that flies that has 80 health. Make sure you do the steps to make sure you don't die."
+			]
+			id: "7F3673A6F0EE63C5"
+			rewards: [
+				{
+					id: "03734083D4210A16"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "536A375722624748"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "44CB938EE7C3E9CE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft 1x Wooden Brewingstation."
+			tasks: [{
+				id: "7B855603A22A57E1"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "The First Brew"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190F9645D217253D"]
+			description: [
+				"You'll need these to collect your finished brews. Get mugged!"
+				""
+				"{image:ftbquests:textures/homestead/beer_mug_recipe.png width:103 height:50 align:center}"
+			]
+			id: "6BA946C6734053CB"
+			rewards: [{
+				count: 32
+				id: "452DFF6D3D063FFA"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			subtitle: "Craft 32x Beer Mugs."
+			tasks: [{
+				count: 32L
+				id: "1AA20A553591E61C"
+				item: { Count: 32, id: "brewery:beer_mug" }
+				type: "item"
+			}]
+			title: "Mugs for Days"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			description: ["Yeast is essential for fermentation. Don’t skip it!"]
+			hide_dependency_lines: true
+			id: "390F7C0C3EC9D054"
+			rewards: [{
+				count: 12
+				id: "00D1ADC7F6962416"
+				item: "farm_and_charm:yeast"
+				type: "item"
+			}]
+			subtitle: "Craft 12x Yeast in a Cooking Pot using Water Bucket, Sugar, and a Grain."
+			tasks: [{
+				count: 12L
+				id: "0B954198122BD875"
+				item: { Count: 12, id: "farm_and_charm:yeast" }
+				type: "item"
+			}]
+			title: "Make Yeast"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			description: ["Snow White effect: peaceful mobs follow you."]
+			hide_dependency_lines: true
+			id: "56896DD92E2A6991"
+			rewards: [{
+				id: "078B77C73777946C"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			subtitle: "Brew Wheat Beer with 1x Dried Wheat 1 Yeast and 1x Hops."
+			tasks: [{
+				id: "67DDE92B86E9C4D5"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			title: "Wheat Beer"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			description: ["Pint Charisma: lowers trade prices with villagers."]
+			hide_dependency_lines: true
+			id: "4720502D9EAF7DB2"
+			rewards: [{
+				id: "091929F9089B3D15"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			subtitle: "Brew Barley Beer with 1x Dried Barley 1x Yeast and 1x Hops."
+			tasks: [{
+				id: "7F8A6BB2CB2AAB82"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			title: "Barley Beer"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			description: ["Partystarter: mobs explode with fireworks when hit."]
+			hide_dependency_lines: true
+			id: "0F4244F50DEF2740"
+			rewards: [{
+				id: "10E068BA9023EA81"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			subtitle: "Brew Hops Beer with 1x Yeast and 2x Hops."
+			tasks: [{
+				id: "7F26CFC391C90BAE"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			title: "Hops Beer"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			description: ["Pacify: Look at Endermen safely. Less mob aggro."]
+			hide_dependency_lines: true
+			id: "03D6733DD4B40426"
+			rewards: [{
+				id: "5C157DAEF2CEADE9"
+				item: "brewery:beer_nettle"
+				type: "item"
+			}]
+			subtitle: "Brew Nettle Beer with Wild Nettle, Yeast, and Hop."
+			tasks: [{
+				id: "48F1D05E0F76C75B"
+				item: "brewery:beer_nettle"
+				type: "item"
+			}]
+			title: "Nettle Beer"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			description: ["Mining: Dig faster the deeper you are."]
+			hide_dependency_lines: true
+			id: "1A1AEFD9FCD39683"
+			rewards: [{
+				id: "57F7E7EC7F14444F"
+				item: "brewery:beer_oat"
+				type: "item"
+			}]
+			subtitle: "Brew Oat Beer with Dried Oat, Yeast, and Hop."
+			tasks: [{
+				id: "79F95A68D1A11038"
+				item: "brewery:beer_oat"
+				type: "item"
+			}]
+			title: "Oat Beer"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Amorous Glide: grants creative flight."]
+			hide_dependency_lines: true
+			id: "423A13FD3CD6DB1E"
+			rewards: [{
+				id: "50786B8257FA2705"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			subtitle: "Brew Haley Beer with 1x Popping Chorus Fruit 1x Yeast and 1x Hops."
+			tasks: [{
+				id: "7447396BED4EC6C6"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			title: "Haley Beer"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			description: ["Use a Smithing Table with a Sentry Trim, Copper Ingot, and Wooden Brewingstation."]
+			hide_dependency_lines: true
+			id: "1E23852964607A6F"
+			rewards: [
+				{
+					count: 16
+					id: "0810117656390449"
+					item: "brewery:hops"
+					type: "item"
+				}
+				{
+					id: "6F04E4415B146900"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Upgrade Wooden Brewingstation into Copper Brewingstation."
+			tasks: [{
+				id: "085928183E39DDB9"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			title: "Upgrade to Copper"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Toxic Touch: Applies poison to hit mobs."]
+			hide_dependency_lines: true
+			id: "5996975F9EF78E94"
+			rewards: [{
+				id: "26251768C9C8D972"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			subtitle: "Brew JoJannik Select in upgraded Brewing station with 2x Dried Barley and 1x Yeast"
+			tasks: [{
+				id: "3B896ECBE12F5C6C"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			title: "JoJannik Select"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			description: ["Partystarter: mobs explode with fireworks when hit."]
+			hide_dependency_lines: true
+			id: "55865F6A94DDD9E7"
+			rewards: [{
+				id: "1C5270DC48E67AAC"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			subtitle: "Brew Lilitu Single Malt in upgraded Brewing station with 1x Dried Wheat, 1x Dried Barley, and 1x Yeast"
+			tasks: [{
+				id: "7FA594A85DAE3822"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			description: ["Protective Touch: gives absorption to hit mobs."]
+			hide_dependency_lines: true
+			id: "5B2789714FA74A04"
+			rewards: [{
+				id: "163C731B38A682B0"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			subtitle: "Brew CristelWalker Original with 2x Dried Corn, and 1x Yeast"
+			tasks: [{
+				id: "3FBE6DA3E1053F60"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			description: ["Healing Touch: heals hit mobs."]
+			hide_dependency_lines: true
+			id: "41AC462E72E8F3DC"
+			rewards: [{
+				id: "3FEFE9045F09D8D7"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			subtitle: "Brew Maggoallan Aged with 2x Dried Wheat and 1x Yeast"
+			tasks: [{
+				id: "583C0DCF95C8C504"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: ["Renewing Touch: grants regeneration to hit mobs."]
+			hide_dependency_lines: true
+			id: "41AE4A3DB35C8416"
+			rewards: [{
+				id: "0CC0C71E97435A4D"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			subtitle: "Brew Carrasconlabel Heritage with 1x Dried Wheat, 1x Dried Corn, and 1x Yeast"
+			tasks: [{
+				id: "16939E928571FE09"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: ["Lightning Strike: small chance to summon lightning."]
+			hide_dependency_lines: true
+			id: "3465439E95EAB87F"
+			rewards: [{
+				id: "04D9C84FAC340658"
+				item: "brewery:whiskey_ak"
+				type: "item"
+			}]
+			subtitle: "Brew AK Reserve with 1x Dried Oat, 1x Dried Corn, and 1x Yeast"
+			tasks: [{
+				id: "0362EF32EBFCEB01"
+				item: "brewery:whiskey_ak"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			description: ["Repulsion: pushes enemies away at intervals."]
+			hide_dependency_lines: true
+			id: "6355DBDB90D286EA"
+			rewards: [{
+				id: "20DDBA882AAED4B7"
+				item: "brewery:whiskey_highland_hearth"
+				type: "item"
+			}]
+			subtitle: "Brew Highland Hearth Signature with 1x Dried Wheat, 1x Dried Oat, and 1x Yeast"
+			tasks: [{
+				id: "2AB1C9A07187D9F1"
+				item: "brewery:whiskey_highland_hearth"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			description: ["Combustion: ignites nearby enemies."]
+			hide_dependency_lines: true
+			id: "6408B51A1A3E21C7"
+			rewards: [{
+				id: "7A2D81466D25128F"
+				item: "brewery:whiskey_smokey_reverie"
+				type: "item"
+			}]
+			subtitle: "Brew Smokey Reverie with 2x Dried Oat, and 1x Yeast"
+			tasks: [{
+				id: "7990627DFE5B3828"
+				item: "brewery:whiskey_smokey_reverie"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			description: ["Explosions: chance to shoot fireballs on hit."]
+			hide_dependency_lines: true
+			id: "074D2E66FC2A7772"
+			rewards: [{
+				id: "1B5022D6C341E87E"
+				item: "brewery:whiskey_jamesons_malt"
+				type: "item"
+			}]
+			subtitle: "Brew Jameson Malt Whiskey with 1x Dried Barley, 1x Dried Oat, and 1x Yeast"
+			tasks: [{
+				id: "1EC4C8D22E3E8FC5"
+				item: "brewery:whiskey_jamesons_malt"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Because sometimes, you need to check yourself."]
+			hide_dependency_lines: true
+			id: "60F46B1FBB453146"
+			rewards: [{
+				id: "70B77B33988E9B9B"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a Breathalyzer."
+			tasks: [{
+				id: "758B174A055D95D3"
+				item: "brewery:breathalyzer"
+				type: "item"
+			}]
+			title: "Test Responsibly"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Place a Netherite Upgrade Template, Copper Brewingstation, and a Netherite Ingot into a Smithing Table to craft the ultimate brewing tool."]
+			hide_dependency_lines: true
+			id: "4E63C305B129AF3F"
+			rewards: [
+				{
+					id: "7A51200883C8A02A"
+					item: "brewery:whiskey_jamesons_malt"
+					type: "item"
+				}
+				{
+					id: "664CAF9592122644"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Upgrade the Copper Brewingstation into a Netherite Brewingstation using a Smithing Table."
+			tasks: [{
+				id: "6688778DCFFB0D5E"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			title: "Forged in Flame"
+			x: -6.5d
+			y: 1.5d
+		}
+	]
+	title: "Liquid Courage"
+}

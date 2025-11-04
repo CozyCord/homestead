@@ -1,0 +1,1581 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_portable_life"
+	group: ""
+	icon: "sophisticatedbackpacks:backpack"
+	id: "35A97991FD282F5D"
+	images: [
+		{
+			height: 6.0d
+			image: "ftbquests:textures/homestead/the_portable_life.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/portable_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Pockets full of stuff? Craft a backpack and enter the world of even more stuff! They can be placed in the backpack trinket slot and opened with the keybind. (Default B)"]
+			id: "7FDDD6F1E7A40FAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A60F9F38D4C5992"
+				table_id: 6828356437669856216L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Craft a backpack"
+			tasks: [{
+				id: "45AC9672C83274CB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Once Upon a Backpack"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			description: ["Want more slots? More adventure? Upgrade your backpack to iron for even more! "]
+			id: "4F9D88BA35907137"
+			rewards: [
+				{
+					id: "74BFA12F43B56BB2"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "5F8EA27413D83B9B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Iron Backpack"
+			tasks: [{
+				id: "3374CD3FD5B0CD19"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Gearing Up"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			description: ["GOLD! You know what to do, upgrade your backpack to gold for more space to put all your stuff!"]
+			id: "7F87B51DA35F35C3"
+			rewards: [
+				{
+					id: "7490A8E68A651278"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					id: "5A337E64CEF1774A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Gold Backpack"
+			tasks: [{
+				id: "2C6353E8FE339B15"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Fit for a King"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			description: ["The ultimate in luxury, upgrade your backpack to diamond for maximum storage space."]
+			id: "51C94E3771B7162D"
+			rewards: [
+				{
+					id: "766764AE7358247B"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "0B7654E162006545"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Diamond Backpack"
+			tasks: [{
+				id: "78ED6FB27102847B"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Shine Bright Like a Diamond"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			description: ["How much space do you need? Congratulations! Fireproof, stylish and basically indestructible, you fully upgraded your backpack!"]
+			id: "35D72905DE29A290"
+			rewards: [
+				{
+					count: 2
+					id: "46B3AB438B8924F1"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "0BA22A1E25BBD150"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Netherite Backpack"
+			tasks: [{
+				id: "71D752C205B07F66"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "The Final Form"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
+			hide_dependency_lines: true
+			id: "5BFE66EE66CBD8BA"
+			rewards: [
+				{
+					count: 2
+					id: "019B30D2FDAEA5E4"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "27B94DE4E0A37A5A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft an Upgrade Base"
+			tasks: [{
+				id: "6A01D7319C7DCE0F"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Upgrade Base"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Never run out mid-swing. Refills held stacks from backpack inventory."]
+			id: "60F84B0CCFF15C0B"
+			rewards: [
+				{
+					id: "3EB017127660F342"
+					item: {
+						Count: 1
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "181C0F15063E7A26"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Refill Upgrade"
+			tasks: [{
+				id: "187FAE8E48F04A57"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Missed something? Your backpack didn’t. Make your backpack collect loose items around you."]
+			id: "6E87295E86FCF7AC"
+			rewards: [
+				{
+					id: "5980B7A3FCC14A49"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0EC7FEF41B41131F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Pickup Upgrade"
+			tasks: [{
+				id: "1749BFDE518584E0"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E87295E86FCF7AC"]
+			description: ["For someone who has everything, here’s something better. Add filtering and finesse to your backpack."]
+			id: "3B5D85E4A3975BCA"
+			rewards: [
+				{
+					count: 8
+					id: "00E1FDEEE47A4FA2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2BC050F8D297DFB5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Pickup Upgrade"
+			tasks: [{
+				id: "4C04ABD4A0E6AB8B"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Because not everything deserves backpack space. Filters items in and/or out of backpack."]
+			id: "49886F896EA231CD"
+			rewards: [
+				{
+					count: 2
+					id: "7E4C91E2A698105C"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "5FB5994DB740FA0F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Filter Upgrade"
+			tasks: [{
+				id: "20605E44B501ACD8"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49886F896EA231CD"]
+			description: ["Like a doorman for your inventory. More advanced filtering to fine-tune what stays and what goes."]
+			id: "677D1D0A9BDB7F88"
+			rewards: [
+				{
+					count: 4
+					id: "2ED2A300BBD4C20B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "59CBF3ABE0A57424"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Filter Upgrade"
+			tasks: [{
+				id: "624AE535262011E5"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Magnets items into backpack at range."]
+			id: "09661CD5B9BA2842"
+			rewards: [
+				{
+					id: "5FED9D05F3D5CBE9"
+					item: {
+						Count: 1
+						id: "vinery:magnetic_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "396541B242DD1522"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Magnet Upgrade"
+			tasks: [{
+				id: "08E1CFFF899C34D8"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["09661CD5B9BA2842"]
+			description: ["Magnets items into backpack at a greater range and has more filtering options."]
+			id: "66F7E9A1B8961A2C"
+			rewards: [
+				{
+					id: "1172F52AC0919E7D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "4085C41B16BD7897"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Magnet Upgrade"
+			tasks: [{
+				id: "3906BE48212B503A"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Snack time? Always. Feeds player with food from backpack’s inventory."]
+			id: "4BBD11C15349248D"
+			rewards: [
+				{
+					count: 8
+					id: "7BE00A053C0D401B"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "17024D5AE60AD518"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Feeding Upgrade"
+			tasks: [{
+				id: "5CFFFF50C4D2C6A0"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BBD11C15349248D"]
+			description: ["Eat like royalty—with automation. Feeds player with food with more control options."]
+			id: "69F1C94782285EFF"
+			rewards: [
+				{
+					count: 8
+					id: "235BC46968A8F894"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "0F20A97D65AC8659"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Feeding Upgrade"
+			tasks: [{
+				id: "6CC47D6165A798FD"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Need even more room? Compact items into their 2x2 squashed forms."]
+			id: "65F73F01203CDB76"
+			rewards: [
+				{
+					count: 16
+					id: "76FA3595708450DD"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "5AB34943690610CC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Compacting Upgrade"
+			tasks: [{
+				id: "56BF39CC803331B6"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65F73F01203CDB76"]
+			description: ["No stress here, just cozy vibes. Items compacted into 2x2 and 3x3 forms, filtering included."]
+			id: "107D32DBA8D15A65"
+			rewards: [
+				{
+					id: "1DBBD9ACD79CA68E"
+					item: "craftingpad:craftingpad"
+					type: "item"
+				}
+				{
+					id: "0190CAD1B6D1CA19"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Compacting Upgrade"
+			tasks: [{
+				id: "4CC3C918E7A8CBD3"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Yeet it. Delete it. Voids filtered items you don’t want."]
+			id: "4FB0358EE59DBCFF"
+			rewards: [
+				{
+					id: "7B4F182DC63DB2DB"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "439EF359D50AD465"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Void Upgrade"
+			tasks: [{
+				id: "1DB8B0ADEEF8ADF6"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FB0358EE59DBCFF"]
+			description: ["Make sure to ask what the trash wants to do. Voids filtered items with even more control."]
+			id: "2D6A61E3B7B99DA6"
+			rewards: [
+				{
+					id: "323D20E953E4032A"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "3FE61AB80738F36E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Void Upgrade"
+			tasks: [{
+				id: "218C54AF11EEA167"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Never run out in battle again. Restocks backpack from sneak-right-clicked inventories."]
+			id: "2F5DB6A65DB4446F"
+			rewards: [
+				{
+					id: "6C7349F94A316481"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "3596D05AD09A5ED1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Restock Upgrade"
+			tasks: [{
+				id: "165FC5807CE3E651"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F5DB6A65DB4446F"]
+			description: ["Precision restocking. It's a lifestyle. Restocks items with better filtering and control."]
+			id: "594313275E7129A7"
+			rewards: [
+				{
+					id: "4D466843500B4D85"
+					item: "minecraft:observer"
+					type: "item"
+				}
+				{
+					id: "276909A5571AE5EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Restock Upgrade"
+			tasks: [{
+				id: "0192DA5AF303A858"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BFE66EE66CBD8BA"]
+			description: ["Tidy up your loot instantly. Deposits items from backpack into sneak-right-clicked inventory."]
+			id: "5DC3BC42DEDDB7B5"
+			rewards: [
+				{
+					id: "5AD68F175C0070F4"
+					item: "ironchests:iron_chest"
+					type: "item"
+				}
+				{
+					id: "7C944209DD03E593"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Deposit Upgrade"
+			tasks: [{
+				id: "76C8C7B5E126BFFD"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DC3BC42DEDDB7B5"]
+			description: ["Smart storage drop-off. Deposit items with more filtering options."]
+			id: "4ABB1E416A4A408E"
+			rewards: [
+				{
+					id: "2720E437627B190F"
+					item: "ironchests:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "57E714C678C2288F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Deposit Upgrade"
+			tasks: [{
+				id: "46F5A3BC180481C2"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Backpack-ception. Lets you put backpacks... inside backpacks."]
+			hide_dependency_lines: true
+			id: "55EA97E2F9B53D2B"
+			rewards: [
+				{
+					id: "7F49BC0A8785819C"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "46FB4ADDD2BB33DD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Inception Upgrade"
+			tasks: [{
+				id: "2F0F9190F0CE0875"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60F84B0CCFF15C0B"]
+			description: ["The ultimate QoL stack support. Adds slot targeting and middle-click pick from backpack."]
+			id: "3B2D570ACB9727DE"
+			rewards: [
+				{
+					id: "58D3630AB3850921"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					id: "213856EE11713868"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Refill Upgrade"
+			tasks: [{
+				id: "2CFCDFA2A3F580ED"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Cook on the go. Manual smelting inside your backpack."]
+			id: "0DBE058BFD52F8EE"
+			rewards: [
+				{
+					id: "765A5DEF20D75C01"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "56EB048E9A5E89DC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Smelting Upgrade"
+			tasks: [{
+				id: "1BEAFD7875CF8EBF"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DBE058BFD52F8EE"]
+			description: ["Auto-cook everything. Automatically smelts from the backpack."]
+			id: "62FDA6FFAC14CB18"
+			rewards: [
+				{
+					id: "1B1E4050E6882AD9"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "47A65D21414828FF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Auto-Smelting Upgrade"
+			tasks: [{
+				id: "7B53566A1F3E781E"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5BFE66EE66CBD8BA"
+				"7E23DA5887B8BB74"
+			]
+			description: ["Eternal inventory insurance. Prevents backpack from being destroyed or lost."]
+			hide_dependency_lines: true
+			id: "08421288DB2438D6"
+			rewards: [
+				{
+					id: "39099244B0219CD9"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "43BB4C1160C385A8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Everlasting Upgrade"
+			tasks: [{
+				id: "068C0910FC573EC1"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
+			hide_dependency_lines: true
+			id: "7E23DA5887B8BB74"
+			rewards: [
+				{
+					count: 2
+					id: "266929AA6B450FF1"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "52C72A7C14F2B61F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft an Upgrade Base"
+			tasks: [{
+				id: "59CF557C7218DCD7"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Upgrade Base"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["BBQ in a bag. Manual food smoking in your backpack."]
+			id: "1A3951F767C1D36E"
+			rewards: [
+				{
+					id: "3F05C5AE3D39A5CA"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "2B0E96CA7200A818"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Smoking Upgrade"
+			tasks: [{
+				id: "327110FEB8C39042"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A3951F767C1D36E"]
+			description: ["Set it and forget it. Smokes food automatically."]
+			id: "6DC46DE37036EFD8"
+			rewards: [
+				{
+					id: "1A7C34A796B1251A"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "6A472BFFF02DECA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Auto-smoking Upgrade"
+			tasks: [{
+				id: "747B0846FD25FD41"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Explosively efficient. Blast ores in your backpack."]
+			id: "7849DE4811954D8F"
+			rewards: [
+				{
+					id: "7834B9E4892268E3"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "71268FC098EEE87C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Blasting Upgrade"
+			tasks: [{
+				id: "578F67B168F57486"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7849DE4811954D8F"]
+			description: ["Hands-free ore popping. Auto-process ores via blasting."]
+			id: "66F7A782716E76C7"
+			rewards: [
+				{
+					id: "7E39B84DB9D9006E"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "579C99B0B855E683"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Auto-blasting Upgrade"
+			tasks: [{
+				id: "0B8D8E80BA302AD8"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Craft wherever you go. Crafting table in your backpack."]
+			id: "57098C2537F0240B"
+			rewards: [
+				{
+					id: "0F1080565A8462D0"
+					item: "craftingpad:craftingpad"
+					type: "item"
+				}
+				{
+					id: "44F185537A90F9F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Crafting Upgrade"
+			tasks: [{
+				id: "259DB6A993004703"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57098C2537F0240B"]
+			description: ["Granite, diorite, perfection. Stonecutter in your backpack."]
+			id: "12FD9916C5F851AA"
+			rewards: [
+				{
+					id: "2947A1F788CAD0AB"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "6A5189CAFCCFED79"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Stonecutter Upgrade"
+			tasks: [{
+				id: "0D21BCB1DF49E9EE"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Right tool, every time. Swaps tools automatically for block/entity."]
+			id: "4AD1512A68B8B9F0"
+			rewards: [
+				{
+					id: "6C545FCAADCB951B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AD5087C5320290C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Tool Swapper Upgrade"
+			tasks: [{
+				id: "4B6CF49EE4ADA9E0"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AD1512A68B8B9F0"]
+			description: ["Smart swapping mastery. Adds filters, entity targeting, and wrench handling."]
+			id: "15EDAC9AE987A5B5"
+			rewards: [
+				{
+					id: "1405B4C13903CE0B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "722149F2ED2D8151"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Tool Swapper Upgrade"
+			tasks: [{
+				id: "008C2A06EB7CDA1D"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Fluid goes here → Transfers fluids from tank upgrade to blocks."]
+			id: "175BF4266A405763"
+			rewards: [
+				{
+					id: "3A108B91360AD1A1"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "36268496B67AD5C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Pump Upgrade"
+			tasks: [{
+				id: "41D604C4AEC9A07E"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["175BF4266A405763"]
+			description: ["The smart plumbing solution. Filters fluids, interacts with world, containers and tanks."]
+			id: "0AA1943B5C5C802B"
+			rewards: [
+				{
+					id: "0BFC4E732CC80000"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "6841F7AD543D1969"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Advanced Pump Upgrade"
+			tasks: [{
+				id: "16F2CB91523C7F00"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Because sometimes you carry soup. Converts inventory slots to fluid storage."]
+			hide_dependency_lines: true
+			id: "4DC3A5FBA14613B3"
+			rewards: [
+				{
+					id: "39CD0CC79FBEEAFB"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "24ECD7C5336D69E2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Tank Upgrade"
+			tasks: [{
+				id: "08D2CA78A291BC94"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Power on the go. Converts slots to energy storage."]
+			hide_dependency_lines: true
+			id: "2F77C3F459D4024B"
+			rewards: [
+				{
+					id: "733633B7799FF777"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "3333755042F33ED3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Battery Upgrade"
+			tasks: [{
+				id: "0BEC981B13E90575"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["XP on demand. Transfers XP between backpack and player."]
+			hide_dependency_lines: true
+			id: "4926AEF6544D1536"
+			rewards: [
+				{
+					count: 16
+					id: "0FB304A23FD493BC"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "1627D9DB0E0B5DC5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Experience Pump Upgrade"
+			tasks: [{
+				id: "3FA0D30FF3F96CCD"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E23DA5887B8BB74"]
+			description: ["Rename it. Fix it. Anywhere. Use anvil features on the go."]
+			id: "608C315893400242"
+			rewards: [
+				{
+					id: "0FBE6F81AB3069A5"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "38BD88ED562A1DA5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Anvil Upgrade"
+			tasks: [{
+				id: "360D7F7D90F3FF99"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["608C315893400242"]
+			description: ["Upgrade your gear... from your gear. Smithing table in a backpack tab."]
+			id: "3BD3F37AE9804819"
+			rewards: [
+				{
+					id: "651CB65CC347F0AF"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "7A68005D722BE23D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Smithing Upgrade"
+			tasks: [{
+				id: "4007B0EBFB16F57D"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: [
+				"Love decorating with plants? Now you can carry your florally-charged chaos wherever you go."
+				"Petals, meet portability."
+			]
+			hide_dependency_lines: true
+			id: "5AA4908C80EECF1D"
+			rewards: [
+				{
+					id: "41F80CFC6FD85FB1"
+					item: "beautify:hanging_pot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "163B556E1703E56C"
+					item: "minecraft:azalea_leaves"
+					type: "item"
+				}
+				{
+					id: "3BABA0D570CA7647"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Botanist Workbench Upgrade"
+			tasks: [{
+				id: "31596CB8CC1AB737"
+				item: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["You’re not just blowing glass—you’re blowing minds. Now take that style on the road."]
+			hide_dependency_lines: true
+			id: "5972F2CBDCB479B0"
+			rewards: [
+				{
+					count: 16
+					id: "3FF645F049D9AC00"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "581D63C887B9E173"
+					item: {
+						Count: 1
+						id: "beachparty:sunglasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CB66CACBAE854A4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Glassblower Upgrade"
+			tasks: [{
+				id: "2DA6B282BDED9958"
+				item: "sophisticatedbackpacks:chipped/glassblower_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Chop, carve, build—no bench required. Your lumber-lust has never been so mobile."]
+			hide_dependency_lines: true
+			id: "1BD9B0D0BCCB92D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FFF023EB8CE3FDE"
+					table_id: 6769117266503437746L
+					type: "random"
+				}
+				{
+					id: "75C881ED642AF9BE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Carpenter's Workbench Upgrade."
+			tasks: [{
+				id: "148C9E01C2AE7B06"
+				item: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Fashion on the fly. Embroidering your legacy one pixel at a time."]
+			hide_dependency_lines: true
+			id: "1ABA57415E647606"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "269531217F92E132"
+					table_id: 6840926890118617518L
+					type: "random"
+				}
+				{
+					id: "7BA8C43E2AC93EE6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Loom Table Upgrade."
+			tasks: [{
+				id: "04BF9E049BF8B6CF"
+				item: "sophisticatedbackpacks:chipped/loom_table_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Stonecutting from your backpack? Blocky interior design just leveled up."]
+			hide_dependency_lines: true
+			id: "223F1A74EE35E1BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20ACDA4D4B57A0FF"
+					table_id: 9051151212712040437L
+					type: "random"
+				}
+				{
+					id: "242C13E6FA1A00D5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Mason Table Upgrade."
+			tasks: [{
+				id: "481E0A672BCACBA1"
+				item: "sophisticatedbackpacks:chipped/mason_table_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: [
+				"Make magical blocks in your backpack like the mystical little wizard you are."
+				"Now that’s portable power."
+			]
+			hide_dependency_lines: true
+			id: "57E1CABAD76CCB35"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F92EC29202EF78E"
+					table_id: 5111827059717370420L
+					type: "random"
+				}
+				{
+					id: "255B89F7D61A23B2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Alchemy Bench Upgrade."
+			tasks: [{
+				id: "65F93CA017333B36"
+				item: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: [
+				"For when you want to fix, mod, or tweak things mid-exploration."
+				"It's like a workbench in your pocket."
+			]
+			hide_dependency_lines: true
+			id: "22DDE55718F1193E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7092FBAB5BBA8D3F"
+					table_id: 6115684235481130895L
+					type: "random"
+				}
+				{
+					id: "18F7F04B509EFC09"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Tinkering Table Upgrade."
+			tasks: [{
+				id: "623BFBC70C15FD1A"
+				item: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["You want more? Stack sizes increased by 1.5x"]
+			hide_dependency_lines: true
+			id: "42C21CE8D9EFBA35"
+			rewards: [
+				{
+					count: 4
+					id: "4B7F8F01673EEB02"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "61DAA9CDEE84841A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Stack Upgrade Starter Tier"
+			tasks: [{
+				id: "7B201F9E66965B8A"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42C21CE8D9EFBA35"]
+			description: ["Double the fun. Stack sizes increased by 2x"]
+			id: "1ECB392A35CA74DF"
+			rewards: [
+				{
+					id: "15B2D8446FB34A67"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "32E4ACFFF502EDC4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Stack Upgrade Tier 1"
+			tasks: [{
+				id: "31DDE623B89A5763"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ECB392A35CA74DF"]
+			description: ["Stack away! Stack sizes increased by 4x"]
+			id: "1A6BEB275F95C618"
+			rewards: [
+				{
+					id: "3A1C05EA077847A0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2DF36F3E550FC65D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Stack Upgrade Tier 2"
+			tasks: [{
+				id: "6837844C41F18EA8"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A6BEB275F95C618"]
+			description: ["Bro be stacked. Stacks increased by 8x"]
+			id: "02AF8549FB096436"
+			rewards: [
+				{
+					id: "19ED2B358C6F088E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0D3B3AF83BFBA505"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Stack Upgrade Tier 3"
+			tasks: [{
+				id: "43DBCAAE2ED235EA"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02AF8549FB096436"]
+			description: ["Stacks on stacks on stacks. Increased to 16x"]
+			id: "065736A6011BE849"
+			rewards: [
+				{
+					id: "08B2875FBDC61A48"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "60C2C2F42D72F394"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Stack Upgrade Tier 4"
+			tasks: [{
+				id: "43D3846163830CC2"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7E23DA5887B8BB74"
+				"5BFE66EE66CBD8BA"
+			]
+			description: ["Backpack beats. Portable music player in your backpack."]
+			hide_dependency_lines: true
+			id: "0E2A0807918CAB37"
+			rewards: [
+				{
+					id: "7E7B148BC4F163DE"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "062CBF9397C1E1F0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Jukebox Upgrade"
+			tasks: [{
+				id: "0A6423C0456E4EC3"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+	]
+	title: "The Portable Life"
+}

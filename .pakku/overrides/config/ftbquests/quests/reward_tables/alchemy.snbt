@@ -1,0 +1,14 @@
+{
+	id: "46F0DBA08FAEF234"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 16, item: "minecraft:obsidian" }
+		{ count: 16, item: "minecraft:crying_obsidian" }
+		{ count: 16, item: "minecraft:glowstone" }
+		{ count: 16, item: "minecraft:sea_lantern" }
+		{ count: 16, item: "minecraft:soul_sand" }
+		{ count: 16, item: "minecraft:amethyst_block" }
+	]
+	title: "alchemy"
+}

@@ -1,0 +1,2466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "timber_and_time"
+	group: ""
+	icon: "create:large_cogwheel"
+	id: "5E51CE307C7FF32E"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/cogs_and_whimsy.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/create_quest_bg.png"
+			order: -1000
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The core component of all Create Recipes"]
+			id: "3BDE5D297174F538"
+			rewards: [
+				{
+					count: 16
+					id: "7EB1D4C9A7A2C928"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "2A063932C3CC7F3F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft 16 Andesite Alloy to begin your engineering journey."
+			tasks: [{
+				count: 16L
+				id: "485134339AB33A3A"
+				item: { Count: 16, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Whimsy in Motion"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Cogwheels transfer and modify rotational power (kinetic energy) between machines.&r"]
+			id: "3471C6995DC62762"
+			rewards: [
+				{
+					count: 4
+					id: "3E46BE23D5740C6D"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "563B75592ADCF544"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1187EC2C425781D7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft both Small and Large Cogwheels."
+			tasks: [
+				{
+					id: "74C94A526BFA1786"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "03F5A4E9EE6AC482"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Gear Up"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: ["These bad boys transfer motion"]
+			id: "08F97D3E9B234523"
+			rewards: [
+				{
+					count: 8
+					id: "7880140E778A5885"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2545632A10AF5E7B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 8 Mechanical Shafts."
+			tasks: [{
+				count: 8L
+				id: "413A8499F6D3C858"
+				item: { Count: 8, id: "create:shaft" }
+				type: "item"
+			}]
+			title: "Shafted"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Used to make belts. (An essential piece in the Create world)"]
+			id: "0B168E8A6697B5F0"
+			rewards: [
+				{
+					count: 32
+					id: "3EC8850F586164BA"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "457B601F5EF8B1AD"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			subtitle: "Retrieve 64 Kelp."
+			tasks: [{
+				count: 64L
+				id: "4A0D2D0D4E775D0A"
+				item: { Count: 64, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			title: "Kelp Yourself"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: ["Mechanical Belt: Moves items between machines or inventories. Think of it as a horizontal conveyor."]
+			id: "1DE5C3F1444FEAC1"
+			rewards: [
+				{
+					count: 4
+					id: "647A7C241104597E"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "4AC819A197CCB5F3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 12 Belts to begin item transport."
+			tasks: [{
+				count: 12L
+				id: "5C1750C308BF42D2"
+				item: { Count: 12, id: "create:belt_connector" }
+				type: "item"
+			}]
+			title: "A Belted Effort"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Water wheels generate passive power for Create machines"]
+			id: "50FB1252FF540BEF"
+			rewards: [
+				{
+					id: "6DC1D180748BAA3D"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "63539DDBA5B4E1AE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Build and place a Water Wheel."
+			tasks: [
+				{
+					id: "51CD541A48D81B7D"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					block: "create:water_wheel"
+					block_type: 0
+					id: "64E9B7E46124E7E6"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Hydro Helper"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			description: ["A key crafting ingredient for most Create machines and components."]
+			id: "3936D35F380560AF"
+			rewards: [
+				{
+					count: 8
+					id: "3AC66BB0B85E2A34"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1BED3AC398791A5A"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "779BA67C2547109A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Objective: Craft 16 Andesite Casings"
+			tasks: [{
+				count: 16L
+				id: "66163888F4BACB99"
+				item: { Count: 4, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			title: "Casing the Joint"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Crushes items placed on a Depot to create plates and other flat components. Requires rotational power."]
+			id: "0B78FA9FD8FFB214"
+			rewards: [
+				{
+					count: 4
+					id: "5E29773BC68E39DB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "599BA74FFB657165"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Mechanical Press"
+			tasks: [{
+				id: "677B1870D31D2FFF"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Press F to Smush"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			description: ["Holds single items or stacks to be processed by machines like the Press or Deployer."]
+			id: "65ED3EC173EA8D7A"
+			rewards: [
+				{
+					count: 2
+					id: "020D00B3CD444FE3"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "3049610C18932A60"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7175055418BDC20A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 2 Depots"
+			tasks: [{
+				count: 2L
+				id: "0D37481EB998B872"
+				item: { Count: 2, id: "create:depot" }
+				type: "item"
+			}]
+			title: "Drop It Like It's Hot"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Manually generates rotation to power nearby Create machines. Great for early-game tests."]
+			id: "49BEC504C0BE94B6"
+			rewards: [
+				{
+					count: 2
+					id: "2745243F368FB0B1"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "4914672F936D3FC0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Hand Crank"
+			tasks: [{
+				id: "026E9ADDAE9F5A36"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Handy Spinny Thing"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: ["A flat form of iron used in advanced crafting recipes in Create. Made by pressing iron ingots."]
+			id: "3EC515A5F143671C"
+			rewards: [
+				{
+					count: 2
+					id: "6235A4EE38344112"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "536A4E93C92BC0A2"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "23AAEE4AFC0E02C8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Press 5 Iron Sheets"
+			tasks: [{
+				count: 5L
+				id: "185664FD2849D575"
+				item: { Count: 5, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			title: "Irony, But Flat"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: ["A pressed form of gold used in high-tech crafting recipes like the Goggles or the Wrench"]
+			id: "4E30D1CC1B61A07C"
+			rewards: [
+				{
+					count: 3
+					id: "1DBEFD976EC6AF34"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "4564B8FB7F4DA275"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Press 5 Golden Sheets"
+			tasks: [{
+				count: 5L
+				id: "4437577C34FA0BFD"
+				item: { Count: 5, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			title: "Golden Flakes of Industry"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Rotates, removes, and configures Create blocks. Your best friend in machine setup."]
+			id: "0A011EA4FE9C2551"
+			rewards: [
+				{
+					id: "2C775EC33A0224FA"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "376741ADF1934459"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "63AC0ED9B15971B7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Wrench"
+			tasks: [{
+				id: "3E67E432F530CEB6"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Wrench, Please!"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Lets you see detailed tooltips and kinetic stats on Create machines."]
+			id: "0D2B2726F40CB853"
+			rewards: [
+				{
+					count: 32
+					id: "2BF12C0C8D54119F"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "277D7E95FC9EE66A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Pair of Goggles"
+			tasks: [{
+				id: "449452E14F1D3372"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Goggle Up!"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Redirects rotational power in different directions. Essential for complex builds."]
+			id: "217C65A42053D0D1"
+			rewards: [
+				{
+					count: 4
+					id: "6D12C08E11280459"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32DBF603DDCE41B8"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "4C6476685C6CC352"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 2 of each Gearbox"
+			tasks: [
+				{
+					count: 2L
+					id: "7B24211BF3D4C527"
+					item: { Count: 2, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49E7A58D943BBB57"
+					item: { Count: 2, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+			]
+			title: "Gears of Whimsy"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Millstones grind up items like wheat into flour, cobblestone into gravel, or quartz into powder. They’re one of the simplest early automation tools. Requires rotational power to run."]
+			id: "45F66EC6D1C11043"
+			rewards: [
+				{
+					id: "14B6ACDE300B5402"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1F4DE252375674A6"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+				{
+					id: "6BD737B4FDD93819"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Millstone"
+			tasks: [{
+				id: "6F04E907696B75CF"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Grain Pain"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: ["Dough is made using wheat flour and water. It’s used to bake bread and other Create recipes. Usually made with a Basin + Mechanical Mixer, or in a crafting table."]
+			id: "17023F1B8B8013CB"
+			rewards: [
+				{
+					id: "3A61E97813056D7F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "271FD340ED6A6D3F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain 1 Dough"
+			tasks: [{
+				id: "153A280EBFB69F23"
+				item: "create:dough"
+				type: "item"
+			}]
+			title: "Doughn't Worry About It"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			description: ["The dye of slime. The glow-up of green."]
+			id: "320DE19F21809D06"
+			rewards: [
+				{
+					id: "51358F9C6117C6DB"
+					item: "gofish:slimefish"
+					type: "item"
+				}
+				{
+					id: "76B400FFC3E4E137"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Obtain 1 Lime Dye"
+			tasks: [{
+				id: "74213BAD0168B957"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			title: "Lime Crime"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Slimeballs are used to make Super Glue, Sticky Mechanical Pistons, and other components that require blocks to stick together."]
+			id: "120D842C6B39E2C1"
+			rewards: [
+				{
+					id: "7B2AC7098DE0D0A8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "4082C09219793776"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Obtain 1 Slimeball"
+			tasks: [{
+				id: "039F75A4DF2F1EE9"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			title: "So You Want to Get Slimy..."
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			description: ["Super Glue allows blocks to stick together so they move as a single structure in contraptions (like flying machines or rotating assemblies)."]
+			id: "604106984AE815F6"
+			rewards: [
+				{
+					id: "25AA070B4827F434"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "689E5FDE06AE7638"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "033B25100FA453A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft 1 Super Glue"
+			tasks: [{
+				id: "39FA3A9BF710DA80"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stick Em' Up!"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: ["Used to rotate a structure of blocks, like windmills or rotating platforms. Place it, glue blocks to it, then power it to make spinny magic happen."]
+			id: "28BD177E5443182F"
+			rewards: [
+				{
+					count: 8
+					id: "4CB5190DEF3CFD5A"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "0752D73E0D9A6B6A"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7F707EA03BE7A10E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 Mechanical Bearing"
+			tasks: [{
+				id: "2A03BA766531871E"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Spin Me Right Round"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Automatically harvests and plants crops when attached to a moving contraption, like a windmill or gantry. Needs a structure + power to operate."]
+			id: "0BA4F1F5F02866D6"
+			rewards: [
+				{
+					count: 32
+					id: "766F5DB8D80BDA93"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "574B719F46E4992A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "706199A5C2DC27CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 5 Mechanical Harvesters"
+			tasks: [{
+				count: 5L
+				id: "3AA34524F8A57999"
+				item: { Count: 5, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			title: "Farmageddon Begins"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: ["Lets items fall downward between blocks, sort of like vertical hoppers, but faster and more efficient. Can also connect to belts and processing systems."]
+			id: "40E806A3DE366445"
+			rewards: [
+				{
+					count: 16
+					id: "5654948697898200"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6422B565D56F9F2F"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "48B95C1350CF6CCA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft 2 Chutes"
+			tasks: [{
+				count: 2L
+				id: "38502976681CC488"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Yeet Tube"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Used to transfer items between a moving contraption and a stationary system. Great for things like automated farming carts and flying factories."]
+			id: "5A87E56A598E8753"
+			rewards: [
+				{
+					count: 4
+					id: "4D40F72ACCA6A82E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76702747C2D27F37"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "1476276917FD2CAE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft 2 Portable Storage Interfaces"
+			tasks: [{
+				count: 2L
+				id: "0B4E99AE76317766"
+				item: { Count: 2, id: "create:portable_storage_interface" }
+				type: "item"
+			}]
+			title: "Touch Grass (Remotely)"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: ["This setup creates a spinning auto-harvester that collects crops and drops them into storage."]
+			id: "3602D2C4028CFB39"
+			rewards: [
+				{
+					count: 32
+					id: "34250ED25D1BAF60"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "16DDB872897B29BD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Build a functioning auto-crop farm"
+			tasks: [
+				{
+					block: "create:water_wheel"
+					block_type: 0
+					id: "1EF0EEB0F78D4AAB"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_bearing"
+					block_type: 0
+					id: "3D0D80F26D8585BD"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_harvester"
+					block_type: 0
+					id: "190DC0F87D9CD274"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 5L
+				}
+				{
+					block: "create:chute"
+					block_type: 0
+					id: "1E12ACD8ED48CA9E"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+				{
+					block: "create:portable_storage_interface"
+					block_type: 0
+					id: "5029EA352BC06D97"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+			]
+			title: "Farm to Table... to Gearbox"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["This setup gets you a full functioning auto tree farm! No more chop chop!"]
+			id: "3E6309B2CFD52040"
+			rewards: [
+				{
+					id: "469199ECD6A32FD2"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69C3F6D4FDC017C6"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "11C4FED3B9D64BC5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Build an automatic tree farm using a mechanical contraption"
+			tasks: [
+				{
+					block: "create:mechanical_bearing"
+					block_type: 0
+					id: "0D31DA3072F4213D"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_saw"
+					block_type: 0
+					id: "76AD7259A8B0D976"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 3L
+				}
+				{
+					block: "create:chute"
+					block_type: 0
+					id: "6755D5696A67451F"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:portable_storage_interface"
+					block_type: 0
+					id: "107B6DF74834FF46"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+				{
+					block: "create:deployer"
+					block_type: 0
+					id: "18EF07C064D09B83"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 3L
+				}
+			]
+			title: "Lumber? I Hardly Know Her!"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Every Create player hits the same wall: no andesite, no automation."
+				"But guess what? You can fake it till you make it—with cobble and diorite, or a good old-fashioned stir in the Mixer."
+			]
+			id: "3B5A77B3F132EE47"
+			rewards: [
+				{
+					count: 16
+					id: "1443D52D0691D2E6"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5ABFB3D7D243942C"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B1E5C1E3475DE5E"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+			]
+			subtitle: "Create Andesite using either a Mixer and Basin or by crafting it from Diorite and Cobblestone."
+			tasks: [{
+				count: 64L
+				id: "4D134CFDEEA6F67B"
+				item: { Count: 64, id: "minecraft:andesite" }
+				title: "Craft 64 Andesite"
+				type: "item"
+			}]
+			title: "Running out of Andesite?"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			description: ["Andesite Funnel: Pulls items out of inventories (like chests) or deposits them into machines."]
+			id: "6FEBC5F2207BCCEF"
+			rewards: [
+				{
+					count: 2
+					id: "2762A9014EB3E23D"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2695E4A975E089A4"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F26216379254ACC"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4 Andesite Funnels."
+			tasks: [{
+				count: 4L
+				id: "1F47C0C410031436"
+				item: { Count: 4, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			title: "Funnel Vision"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: ["Encased Chain Drives transmit rotational power between components, like gears, but through chains."]
+			id: "6B428F9D2C8A0A72"
+			rewards: [
+				{
+					count: 2
+					id: "3ABA45E4DBDC8D7E"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "3185A88BBF61B7D4"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "68E8ADEA8486CBB1"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x Encased Chain Drives."
+			tasks: [{
+				count: 4L
+				id: "142ED72E1E9E3F00"
+				item: { Count: 4, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			title: "Encased in Ambition"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["This setup will get you the ultimate washing,smelting,blasting,and haunting system!"]
+			id: "208C31226AFCAA1C"
+			rewards: [
+				{
+					id: "08914B66760F69EA"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7B2AD4985FB9BA80"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "05577FC624A7461F"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "2E246F8B3FD0C03E"
+					item: "minecraft:white_concrete"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x Encased Fans, 1x Campfire, 1x Water Bucket, 1x Lava Bucket, and 1x Soul Campfire."
+			tasks: [
+				{
+					count: 4L
+					id: "365C30105689CFE2"
+					item: { Count: 4, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "69D93D57038AB80A"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "2F20826AF006406A"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+				{
+					id: "0B9372EAB38A88E4"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "18BA2D5B3E0A714B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Fanning the Flames (and the Funk)"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			description: ["This setup will get you your very first windmill going! Just plop the sails on top of the bearing and right click the bearing once you're finished, and voila! You got yourself some spinnin power!"]
+			id: "0368CB5AB06667D8"
+			rewards: [
+				{
+					count: 4
+					id: "747856AA50F8F479"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F697AC0641AD0F2"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3275ECFDE4EF7EAE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Windmill Bearing and 32x Windmill Sails."
+			tasks: [
+				{
+					id: "04F25DB942B74045"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "15B05FECBD89B6AF"
+					item: { Count: 32, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "Catch the Breeze"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"List Filter: Lets you create a specific whitelist/blacklist of items. Great for precise control in automated systems."
+				""
+				"This filter is used with Deployers, Funnels, and Brass Tunnels to refine automation."
+			]
+			id: "0BA9E17BD1B7E332"
+			rewards: [
+				{
+					id: "2BC1084F77E84E46"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "416A1F9C14D88AEE"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2BC0589ACB0E42B1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x List Filter."
+			tasks: [{
+				id: "0687E4326AD417F6"
+				item: "create:filter"
+				type: "item"
+			}]
+			title: "Filter Me This"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Clutch: When powered by redstone(i prefer lever), it stops power transmission—like a redstone-powered off switch for your machines."
+				""
+				"Gearshift: Reverses rotational direction when powered."
+				""
+				"Use them to toggle contraptions, redirect power, or pause automation."
+			]
+			id: "767C57FBC43CD1EA"
+			rewards: [
+				{
+					id: "4C29DE96192066A3"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15DE00240DBE7AFB"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3425CBAE1E792A52"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Clutch and 1x Gearshift."
+			tasks: [
+				{
+					id: "0D7F4E6887B0A129"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "65A0EF0B5B9A7595"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			title: "Clutch Kick"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Use a Mechanical Piston to move blocks in a straight line."
+				""
+				"A Sticky Mechanical Piston pulls blocks back too!"
+			]
+			id: "6A51F171FC2DDB57"
+			rewards: [
+				{
+					count: 2
+					id: "3711EBEA460938B9"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "74E0A4386A7F1AAA"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Craft and use 1x Mechanical Piston and 1x Sticky Mechanical Piston."
+			tasks: [
+				{
+					id: "2FDE5857E3C18AB8"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "0C37B36C88039136"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+			]
+			title: "Sticky Situation"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			description: ["These bad boys will get you your very own schematic building cannon! Just slap down a Table, pull in your schematic from your other worlds, plop in an empty schematic, and fill that cannon with some gunpowder and you are on your way to a fully built kingdom!"]
+			id: "4BB3EDF5CE18D191"
+			rewards: [
+				{
+					id: "44FA889E9E51BA80"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "542F0D3FB056CF0C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F7924861C8FF1B1"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft the full schematic system."
+			tasks: [
+				{
+					id: "34A5436FF282F1F2"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "0A965C784E82966B"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "1F94AD4AE135E60D"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			title: "Blueprints of Tomorrow"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Craft an Empty Blaze Burner using iron sheets and Netherrack."
+				""
+				"Head to the Nether and right-click a blaze with it to trap it inside."
+				""
+				"Once filled, the Blaze Burner becomes the fuel source for the Heated Mixer, which is required to make Brass Ingots."
+				""
+				"Peaceful Players can craft the Blaze Burner with a Blaze Already in it if you dont like killing mobs. But you can also do it by going to the nether with an empty one and right clicking on a spawner anyway."
+			]
+			hide_dependency_lines: true
+			id: "505402D07947CC7A"
+			rewards: [
+				{
+					count: 2
+					id: "5B5658E9C26C8AE6"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2598024A77E000F9"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "40F8526F1F175B3E"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft 1x Empty Blaze Burner."
+			tasks: [{
+				id: "45A52EF9882AA861"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "The Heat Begins"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Right-click a Blaze or Blaze Spawner with an Empty Blaze Burner in-hand."]
+			id: "567B7ABE0C8AD086"
+			rewards: [
+				{
+					id: "680A6E4BE250C2F1"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "53BA0684406BCBF9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Capture a Blaze using the Empty Blaze Burner."
+			tasks: [{
+				id: "347072C497FB300E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Blaze of Glory"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"These machines work together to stir heated ingredients. Place the Basin, Mixer above it, and the Blaze Burner below."
+				""
+				"Use the Blaze Burner by feeding it fuel, aka coal, wooden items, etc."
+			]
+			id: "4AFF029B9E7B7058"
+			rewards: [
+				{
+					count: 2
+					id: "67D210738AFED444"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "258C1CF771FC3860"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2A70249019EE0CA2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Mechanical Mixer and Basin, and set them up above a Blaze Burner."
+			tasks: [
+				{
+					block: "create:blaze_burner"
+					block_type: 0
+					checkItem: false
+					id: "2A7278639F51CFD5"
+					isItemInteraction: false
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					id: "5951170E785C9A92"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5C1DC9DBD5C9DBBE"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Into the Mix"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Drop one Zinc and one Copper Ingot into a heated Basin, then let the Mixer do its thing. Congrats, you've made Brass!"]
+			id: "7E7427FC0F552C33"
+			rewards: [
+				{
+					count: 4
+					id: "3CCD256CE7A86A1F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "1DC3465B6A9740F6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "736424B79F97E0DA"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "Mix Zinc and Copper using a Mechanical Mixer + Blaze Burner to create Brass."
+			tasks: [{
+				count: 8L
+				id: "2975FC5D25E2B984"
+				item: { Count: 8, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			title: "Forged in Flame"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Used in crafting recipes for \"higher tech\" machines in Create"]
+			id: "79DBD51D1B4A5650"
+			rewards: [
+				{
+					id: "12D3A6B82F4F93E5"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "6FEB1042E54E0E29"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Brass Casing."
+			tasks: [{
+				id: "0FBABBB934459E0C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Casing the Future"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Used to polish &c&lRose Quartz&r&r by holding the paper in one and the &c&lRose Quartz&r&r in the other and holding right click or inserting into a Deployer system."]
+			id: "18078B6A239A87C0"
+			rewards: [
+				{
+					count: 2
+					id: "063C222116CDD0AA"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "50950268F37D1EF4"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Sandpaper."
+			tasks: [{
+				id: "2AB87065B40E6D96"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Smooth Finish"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			description: ["Crafted using Redstone and Quartz. Used for polishing into components like Electron Tubes."]
+			id: "5A88964644644729"
+			rewards: [
+				{
+					count: 8
+					id: "044565B18BF6C9FF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "0D03AE1EBC74E91E"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Rose Quartz."
+			tasks: [{
+				id: "2352E86BBED05AB3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			title: "Quartz with a Spark"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Polished Rose Quartz is required for making Electron Tubes. You can polish it by right-clicking or using Deployers."]
+			id: "114C841CC23F41B6"
+			rewards: [{
+				id: "249C008423A19055"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Polish 1x Rose Quartz with Sandpaper."
+			tasks: [{
+				id: "24B3B90C7BC21FC3"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Shiny and Refined"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: ["Used in crafting Deployers, Smart Chutes, and many tech-tier machines."]
+			id: "34CA588AA594CED1"
+			rewards: [
+				{
+					id: "3D4FB5C55CD561C6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2BD00551E4CABC8F"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Electron Tube."
+			tasks: [{
+				id: "05BF59C3766232B7"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Conduit Core"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Used in multi-block crafting setups like crafting the Crushing Wheel recipe."
+				""
+				""
+				"{image:ftbquests:textures/homestead/mechanical_crafter_demonstration.png width:100 height:100 align:center}"
+			]
+			id: "4BB5AA6398B775B8"
+			rewards: [
+				{
+					count: 3
+					id: "344F822C3E01FC0E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0617FCFE2CB1AAF1"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "0DBE01E1E21E6BEF"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 21x Mechanical Crafters."
+			tasks: [{
+				count: 21L
+				id: "2B3CB4AF7663396D"
+				item: { Count: 21, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			title: "Hands-Free Assembly"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Required to build the Crushing Wheel structure used to process ores and materials into dusts and more."]
+			id: "001CBBC7A707BC85"
+			rewards: [
+				{
+					count: 4
+					id: "461488B36FF85ADA"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0ABD93007C5EC990"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "3AF3B8A384C591A7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft 2x Crushing Wheels."
+			tasks: [{
+				count: 2L
+				id: "0A40CEA93E54A577"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "The Big Crunch"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: ["An upgrade to Andesite Funnels that lets you filter or speed up item routing on belts and machines."]
+			id: "2206FC73973CBFD7"
+			rewards: [
+				{
+					count: 2
+					id: "77DE85E16AD60075"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "418655DB491B12B8"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x Brass Funnels."
+			tasks: [{
+				count: 4L
+				id: "05337242AC1F0BB6"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Funneled Efficiency"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Place it above blocks you want to move."
+				""
+				"Power it with rotation to pull the structure up and down."
+			]
+			id: "00449ADB2E33575E"
+			rewards: [
+				{
+					id: "3A812D3CD7BB0FFE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "033562BA6DD1DBAE"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Rope Pulley."
+			tasks: [{
+				id: "640124A5DB17010D"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Drop It Like It’s Pulled"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"The Elevator Pulley functions similarly to the Rope Pulley, but:"
+				""
+				"Automatically tracks and syncs movement using the Gantry Shaft."
+				""
+				"Works great with redstone control for floor selection and advanced automation."
+			]
+			id: "3E16B69159AEA522"
+			rewards: [
+				{
+					count: 4
+					id: "67380EE0C27F2269"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "65B4561456B0951B"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "7076E148CDAA3182"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Elevator Pulley."
+			tasks: [{
+				id: "22D9C4C02146EE94"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "Elevator Evolution"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Attach a Contraption Control to a movable structure (like an elevator or drill platform)."
+				""
+				"Right-click to access its GUI and assign functions."
+				""
+				"Works like a mobile redstone controller, allowing players to:"
+				"- Emit redstone signals"
+				""
+				"- Interact with sequenced logic"
+				""
+				"- Trigger actions on board the contraption"
+			]
+			id: "321F09A7A156C31A"
+			rewards: [
+				{
+					id: "33C9F52744948B33"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F947F91988E8E04"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C3C65A33E80C995"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Contraption Controls."
+			tasks: [{
+				id: "765DB20D052E3638"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			title: "Push to Engage"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: ["Used to transport fluids between tanks, machines, or other components. These pipes automatically connect to fluid-accepting blocks."]
+			id: "30DAF055D4D08578"
+			rewards: [{
+				count: 8
+				id: "67A5CADCD7BBA6AC"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			subtitle: "Craft 8x Fluid Pipes."
+			tasks: [{
+				count: 8L
+				id: "1D71E2D51A2EC0FC"
+				item: { Count: 8, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			title: "Piping It Up"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: ["A compact fluid storage solution. Can be connected to pipes and pumps. Stackable vertically for more capacity."]
+			id: "0B534E3CCFAF2F97"
+			rewards: [
+				{
+					id: "18D530242DAC76D3"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "0873F958CA77C967"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Fluid Tank."
+			tasks: [{
+				id: "029DBCC9841A5723"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "Tank You Very Much"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: ["Used to extract fluid from items like potions or bottles. Connects to fluid pipes and tanks."]
+			id: "0F2CC8DD0731A875"
+			rewards: [
+				{
+					id: "596B83421485FF18"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "09402DE901BA3DF5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Item Drain."
+			tasks: [{
+				id: "2F51C53DD38BA9B6"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "Drain Game"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Used to deposit fluid onto items in passing (e.g. fill bottles, coat foods). Can be placed over belts or Depots."]
+			id: "0BC09957030970A7"
+			rewards: [
+				{
+					id: "23FA588DAAE61243"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "00C2D859337C9C92"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Spout."
+			tasks: [{
+				id: "70428EF47F9DEF1C"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Spray and Pray"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Used to move fluids vertically into tanks or oceans. Good for water/lava automation or fluid source collection."]
+			id: "3C5EF61AA8A8B90F"
+			rewards: [
+				{
+					id: "08470EB10C4A7CAA"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3B6D2AB7829C4C71"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Hose Pulley."
+			tasks: [{
+				id: "6599F26F878557ED"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Pulley Potential"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Moves fluids directionally through fluid pipes. Requires rotation to function. Can be reversed with Gearshifts."]
+			id: "7279BFB5227C487B"
+			rewards: [
+				{
+					id: "3CB59EEE580C9BA4"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7D026227F1DE11CC"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Mechanical Pump."
+			tasks: [{
+				id: "66DD0AAC6C8FD4DF"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "Push Comes to Pump"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Smart Fluid Pipes track what fluids pass through them. Fluid Valves can control or shut off flow with redstone."]
+			id: "4372D7B29E8832DB"
+			rewards: [
+				{
+					id: "428F7A2E56E4698A"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "1FA5CB273E4ADE34"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Smart Fluid Pipe and 1x Fluid Valve."
+			tasks: [
+				{
+					id: "51C84743A27CD997"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3838FDCD8595E952"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+			]
+			title: "Smart Flow"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			description: ["Used for transferring fluids between contraptions (like a mobile tank cart and a stationary tank). Requires contact via Portable Fluid Interface pair."]
+			id: "2808923D4B8EC845"
+			rewards: [
+				{
+					id: "33414980F36C27BF"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "503DCBDD9B5B52C5"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Portable Fluid Interface."
+			tasks: [{
+				id: "792C1ABBD8C6BBA1"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			title: "Porta-Pipe"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: ["This casing protects machinery involved in piping, spouting, and tanking."]
+			id: "08E79F6B22C21D7C"
+			rewards: [
+				{
+					count: 4
+					id: "151C37FEBC6F9F98"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "5D0DD73AD9AC67B7"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Copper Casing."
+			tasks: [{
+				id: "29B13976730D592B"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Copper Core"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Place on top of fluid pipes (especially over a Fluid Valve)"
+				""
+				"Right-click to toggle fluid flow! No redstone needed."
+			]
+			id: "1D23495572D9BEA4"
+			rewards: [
+				{
+					id: "53A90B36673CDBEF"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4DB37808AD944894"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "25A247FA45DF0261"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Copper Valve Handle."
+			tasks: [{
+				id: "69794E8AD73DBCB2"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			title: "Turn the Tide"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: ["This little machine will make your rotational speed power go to the MAX"]
+			id: "07854B4B69AF0BC3"
+			subtitle: "Craft 1x Rotation Speed Controller."
+			tasks: [{
+				id: "043A01B63FC40553"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Speed Matters"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&lStart with a Gold Sheet on a Depot or Belt.&r"
+				""
+				"&n&lUse 3 Deployers, each loaded with:&r&r"
+				""
+				"&l🟤 Cogwheel&r"
+				""
+				"&l⚙ Large Cogwheel&r"
+				""
+				"&l🪙 Iron Nugget&r"
+				""
+				"Apply the items listed above onto a Golden Sheet in &lORDER 5 times&r."
+				""
+				"So the Golden Sheet should have a Cogwheel, then a Large Cogwheel, then an Iron Nugget deployed onto it 5 times in a row."
+				""
+				"There is a slight chance that it will fail and give you scrap. If it does, you will have to restart the process again."
+			]
+			id: "6A3AFEBFC112A659"
+			rewards: [
+				{
+					count: 2
+					id: "748159A598A09182"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "257F9126B22E31B1"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "6F8933CE9ADE1ACE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Precision Mechanism."
+			tasks: [{
+				id: "53F0C9FC27A4BCE7"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Precision Perfected"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Used to convert regular blocks into train bogeys and car frames. Required for every segment of a train."]
+			id: "525E7C2D2C9463F3"
+			rewards: [
+				{
+					count: 4
+					id: "33C0E9FB50B299CA"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07AC5845DE3C9765"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "46BE23D02FC19967"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft 1x Sturdy sheet to Craft 1x Train Casing."
+			tasks: [
+				{
+					id: "32521B7135507740"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "77CF759777DEEC3C"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "All Aboard the Casing"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: ["Train Tracks form the rails your train will ride on. Place in any direction and use curves and slopes for full flexibility."]
+			id: "42BF2645E2C3E6C2"
+			rewards: [
+				{
+					count: 8
+					id: "12C963DA67C992C2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "19667B3DF1E2F9A2"
+					item: "minecraft:spruce_slab"
+					type: "item"
+				}
+				{
+					id: "247547AD83BC1857"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 16x Train Tracks."
+			tasks: [{
+				count: 16L
+				id: "476B8D77851DB027"
+				item: { Count: 16, id: "create:track" }
+				type: "item"
+			}]
+			title: "On the Right Track"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Train Stations let you summon, name, and automate train routes. Trains must start or end at a station to be controlled."]
+			id: "10A50F64F415E1BC"
+			rewards: [
+				{
+					id: "77EB2B7C9941E68E"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "69B95D66CC31D676"
+					item: "createdeco:decal_no_entry"
+					type: "item"
+				}
+				{
+					id: "28E805F53F20571F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Train Station."
+			tasks: [{
+				id: "622D32E545DB5CEB"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Next Stop: Progress"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["Train Schedules define the stops and behaviors of your train—fully automating its path and logic."]
+			id: "468AF9412A6CF3F4"
+			rewards: [
+				{
+					id: "10F0C02199D419BD"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "325E7BF23D6828AF"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					id: "5D2B6E433DB5840D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Train Schedule."
+			tasks: [{
+				id: "637208DFEF38F079"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "On Schedule"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: ["Train Signals help prevent collisions and manage multi-track intersections. Used for automation with redstone logic."]
+			id: "1D4EDDB15B4F3265"
+			rewards: [
+				{
+					id: "2FA5773F60A0B362"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "066965AC7163A0CA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "53F1E36DAA14E8AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Train Signal."
+			tasks: [{
+				id: "4DE73C200A6ECB34"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "All Clear"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["The Train Observer monitors which trains pass by and emits a redstone signal. Useful for logic gates and automation."]
+			id: "4416BC1057B42ED9"
+			rewards: [
+				{
+					id: "2827E91C3FCBB473"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "07B76C35E6577C6A"
+					item: "create:brass_door"
+					type: "item"
+				}
+				{
+					id: "7D22F0703DA51E55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Train Observer."
+			tasks: [{
+				id: "781146386A97BCE8"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "Track Watcher"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			description: ["Train Controls allow you to pilot the train manually. Must be placed on a powered car for player control."]
+			id: "1FDF6D2E51232DEF"
+			rewards: [
+				{
+					id: "414916D9993DA320"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					id: "305EE7753F82D974"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "222D30ABCBEE1EC6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Train Controls."
+			tasks: [{
+				id: "4BF530CCF6F9EC72"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Conduct Yourself"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			description: ["Display Boards show dynamic information about arriving trains, destinations, or cargo using redstone signal inputs."]
+			id: "0707A24DD0000DB8"
+			rewards: [
+				{
+					id: "5C67F15BF4D45EB5"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					id: "01DA041C47B4C9D3"
+					item: "railways:red_conductor_cap"
+					type: "item"
+				}
+				{
+					id: "6080F7F61C083C49"
+					item: "railways:conductor_whistle"
+					type: "item"
+				}
+				{
+					id: "1224297AF3B743F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft 1x Display Board."
+			tasks: [{
+				id: "5C35A6057D32B1CC"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Info On the Go"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			description: ["This magical tool mirrors your block placements in perfect symmetry—horizontally, vertically, or across diagonals."]
+			hide_dependency_lines: true
+			id: "4E3FDEDE78D4CDDB"
+			rewards: [
+				{
+					id: "799888E934EFEBBD"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "1E4813F595D9CE40"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "351D1DF5A93EE0FF"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Wand of Symmetry."
+			tasks: [{
+				id: "2A13B6B397A1FBF6"
+				item: {
+					Count: 1
+					id: "create:wand_of_symmetry"
+					tag: {
+						enable: 0b
+						symmetry: {
+							direction: 0
+							enable: 1b
+							pos: [
+								0.0f
+								0.0f
+								0.0f
+							]
+							type: "empty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Perfectly Mirrored"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["The Extendo Grip increases your reach distance and attack range. Very handy (literally) for automation and combat."]
+			hide_dependency_lines: true
+			id: "012AADAB4A531208"
+			rewards: [
+				{
+					id: "318DF014E8BDBA14"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0321BC4CDEC6EB84"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "17BAEB1DF90EFD2E"
+					item: "minecraft:piston"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Extendo Grip."
+			tasks: [{
+				id: "78E7198114CDF8B1"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stretch Your Limits"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["Turns your extra potatoes into ammo. This fun weapon can launch a variety of food items at mobs—or friends."]
+			hide_dependency_lines: true
+			id: "5FFBB089C9E65077"
+			rewards: [
+				{
+					id: "261B12944E3A591D"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "7C82C6713790FB09"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0BC0573ED0FA85BE"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Potato Cannon."
+			tasks: [{
+				id: "3F4FDE757C7D35F1"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tuber Warfare"
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	title: "Cogs and Whimsy"
+}

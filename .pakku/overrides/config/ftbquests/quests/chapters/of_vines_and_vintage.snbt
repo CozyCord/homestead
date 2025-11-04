@@ -1,0 +1,1190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "of_vines_and_vintage"
+	group: ""
+	icon: {
+		Count: 1
+		id: "vinery:cherry_wine"
+		tag: { }
+	}
+	id: "4A65EE790A11CCC7"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/homestead/vines_and_vintage.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "vinery:item/wine_bottle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.892857142857139d
+			y: 1.1607142857142847d
+		}
+		{
+			height: 4.0d
+			image: "vinery:item/wine_bottle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.107142857142854d
+			y: 1.2321428571428612d
+		}
+		{
+			height: 4.0d
+			image: "vinery:item/wine_bottle"
+			rotation: 180.0d
+			width: 4.0d
+			x: -6.892857142857146d
+			y: -7.196428571428573d
+		}
+		{
+			height: 4.0d
+			image: "vinery:item/wine_bottle"
+			rotation: 180.0d
+			width: 4.0d
+			x: 7.107142857142854d
+			y: -7.151785714285708d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/vinery_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: -2.85d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The world nurtures delicious fruits ready to be made into even more delicious wines! Coming in white and red varieties, there are many different types, so be sure to explore."
+				""
+				"&nCollect grape seeds from wild grape bushes.&r"
+			]
+			id: "792750222BE484C5"
+			rewards: [
+				{
+					count: 5
+					id: "7084C392CCCB2766"
+					item: "vinery:white_grape_seeds"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4C4C7CF847A8A3A5"
+					item: "vinery:red_grape_seeds"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Obtain any grape seed"
+			tasks: [{
+				id: "617EEE95FB6385A6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grape_seeds)"
+					}
+				}
+				title: "Any #vinery:grape_seeds"
+				type: "item"
+			}]
+			title: "Fruits of the Vine"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["792750222BE484C5"]
+			description: ["Wine isn't only made from grapes! These trees are native to temperate Biomes such as Plains, Meadows and Sunflower Plains."]
+			id: "247A014E4F1A0053"
+			rewards: [
+				{
+					count: 5
+					id: "218E63D502FAF06B"
+					item: "vinery:apple_tree_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7D8682219A224A4D"
+					item: "vinery:dark_cherry_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain an Apple Tree Sapling and a Dark Cherry Sapling."
+			tasks: [
+				{
+					id: "0314C43C8B72DD71"
+					item: "vinery:apple_tree_sapling"
+					type: "item"
+				}
+				{
+					id: "6148CEE2B6D6C799"
+					item: "vinery:dark_cherry_sapling"
+					type: "item"
+				}
+			]
+			title: "Fruits in the Branches"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["247A014E4F1A0053"]
+			description: ["Grape bushes planted on the ground or against the wall have low yields. To improve your harvest plant seeds on stems; Click the upper half of the stem to plant. Jungle Grapes require lattices."]
+			id: "3830DF8ED871BDBB"
+			rewards: [
+				{
+					count: 10
+					id: "4D4964B6D2BB88B4"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "66B5165F57459A57"
+					item: "vinery:oak_lattice"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Grape Vine Stem, Craft any Lattice [Vinery version]"
+			tasks: [
+				{
+					id: "1456C17492343009"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					id: "4E9800B44518B36D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:lattice)"
+						}
+					}
+					title: "Any #vinery:lattice"
+					type: "item"
+				}
+			]
+			title: "Vineyard Dreams"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3830DF8ED871BDBB"]
+			description: ["Your vineyard is shaping up nicely now and you're ready to start making wines. Time to craft the tools needed."]
+			id: "799FB5B2C65338F6"
+			rewards: [
+				{
+					count: 32
+					id: "00F8594D2417EC86"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "033F43070ABAAE70"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft a Grape Vine Pot, Fermentation Barrel, Apple Press, and Wine Bottle."
+			tasks: [
+				{
+					id: "77D8DBEACAFB9EDA"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "6AB9A6ABFF2D55B7"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "7907FABD4C1D2E97"
+					item: "vinery:apple_press"
+					type: "item"
+				}
+				{
+					id: "6787A4C8CA0F4BC4"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+			]
+			title: "The Winemaker's Kit"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["799FB5B2C65338F6"]
+			description: [
+				"You can't make wine without smashing some grapes! "
+				""
+				"&nJump on top of the Grape Vine Pot a few times and show those grapes who's boss. For apples both the mash and juice can be made in the press.&r"
+				""
+				"&nUsing a Grape Vine Pot or Apple Press, grapes, and an empty Wine Bottle create your first bottle of Juice.&r"
+			]
+			id: "279E357E54A5304A"
+			rewards: [
+				{
+					id: "309200581A4C189E"
+					item: "vinery:white_grapejuice"
+					type: "item"
+				}
+				{
+					id: "3FB49B93AFF1BD3F"
+					item: "vinery:red_grapejuice"
+					type: "item"
+				}
+				{
+					id: "1851322821A74759"
+					item: "vinery:oak_wine_rack_small"
+					type: "item"
+				}
+			]
+			subtitle: "Make any bottle of juice"
+			tasks: [{
+				id: "584B162C1C4CDB04"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grapejuice)"
+					}
+				}
+				title: "Any #vinery:grapejuice"
+				type: "item"
+			}]
+			title: "Turbulent Juice"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["279E357E54A5304A"]
+			description: [
+				"Time to bottle your first wine! "
+				""
+				"&nEach wine has it's own unique buff that gets stronger over time as the wine is aged. Simply store in any inventory and given time and patience your wine will become more potent.&r"
+				""
+				"&nUsing a Fermentation Barrel add the required juice, additional ingredients, and wine bottles to create your first wine.&r"
+			]
+			id: "76DE9808E8F6C9DD"
+			rewards: [{
+				id: "4AA48EC84B4F535B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Craft Red Wine and Apple Wine"
+			tasks: [
+				{
+					id: "5ABA565564034AB5"
+					item: {
+						Count: 1
+						id: "vinery:red_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0CF50FA0B68D05CA"
+					item: {
+						Count: 1
+						id: "vinery:apple_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "The First Drop"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Apple Juice, a Honey Bottle and Sugar."]
+			hide_dependency_lines: true
+			id: "6AA58533D5EBBC8F"
+			rewards: [
+				{
+					id: "758A1ECE36085148"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "74FC6467DAF77063"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "2EE97CF48DA08E17"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Mead"
+			tasks: [{
+				id: "4A175BCC78CDE153"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mead"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Apple Juice and Sugar."]
+			hide_dependency_lines: true
+			id: "68888EB3FFD9D8CD"
+			rewards: [
+				{
+					id: "5ECA3C576ADFEE9A"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "33747A2E3C49E956"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Cider"
+			tasks: [{
+				id: "691B0EE70B24EDF6"
+				item: {
+					Count: 1
+					id: "vinery:apple_cider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Apple Juice and a bottle of Apple Juice."]
+			hide_dependency_lines: true
+			id: "4E2A9F993EE146E5"
+			rewards: [
+				{
+					id: "74BAB7FA48F2C1BB"
+					item: "vinery:apple_juice"
+					type: "item"
+				}
+				{
+					id: "0B16CC0044C4EF2F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Apple Wine"
+			tasks: [{
+				id: "585E383E1901E94E"
+				item: {
+					Count: 1
+					id: "vinery:apple_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Grape Juice, Sugar and a Glowstone Dust."]
+			hide_dependency_lines: true
+			id: "34365CC7B4787A01"
+			rewards: [
+				{
+					id: "2444A0C24F01CFF3"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "41D8309F2E65C266"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "0D7DE39408D9BEC8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Mellohi Wine"
+			tasks: [{
+				id: "1519B474DE0B657C"
+				item: {
+					Count: 1
+					id: "vinery:mellohi_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Grape Juice and Glow Berries."]
+			hide_dependency_lines: true
+			id: "58FDCEECECD2956E"
+			rewards: [
+				{
+					id: "40987BD4B59115F8"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "0E9FA3F741852A37"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Sun-kissed wine"
+			tasks: [{
+				id: "10AFF68E97558C63"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White grape Juice, Sweet berries, and a Honey Bottle."]
+			hide_dependency_lines: true
+			id: "5641322F44A45A4F"
+			rewards: [
+				{
+					id: "054136B517DF02B6"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "29E2D002898A74A0"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "56DF80083F78CEF7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Solaris Wine"
+			tasks: [{
+				id: "1B66F9E86275A5D7"
+				item: {
+					Count: 1
+					id: "vinery:solaris_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice and sweet berries."]
+			hide_dependency_lines: true
+			id: "402F635659D5C6EC"
+			rewards: [
+				{
+					id: "6D601CE9166E582A"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "130EE7CEAAF85700"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Noir Wine"
+			tasks: [{
+				id: "0A5DECAE2FA0A3D2"
+				item: {
+					Count: 1
+					id: "vinery:noir_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice and Sugar."]
+			hide_dependency_lines: true
+			id: "6F6F2DE7EAA17121"
+			rewards: [
+				{
+					id: "43275A20B5B6BFD0"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "0A8297D63FDE7FE8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Red Wine"
+			tasks: [{
+				id: "1C41562E8C84713A"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice, Cocoa Beans, and Sugar."]
+			hide_dependency_lines: true
+			id: "3E661A25570C9575"
+			rewards: [
+				{
+					id: "3C62D1AE83D00162"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "48AD0C8B55F0DA95"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "22AE5B81870BB77D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Strad Wine"
+			tasks: [{
+				id: "74B560FBB0C6241D"
+				item: {
+					Count: 1
+					id: "vinery:strad_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice, and a Cherry [Vinery only]."]
+			hide_dependency_lines: true
+			id: "504425E4B36F0B5D"
+			rewards: [
+				{
+					id: "6DC877D5565DD1A5"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "72FCEC0DA93A133C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Cherry Wine"
+			tasks: [{
+				id: "044D673E47CFEDBB"
+				item: {
+					Count: 1
+					id: "vinery:cherry_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice, a Feather, Sugar and a Blaze Rod."]
+			hide_dependency_lines: true
+			id: "26454470A143B50F"
+			rewards: [
+				{
+					id: "0EEB4F9793A5C65A"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "3B9EBC0BB028415F"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "7FB05F44FF194C17"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "37BBAB1E9A0DE1D4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Cristel Wine"
+			tasks: [{
+				id: "65944FD4EBC56B51"
+				item: {
+					Count: 1
+					id: "vinery:cristel_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Savanna Grape Juice, and Gunpowder."]
+			hide_dependency_lines: true
+			id: "5C243B5EC5C727F4"
+			rewards: [
+				{
+					id: "2F3A0B49A8C83900"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0909E07D2C1BCE1C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft A Bottle of 'Creepers Crush'"
+			tasks: [{
+				id: "780B7F01A42584FC"
+				item: {
+					Count: 1
+					id: "vinery:creepers_crush"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Savanna Grape Juice, and Kelp."]
+			hide_dependency_lines: true
+			id: "440321CDEAEBC8FA"
+			rewards: [
+				{
+					id: "65A56E97E15F68F3"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "6DFDC641E630CBCE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Kelp Cider"
+			tasks: [{
+				id: "5D75FE0D83B736AE"
+				item: {
+					Count: 1
+					id: "vinery:kelp_cider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Savanna Grape Juice, a Honey Bottle and a Cherry [Vinery only]."]
+			hide_dependency_lines: true
+			id: "24E655E4159BA436"
+			rewards: [
+				{
+					id: "4F5378941D1C06AB"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "1ADAD5073CAC86F6"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "7977309CEDEB401F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Miss Lilitus Wine"
+			tasks: [{
+				id: "61135AA4124A3E50"
+				item: {
+					Count: 1
+					id: "vinery:lilitu_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Savanna Grape Juice, and a Fermented Spider Eye."]
+			hide_dependency_lines: true
+			id: "0459F25E61041E88"
+			rewards: [
+				{
+					id: "2FB8BB2409CCD5BC"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					id: "3141C7F5F5AB6D5C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Jo's Special Mixture"
+			tasks: [{
+				id: "65AD43A6CA068323"
+				item: {
+					Count: 1
+					id: "vinery:jo_special_mixture"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Taiga Grape Juice, and a Snowball."]
+			hide_dependency_lines: true
+			id: "3BF03B8F70BECA9E"
+			rewards: [
+				{
+					id: "78B15A68CDF285CB"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "6BA820506C20B938"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Eiswein"
+			tasks: [{
+				id: "2E45169133EAC58A"
+				item: {
+					Count: 1
+					id: "vinery:eiswein"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Taiga Grape Juice, Sugar, Kelp, and an Iron Ingot."]
+			hide_dependency_lines: true
+			id: "4671CB330F71F3D3"
+			rewards: [
+				{
+					id: "3A632A04A070D470"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "5CED9AE9A5692BE1"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "1F15C392D179CF3E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "537CC4F51B91A9D8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Aegis Wine"
+			tasks: [{
+				id: "74E87A64035BD580"
+				item: {
+					Count: 1
+					id: "vinery:aegis_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Taiga Grape Juice, a Honey Bottle and a Cherry [Vinery only]."]
+			hide_dependency_lines: true
+			id: "415F587BB329B198"
+			rewards: [
+				{
+					id: "60929B63E7951D0F"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "5F3F7F1DF3117A88"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "2D17BF1B29598881"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Bolvar Wine"
+			tasks: [{
+				id: "66FAC849A7ABA3ED"
+				item: {
+					Count: 1
+					id: "vinery:bolvar_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Taiga Grape Juice, and Chorus Fruit."]
+			hide_dependency_lines: true
+			id: "30A9ADE340B1CEC9"
+			rewards: [
+				{
+					id: "197299C59D705E91"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "0E14928635B30E27"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Chorus Wine"
+			tasks: [{
+				id: "4356F907977BBE59"
+				item: {
+					Count: 1
+					id: "vinery:chorus_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Jungle Grape Juice, and an Arrow."]
+			hide_dependency_lines: true
+			id: "14DAD6C9B4A6FFA8"
+			rewards: [
+				{
+					id: "1AF90047B18083DF"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "3919547E42A186C5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft A Bottle of 'Villagers Fright'"
+			tasks: [{
+				id: "2D77BC697118F705"
+				item: {
+					Count: 1
+					id: "vinery:villagers_fright"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Jungle Grape Juice, and Sugar."]
+			hide_dependency_lines: true
+			id: "626244F6ED274CB2"
+			rewards: [
+				{
+					id: "03FC3ACA33E34370"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "6F291854E76A2194"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Clark Wine"
+			tasks: [{
+				id: "73E2D75064C5B91F"
+				item: {
+					Count: 1
+					id: "vinery:clark_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, and an Iron Ingot."]
+			hide_dependency_lines: true
+			id: "7E3127065BDF8CD6"
+			rewards: [
+				{
+					id: "7F001173178CCA6C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "04747CA5EF37314A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Magnetic Wine"
+			tasks: [{
+				id: "6EBD1DD726E4B60E"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, Cocoa beans, and Sugar."]
+			hide_dependency_lines: true
+			id: "4BD0216F7EAD3EE3"
+			rewards: [
+				{
+					id: "0A2FB274D625E311"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "7D61EBB7F38CAFAE"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "5340300C7CB1035F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Stal Wine"
+			tasks: [{
+				id: "5BF3F8F4FA5C7716"
+				item: {
+					Count: 1
+					id: "vinery:stal_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, a Spider Eye, and a Honey Bottle."]
+			hide_dependency_lines: true
+			id: "571018D6EF18CBA4"
+			rewards: [
+				{
+					id: "29093FAE2598D7C5"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					id: "4DBA7DC186411A03"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "0A92E25608DA5B0A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft Chenet Wine"
+			tasks: [{
+				id: "1B778336C67E9552"
+				item: {
+					Count: 1
+					id: "vinery:chenet_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using Red Grape Juice, a Honey Bottle, a Cherry [Vinery version only], and a bottle of Red Wine."]
+			hide_dependency_lines: true
+			id: "723A18B372853BB6"
+			rewards: [
+				{
+					id: "59176BB315C65F0C"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "6B2D3184D52A825C"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "4BD48193A0FDC108"
+					item: {
+						Count: 1
+						id: "vinery:red_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21AAA57C6FB58EF9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft A Bottle of 'Mojang Noir'"
+			tasks: [{
+				id: "43DFF983210EFE6B"
+				item: {
+					Count: 1
+					id: "vinery:bottle_mojang_noir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76DE9808E8F6C9DD"]
+			description: ["Crafted in a fermentation barrel using White Grape Juice, a bottle of Apple Wine, Chenet Wine and Bolvar Wine."]
+			hide_dependency_lines: true
+			id: "79011AE021672451"
+			rewards: [
+				{
+					id: "12CFFD17D0CFD77B"
+					item: {
+						Count: 1
+						id: "vinery:apple_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7E784B2CB67630B0"
+					item: {
+						Count: 1
+						id: "vinery:chenet_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5610AD7A17E7E385"
+					item: {
+						Count: 1
+						id: "vinery:bolvar_wine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "35127CEAF9DB8BEF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft Jellie Wine"
+			tasks: [{
+				id: "3DA2E0DFC1FE9FBC"
+				item: {
+					Count: 1
+					id: "vinery:jellie_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+	]
+	title: "Vines and Vintage"
+}

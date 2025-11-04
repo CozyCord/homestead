@@ -1,0 +1,16 @@
+{
+	id: "7D9C2612AA0C17F5"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 32, item: "minecraft:stone" }
+		{ count: 32, item: "minecraft:cobblestone" }
+		{ count: 32, item: "minecraft:lodestone" }
+		{ count: 32, item: "minecraft:deepslate" }
+		{ count: 32, item: "minecraft:calcite" }
+		{ count: 32, item: "minecraft:andesite" }
+		{ count: 32, item: "minecraft:granite" }
+		{ count: 32, item: "minecraft:diorite" }
+	]
+	title: "stone"
+}

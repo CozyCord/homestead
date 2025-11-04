@@ -1,0 +1,509 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echoes_of_the_void"
+	group: ""
+	icon: "minecraft:ender_eye"
+	id: "0051425A676C2F09"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/echoes_of_the_void.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/end_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -2.0d
+			y: -3.75d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: -7.45d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Defeat the Ender Dragon and claim the egg it leaves behind. The beginning of your End journey."]
+			id: "71E074AFC26F3300"
+			rewards: [
+				{
+					id: "55E2F9D6B86FCF5F"
+					item: "clutter:ender_dragon_plushie"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "091DDC4BE9AF6A74"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "10A1AA521F1A6154"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Kill the Ender Dragon and obtain the Dragon Egg."
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "31C95B27EA420DBE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "206DA3977975BF95"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "The End?"
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Find and enter an End City structure—your gateway to advanced loot and danger."]
+			hide_dependency_lines: true
+			id: "2995FF9F44D3DEF6"
+			rewards: [
+				{
+					id: "514E621ECAE6579C"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					id: "6C9EE08D0F529307"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Visit an End City."
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "4329E5D03784095A"
+				structure: "#minecraft:end_city"
+				type: "structure"
+			}]
+			title: "City of Light"
+			x: -11.142857142857139d
+			y: -1.0892857142857082d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: [
+				"The End has more than just dragons and danger—it has dinner."
+				"With the End Knife, you can carve rare meats, and the End Stove lets you cook them to perfection in purple, void-touched style."
+				"Slice, sizzle, and serve with interdimensional flair!"
+			]
+			hide_dependency_lines: true
+			id: "020CCFA85761CC69"
+			rewards: [
+				{
+					id: "4A04808D50E21B3A"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "49358D1C0202CB71"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7133CCA08DCDD625"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft the End Knife and End Stove from Ends Delight."
+			tasks: [
+				{
+					id: "63B713A2AA4D87EE"
+					item: {
+						Count: 1
+						id: "ends_delight:end_stone_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "382AF810D9DE4B12"
+					item: "ends_delight:end_stove"
+					type: "item"
+				}
+			]
+			title: "A Taste Beyond the End"
+			x: 5.357142857142854d
+			y: -7.053571428571427d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: [
+				"The End teaches you to value a second chance."
+				"Craft a Respawn Anchor—a block normally for the Nether—by combining Crying Obsidian (often found in Bastions) with Glowstone. It’s a safety net, forged across dimensions.It's Just Iron."
+			]
+			hide_dependency_lines: true
+			id: "5FC6F8D6CC85DB8E"
+			rewards: [
+				{
+					id: "1B7DAD2A37D2CCE2"
+					item: {
+						Count: 1
+						id: "spelunkery:portal_fluid_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5DF2286A71FEE91D"
+					item: {
+						Count: 1
+						id: "spelunkery:portal_fluid_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "73F6BDEC5796F4B8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft and place a Respawn Anchor using Crying Obsidian and Glowstone."
+			tasks: [{
+				id: "4F4F3D0768A37EF6"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Anchored in the End"
+			x: -8.428571428571423d
+			y: -2.375d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Find and collect the Elytra from an End Ship. You’ll need it to truly master the skies."]
+			hide_dependency_lines: true
+			id: "339BC5D3A24DFC85"
+			rewards: [
+				{
+					count: 16
+					id: "524B74F4F96E9FB3"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 3b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45C85846AB49ACB1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain an Elytra."
+			tasks: [{
+				id: "3C623E2794664DCD"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Skybound"
+			x: 6.285714285714278d
+			y: -5.125d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Dragon Heads are found at the tips of End Ships. Don’t fall trying to grab one!"]
+			hide_dependency_lines: true
+			id: "58629F2E11B31263"
+			rewards: [
+				{
+					id: "45683192DA4C8C61"
+					item: "minecraft:respawn_anchor"
+					type: "item"
+				}
+				{
+					id: "42AB6F8C72FE39FE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain a Dragon Head."
+			tasks: [{
+				id: "775F238A76D4B13F"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "Heads Up"
+			x: -7.642857142857146d
+			y: -6.589285714285715d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Defeat 10 Shulkers in End Cities to earn shells—and dodge that levitation!"]
+			hide_dependency_lines: true
+			id: "0A2AB555C1974A7A"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "6369C07B1FDBF3E1"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "12D84313D9BCAB86"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Kill 10 Shulkers."
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "3EC157D866C00BA4"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Shell Shocked"
+			x: 4.0714285714285765d
+			y: -3.875d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["These mini-menaces spawn when throwing Ender Pearls. Hunt them down!"]
+			hide_dependency_lines: true
+			id: "32EC0250CABD4D4B"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7AFF0359EE27AC0D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Kill 5 Endermites."
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "3484E8ED1BE01645"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Endermite Exterminator"
+			x: 7.857142857142854d
+			y: -2.0535714285714306d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: [
+				"They teleport, they scream, they hold random blocks."
+				"But when you stare too long... things get ugly."
+				"Time to make the End a little quieter."
+			]
+			hide_dependency_lines: true
+			id: "1AA6D1C2371E16BE"
+			optional: true
+			rewards: [
+				{
+					id: "7E4345AC0F17A2C4"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					id: "5CD8CBD62E1D2EF3"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+				{
+					id: "278E58418C9330F1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Kill 50 Endermen."
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4DA10F79DDFE8A14"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Blink and You'll Miss It"
+			x: 3.3214285714285694d
+			y: -0.5535714285714306d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Use a glass bottle on the Ender Dragon’s breath cloud to collect this brewing essential."]
+			hide_dependency_lines: true
+			id: "09B37CBD3321EF79"
+			rewards: [
+				{
+					id: "3F7F11DCEFA67DB8"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "betterend:long_end_veil"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6178C2F1B38AB054"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain Dragon’s Breath."
+			tasks: [{
+				id: "3F643E72E55A718D"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Dragon’s Breath"
+			x: -10.107142857142854d
+			y: -4.053571428571431d
+		}
+		{
+			dependencies: ["71E074AFC26F3300"]
+			description: ["Break a Chorus Plant to collect both its flower and fruit. Mysterious and versatile."]
+			hide_dependency_lines: true
+			id: "3F74F0C9AE371727"
+			rewards: [
+				{
+					count: 4
+					id: "127378723199C6A1"
+					item: "minecraft:popped_chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "32567D0B97BBD74D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Obtain a Chorus Flower and Fruit."
+			tasks: [
+				{
+					id: "7451FA0DBA6BD259"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+				{
+					id: "58C050FFE128FE52"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			title: "Chorus Collector"
+			x: -9.464285714285715d
+			y: -8.375d
+		}
+	]
+	title: "Echoes of the Void"
+}

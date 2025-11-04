@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shaped_with_care"
+	group: ""
+	icon: "chipped:botanist_workbench"
+	id: "54A1B3284683F6AA"
+	images: [
+		{
+			height: 3.0d
+			image: "chipped:block/ladder/crooked_ropeplank_ladder"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/ladder/crooked_ropeplank_ladder"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/ladder/crooked_ropeplank_ladder"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/ladder/crooked_ropeplank_ladder"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/shaped_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.0d
+			y: 0.25d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/ladder/crooked_ropeplank_ladder"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: 4.4464285714285765d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/shaped_with_care.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: -1.0d
+			y: 0.25d
+		}
+	]
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Turn Plants/Flowers into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "4E2CA2ABB575425C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "216AD1BF5D3937A4"
+					table_id: 5593482455560351945L
+					type: "random"
+				}
+				{
+					id: "731A32AC791B5254"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Botanist Workbench"
+			tasks: [{
+				id: "5D46F4DD40C0C40A"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "Leaf It to the Pros"
+			x: -1.0d
+			y: -3.1964285714285694d
+		}
+		{
+			description: [
+				"Turn Glass/Glass Panes into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "60174D146FD6517A"
+			rewards: [
+				{
+					count: 32
+					id: "5018783A8F80D440"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "038AAF97F501B33B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Glassblower"
+			tasks: [{
+				id: "479EC5EA69E5D643"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			title: "Glass Act"
+			x: -3.1785714285714306d
+			y: -2.625d
+		}
+		{
+			description: [
+				"Turn Wood/Wood made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "24A3E84FAF0703A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F26D9842B5F735"
+					table_id: 6769117266503437746L
+					type: "random"
+				}
+				{
+					id: "538EAD50D6887F31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Carpenter’s Table"
+			tasks: [{
+				id: "30E9C785A62EEBED"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "The Second Coming (of Sawdust)"
+			x: -4.392857142857146d
+			y: -0.6607142857142847d
+		}
+		{
+			description: [
+				"Turn Wool/Wool made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "12257886B6E1BBBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F8D89BBF5C70515"
+					table_id: 6840926890118617518L
+					type: "random"
+				}
+				{
+					id: "1A8FE9CEB2D59EBF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Loom Table"
+			tasks: [{
+				id: "7E8C218D65312C21"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			title: "Thread Lightly"
+			x: -4.392857142857146d
+			y: 1.767857142857146d
+		}
+		{
+			description: [
+				"Turn Stone/Stone-made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "4F92A4E86BD7CE9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FA21E26D08AE3D8"
+					table_id: 9051151212712040437L
+					type: "random"
+				}
+				{
+					id: "3791F6A2AD585E78"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Mason Table"
+			tasks: [{
+				id: "2234A5CC2630A345"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Rock Bottom Renovations"
+			x: 2.500000000000007d
+			y: -0.5892857142857153d
+		}
+		{
+			description: [
+				"Turn Magical Blocks into different textures/versions of themselves. (Obsidian, Amethyst, etc.)"
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "3F357AA2586BFC4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31459AAC5B181E70"
+					table_id: 5111827059717370420L
+					type: "random"
+				}
+				{
+					id: "55A3E01F01ED5FAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft an Alchemy Bench"
+			tasks: [{
+				id: "1F956C79FCD87960"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			title: "Breaking Craft"
+			x: 1.1428571428571388d
+			y: -2.5535714285714306d
+		}
+		{
+			description: [
+				"Turn Torches/Lanterns into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
+			id: "7635C0ACF014113A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A04DCC733DCC435"
+					table_id: 6115684235481130895L
+					type: "random"
+				}
+				{
+					id: "65989B16DE106F21"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Tinkering Table"
+			tasks: [{
+				id: "3BC0601C6DB527C1"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			title: "Tinker, Tailor, Table-Maker"
+			x: 2.500000000000007d
+			y: 1.8035714285714235d
+		}
+	]
+	title: "Shaped With Care"
+}

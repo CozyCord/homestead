@@ -1,0 +1,190 @@
+{
+	id: "7726C03859322507"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			type: "xp"
+			xp: 5000
+		}
+		{
+			type: "xp"
+			xp: 10000
+		}
+		{ count: 32, item: "minecraft:diamond", weight: 0.4f }
+		{ item: "ironchests:diamond_chest", weight: 0.5f }
+		{ item: "ironchests:obsidian_chest", weight: 0.5f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 10
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 10
+						}
+					]
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 5
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "minecraft:fortune"
+							lvl: 3
+						}
+					]
+				}
+			}
+			weight: 0.01f
+		}
+		{ item: "create:rotation_speed_controller", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 5
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1
+						}
+					]
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_shovel"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 5
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1
+						}
+					]
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 5
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1
+						}
+					]
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_hoe"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 5
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1
+						}
+					]
+				}
+			}
+			weight: 0.01f
+		}
+		{ item: "sophisticatedbackpacks:netherite_backpack", weight: 0.01f }
+		{ count: 64, item: "minecraft:experience_bottle", weight: 0.3f }
+		{ count: 32, item: "minecraft:ancient_debris", weight: 0.01f }
+		{ count: 32, item: "minecraft:emerald_block", weight: 1.0E-4f }
+		{ count: 64, item: "minecraft:iron_block", weight: 0.05f }
+		{ count: 64, item: "minecraft:diamond_block", weight: 1.0E-4f }
+		{ count: 64, item: "minecraft:netherite_block", weight: 1.0E-4f }
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "cozystudioscore:golden_leaf"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+	]
+	title: "op items"
+}

@@ -1,0 +1,815 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_heart_of_the_homestead"
+	group: ""
+	icon: "vinery:basket"
+	id: "1DDD6B080EBF906A"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/the_heart_of_the_homestead.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -2.749999999999993d
+			y: -0.7678571428571459d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/heart_of_homestead_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -3.0d
+			y: -0.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Farmer’s Delight mod questline."
+				""
+				"Get ready for some farming and some grinding."
+				""
+				"Good luck."
+				""
+				"You're gonna need it.."
+			]
+			id: "5AE4B6061101C9FB"
+			rewards: [
+				{
+					id: "2874DAA0D8033CED"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "4C4D2896C2EAAB01"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "No action required – just a warm welcome!"
+			tasks: [{
+				id: "545ED231C6347A70"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "A Taste of Tradition"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: ["Healthy soil is the heart of a bountiful harvest. Time to enrich the earth!"]
+			id: "63E8D46741EA5CEC"
+			rewards: [
+				{
+					count: 8
+					id: "38CE41DC35EBC8F7"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					id: "60122ED438139E63"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Rich Soil"
+			tasks: [{
+				id: "77531176865A0492"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Tilling New Ground"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Gather the core crops of Farmer’s Delight. These will be the foundation of your meals."]
+			id: "0FDD1523328B1783"
+			rewards: [
+				{
+					count: 8
+					id: "5DA3311D89FBC46A"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "041FEDCE57F54057"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3D2469876CEB483A"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "125CAAABEC547066"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5DAE3F1E955AA1A8"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "7D590E650AE081AC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Grow and harvest Rice, Cabbage, Tomatoes, Onions, and Carrots"
+			tasks: [
+				{
+					count: 4L
+					id: "197F3E2EC9A1B1F7"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0AFA9823A504A1A1"
+					item: { Count: 4, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B4555D5FE390A1A"
+					item: { Count: 4, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3583A2E8D43E4AFF"
+					item: { Count: 4, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16AE126DE6D851F1"
+					item: { Count: 4, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			title: "The First Harvest"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: ["You’ll need the right tools for a real kitchen. Let’s start crafting!"]
+			id: "4880C21B6DC2E01E"
+			rewards: [
+				{
+					id: "26331BAB80973C26"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37C887FA130E4E39"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					id: "13C5253310E49983"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Skillet, Cooking Pot, and Cutting Board"
+			tasks: [
+				{
+					id: "726911BAB54E2BB1"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "072F13D515519978"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "33AAC28F3EBC08D2"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Rustic Beginnings"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Precision matters! Slice ingredients into usable portions."
+				""
+				"&nYou can use the cutting board on many items such as:"
+				""
+				"Stripping Wood"
+				"Vegetables"
+				"Meats"
+				"And more!&r"
+				""
+				"&lPress U while hovering over the Cutting Board in your inventory to see the uses of the Board!&r"
+			]
+			id: "3D058C9B96C87A25"
+			rewards: [
+				{
+					id: "607AE0A86C4C573E"
+					item: {
+						Count: 1
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03C2FC97B4B3B7C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use a Knife on food items on the Cutting Board"
+			tasks: [{
+				block: "farmersdelight:cutting_board"
+				block_type: 0
+				checkItem: false
+				id: "717B9191E65E2939"
+				isItemInteraction: false
+				title: "Use Cutting Board 64x"
+				type: "questsadditions:use"
+				value: 64L
+			}]
+			title: "Chop Chop!"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Simmer those veggies into something hearty and warm."]
+			id: "767AA735C1E9BE75"
+			rewards: [{
+				count: 3
+				id: "215C42232DB93DC3"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			subtitle: "Make a Vegetable Soup in the Cooking Pot"
+			tasks: [{
+				id: "596863436103EF9F"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			title: "Soup's On!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Fire up the skillet and fry your way to flavor town."]
+			id: "01996565F60F5A49"
+			rewards: [
+				{
+					count: 2
+					id: "571001B197753F62"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+				{
+					id: "16210A71AD41E7C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use the Skillet to cook a meal like Fried Egg and Bacon and Eggs"
+			tasks: [
+				{
+					id: "33997A030E96F66A"
+					item: "farmersdelight:fried_egg"
+					type: "item"
+				}
+				{
+					id: "549FCDA903FBE250"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+			]
+			title: "Pan Fried Perfection"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Whether it's a rustic cottage kitchen or a neon-lit mushroom diner, every meal needs a place to be devoured in peace (or in style)."
+				"Now get to crafting—those pancakes aren’t going to plate themselves."
+			]
+			id: "1F855FA73F385999"
+			rewards: [
+				{
+					count: 16
+					id: "7F8F7024FD764B64"
+					item: "farmersdelight:canvas_rug"
+					type: "item"
+				}
+				{
+					id: "1E5BB49B85536FDC"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			subtitle: "Craft some Decor for a place to eat."
+			tasks: [
+				{
+					count: 8L
+					id: "30BDEA2F38889C12"
+					item: { Count: 8, id: "farmersdelight:canvas_rug" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6E1C59C4B627C2EE"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)"
+						}
+					}
+					title: "3x Any #handcrafted:tables"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05C310A3D0FA84AA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:chairs)"
+						}
+					}
+					title: "4x Any #handcrafted:chairs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2713CA49E5EA0C52"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:plates)"
+						}
+					}
+					title: "2x Any #handcrafted:plates"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6315BC561ABEBF0B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cups)"
+						}
+					}
+					title: "2x Any #handcrafted:cups"
+					type: "item"
+				}
+			]
+			title: "A Place to Eat"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["Use your leftovers and scraps to create something useful. Nothing goes to waste!"]
+			id: "04BE85C88D7347CB"
+			rewards: [
+				{
+					count: 4
+					id: "0A6738D4C68DF6B9"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "0CAFB5091B28BE90"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Craft a Composter and Organic Compost"
+			tasks: [
+				{
+					id: "56EC5302238E3F4E"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "52E37573DB0D74D8"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+			]
+			title: "Compost Kitchen"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Stews restore hearts and warm the soul. Try your hand at one!"]
+			id: "2092998D2559930B"
+			rewards: [{
+				count: 3
+				id: "26FD69D860F2FBB7"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			subtitle: "Cook Chicken Soup, Beef Stew, and Fish Stew"
+			tasks: [
+				{
+					id: "148AE78F444D8C86"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					id: "1F1CD123E79F4940"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "2318D50582CA2199"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+			]
+			title: "Flavored Stews"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: ["Quick, hot, and delicious! Stir-fry your way to a full belly."]
+			id: "51497045B73BA3FB"
+			rewards: [
+				{
+					count: 3
+					id: "582F2626E823F2A3"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "37ED1E3035753D3E"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "20CBB3389D6DF803"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use a Skillet 10x to cook your raw food"
+			tasks: [{
+				block: "farmersdelight:skillet"
+				block_type: 0
+				checkItem: false
+				id: "34AD4A1CBFD4B01F"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 10L
+			}]
+			title: "Sauté and Sizzle"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["Impress your guests with this centerpiece feast!"]
+			id: "4B7EBAA568C2D0F9"
+			rewards: [
+				{
+					id: "6E5F7E4FC2EBD3A3"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "19D0E6E5DF98354C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Make a Stuffed Pumpkin"
+			tasks: [{
+				id: "792ADB9D047A232D"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Bountiful Banquet"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			description: ["Nothing says celebration like a full spread!"]
+			id: "7051F8EDE03FB284"
+			rewards: [{
+				id: "120C299BB20DAC72"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			subtitle: "Craft and place a Feast Block (Shepherd's Pie)"
+			tasks: [{
+				block: "farmersdelight:shepherds_pie_block"
+				block_type: 0
+				id: "46B8D4B029B654BA"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
+			title: "Feast Fit for a Farmer"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			description: ["A little sweetness goes a long way. Who doesn’t love cheesecake?"]
+			id: "37F81B6DFAD2440E"
+			rewards: [{
+				count: 2
+				id: "4F01F5E1F62F83F9"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			subtitle: "Bake a Sweet Berry Cheesecake"
+			tasks: [{
+				id: "1DA7C44CF26B0E05"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			title: "Sweet Simplicity"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You thought you were safe from crusts."
+				"You were wrong."
+				"This time, &oyou&r are the baker… and the crust is inevitable."
+			]
+			id: "2CF83A4D26670FAF"
+			rewards: [{
+				count: 4
+				id: "71CD16AB6C062065"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			subtitle: "Craft a Pie Crust"
+			tasks: [{
+				id: "56F0F8585CFD1BAD"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			title: "Uncrustables"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: ["Not every meal has to be eaten at home. Pack something for the road."]
+			id: "2392B114B7007CAF"
+			rewards: [{
+				id: "2F73C0D1BF0ADF06"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			subtitle: "Make Backpack Meals like Stuffed Potatoes or Steak and Potatoes"
+			tasks: [
+				{
+					count: 64L
+					id: "5E56D5F1EB65D322"
+					item: { Count: 64, id: "farmersdelight:stuffed_potato" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "06FD8560478A3863"
+					item: { Count: 64, id: "farmersdelight:steak_and_potatoes" }
+					type: "item"
+				}
+			]
+			title: "Food for the Journey"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Turns out, there’s more to grass than meets the eye."]
+			id: "3063918D5127C568"
+			rewards: [
+				{
+					count: 16
+					id: "2B557C13EB196020"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "1DBC9AE426825C89"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A107A2FE0B939D8"
+					item: "farmersdelight:oak_cabinet"
+					type: "item"
+				}
+			]
+			subtitle: "Use a Knife to cut Tall Grass and collect Straw"
+			tasks: [
+				{
+					count: 16L
+					id: "5C72EF030A8F2F91"
+					item: { Count: 16, id: "farmersdelight:straw" }
+					type: "item"
+				}
+				{
+					id: "51134AFB7C515926"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:tools/knives)"
+						}
+					}
+					title: "Craft 1x Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+			]
+			title: "Straws of the Trade"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["Showcase your produce like a real farmer's market."]
+			id: "52247D85E04AAA79"
+			rewards: [
+				{
+					id: "16F42706301DAF6C"
+					item: "cratedelight:apple_crate"
+					type: "item"
+				}
+				{
+					id: "0409538CAE1CAB8F"
+					item: "cratedelight:berry_crate"
+					type: "item"
+				}
+				{
+					id: "1E5D02CB18BAC8A4"
+					item: "cratedelight:glowberry_crate"
+					type: "item"
+				}
+			]
+			subtitle: "Use Crop Crates for storage"
+			tasks: [
+				{
+					id: "4A2D3AEA9AAEAD2C"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "27201850BA5D77ED"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "4FDA76F6A4CB6AA9"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "2556F1C97C0977AE"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "3846B56535CD9B1A"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					id: "0BB9EE3ED89FB8C8"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+			]
+			title: "Garden of Plenty"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			description: ["Make your kitchen more than functional—it should feel like home."]
+			id: "7613FDD1448AD699"
+			rewards: [
+				{
+					id: "53B6AA12E0364C9E"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62E9784EE24CC657"
+					table_id: 6828356437669856216L
+					type: "random"
+				}
+				{
+					id: "450CACA78E0DD27A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FF65F7A3AB6513C"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Decorate with at least 5 Farmer's Delight decor blocks (Cutting Board, Basket, Cabinets, etc.)"
+			tasks: [
+				{
+					id: "51B4DBA5E7F1A462"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7BAE0E9ACEA378F0"
+					item: { Count: 32, id: "farmersdelight:canvas_rug" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4921CA65EB99493A"
+					item: { Count: 3, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "43A1FB7502EA36F0"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:cabinets)"
+						}
+					}
+					title: "Any #farmersdelight:cabinets"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6F7539714CE7BE0E"
+					item: { Count: 3, id: "farmersdelight:basket" }
+					type: "item"
+				}
+			]
+			title: "A Cozy Kitchen"
+			x: -3.0d
+			y: -5.5d
+		}
+	]
+	title: "The Heart of The Homestead"
+}

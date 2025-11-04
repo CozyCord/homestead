@@ -1,0 +1,1840 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "catch_of_the_day"
+	group: ""
+	icon: "gofish:golden_fish"
+	id: "49664D6FD9B4B02B"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/homestead/catch_of_the_day.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 22.0d
+			image: "ftbquests:textures/homestead/catch_of_the_day_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 37.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Found in Overworld"]
+			id: "2E529835DFE56A65"
+			rewards: [
+				{
+					id: "1A92F3F4E6038B9B"
+					item: "gofish:wooden_crate"
+					type: "item"
+				}
+				{
+					id: "5B1269F02839F7E5"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Found in Overworld"
+			tasks: [{
+				id: "3920F297625B374B"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			description: ["Found in Overworld"]
+			id: "1AA579715B36C3D5"
+			rewards: [
+				{
+					id: "3F7B00AC6549B969"
+					item: "gofish:iron_crate"
+					type: "item"
+				}
+				{
+					id: "79A90E447307E037"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Iron Crate"
+			tasks: [{
+				id: "1FF11D5A0C9B672A"
+				item: "gofish:iron_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			description: ["Found in Overworld"]
+			id: "2CBADDDF1C12B7BB"
+			rewards: [
+				{
+					id: "0587AA377064A319"
+					item: "gofish:golden_crate"
+					type: "item"
+				}
+				{
+					id: "4C4AFC23F6CA4C22"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Golden Crate"
+			tasks: [{
+				id: "737633D9CE079F4E"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: ["Found in Overworld"]
+			id: "7C103A3FE801F564"
+			rewards: [
+				{
+					id: "57E6D1B1557A4C5C"
+					item: "gofish:diamond_crate"
+					type: "item"
+				}
+				{
+					id: "030A3D12B0054ECB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Diamond Crate"
+			tasks: [{
+				id: "21826B82D75A263F"
+				item: "gofish:diamond_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: ["Found in Icy Biomes in the Overworld"]
+			id: "59F8415532351AAD"
+			rewards: [
+				{
+					id: "0A10E9822FF648D0"
+					item: "gofish:frosted_crate"
+					type: "item"
+				}
+				{
+					id: "5B58715A4EEA01B6"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Frosted Crate"
+			tasks: [{
+				id: "5DB2947FB13B4A09"
+				item: "gofish:frosted_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["Found in a Swamp Biome in the Overworld"]
+			id: "01E9BB0A686FC225"
+			rewards: [
+				{
+					id: "79CA3CDFF06CFA81"
+					item: "gofish:slimey_crate"
+					type: "item"
+				}
+				{
+					id: "120780D445AD2382"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Silmey Crate"
+			tasks: [{
+				id: "5C091806B29DD27F"
+				item: "gofish:slimey_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Found in Plains and Forests in the Overworld"]
+			id: "2EE72F154A584242"
+			rewards: [
+				{
+					id: "3AA3D92D331D6DAE"
+					item: "gofish:supply_crate"
+					type: "item"
+				}
+				{
+					id: "2FA0F5AFE962CD6E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Supply Crate"
+			tasks: [{
+				id: "79B5322EF139E9D3"
+				item: "gofish:supply_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: ["Found in the Nether"]
+			id: "7EA4E6191BB47816"
+			rewards: [
+				{
+					id: "05D9D9F5873FBE17"
+					item: "gofish:fiery_crate"
+					type: "item"
+				}
+				{
+					id: "015D40B591F151FF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Fiery Crate"
+			tasks: [{
+				id: "1A36D731F33FDFC9"
+				item: "gofish:fiery_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Found in Soul Sand Valleys in the Nether"]
+			id: "37A0E56EB148FF4B"
+			rewards: [
+				{
+					id: "3B0EF1D1A9A8646A"
+					item: "gofish:soul_crate"
+					type: "item"
+				}
+				{
+					id: "1842FCFF7694614D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Soul Crate"
+			tasks: [{
+				id: "2F345B82919F3FF4"
+				item: "gofish:soul_crate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether"]
+			id: "62A69CB71A7F8806"
+			rewards: [
+				{
+					id: "446E1D141BED630C"
+					item: "gofish:gilded_blackstone_crate"
+					type: "item"
+				}
+				{
+					id: "2C3E9ED60047685C"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Gilded Blackstone Crate"
+			tasks: [{
+				id: "6908A069CB157984"
+				item: "gofish:gilded_blackstone_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			description: ["Found in the Overworld during a Full Moon"]
+			id: "3429880FD2FBCDC7"
+			rewards: [
+				{
+					id: "296CB96E2578779E"
+					item: "gofish:astral_crate"
+					type: "item"
+				}
+				{
+					id: "7D6E4636F1F11DA3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Astral Crate"
+			tasks: [{
+				id: "063F5707CE6D67A7"
+				item: "gofish:astral_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: ["Found in the End"]
+			id: "4760A3236D853EEB"
+			rewards: [
+				{
+					id: "6AFF19602EBA7E97"
+					item: "gofish:end_crate"
+					type: "item"
+				}
+				{
+					id: "47E37DF3143D5891"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a End Crate"
+			tasks: [{
+				id: "0AC0F7A03E75792B"
+				item: "gofish:end_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			description: ["Automatically smelts(cooks) your catch if possible"]
+			id: "1B5A8171DA2B42AC"
+			rewards: [
+				{
+					id: "7432956A0AD7837F"
+					item: "handcrafted:blaze_trophy"
+					type: "item"
+				}
+				{
+					id: "5A64BC3CD62B050D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Craft a Blaze Rod"
+			tasks: [{
+				id: "48E3E3F97CF75BCD"
+				item: {
+					Count: 1
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"No known use."
+				""
+				"Found in Fiery Crates"
+			]
+			id: "3A1614B7FB38D10F"
+			rewards: [
+				{
+					id: "6890B36AF66001D4"
+					item: "handcrafted:skeleton_trophy"
+					type: "item"
+				}
+				{
+					id: "2AB641807752999F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Skeletal Rod"
+			tasks: [{
+				id: "565C69B94B9AD3CD"
+				item: {
+					Count: 1
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			description: ["Gives increased crate catch rate (all dimensions)"]
+			id: "0618EE0D38A52F68"
+			rewards: [
+				{
+					id: "2D58E23BCCD0B90C"
+					item: {
+						Count: 1
+						id: "excavatorsandhammers:diamond_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01BCB530D092C458"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Craft a Diamond Reinforced Rod"
+			tasks: [{
+				id: "780E2E054B17D66C"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"No known use."
+				""
+				"Found in Frosted Crates"
+			]
+			id: "42E2A20509BB3F83"
+			rewards: [
+				{
+					id: "6833E75A10C8090D"
+					item: "alcocraftplus:ice_beer"
+					type: "item"
+				}
+				{
+					id: "21B6AE4597C4CC22"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Frosted Rod"
+			tasks: [{
+				id: "1ADFC67DE0317E3E"
+				item: {
+					Count: 1
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Gives increased jumping for short time after catch."
+				""
+				"Found in Slimey Crates"
+			]
+			id: "6801AF138CB1EAC3"
+			rewards: [
+				{
+					count: 8
+					id: "30B27679C00C2830"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "0D79A1053FFCA6EF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Slime Rod"
+			tasks: [{
+				id: "403297BD5C11DDCF"
+				item: {
+					Count: 1
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Gives catching yield of +5 exp."
+				""
+				"Found in Soul Crates"
+			]
+			id: "1D378E69943D9C13"
+			rewards: [
+				{
+					id: "496318743D44E9D5"
+					item: "trinketlantern:carry_soul_lantern_waterproof"
+					type: "item"
+				}
+				{
+					id: "47CB7A44A48B4ECB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Rod of Souls"
+			tasks: [{
+				id: "0DB1554BF14BCA3F"
+				item: {
+					Count: 1
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The only rod that can collect Matrix Fish."
+				""
+				"Found in End Crates"
+			]
+			id: "672EE49D2F99954A"
+			rewards: [
+				{
+					id: "2956E9CB71034075"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					id: "71B848991B023F3F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Matrix Rod"
+			tasks: [{
+				id: "08BAB93E4473C3ED"
+				item: {
+					Count: 1
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Gives +1 Luck at night."
+				""
+				"Found in Astral Crates"
+			]
+			id: "6E51D810A4A1130D"
+			rewards: [{
+				id: "1455206BC2DDCC03"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.0d
+			subtitle: "Find a Celestial Rod"
+			tasks: [{
+				id: "0D890FAC00265182"
+				item: {
+					Count: 1
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "42289B08A3795FE4"
+			rewards: [
+				{
+					count: 4
+					id: "5A858A3C96F33496"
+					item: "gofish:ender_eel"
+					type: "item"
+				}
+				{
+					id: "60CBAB04B6C9BD34"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Ender Eel"
+			tasks: [{
+				id: "54A0CE2E6A441618"
+				item: "gofish:ender_eel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["Found in Icy Biomes in the Overworld in Water!"]
+			id: "068D29802C9A6D6E"
+			rewards: [
+				{
+					count: 4
+					id: "765016DABE780D03"
+					item: "gofish:icicle_fish"
+					type: "item"
+				}
+				{
+					id: "4BA9C891345C89F3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Icicle Fish"
+			tasks: [{
+				id: "45FCB3439BA9B701"
+				item: "gofish:icicle_fish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in a Swamp Biome in the Overworld in Water!"]
+			id: "467F465042503283"
+			rewards: [
+				{
+					count: 4
+					id: "28579B5C9E0B0276"
+					item: "gofish:lilyfish"
+					type: "item"
+				}
+				{
+					id: "113D634EAAFF5E34"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Lilyfish"
+			tasks: [{
+				id: "1C8EAE88BB76C6B4"
+				item: "gofish:lilyfish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "450BF36C5AA99C61"
+			rewards: [
+				{
+					count: 4
+					id: "172EE392F1DB48C3"
+					item: "gofish:matrix_fish"
+					type: "item"
+				}
+				{
+					id: "0CF391FC735D8954"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Matrix Fish"
+			tasks: [{
+				id: "3925AE98B28161DB"
+				item: "gofish:matrix_fish"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: ["Found in Ocean Biomes in the Overworld in Water!"]
+			id: "703B83FB5AF24885"
+			rewards: [
+				{
+					count: 4
+					id: "7E2963000507D170"
+					item: "gofish:seaweed_eel"
+					type: "item"
+				}
+				{
+					id: "13091ACD9F7281F7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Seaweed Eel"
+			tasks: [{
+				id: "03E5B8816AB5C32D"
+				item: "gofish:seaweed_eel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in a Swamp Biome in the Overworld in Water!"]
+			id: "519453E8C1A99ABE"
+			rewards: [
+				{
+					count: 4
+					id: "0FA70554C200C2C1"
+					item: "gofish:slimefish"
+					type: "item"
+				}
+				{
+					id: "1249138BAC81A919"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Slimefish"
+			tasks: [{
+				id: "766FD1E294FF8F71"
+				item: "gofish:slimefish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in Icy Biomes in the Overworld in Water!"]
+			id: "7C694D2D7C5E6B9F"
+			rewards: [
+				{
+					count: 4
+					id: "1A72FAFA9023B903"
+					item: "gofish:snowball_fish"
+					type: "item"
+				}
+				{
+					id: "5C801863648720B0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Snowball Fish"
+			tasks: [{
+				id: "3CE71882CF5AD1F2"
+				item: "gofish:snowball_fish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in the Mesa biome in the Overworld in Water!"]
+			id: "5DBB207351E225F5"
+			rewards: [
+				{
+					count: 4
+					id: "7F29C32C5B8937C9"
+					item: "gofish:terrafish"
+					type: "item"
+				}
+				{
+					id: "09342B168E3E3DAE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Terrafish"
+			tasks: [{
+				id: "3A3965BFE93A662F"
+				item: "gofish:terrafish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in Plains and Forests in the Overworld in Water!"]
+			id: "4FC418BE81D928F6"
+			rewards: [
+				{
+					count: 4
+					id: "3D58EED6D84EC226"
+					item: "gofish:carrot_carp"
+					type: "item"
+				}
+				{
+					id: "762F68C82B74D5EB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Carrot Carp"
+			tasks: [{
+				id: "5364565311DA9BF3"
+				item: "gofish:carrot_carp"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in Plains and Forests in the Overworld in Water!"]
+			id: "376FA2AA9E1428A5"
+			rewards: [
+				{
+					count: 4
+					id: "52CD7EA401C26928"
+					item: "gofish:oakfish"
+					type: "item"
+				}
+				{
+					id: "3B8F9C987902B5D1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Oakfish"
+			tasks: [{
+				id: "45BDD1725C31B204"
+				item: "gofish:oakfish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "7642ADA40D9DBB6D"
+			rewards: [
+				{
+					count: 4
+					id: "1526FB113F199A74"
+					item: "gofish:spikerfish"
+					type: "item"
+				}
+				{
+					id: "797F6284B3F9FD84"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Spikerfish"
+			tasks: [{
+				id: "533946DA6064ABA9"
+				item: "gofish:spikerfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "46F88BD55162E407"
+			rewards: [
+				{
+					count: 4
+					id: "1E3B690D81922642"
+					item: "gofish:blackstone_trout"
+					type: "item"
+				}
+				{
+					id: "1F8CC73E848A6000"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Blackstone Trout"
+			tasks: [{
+				id: "129315EF22451A31"
+				item: "gofish:blackstone_trout"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "1A59F5B9DAAA55F1"
+			rewards: [
+				{
+					count: 4
+					id: "60D1F26AF7D342E2"
+					item: "gofish:bonefish"
+					type: "item"
+				}
+				{
+					id: "313B9A157B969DF1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Bonefish"
+			tasks: [{
+				id: "7CFE1A0980F00EBD"
+				item: "gofish:bonefish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "3A824556A2944260"
+			rewards: [
+				{
+					count: 4
+					id: "1AF38C14D55CCF14"
+					item: "gofish:gilded_blackstone_carp"
+					type: "item"
+				}
+				{
+					id: "6B415C0FB5046F30"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Gilded Blackstone Carp"
+			tasks: [{
+				id: "3B43DD7EED692362"
+				item: "gofish:gilded_blackstone_carp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Found in the Nether in Lava!"
+				""
+				"Gives 10 seconds of Fire Resistance when eaten."
+			]
+			id: "6B69EAC075A050BC"
+			rewards: [
+				{
+					count: 4
+					id: "3BCB90B5E8B01A6F"
+					item: "gofish:smokey_salmon"
+					type: "item"
+				}
+				{
+					id: "5CC1B7C4CBD52570"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Smokey Salmon"
+			tasks: [{
+				id: "1964A8E229E564E9"
+				item: "gofish:smokey_salmon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Found in Soul Sand Valleys in the Nether in Lava!"
+				""
+				"Used to craft the Soul Lure!"
+			]
+			id: "3F452A59278694DF"
+			rewards: [
+				{
+					count: 4
+					id: "382161EAB478E10F"
+					item: "gofish:soul_salmon"
+					type: "item"
+				}
+				{
+					id: "6D5D8498069C155B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Soul Salmon"
+			tasks: [{
+				id: "7F25693AC2955E6B"
+				item: "gofish:soul_salmon"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "2FA06043A746F54E"
+			rewards: [
+				{
+					count: 4
+					id: "6655487A688EA081"
+					item: "gofish:magma_cod"
+					type: "item"
+				}
+				{
+					id: "52ABFC235922DC83"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Magma Cod"
+			tasks: [{
+				id: "5E2981D60B0FFBAD"
+				item: "gofish:magma_cod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "66C257E9859AE09A"
+			rewards: [
+				{
+					count: 4
+					id: "0225B66BB7A351C6"
+					item: "gofish:basalt_bass"
+					type: "item"
+				}
+				{
+					id: "43F088EFAF546009"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Basalt Bass"
+			tasks: [{
+				id: "575BF079BC6A1BB2"
+				item: "gofish:basalt_bass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Found in Basalt Deltas in the Nether in Lava!"]
+			id: "6420D433FDB74D8D"
+			rewards: [
+				{
+					count: 4
+					id: "201779CDE90D949E"
+					item: "gofish:obsidian_halibut"
+					type: "item"
+				}
+				{
+					id: "69EFC16EAF722CA1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Obsidian Halibut"
+			tasks: [{
+				id: "3EA9C50EBD60FE56"
+				item: "gofish:obsidian_halibut"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "5BB0CC52E8ACC378"
+			rewards: [
+				{
+					count: 4
+					id: "6266BB0BBE362144"
+					item: "gofish:endfish"
+					type: "item"
+				}
+				{
+					id: "50A38CE2A98CDF8A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Endfish"
+			tasks: [{
+				id: "69AB53B5CD83AF5A"
+				item: "gofish:endfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "5B3C606576BDB394"
+			rewards: [
+				{
+					count: 4
+					id: "31F39C89A49A2305"
+					item: "gofish:chorus_cod"
+					type: "item"
+				}
+				{
+					id: "19D17D00CE55ACD1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Chorus Cod"
+			tasks: [{
+				id: "0D8F1AB0EBE4B422"
+				item: "gofish:chorus_cod"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "05855A17F64EE7B6"
+			rewards: [
+				{
+					count: 4
+					id: "1D9CC782CCC191EA"
+					item: "gofish:dragonfish"
+					type: "item"
+				}
+				{
+					id: "15F688AEB785F7D6"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Dragonfish"
+			tasks: [{
+				id: "12DA2D0666D752BF"
+				item: "gofish:dragonfish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "2A63BE8FFBB22786"
+			rewards: [
+				{
+					count: 4
+					id: "4369BEE048D1F4DA"
+					item: "gofish:omega_floater"
+					type: "item"
+				}
+				{
+					id: "776420047A961398"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Omega Floater"
+			tasks: [{
+				id: "3877BFA5490B940C"
+				item: "gofish:omega_floater"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Found in the End in Water!"
+				""
+				"Bring your own water and make your own little 2x2 source or bigger, and fish your heart away!"
+			]
+			id: "51AE0BB952B4A4FE"
+			rewards: [
+				{
+					count: 4
+					id: "0F4AF568CA8A6639"
+					item: "gofish:portal_puffer"
+					type: "item"
+				}
+				{
+					id: "695536E30E6DAB00"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Portal Puffer"
+			tasks: [{
+				id: "6C5D7C6DEE5C1E75"
+				item: "gofish:portal_puffer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be night/full moon to fish up!"
+			]
+			id: "340B24B1532BD361"
+			rewards: [
+				{
+					count: 4
+					id: "4F97431F7844EBEA"
+					item: "gofish:lunarfish"
+					type: "item"
+				}
+				{
+					id: "013606546F556536"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Lunarfish"
+			tasks: [{
+				id: "65400483EACA8E86"
+				item: "gofish:lunarfish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be night/full moon to fish up!"
+			]
+			id: "0670CEA4E68897AB"
+			rewards: [
+				{
+					count: 4
+					id: "5900C1CD13C28E29"
+					item: "gofish:galaxy_starfish"
+					type: "item"
+				}
+				{
+					id: "73369152F4E6E4D5"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Galaxy Starfish"
+			tasks: [{
+				id: "0779100099DA52F8"
+				item: "gofish:galaxy_starfish"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be night/full moon to fish up!"
+			]
+			id: "39B0E577FEC2AA67"
+			rewards: [
+				{
+					count: 4
+					id: "183135D2276E94CE"
+					item: "gofish:starry_salmon"
+					type: "item"
+				}
+				{
+					id: "53E4443ED6A9F359"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Starry Salmon"
+			tasks: [{
+				id: "43D160B594707D79"
+				item: "gofish:starry_salmon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be night/full moon to fish up!"
+			]
+			id: "2A486472AA12AD8D"
+			rewards: [{
+				count: 4
+				id: "31A30533CC6B9649"
+				item: "gofish:nebula_swordfish"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Fish up a Nebula Swordfish"
+			tasks: [{
+				id: "2323A7B548292F67"
+				item: "gofish:nebula_swordfish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be raining, or thunderstorm to fish up!"
+			]
+			id: "7BE3837D273C65B9"
+			rewards: [
+				{
+					count: 4
+					id: "496FEBBED02BB89E"
+					item: "gofish:rainy_bass"
+					type: "item"
+				}
+				{
+					id: "66A1B457CAA769EA"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Rainy Bass"
+			tasks: [{
+				id: "5B773BA7D2046103"
+				item: "gofish:rainy_bass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Found in the SKY in the Overworld in Water!"
+				""
+				"You have to be AT or ABOVE cloud level to catch this Crab!"
+				""
+				"Can be used to create Slow Falling potions!"
+			]
+			id: "337ECAFC001D6E46"
+			rewards: [
+				{
+					count: 4
+					id: "5603D360CA735950"
+					item: "gofish:cloudy_crab"
+					type: "item"
+				}
+				{
+					id: "7B2F6589F5E3111F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Cloudy Crab"
+			tasks: [{
+				id: "43606973933D1C18"
+				item: "gofish:cloudy_crab"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Found in the Overworld in Water!"
+				""
+				"Has to be thunderstorming to fish up!"
+			]
+			id: "02FB50EE7DC08125"
+			rewards: [
+				{
+					count: 4
+					id: "2C0B7D5C4ABC8A56"
+					item: "gofish:thundering_bass"
+					type: "item"
+				}
+				{
+					id: "736622F347435971"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Thundering Bass"
+			tasks: [{
+				id: "55512B68B7FDD5C4"
+				item: "gofish:thundering_bass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in Icy Biomes in the Overworld in Water!"]
+			id: "6AB54D81D2D304BB"
+			rewards: [
+				{
+					count: 4
+					id: "3B8DD1478CF44B7F"
+					item: "gofish:blizzard_bass"
+					type: "item"
+				}
+				{
+					id: "4A777B2F8722EF1E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Fish up a Blizzard Bass"
+			tasks: [{
+				id: "2703AA6CE1443435"
+				item: "gofish:blizzard_bass"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Gives an additional +1 Lure Enchantment Bonus, which stacks with your other lures and Rod Enchantments."
+				""
+				"Found in Golden Crates, very rare."
+			]
+			id: "26648DFE4B4DA128"
+			rewards: [
+				{
+					count: 3
+					id: "5CE26E5BC9F7C055"
+					item: {
+						Count: 1
+						id: "cozystudioscore:golden_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F1747BF076E010B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find a Golden Fish"
+			tasks: [{
+				id: "1C274A3CDD81CC73"
+				item: "gofish:golden_fish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			description: ["Gives +1 Lure Enchantment bonus, which stacks with your other lures and Rod Enchantments when in inventory."]
+			id: "332F687D94F072AF"
+			rewards: [
+				{
+					id: "5CB1B5A6B637A3B8"
+					item: {
+						Count: 1
+						id: "umbrellas:jellyfish_umbrella"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19AD5E790EC251F9"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Craft a Simple Lure"
+			tasks: [{
+				id: "187392718D92BEE8"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: ["Gives +1 Luck Bonus while fishing in a Soul Sand Valley. This stacks with your other lures and Rod Enchantments when in inventory."]
+			id: "57B824C4D985E695"
+			rewards: [
+				{
+					count: 4
+					id: "6BD48DAAA2586866"
+					item: "twigs:soul_lamp"
+					type: "item"
+				}
+				{
+					id: "158C7FACE7B4E3F8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Craft a Soul Lure"
+			tasks: [{
+				id: "36B13FA677165E2D"
+				item: "gofish:soul_lure"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46F88BD55162E407"]
+			description: ["Can be used to make a Blackstone Trout Deluxe!"]
+			id: "03553623A257D0C7"
+			rewards: [
+				{
+					count: 4
+					id: "25E568C26E4C29D3"
+					item: "gofish:grilled_blackstone_trout"
+					type: "item"
+				}
+				{
+					id: "3128B0890B9CD092"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Cook a Blackstone Trout"
+			tasks: [{
+				id: "357830F2A7CF967E"
+				item: "gofish:grilled_blackstone_trout"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03553623A257D0C7"]
+			description: ["One of the most savory foods from Go Fish!"]
+			id: "4D7F9D635BFCD58B"
+			rewards: [
+				{
+					count: 4
+					id: "6762046AAEEEA359"
+					item: "gofish:grilled_blackstone_deluxe"
+					type: "item"
+				}
+				{
+					id: "58EBC48C7C1C5B97"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Make Blackstone Trout Deluxe"
+			tasks: [{
+				id: "40A36DE3DA1728C7"
+				item: "gofish:grilled_blackstone_deluxe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FC418BE81D928F6"]
+			id: "3AB9BD93D86C0180"
+			rewards: [
+				{
+					count: 4
+					id: "585BE378CC6C5B95"
+					item: "gofish:baked_carrot_carp"
+					type: "item"
+				}
+				{
+					id: "0E08A7A1EA6BB04D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Cook a Carrot Carp"
+			tasks: [{
+				id: "07DA9E87B293A86F"
+				item: "gofish:baked_carrot_carp"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["337ECAFC001D6E46"]
+			id: "69306A862BA2F50A"
+			rewards: [
+				{
+					count: 4
+					id: "363DB037EC446B76"
+					item: "gofish:smoked_cloudy_crab"
+					type: "item"
+				}
+				{
+					id: "1EEB83DC80B9E6FC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Cook a Cloudy Crab"
+			tasks: [{
+				id: "5F64A634C12DDA98"
+				item: "gofish:smoked_cloudy_crab"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5BB0CC52E8ACC378"]
+			id: "1DECC40761274B09"
+			rewards: [
+				{
+					count: 4
+					id: "20A8C28B4AC83D0D"
+					item: "gofish:baked_endfish"
+					type: "item"
+				}
+				{
+					id: "284AE247136AF2AF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Cook a Endfish"
+			tasks: [{
+				id: "5738320BEE35810D"
+				item: "gofish:baked_endfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DECC40761274B09"]
+			description: ["One of the most savory foods from Go Fish!"]
+			id: "22C0E44FA7EB24E4"
+			rewards: [
+				{
+					count: 4
+					id: "328A610DA1EDDE52"
+					item: "gofish:endfish_and_chorus"
+					type: "item"
+				}
+				{
+					id: "6F49FD884B51D0B7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Make Endfish n' Chorus"
+			tasks: [{
+				id: "5B941BB0217D989C"
+				item: "gofish:endfish_and_chorus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["376FA2AA9E1428A5"]
+			description: ["Can be used to make Weakness potions!"]
+			id: "11822AFB93341152"
+			rewards: [
+				{
+					count: 4
+					id: "1CFD76F44DB64EA5"
+					item: "gofish:charfish"
+					type: "item"
+				}
+				{
+					id: "027F5017EF375B43"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Cook a Oakfish"
+			tasks: [{
+				id: "735233D82C653637"
+				item: "gofish:charfish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"340B24B1532BD361"
+				"0670CEA4E68897AB"
+				"39B0E577FEC2AA67"
+				"2A486472AA12AD8D"
+			]
+			description: ["The most galactic food out there!"]
+			id: "42F8A9CFFB6F6E96"
+			rewards: [
+				{
+					count: 4
+					id: "662277260AA57940"
+					item: "gofish:aquatic_astral_stew"
+					type: "item"
+				}
+				{
+					id: "0D6F79FF0F1AFCD8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Make Aquatic Astral Stew"
+			tasks: [{
+				id: "6C45F965BD35072E"
+				item: "gofish:aquatic_astral_stew"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"No known use."
+				""
+				"Found in End Crates"
+			]
+			id: "4E545FDC77861AF9"
+			rewards: [
+				{
+					count: 4
+					id: "0ECBCF677B0E9AB8"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "6463DD7DD59BDCFB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.0d
+			subtitle: "Find an Eye of Fishing"
+			tasks: [{
+				id: "5131757A9FE0A7DC"
+				item: {
+					Count: 1
+					id: "gofish:ender_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+	]
+	title: "Catch of the Day"
+}

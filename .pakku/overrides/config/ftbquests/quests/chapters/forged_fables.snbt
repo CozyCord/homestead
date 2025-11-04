@@ -1,0 +1,2501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forged_fables"
+	group: ""
+	icon: "mythicupgrades:peridot_upgrade_smithing_template"
+	id: "0214FF591265942D"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/forged_fables.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/forged_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You see ore. You mine ore. You become a god."]
+			id: "4E3FFFC9B87866BF"
+			rewards: [
+				{
+					count: 2
+					id: "21C5A66F373015B4"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38BD3CF8051CD6E7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "35171316472BD278"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine 35 Necoium Ore and smelt them into ingots."
+			tasks: [{
+				count: 35L
+				id: "53E1FDFE055261E0"
+				item: { Count: 35, id: "mythicupgrades:necoium_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			description: ["You couldn't live with your own failure. Where did that bring you? Back to me."]
+			id: "68391B635F1A2FD9"
+			rewards: [
+				{
+					id: "0EF2DBA3E95AE387"
+					item: "things:riot_gauntlet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78F5512C7DA8610C"
+					item: "things:recall_potion"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5ED682644A17FCF3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0E4861FE0B9D150E"
+					item: {
+						Count: 1
+						id: "clutter:purple_butterfly_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C654536D5FF79A0"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "1B64504B36244D26"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					count: 3
+					id: "48135A1BA48D237F"
+					item: {
+						Count: 1
+						id: "cozystudioscore:golden_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine 245 Necoium Ore. Craft full sets of Topaz, Sapphire, Ruby, Aquamarine, Jade, Peridot, Ametrine equipment."
+			tasks: [
+				{
+					block: "mythicupgrades:necoium_ore"
+					block_type: 0
+					checkItem: false
+					id: "531A4E31B87A89ED"
+					type: "questsadditions:break"
+					value: 245L
+				}
+				{
+					id: "14C45AD6285DCDDA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8D2E3B5612DBEA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193220F51D7FC544"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4130600FD4ACCEC5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "144290D2A95D1A28"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3BE3235F53A6F9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651D0086CE3CDDF0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACAAA2601E0C924"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F01D15D6C0832CE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C7E62CE329DB0EC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D9B633C53B1A04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "785E8F5A2339F4DF"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6392B9889CE5F0FC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18CE506F6283B602"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E79E5A508B4A8DB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75EF3FE56D853629"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2844EBB9F2EF763B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B101D35B7649A7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49CBA1A8937541BA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBC4CDE2A8B117A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C99E96FCB5CD7F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BEA831A7F125850"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3426B00022AC6123"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470565AE382FF0A9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2371A77201130902"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32762A7C05505F36"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787432D8CB36F83A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "685F8DE7198A95E3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B27626BDC246C04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE3F4B2FDCCCE2C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EA871C414B2E04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400084039B545D91"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40C6851ED0C321B0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78EB0E4DE9700F97"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD5C9D5BCB2CF01"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C4880712AAB56A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FC716EB150871BE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F1888686100AD5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A19E2E8D680535D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00F325A5AF6CF70E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21CA0D21CA74E84F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67EFD6602982C612"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "698643589E91F6D5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FBDFA1EBA89A4D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67FF9333B7CF7967"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BF9751DE455046"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A0BE8E7AD48C765"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE3F86A2314E372"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52167FFE9D1CB090"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE1BE5558C50502"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06201C599D6F5BBB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1066989745E14480"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9B4F78E21EDCC1"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35191E44D980725D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8EB2058CA94A47"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA8D6EB57451D44"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65BFE6A094C24898"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F53DDCFA831BDD"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36AB021414BCF4F7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BA6C83EE0D96B5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225D3A50A5EA411B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24B6C8D31795F636"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E53286AD1826C2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "I Am Inevitable"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Travel deep into the historic ruins of Bastion Remnants in The Nether, and you’ll have a chance to loot from the chests the template needed."
+				""
+				"These special templates can be duplicated with 7 Rubies, a block of Blackstone and the original Smithing Template."
+			]
+			id: "1BF9802A3022CF3A"
+			rewards: [
+				{
+					count: 2
+					id: "66E0A64E2D4AD3D9"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "5BF2DB2BA0098504"
+					item: "mythicupgrades:ruby_ingot"
+					type: "item"
+				}
+				{
+					id: "0D9D06BB8BC82538"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "13BFFB2201BC0E65"
+					item: "vanillabackport:red_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Ruby Upgrade"
+			tasks: [{
+				id: "5C999084359E5D2A"
+				item: "mythicupgrades:ruby_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Red as the Blood Moon, Ruby generates in The Nether within Crimson Forest biomes between Y=0 and Y=32 (most commonly at Y=16)."
+				""
+				"Collect 4 Rubies, place them in a Crafting Table with 4 Necoium Ingots to get 1 Ruby Ingot."
+			]
+			id: "6A036F92418D5697"
+			rewards: [
+				{
+					id: "5E49FC52E1FDDA27"
+					item: "mythicupgrades:ruby_ingot"
+					type: "item"
+				}
+				{
+					id: "16BA6D7D1681F4EF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "1F7D676621F34348"
+					item: "natures_spirit:red_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Rubies"
+			tasks: [{
+				count: 8L
+				id: "0FF3EB50E14B4EF7"
+				item: { Count: 8, id: "mythicupgrades:ruby" }
+				type: "item"
+			}]
+			title: "Ruby Gem"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Red is often equated to power. With a full Ruby Armor set, you will gain Miner’s Shield which will apply 1.5 seconds of Mining Fatigue to your enemies!"
+				""
+				"To create the whole armor set you will need 4 Ruby Smithing Templates, a full set of Netherite-Gold Armor, and 4 Ruby Ingots."
+			]
+			id: "4C48EB435C782808"
+			rewards: [
+				{
+					count: 3
+					id: "11B761CAABB247E6"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "1017739F05B943AC"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "136C7CAD736A44ED"
+					item: "natures_spirit:red_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Ruby Armor Set"
+			tasks: [
+				{
+					id: "03C7BF9D746885EB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "274260C2420D7C07"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F414F5C50EB5100"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2E081EE4E0E798"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ruby Armor Set"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"With great power comes great responsibility. Be careful as you mine with these tools, as the pickaxe increases mining speed. The others will grant you Haste when held in your main hand."
+				""
+				"To create the whole tool set you will need 5 Ruby Smithing Templates, a full set of Netherite Tools, and 5 Ruby Ingots."
+			]
+			id: "7702AFA03FBD5CA4"
+			rewards: [
+				{
+					id: "3D6A2B8936EC64DA"
+					item: "mythicupgrades:ruby_crystal_block"
+					type: "item"
+				}
+				{
+					id: "7D3BC9FFDDAE53EA"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "60C88B944DB55D5C"
+					item: "minecraft:red_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Ruby Tool Set"
+			tasks: [
+				{
+					id: "7633D0824A1B1E96"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F79C2A42DC85446"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43D67ECC1F24EDE2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "691FA5FBF267A4EF"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F056F82B59BA71"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ruby Tool Set"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Get yourself out of the rain! Going into Desert Temples is where you will find Topaz Smithing Templates."
+				""
+				"These special templates can be duplicated with 7 Topaz, a block of Sandstone and the original Smithing Template."
+			]
+			id: "4879307DB829E4F4"
+			rewards: [
+				{
+					count: 2
+					id: "0E4F96F615FAA3B2"
+					item: "mythicupgrades:topaz_potion"
+					type: "item"
+				}
+				{
+					id: "1C6FF8E0DC8DA0AB"
+					item: "mythicupgrades:topaz_ingot"
+					type: "item"
+				}
+				{
+					id: "03A993195DAD9846"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "22FB0827C1FB151D"
+					item: "vanillabackport:orange_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Topaz Upgrade"
+			tasks: [{
+				id: "0D5721F8774CB8D9"
+				item: "mythicupgrades:topaz_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Jumanji: A game for those who seek to find a way to leave their world behind. Peridot Smithing Templates can be found in Jungle Temples."
+				""
+				"These special templates can be duplicated with 7 Peridot, a block of Mossy Cobblestone and the original Smithing Template."
+			]
+			id: "6AB584F3234E46F7"
+			rewards: [
+				{
+					count: 2
+					id: "4C7019EBB8F170B5"
+					item: "mythicupgrades:peridot_potion"
+					type: "item"
+				}
+				{
+					id: "34F7E0A9009EFD9E"
+					item: "mythicupgrades:peridot_ingot"
+					type: "item"
+				}
+				{
+					id: "51D125F66C11CFCE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6E2F9E1FC4640E0B"
+					item: "vanillabackport:lime_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Peridot Upgrade"
+			tasks: [{
+				id: "453E3D01BD0F8FEA"
+				item: "mythicupgrades:peridot_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Let It Go! These templates can be looted from igloos within Icy Villages."
+				""
+				"These special templates can be duplicated with 7 Aquamarine, a block of Stone Bricks and the original Smithing Templates."
+			]
+			id: "0725D37325D7D55D"
+			rewards: [
+				{
+					count: 2
+					id: "4E0383AF09ECA652"
+					item: "mythicupgrades:aquamarine_potion"
+					type: "item"
+				}
+				{
+					id: "4E08D4A45BEEC684"
+					item: "mythicupgrades:aquamarine_ingot"
+					type: "item"
+				}
+				{
+					id: "426AF1D70BF5EAB8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "36DC0C5F21837038"
+					item: "vanillabackport:light_blue_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Aquamarine Upgrade"
+			tasks: [{
+				id: "130CAD3B849EA54F"
+				item: "mythicupgrades:aquamarine_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Sapphire Smithing Templates can be retrieved from Nether Fortresses."
+				""
+				"These special templates can be duplicated with 7 Sapphires, a block of Netherbricks and the original Smithing Template."
+			]
+			id: "15AEC560FCA12AC8"
+			rewards: [
+				{
+					count: 2
+					id: "2BD6B4CAC0150B7E"
+					item: "mythicupgrades:sapphire_potion"
+					type: "item"
+				}
+				{
+					id: "28DA969573C198E7"
+					item: "mythicupgrades:sapphire_ingot"
+					type: "item"
+				}
+				{
+					id: "106C8F4D34B9C1E7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "717CFAFBDFC0F295"
+					item: "vanillabackport:blue_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Sapphire Upgrade"
+			tasks: [{
+				id: "321D6187771028DF"
+				item: "mythicupgrades:sapphire_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"You thought Shulks were annoying? You ain’t seen nothing! Ametrine Smithing Templates can be found within End Cities."
+				""
+				"These special templates can be duplicated with 7 Ametrine, a block of Endstone Bricks and the original Smithing Template."
+			]
+			id: "4D0C394A9BFCD113"
+			rewards: [
+				{
+					count: 2
+					id: "1AD1B08551F46176"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "44DA82FC45983587"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1E9DED36CE27ED95"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "051FE204CEC94F01"
+					item: "vanillabackport:magenta_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Ametrine Upgrade"
+			tasks: [{
+				id: "41BDC532E315C2D2"
+				item: "mythicupgrades:ametrine_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"For the Fire Nation! Topaz generates beneath Desert Biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				""
+				"Collect 4 Topaz, place them in a Crafting Table with 4 Necoium Ingots to get 1 Topaz Ingot."
+			]
+			id: "44AEAB3D29866F0F"
+			rewards: [
+				{
+					id: "7C63DBF8C9D7EE57"
+					item: "mythicupgrades:topaz_ingot"
+					type: "item"
+				}
+				{
+					id: "6B2BD185D8238E9C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "13AAC10A173E7433"
+					item: "natures_spirit:orange_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Topaz"
+			tasks: [{
+				count: 8L
+				id: "57411798EFF72017"
+				item: "mythicupgrades:topaz"
+				type: "item"
+			}]
+			title: "Topaz Gem"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Adventurers Beware: Do not begin unless you intend to finish. Peridot generates beneath Jungle Biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				""
+				"Collect 4 Peridot, place them in a Crafting Table with 4 Necoium Ingots to get 1 Peridot Ingot."
+			]
+			id: "0C93000C3F4043E9"
+			rewards: [
+				{
+					id: "1B4339051C640CA7"
+					item: "mythicupgrades:peridot_ingot"
+					type: "item"
+				}
+				{
+					id: "311382F18F4A9C32"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "4E00154B894B6A2D"
+					item: "natures_spirit:lime_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Peridot"
+			tasks: [{
+				count: 8L
+				id: "43E2CFE0BA6DFDDF"
+				item: "mythicupgrades:peridot"
+				type: "item"
+			}]
+			title: "Peridot Gem"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This icy force both foul and fair has a frozen heart worth mining! Aquamarine is located under Icy biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				""
+				"Collect 4 Aquamarine, place them in a Crafting Table with 4 Necoium Ingots to get 1 Aquamarine Ingot."
+			]
+			id: "03F664EF2509422A"
+			rewards: [
+				{
+					id: "1766A43551DC293F"
+					item: "mythicupgrades:aquamarine_ingot"
+					type: "item"
+				}
+				{
+					id: "77BCC97564D2A933"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "22088D5248030681"
+					item: "natures_spirit:light_blue_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Aquamarine"
+			tasks: [{
+				count: 8L
+				id: "65BF09E4D9789F7C"
+				item: "mythicupgrades:aquamarine"
+				type: "item"
+			}]
+			title: "Aquamarine Gem"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Sapphire generates in The Nether between Y=0 and Y=32 (most commonly at Y=16)."
+				""
+				"Collect 4 Sapphire, place them in a Crafting Table with 4 Necoium Ingots to get 1 Sapphire Ingot."
+			]
+			id: "0729DA74DFCC4D83"
+			rewards: [
+				{
+					id: "726A02EC17E63F65"
+					item: "mythicupgrades:sapphire_ingot"
+					type: "item"
+				}
+				{
+					id: "073B2FD5F90233CC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "4529D9A89A1F3522"
+					item: "natures_spirit:blue_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Sapphire"
+			tasks: [{
+				count: 8L
+				id: "5E9760626BC7E3E0"
+				item: "mythicupgrades:sapphire"
+				type: "item"
+			}]
+			title: "Sapphire Gem"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Think of a thought, any merry little thought! Ametrine can be found in The End between Y=0 and Y=32 (most commonly at Y=16)."
+				""
+				"Collect 4 Ametrine, place them in a Crafting Table with 4 Necoium Ingots to get 1 Ametrine Ingot."
+			]
+			id: "11965479A90F520B"
+			rewards: [
+				{
+					id: "271B151967F10B7E"
+					item: "mythicupgrades:ametrine_ingot"
+					type: "item"
+				}
+				{
+					id: "3F82AF35E7F72151"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "40C6509DE8E2724E"
+					item: "natures_spirit:magenta_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Ametrine"
+			tasks: [{
+				count: 8L
+				id: "2F36D14AACC1F690"
+				item: "mythicupgrades:ametrine"
+				type: "item"
+			}]
+			title: "Ametrine Gem"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Is it hot in here or just you? Each individual armor piece has Triple Durability and gives you +1 Protection. With a full Topaz set, you will have full Fire Protection and Item Mastery V which gives you a 50% chance of your tool not taking durability hits.."
+				""
+				"To create the whole armor set you will need 4 Topaz Smithing Templates, a full set of Netherite-Gold Armor, and 4 Topaz Ingots."
+			]
+			id: "6E7534C8A367A4FC"
+			rewards: [
+				{
+					count: 3
+					id: "23B7E69CB4D32162"
+					item: "mythicupgrades:topaz_potion"
+					type: "item"
+				}
+				{
+					id: "1D8ABD9E9F90A62A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "3D5289C454275D3F"
+					item: "natures_spirit:orange_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Topaz Armor Set"
+			tasks: [
+				{
+					id: "66796811F0AD9FDC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E00F4C6841BCFD7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FA773CAA7F41594"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "324069630103A825"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Topaz Armor Set"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Don’t touch the purples ones, they shoot poisonous barbs. And definitely stay away from the pods… the big yellow ones. Full Peridot Armor will give you Infinite Poisonous Thorns, which applies Thorns and Poison to attacking enemies."
+				""
+				"To create the whole armor set you will need 4 Peridot Smithing Templates, a full set of Netherite-Emerald Armor, and 4 Peridot Ingots."
+			]
+			id: "719EB23C561A0347"
+			rewards: [
+				{
+					count: 3
+					id: "52129896983CC934"
+					item: "mythicupgrades:peridot_potion"
+					type: "item"
+				}
+				{
+					id: "5D40A182B5EFF9B1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "10839D73516A043D"
+					item: "natures_spirit:lime_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Peridot Armor Set"
+			tasks: [
+				{
+					id: "5F96948CF5E3BA86"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E41D159083F5241"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9BA465F247811E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "252EC1068469A1CC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Peridot Armor Set"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"See the beauty, sharp and sheer. Full Aquamarine Armor will give you Infinite Infinite Ice Shield III, inflicting Slowness III upon enemies when you are attacked"
+				""
+				"To create the whole armor set you will need 4 Aquamarine Smithing Templates, a full set of Netherite-Iron Armor, and 4 Aquamarine Ingots."
+			]
+			id: "7F4D8186E568223A"
+			rewards: [
+				{
+					count: 3
+					id: "158F381BEB231BA7"
+					item: "mythicupgrades:aquamarine_potion"
+					type: "item"
+				}
+				{
+					id: "0EDA800B76E82B13"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "7696A3F69D40BF63"
+					item: "natures_spirit:light_blue_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Aquamarine Armor Set"
+			tasks: [
+				{
+					id: "78885D1A03B9ECD9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F85DE8A845C4331"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2A98A827B83A0C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "195546A9AA40DAE1"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aquamarine Armor Set"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Sapphire Armor will give you Infinite Infinite Damage Deflection III, sending 30% of damage back at attacking mobs."
+				""
+				"To create the whole armor set you will need 4 Sapphire Smithing Templates, a full set of Netherite-Iron Armor, and 4 Sapphire Ingots."
+			]
+			id: "5B37533DC9D57D6D"
+			rewards: [
+				{
+					count: 3
+					id: "6CE3DCE95DCCCC7C"
+					item: "mythicupgrades:sapphire_potion"
+					type: "item"
+				}
+				{
+					id: "0E51FF0649D953A0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "70B43F51207C7292"
+					item: "natures_spirit:blue_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Sapphire Armor Set"
+			tasks: [
+				{
+					id: "412B3DEB28BE426C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3453DC37205EEA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E3E21EEBBAB7B7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "746E011BF92491A6"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sapphire Armor Set"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Think of the happiest thing, it’s the same as having wings! A full Ametrine Armor set will inflict Levitation V on any enemies attacking you for .75 seconds."
+				""
+				"To create the whole armor set you will need 4 Ametrine Smithing Templates, a full set of Netherite-Diamond Armor, and 4 Ametrine Ingots."
+			]
+			id: "097FBD771071E333"
+			rewards: [
+				{
+					count: 3
+					id: "59436955FB8EA53F"
+					item: "mythicupgrades:ametrine_potion"
+					type: "item"
+				}
+				{
+					id: "137A55D535C40968"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "0A2CCACD894187DB"
+					item: "natures_spirit:magenta_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Ametrine Armor Set"
+			tasks: [
+				{
+					id: "59748E06A0C4032F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35EF6CA112FEA798"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF6293C7C410840"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1A21EFC621FC27"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ametrine Armor Set"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Topaz Tools have Triple Durability, Higher Mining Speed and more Combat Damage. Perfect for your goals of world domination."
+				""
+				"To create the whole tool set you will need 5 Topaz Smithing Templates, a full set of Netherite Tools, and 5 Topaz Ingots."
+			]
+			id: "738A3D2369B5DC45"
+			rewards: [
+				{
+					id: "133DDE78FDEABBEF"
+					item: "mythicupgrades:topaz_crystal_block"
+					type: "item"
+				}
+				{
+					id: "4F779DECBD92C196"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6645867C789170B7"
+					item: "minecraft:orange_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Topaz Tool Set"
+			tasks: [
+				{
+					id: "21DA7420037DC173"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10DB8BBC1667E4B4"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7233F22E887B6B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59006FCCAB632D21"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4BF47FDBAA55A3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Topaz Tool Set"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"They grow much faster than bamboo. Take care or they’ll come after you. Peridot tools apply Poison III on contact."
+				""
+				"To create the whole tool set you will need 5 Peridot Smithing Templates, a full set of Netherite Tools, and 5 Peridot Ingots."
+			]
+			id: "1B933576E03AB9AF"
+			rewards: [
+				{
+					id: "380AE54078DAAF64"
+					item: "mythicupgrades:peridot_crystal_block"
+					type: "item"
+				}
+				{
+					id: "09B9F9433008E5A6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BAF91FB72563D3B"
+					item: "minecraft:lime_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Peridot Tool Set"
+			tasks: [
+				{
+					id: "1DF1892EDF20725B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "785368638AC55F48"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D0977F715430BF2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1728EBF98E07340D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "091711CEFD4F7863"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "PeridotTool Set"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Split the ice apart, and break the Frozen Heart! Aquamarine Tools Freeze enemies for 0.5 seconds."
+				""
+				"To create the whole tool set you will need 5 Aquamarine Smithing Templates, a full set of Netherite Tools, and 5 Aquamarine Ingots."
+			]
+			id: "2C74E4B13A39C27E"
+			rewards: [
+				{
+					id: "04D97689A3709B0F"
+					item: "mythicupgrades:aquamarine_crystal_block"
+					type: "item"
+				}
+				{
+					id: "4A060B149A40137B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5109A8A15EB02938"
+					item: "minecraft:light_blue_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Aquamarine Tool Set"
+			tasks: [
+				{
+					id: "76474BD9C617022A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C71BA07C87AEA57"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C4A6DFE3C5D83BB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B021FF6EAA083B2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24B00360CA955B5B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aquamarine Tool Set"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Sapphire Tools have a higher attack damage as well as dealing 3% of your enemies Max Health in additional damage."
+				""
+				"To create the whole tool set you will need 5 Sapphire Smithing Templates, a full set of Netherite Tools, and 5 Sapphire Ingots."
+			]
+			id: "24722E2F72007C37"
+			rewards: [
+				{
+					id: "26EF7F3608762EFB"
+					item: "mythicupgrades:sapphire_crystal_block"
+					type: "item"
+				}
+				{
+					id: "7A45F4A59D153A9F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "028A96CEA97019EA"
+					item: "minecraft:blue_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Sapphire Tool Set"
+			tasks: [
+				{
+					id: "2EC85AEEC0AB4183"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71A0775CEC4F04D6"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68806669D8C191BB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E80C02718962C5F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "743BF8829BF1FE25"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sapphire Tool Set"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"You can fly! Ametrine tools inflict Levitation V for .75 seconds on enemies."
+				""
+				"To create the whole tool set you will need 4 Ametrine Smithing Templates, a full set of Netherite-Diamond Armor, and 4 Ametrine Ingots."
+			]
+			id: "30432729DF267922"
+			rewards: [
+				{
+					id: "7C139FE8A7919B28"
+					item: "mythicupgrades:ametrine_crystal_block"
+					type: "item"
+				}
+				{
+					id: "21187306358DB2E9"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "780513993435A705"
+					item: "minecraft:magenta_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Ametrine Tool Set"
+			tasks: [
+				{
+					id: "40438545A5366DC2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "749476037CB78465"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73200B899BF2A2C0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0110BB9A22B5B288"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E9F6A1987040EBD"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ametrine Tool Set"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Is that the Jade Palace? No, but Jade Smithing Templates can be found in End Cities."
+				""
+				"These special templates can be duplicated with 7 Jade, a block of Endstone Bricks and the original Smithing Template."
+			]
+			id: "20483A72C553BF75"
+			rewards: [
+				{
+					count: 2
+					id: "4490C08B2524CE78"
+					item: "mythicupgrades:jade_potion"
+					type: "item"
+				}
+				{
+					id: "18D537BD15081E10"
+					item: "mythicupgrades:jade_ingot"
+					type: "item"
+				}
+				{
+					id: "657FB1535AB66839"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "148D29DC0D6E1975"
+					item: "vanillabackport:green_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Jade Upgrade"
+			tasks: [{
+				id: "08CDCFE6D8B68BD0"
+				item: "mythicupgrades:jade_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Smithing Template"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Go forth Dragon Warrior! Jade generates in The End between Y=0 and Y=32 (most commonly at Y=16)."
+				""
+				"Collect 4 Jade, place them in a Crafting Table with 4 Necoium Ingots to get 1 Jade Ingot."
+			]
+			id: "656475CABE587074"
+			rewards: [
+				{
+					id: "710ED94D13804FBF"
+					item: "mythicupgrades:jade_ingot"
+					type: "item"
+				}
+				{
+					id: "083CFC0E9FC8046B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "5DF15EA18EE75C8C"
+					item: "natures_spirit:green_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Jade"
+			tasks: [{
+				count: 8L
+				id: "7861FF2EF3C25081"
+				item: "mythicupgrades:jade"
+				type: "item"
+			}]
+			title: "Jade Gem"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Wax On. Full Jade Armor will give you Infinite Infinite Speed III and Jump Boost III."
+				""
+				"To create the whole armor set you will need 4 Jade Smithing Templates, a full set of Netherite-Emerald Armor, and 4 Jade Ingots."
+			]
+			id: "0256B84C1F88952D"
+			rewards: [
+				{
+					count: 3
+					id: "4EDB16C8A531A3EA"
+					item: "mythicupgrades:jade_potion"
+					type: "item"
+				}
+				{
+					id: "2B0AC194CF64A443"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "15E3404A6E349FD4"
+					item: "natures_spirit:green_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Jade Armor Set"
+			tasks: [
+				{
+					id: "6EC1D36491A24FD8"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A105D93CC5053D3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B9A45AFDD33A99"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC9AD49B4ABF4A2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Jade Armor Set"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Wax Off. When in your main hand, Jade Tools give you Bouncer V, which give you Jump Boost for 2 seconds after being attacked."
+				""
+				"To create the whole tool set you will need 5 Jade Smithing Templates, a full set of Netherite Tools, and 5 Jade Ingots."
+			]
+			id: "4D5FB52FE61066A7"
+			rewards: [
+				{
+					id: "1F7304A41DF7C041"
+					item: "mythicupgrades:jade_crystal_block"
+					type: "item"
+				}
+				{
+					id: "3800A86D0226FD3E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5AB6BDBD00CCD9B2"
+					item: "minecraft:green_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive a full Jade Tool Set"
+			tasks: [
+				{
+					id: "14AD1E503347BDC8"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "485A35F95128063B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52346F8BFB7C19A4"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1915C7A9E89896FB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52DBF7BCB55D5A40"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Jade Tool Set"
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "Forged Fables"
+}

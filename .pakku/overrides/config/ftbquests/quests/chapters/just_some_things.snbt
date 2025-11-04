@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_some_things"
+	group: ""
+	icon: "things:things_almanac"
+	id: "74F05990B94AD569"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/just_some_things.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/things_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["A book so full of knowledge, it practically whispers “I know what you did last summer... with trinkets.\""]
+			id: "6495150FA2217BF2"
+			rewards: [{
+				id: "45129DE749E0391C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Craft the Things Almanac"
+			tasks: [{
+				id: "07FCB04A5C2C2BCB"
+				item: "things:things_almanac"
+				type: "item"
+			}]
+			title: "A Thing or Two About Things"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6495150FA2217BF2"]
+			description: ["It sparkles, it shines, it definitely ends up lost in a chest somewhere."]
+			id: "387843C8BEF771B8"
+			rewards: [
+				{
+					id: "152C19A9F941BE7D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "02801A84EB0FA628"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Mine Gleaming Ore or Deepslate Gleaming Ore to obtain Gleaming Powder"
+			tasks: [{
+				id: "48328C8EB79FB4B6"
+				item: "things:gleaming_powder"
+				type: "item"
+			}]
+			title: "Gleam Team Assemble"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["387843C8BEF771B8"]
+			description: ["You made a Thing! It does… a thing. Probably."]
+			id: "7CF18DBB9C42EC9C"
+			rewards: [
+				{
+					count: 6
+					id: "0768D12DC20ADE33"
+					item: "things:gleaming_powder"
+					type: "item"
+				}
+				{
+					id: "4DE015D7D03FFD44"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft one Glove, Necklace and Shoe trinket."
+			tasks: [
+				{
+					id: "498106D879C3A04D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:hand/glove)"
+						}
+					}
+					title: "Any #trinkets:hand/glove"
+					type: "item"
+				}
+				{
+					id: "082641D889329ECD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:chest/necklace)"
+						}
+					}
+					title: "Any #trinkets:chest/necklace"
+					type: "item"
+				}
+				{
+					id: "470AE1E4AF8C6544"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:feet/shoes)"
+						}
+					}
+					title: "Any #trinkets:feet/shoes"
+					type: "item"
+				}
+			]
+			title: "Thingamajigs and Whatsits"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CF18DBB9C42EC9C"]
+			description: ["Fuse two trinkets into one! It’s like friendship bracelets, but with more arcane energy and less glitter."]
+			id: "19B3F903C08DE671"
+			rewards: [
+				{
+					id: "3694FD96985C8EA1"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "35A241BE885B7367"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "656615BEEAB2937A"
+					table_id: 6828356437669856216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft an Agglomeration"
+			tasks: [{
+				id: "2C93116F2E6C1424"
+				item: "things:empty_agglomeration"
+				type: "item"
+			}]
+			title: "Franken-Thing"
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	title: "Just Some Things"
+}

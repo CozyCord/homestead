@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homestead"
+	group: ""
+	id: "1B9668460B819C10"
+	images: [
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/homestead_quest_bg.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/homestead/homestead_text_export.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"What’s Inside the Homestead Mod?"
+				""
+				"The Homestead Mod is a custom-made addition built by the CozyCord team, packed with unique content you won’t find anywhere else."
+				""
+				"&lCustom Mobs&r – Charming, original creatures that bring life and challenge to your world."
+				""
+				"&lExclusive Items&r – A special lantern, and taming tools made just for Homestead."
+				""
+				"&lMounts and Integration&r – Rideable companions that even interact with mobs from other mods!"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "patchouli:welcome"
+				}
+			}
+			id: "1CDC7463A908FC2B"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5DC5561350C7C74F"
+				title: "Homestead Custom Mod"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Golden Leaf"
+				""
+				"&lPassive Regeneration&r"
+				""
+				"Keep it in your inventory to gain slow, infinite health regen"
+				""
+				"&lEmergency Healing (3 Charges)&r"
+				""
+				"Right-click to eat and instantly restore health and saturation. Think of it as a faster, stronger golden apple"
+				""
+				"&lCrafting Ingredient&r"
+				""
+				"Required to craft the Tranquil Lantern."
+			]
+			icon: {
+				Count: 1
+				id: "cozystudioscore:golden_leaf"
+				tag: { }
+			}
+			id: "41210CFB89986F2E"
+			tasks: [{
+				id: "1D3EEF5EB344305E"
+				title: "Golden Lead"
+				type: "checkmark"
+			}]
+			title: "Golden Leaf"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&lTranquil Lantern&r"
+				""
+				"More than just a light source, the Tranquil Lantern is a magical beacon of peace powered by the rare Golden Leaf."
+				""
+				"&lArea of Tranquility&r"
+				""
+				"Disables hostile mob spawns in a 34-block radius while giving off a soft, calming glow."
+				""
+				"&lRegenerative Grace&r"
+				""
+				"Stand within the 35-block radius and get constant Regen (Toggleable in Config)"
+				""
+				"&lCrafting Recipe&r"
+				""
+				"- 1 Golden Leaf in the center"
+				"- Surrounded by 8 regular lanterns"
+			]
+			icon: "cozystudioscore:tranquil_lantern"
+			id: "3A10EB162A3129B6"
+			tasks: [{
+				id: "4811B0D030337DBE"
+				title: "Tranquil Lantern"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"New Friends of the Forest"
+				""
+				"&lFernling&r"
+				""
+				"&l- Biomes:&r Forests, Meadows, Deserts, Snowy Biomes, Icy Biomes, Swamps"
+				""
+				"&l- Tame with:&r Cozy Crumbs"
+				""
+				"&l- Abilities:&r"
+				"• Follows you"
+				"• Sleep toggle (right-click)"
+				"• Occasionally bone meals the ground for plant growth"
+				""
+				"&lMushling&r"
+				""
+				"&l- Biomes:&r Dark Forest, Mushroom Fields, Lush Caves, Crimson Forests, Warped Forests"
+				""
+				"&l- Tame with:&r Cozy Crumbs"
+				""
+				"&l- Abilities:&r"
+				"• Follows you"
+				"• Sleep toggle (right-click)"
+				"• Glows at night"
+				""
+				"&lMystical Elk&r"
+				""
+				"&l- Biomes:&r Dark Forest"
+				""
+				"&l- Tame with:&r Mystical Berries"
+				""
+				"&l- Abilities:&r"
+				"• Rideable with saddle"
+			]
+			icon: "phomesteadplushies:mushling_plushie"
+			id: "2BCDA4053CC2E1C2"
+			tasks: [{
+				id: "0A7CD97BE2A34270"
+				title: "Mobs"
+				type: "checkmark"
+			}]
+			title: "Custom Mobs"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Cozy Crumbs"
+				""
+				"&lHow to Craft:&r"
+				""
+				"- 1 Honey Bottle"
+				""
+				"- 1 Wheat"
+				""
+				"- 1 Red Mushroom"
+				""
+				"&lUsed to Tame:&r"
+				""
+				"- Fernlings"
+				""
+				"- Mushlings "
+			]
+			icon: "cozystudioscore:cozy_crumbs"
+			id: "2689B2FD34CD485B"
+			tasks: [{
+				id: "3AB82C6C8469DE23"
+				title: "Cozy Crumbs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "CozyStudios Core Mod Tips"
+}

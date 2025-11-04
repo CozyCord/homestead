@@ -1,0 +1,1876 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seasoned_and_settled"
+	group: ""
+	icon: "candlelight:cooking_pot"
+	id: "5CDDF7AD0DD2A82E"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/seasoned_and_settled.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "farm_and_charm:item/roaster"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "farm_and_charm:item/crafting_bowl"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "candlelight:block/cobblestone_stove_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/seasoned_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Farm and Charm, a farming rework from the let’s do series! Featuring its own crops such as strawberries, oats, and corn, these new additions will help fill out your catalogue of foods that fill hunger and provide buffs."
+				""
+				"Most crops can be located in plains or forest biomes, but there are a few that are more elusive. Wild Nettle and Ribwort are located in forests and swamps, Wild Oats are located in meadows and taigas, and wild potatoes are found in taiga and forest biomes. "
+				""
+				"&lFun Planting tip: You can attach ropes from Brewery to some fence posts to create a hanging rope for tomatoes to cling onto and grow larger.&r"
+			]
+			id: "46B4CBE90F82043E"
+			rewards: [
+				{
+					id: "0FC200DDD436E1F3"
+					item: {
+						Count: 1
+						id: "farm_and_charm:pitchfork"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07C4B80183D715FC"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Collect 8x of some farm and charm crops"
+			tasks: [
+				{
+					count: 8L
+					id: "13A7520475955988"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "162C2D6EAD968686"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6E1A631E0ACBF613"
+					item: "farm_and_charm:onion"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DCE60E120DE9902"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2976110311EDDF9D"
+					item: "farm_and_charm:strawberry"
+					type: "item"
+				}
+			]
+			title: "Harvest Valley"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: ["You’ve obtained the crops and you’re ready to plant. To give yourself and your crops the best, rather than putting down a block of water in the ground, craft yourself a Sprinkler! This automated infinite waterer will hydrate tilled soil up to 8 blocks away, double that of a normal water block."]
+			id: "1955C8FAA3A8AC66"
+			rewards: [
+				{
+					count: 5
+					id: "2C29EC505ED446F4"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "0EF84A434B4430D2"
+					item: {
+						Count: 1
+						id: "farm_and_charm:compost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Wooden Silo and a Sprinkler"
+			tasks: [{
+				id: "3B2B7E6BB792A3A2"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			title: "Well Watered Crops"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Your farm is starting to thrive and you’ve gotten settled down. Now’s the time to invest in better soil for your crops. Combining 9 fertilizer produced in your silos in a crafting table will provide you with Fertilized Soil. This soil, when tilled and planted on, will permanently bone meal itself at random intervals and help boost your crop production. "
+				""
+				"To further save you time, you should craft a plow so that you can till the soil quickly. Once crafted you can place the plow down with right click and mount and dismount it using the same button. Once you’ve mounted it all you have to do is walk around and it will till the soil behind you as you go. It can also harvest the crops without destroying them. No more hoes for you!"
+				"Tip: If you’re having trouble dismounting the plow try right clicking on the center of the beam connecting the wheels."
+			]
+			id: "3D3B23CE1D7FEB1F"
+			rewards: [
+				{
+					count: 6
+					id: "18D463579260E51F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "71ECE937D7AD1F89"
+					item: "farm_and_charm:fertilizer"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 5 Fertilized Soil and a plow for faster tilling."
+			tasks: [
+				{
+					count: 5L
+					id: "21A0F3E3A78F3850"
+					item: "farm_and_charm:fertilized_soil"
+					type: "item"
+				}
+				{
+					id: "0F87E3C472CD10C9"
+					item: "farm_and_charm:plow"
+					type: "item"
+				}
+			]
+			title: "Watching Grass Grow"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			description: ["Farming isn’t just about crops, it’s also about animal husbandry. Farm and Charm has your back with a feeding trough. Once placed down you can fill it with almost any type of seeds and animals will automatically come and eat from it, allowing them to breed as if you fed them the required food. They will eat and reproduce every time they are off the breeding cooldown or until the trough is empty. "]
+			id: "5FC752A81189726E"
+			rewards: [
+				{
+					id: "30ED7AC6BD9AE4A1"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C7E3DBF30A76000"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Feeding Trough"
+			tasks: [{
+				id: "534FE4F99069DD28"
+				item: "farm_and_charm:feeding_trough"
+				type: "item"
+			}]
+			title: "Feeding Frenzy"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"You should be well stocked on raw ingredients, but raw foods are nothing compared to a well cooked meal. To get your kitchen started you’ll need a mixing bowl. The mixing bowl is where you’ll make common ingredients like butter, mozzarella, or dough, as well as fresh salads. "
+				""
+				"&lAll recipes and their required ingredients for the mixing bowl are listed to the left side of the Seasoned and Settled quest page.&r"
+			]
+			id: "651AAEAFCB58FB12"
+			rewards: [
+				{
+					count: 5
+					id: "25B73C648F3FBEAD"
+					item: "farm_and_charm:butter"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A01E75BB091A7AB"
+					item: "farm_and_charm:yeast"
+					type: "item"
+				}
+				{
+					id: "37C94D00C6F144BD"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft a Mixing Bowl"
+			tasks: [{
+				id: "1FBF8F5A44CF5809"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			title: "Stirring Success"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Last, but not least, it’s time to turn up the heat and roast, bake, and boil yourself some more filling meals. You’ll need a fuel source like coal to bake things in your stove, but even without fuel the stove provides heat for your roaster and cooking pot. Each method has a variety of different recipes you can try. "
+				""
+				"&lIf you decide to take on the challenge of making them all you’ll earn the completionist reward for Farm and Charm, a Scarecrow that makes crops near it grow faster!&r"
+			]
+			id: "3E45BA90FA0F257A"
+			rewards: [
+				{
+					count: 2
+					id: "1C77B1B13D60536F"
+					item: "farm_and_charm:tool_rack"
+					type: "item"
+				}
+				{
+					id: "7A7EE4FAE410183A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Stove, Roaster, and Cooking Pot"
+			tasks: [
+				{
+					id: "0714976CFAB41CEE"
+					item: "farm_and_charm:stove"
+					type: "item"
+				}
+				{
+					id: "30ED83FB04552DEA"
+					item: "farm_and_charm:roaster"
+					type: "item"
+				}
+				{
+					id: "24E1260259CDFB0D"
+					item: "farm_and_charm:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Turn Up The Heat"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A warm bowl of morning comfort. Sweet and hearty."]
+			hide_dependency_lines: true
+			id: "6CBEF43A6526116E"
+			rewards: [
+				{
+					id: "71F6019D938ECC94"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "11B872BDB970DBA9"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "733728270655DBF4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Milk Bucket, Oats and a Strawberry in a crafting bowl."
+			tasks: [{
+				id: "7DF5A8CE192799E6"
+				item: "farm_and_charm:oatmeal_with_strawberries"
+				type: "item"
+			}]
+			title: "Oatmeal with Strawberries"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Crisp and juicy—tastes like spring!"]
+			hide_dependency_lines: true
+			id: "5884E74AB81D760A"
+			rewards: [
+				{
+					id: "4969FF3CF01E7FE1"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "47B269A62F1C3F2A"
+					item: "farm_and_charm:lettuce"
+					type: "item"
+				}
+				{
+					id: "5B190DA73DD37E78"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Tomato, Onion, Lettuce, and a Strawberry in a crafting bowl."
+			tasks: [{
+				id: "15571163A0389C44"
+				item: "farm_and_charm:farmer_salad"
+				type: "item"
+			}]
+			title: "Farmer's Salad"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DA495EE70E0ABFD"]
+			description: ["A baker's essential ingredient for countless meals."]
+			hide_dependency_lines: true
+			id: "0F66963234906BA4"
+			rewards: [
+				{
+					id: "3A52588BF810879D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "7B588D90F6DD5D25"
+					item: "handcrafted:wood_bowl"
+					type: "item"
+				}
+				{
+					id: "7A8E37872C81B124"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Flour, Yeast, and a Water Bucket in a crafting bowl."
+			tasks: [{
+				id: "1CEB3F8738AFAED3"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Churn it up! Essential for rich meals."]
+			hide_dependency_lines: true
+			id: "4648ADD15C9685EE"
+			rewards: [
+				{
+					id: "5D9BDC543ACEE54C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "0A0C91994A09EA33"
+					item: "clutter:bread"
+					type: "item"
+				}
+				{
+					id: "3881F55827A6C06D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Put a Milk Bucket in a crafting bowl."
+			tasks: [{
+				id: "3FB5DE57D4583444"
+				item: "farm_and_charm:butter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A tasty treat for man's best friend."]
+			hide_dependency_lines: true
+			id: "311E41D20B4B0856"
+			rewards: [
+				{
+					id: "379ECDDC5533096C"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "563246B36DBA87E8"
+					item: "perfectplushies:dog_plushie"
+					type: "item"
+				}
+				{
+					id: "23F4F638EA14521A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Steak, Raw Beef, and a Bone in a crafting bowl."
+			tasks: [{
+				id: "022F975D7975D07A"
+				item: "farm_and_charm:dog_food"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Meow mix for your furry overlords."]
+			hide_dependency_lines: true
+			id: "497D9F9B64482A98"
+			rewards: [
+				{
+					id: "1DA187839CAB1012"
+					item: "perfectplushies:cat_plushie"
+					type: "item"
+				}
+				{
+					id: "4CDFD428808D0367"
+					item: "luphieclutteredmod:luphie_orange_cat_plant_pot"
+					type: "item"
+				}
+				{
+					id: "7FAA2DD034A35541"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Steak, Any Raw Fish, Raw Chicken, and a Raw Porkchop in a crafting bowl."
+			tasks: [{
+				id: "65F9DC34E23C4A7B"
+				item: "farm_and_charm:cat_food"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Soft and stretchy—ready for salad or pasta."]
+			hide_dependency_lines: true
+			id: "241DD577064C4BD9"
+			rewards: [
+				{
+					id: "7DD7ED160F7A7740"
+					item: "expandeddelight:cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "78B0404CD7FD6A4D"
+					item: "luphieclutteredmod:luphie_salt_and_pepper_shakers"
+					type: "item"
+				}
+				{
+					id: "2141DC48AA1FE4DA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Milk Bucket and a Water Bucket in a crafting bowl."
+			tasks: [{
+				id: "1DD1208F13CB804B"
+				item: "candlelight:mozzarella"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A refreshing Mediterranean snack."]
+			hide_dependency_lines: true
+			id: "1380D1789AFC2E96"
+			rewards: [
+				{
+					id: "6311227285FAF669"
+					item: "candlelight:dinner_bell"
+					type: "item"
+				}
+				{
+					id: "449E95089993012E"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					id: "17BAF55A8A0EDA2D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Tomato, Mozzarella, and a Bowl in a crafting bowl."
+			tasks: [{
+				id: "784A7F567C4BED71"
+				item: "candlelight:tomato_mozzarella_salad"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Simple, green, and good for you."]
+			hide_dependency_lines: true
+			id: "219175E0F38C773C"
+			rewards: [
+				{
+					id: "2410E5C62F6549F7"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "009AE5277756ADB5"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "36C152375AAA2EBD"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Lettuce, Tomato, Mozzarella or any Cheese, and a Bowl in a crafting bowl."
+			tasks: [{
+				id: "4C7BBB29FCBBD9C2"
+				item: "candlelight:salad"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A classic farm-to-table meal."]
+			hide_dependency_lines: true
+			id: "0B8F71A6D2B7F89E"
+			rewards: [
+				{
+					id: "3901EE4D33FC2CC6"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "6A5AFB2789097AE0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Carrot, Potato, Tomato, and a Bowl in a crafting bowl."
+			tasks: [{
+				id: "4CA10F8404F322AB"
+				item: "candlelight:harvest_plate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Fresh and crispy. Straight from the soil."]
+			hide_dependency_lines: true
+			id: "4BC20C3DF64A2225"
+			rewards: [
+				{
+					id: "6799C2996D111B46"
+					item: "clutter:beetroot_food_box"
+					type: "item"
+				}
+				{
+					id: "35684AF24E6F2C11"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Lettuce, Tomato, Carrot, and a Bowl in a crafting bowl."
+			tasks: [{
+				id: "3B9A8E48089779A1"
+				item: "candlelight:fresh_garden_salad"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Earthy and rich with creamy tang."]
+			hide_dependency_lines: true
+			id: "5F3094E571BC9129"
+			rewards: [
+				{
+					id: "35233FC6D9C425B5"
+					item: "farm_and_charm:butter"
+					type: "item"
+				}
+				{
+					id: "78214034D1E2A493"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Beetroot, Any Cheese, and a Bowl in a crafting bowl."
+			tasks: [{
+				id: "5D24BA9FD2734FA2"
+				item: "candlelight:beetroot_salad"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Raw and refined. For fancy tastes."]
+			hide_dependency_lines: true
+			id: "74C52DE0F8A62172"
+			rewards: [
+				{
+					id: "4807602BAE841598"
+					item: "expandeddelight:ground_salt"
+					type: "item"
+				}
+				{
+					id: "6DFE5E80DA910405"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Minced Beef, an Onion, and a bowl in a crafting bowl."
+			tasks: [{
+				id: "06585B40020AE1FE"
+				item: "candlelight:beef_tartare"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A savory classic with a vineyard twist."]
+			hide_dependency_lines: true
+			id: "235EF0F411FEE5B3"
+			rewards: [
+				{
+					id: "7429B5D058E2EDDE"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					id: "799D964C0C96B950"
+					item: "luphieclutteredmod:luphie_wine_bottles"
+					type: "item"
+				}
+				{
+					id: "1B49838E0A126A52"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Lettuce, Lamb Ham, any Red Grape Wine, and a Bowl in a roaster."
+			tasks: [{
+				id: "54570EAC2E42FE27"
+				item: {
+					Count: 1
+					id: "candlelight:roasted_lamb_with_lettuce"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Rich, meaty, and made with love."]
+			hide_dependency_lines: true
+			id: "6A847FDD2BA67321"
+			rewards: [
+				{
+					id: "6795028B79D2BC8F"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "4311BB39473E8788"
+					item: "expandeddelight:cheese_slice"
+					type: "item"
+				}
+				{
+					id: "16362E9EA01140E1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Tomato Soup, Minced Beef, Bacon, Onion, Carrot, any Red Grape Wine, and a Bowl in a roaster."
+			tasks: [{
+				id: "57541F2F125A96C9"
+				item: {
+					Count: 1
+					id: "candlelight:bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A comfort meal everyone loves."]
+			hide_dependency_lines: true
+			id: "4A06C5C302A16D45"
+			rewards: [
+				{
+					id: "67E660B052CC6F96"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					id: "71938EA5CF4DDEEF"
+					item: "farm_and_charm:supply_cart"
+					type: "item"
+				}
+				{
+					id: "59E815126DADA48B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Bolognese, Pasta, any Cheese, and a Bowl in a roaster."
+			tasks: [{
+				id: "37B9533EF78B9C55"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Light and cheesy with a green crunch."]
+			hide_dependency_lines: true
+			id: "5D3D055B5BEB4A8A"
+			rewards: [
+				{
+					id: "2364AAB7BE228363"
+					item: "expandeddelight:cheese_slice"
+					type: "item"
+				}
+				{
+					id: "55530406EA54F487"
+					item: "handcrafted:white_bowl"
+					type: "item"
+				}
+				{
+					id: "675B3C42AEEFDD0C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Lettuce, Pasta, any Cheese, and a Bowl in a roaster."
+			tasks: [{
+				id: "15F0D96E9D773F03"
+				item: "candlelight:pasta_with_lettuce"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A fluffy breakfast delight."]
+			hide_dependency_lines: true
+			id: "242DDBBD43D99C51"
+			rewards: [
+				{
+					id: "57DD8A6C5D203F7A"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "6C2837E4FC2E5479"
+					item: "clutter:bowl"
+					type: "item"
+				}
+			]
+			subtitle: "Combine an Egg, Butter, Flour, Sugar, a Strawberry, and a Bowl in a roaster."
+			tasks: [{
+				id: "46830309BD0E1C39"
+				item: "candlelight:omelet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["For fancy nights and candlelit tables."]
+			hide_dependency_lines: true
+			id: "484471703700395B"
+			rewards: [
+				{
+					id: "6D6A63FD76A46501"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "7D0FEECF0D8B749A"
+					item: "lamps:candleholder_golden"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1BD924E13506CB1B"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					id: "219EDBD10E66538C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Raw Beef, Butter, any Wine, and a Bowl in a roaster."
+			tasks: [{
+				id: "753E7955BF9CB4B7"
+				item: {
+					Count: 1
+					id: "candlelight:fillet_steak"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Earthy, creamy, and filling."]
+			hide_dependency_lines: true
+			id: "73ECA0417BF5A887"
+			rewards: [
+				{
+					id: "10243F93E9D84C63"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+				{
+					id: "0E5EF11F9309F255"
+					item: "candlelight:wine_glass"
+					type: "item"
+				}
+				{
+					id: "2FCAA0A32706C7AA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Baked Potato, Fillet Steak, any Mushroom, any White Grape Wine, and a Bowl in a roaster."
+			tasks: [{
+				id: "0B45EACCECC5DF24"
+				item: {
+					Count: 1
+					id: "candlelight:beef_with_mushroom_in_wine_and_potatoes"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A veggie-friendly hearty meal."]
+			hide_dependency_lines: true
+			id: "0DC4B1C5BE9DB42F"
+			rewards: [
+				{
+					id: "6989E671C00F813B"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "6CC6732627141E37"
+					item: "candlelight:table_sign"
+					type: "item"
+				}
+				{
+					id: "59DA839D20D0D5F3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine 2 Barley, a Potato, an Egg, any Cheese, Lettuce, and a Bowl in a roaster."
+			tasks: [{
+				id: "3F90052E8356419F"
+				item: "farm_and_charm:barley_patties_with_potatoes"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Classic breakfast of champions."]
+			hide_dependency_lines: true
+			id: "5E0774B25B0A9EF3"
+			rewards: [
+				{
+					id: "0014889D9A9B001A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "2988D71E6EE1CE56"
+					item: "expandeddelight:apple_juice"
+					type: "item"
+				}
+				{
+					id: "3BCDB26DD47EE1D4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine 2 Eggs, 2 Bacon, Butter, and a Bowl in a roaster."
+			tasks: [{
+				id: "2F4FB2B0ABD18424"
+				item: "farm_and_charm:bacon_with_eggs"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A modern classic with crispy flavor."]
+			hide_dependency_lines: true
+			id: "5674B725B3BE4222"
+			rewards: [
+				{
+					id: "3521A97AF9E5D81C"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "4E131D22CA1700DC"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "5B963491FAC15030"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Bacon, Chicken Parts, Pasta, Butter, and a Bowl in a roaster."
+			tasks: [{
+				id: "0D18187478A1771A"
+				item: "farm_and_charm:chicken_wrapped_in_bacon"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Meaty and packed with nutrients."]
+			hide_dependency_lines: true
+			id: "3FDE083124399E2B"
+			rewards: [
+				{
+					id: "653204E47008B2D8"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "48FB16B88459ABFB"
+					item: "candlelight:bowl"
+					type: "item"
+				}
+				{
+					id: "68520F44B1976992"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Raw Beef, a Carrot, Butter, a Potato, Beetroot, Lettuce, and a Bowl in a roaster."
+			tasks: [{
+				id: "1F9A843839261EA6"
+				item: "farm_and_charm:beef_patty_with_vegetables"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A seafaring plate of flavor."]
+			hide_dependency_lines: true
+			id: "5CA100F42C383BE9"
+			rewards: [
+				{
+					id: "0094D0E5C3129E67"
+					item: {
+						Count: 1
+						id: "candlelight:necktie"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5412ADD3DDB8A0AE"
+					item: "candlelight:glass"
+					type: "item"
+				}
+				{
+					id: "4B341771E9EFF01A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Carrot, Lettuce, Raw Cod, Butter, and a Bowl in a roaster."
+			tasks: [{
+				id: "6241F21BF64F4C4A"
+				item: "farm_and_charm:cooked_cod"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Pink perfection from river to plate."]
+			hide_dependency_lines: true
+			id: "6036F8201C245910"
+			rewards: [
+				{
+					id: "11955D99B564E6E3"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "0F3542B28EC15099"
+					item: "candlelight:napkin"
+					type: "item"
+				}
+				{
+					id: "62DD88F0D55B01A5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Lettuce, Corn, Raw Salmon, Butter, and a Bowl in a roaster."
+			tasks: [{
+				id: "5270B59BB8B991F6"
+				item: "farm_and_charm:cooked_salmon"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Fluffy, warm, and topped with sweetness."]
+			hide_dependency_lines: true
+			id: "7A41DB067F94E1B0"
+			rewards: [
+				{
+					id: "70268D8706BEBDC6"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					id: "1AC4652D8E0F65A2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine 3 Oats, Dough, Butter, a Strawberry, and a Bowl in a roaster."
+			tasks: [{
+				id: "1008D00833A4F5B4"
+				item: "farm_and_charm:oat_pancake"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Farm-raised flavors come together."]
+			hide_dependency_lines: true
+			id: "506CA85F80486D2B"
+			rewards: [
+				{
+					id: "53F15FCB76DC73C6"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "4EE112541D78EA94"
+					item: {
+						Count: 1
+						id: "candlelight:shirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33232E8AED9E102E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Carrot, Corn, a Lamb Ham, Butter, and a Bowl in a roaster."
+			tasks: [{
+				id: "45FC998D96A21A11"
+				item: "farm_and_charm:lamb_with_corn"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Protein-packed and oh so savory."]
+			hide_dependency_lines: true
+			id: "651A9CF62FC0C9EF"
+			rewards: [
+				{
+					id: "368AA9184573FFD9"
+					item: "expandeddelight:cheese_slice"
+					type: "item"
+				}
+				{
+					id: "0E366BDB78042FE0"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "017657A160EEAC3E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine 2 Minced Beef, Oat, Carrot, Butter, Potato and a Bowl in a Cooking Pot."
+			tasks: [{
+				id: "75C80E8A9E7CD785"
+				item: "farm_and_charm:sausage_with_oat_patty"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A warm dish that brings everyone to the table."]
+			hide_dependency_lines: true
+			id: "2DA74F7B15EC2D78"
+			rewards: [
+				{
+					id: "2440BF4F34B1F347"
+					item: "blahaj:bread"
+					type: "item"
+				}
+				{
+					id: "7B7EE8DACEBBD557"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "7FA04CCF3A8E7D92"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Lamb Ham and Lettuce in a Stove."
+			tasks: [{
+				id: "1C169A1A8ABB1EE6"
+				item: "farm_and_charm:baked_lamb_ham"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Crusty and golden, just like grandma made."]
+			hide_dependency_lines: true
+			id: "443980ECCAAEEDF5"
+			rewards: [
+				{
+					count: 3
+					id: "5998B9BC92B69CAF"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "7A893169B25B0932"
+					item: "farm_and_charm:dough"
+					type: "item"
+				}
+				{
+					id: "1AF43215603B2DBE"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Water Bucket and Dough in a Stove."
+			tasks: [{
+				id: "7BF6CA12D741290F"
+				item: "farm_and_charm:farmers_bread"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A sweet slice of nostalgia."]
+			hide_dependency_lines: true
+			id: "76DB2969869D77A1"
+			rewards: [
+				{
+					id: "6569D6CDC1D3CC8B"
+					item: "cratedelight:sugar_bag"
+					type: "item"
+				}
+				{
+					id: "6B9E0FFF2A7EFF70"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					id: "10C91CCF3CC15C74"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Dough, a Strawberry, and Sugar in a Stove."
+			tasks: [{
+				id: "22DC6138FEEF51DB"
+				item: "farm_and_charm:grandmothers_strawberry_cake"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Simple, savory, and deeply satisfying."]
+			hide_dependency_lines: true
+			id: "33F5D8BB67DEEA4E"
+			rewards: [
+				{
+					id: "5763FDD1D670B500"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "40E641353D05FD1F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Pasta and 2 onions separated into two spaces in a Stove."
+			tasks: [{
+				id: "4E2D1343B449735A"
+				item: "farm_and_charm:pasta_with_onion_sauce"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Sweet, salty, and filling all at once."]
+			hide_dependency_lines: true
+			id: "2BAFC65CD3999B51"
+			rewards: [
+				{
+					id: "3D37101FFC6622F7"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "70814269B374CD77"
+					item: "candlelight:glass"
+					type: "item"
+				}
+				{
+					id: "3B325E26BFA7912D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Potato, Raw Beef, and a Honey Bottle in a Stove."
+			tasks: [{
+				id: "559C587C52B65CA8"
+				item: "farm_and_charm:potato_with_roast_meat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A perfect pairing of pasta and protein."]
+			hide_dependency_lines: true
+			id: "770FB4E67777842B"
+			rewards: [
+				{
+					id: "6AB85CB746935919"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					id: "75D0C2A7E415CE5A"
+					item: "candlelight:spruce_big_table"
+					type: "item"
+				}
+				{
+					id: "2EB0F4F02AE0DDB0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Pasta, Chicken Parts, and a Carrot in a Stove."
+			tasks: [{
+				id: "68EC229FDDD2914D"
+				item: "farm_and_charm:roasted_chicken"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Golden kernels with buttery char."]
+			hide_dependency_lines: true
+			id: "0527BF9F9CEB2744"
+			rewards: [
+				{
+					id: "2C622AA4FA500320"
+					item: "farm_and_charm:butter"
+					type: "item"
+				}
+				{
+					id: "5CB2B78D8C240E0A"
+					item: "candlelight:lamp"
+					type: "item"
+				}
+				{
+					id: "60D9447F8CA5AB5E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine 2 Corn separated into two spaces and Butter in a Stove."
+			tasks: [{
+				id: "431E75B030CC288A"
+				item: "farm_and_charm:roasted_corn"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Hearty, homey, and holiday-ready."]
+			hide_dependency_lines: true
+			id: "36238556B2707752"
+			rewards: [
+				{
+					id: "1365B78FCCA1BDC6"
+					item: "clutter:apple_food_box"
+					type: "item"
+				}
+				{
+					id: "1A1FEE22D8C78072"
+					item: "candlelight:plate"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E2C27EAEADDE1E5"
+					item: "candlelight:spruce_table"
+					type: "item"
+				}
+				{
+					id: "5BEAC620E5FA3F57"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine an Onion, Raw Chicken, and a Carrot in a Stove."
+			tasks: [{
+				id: "47E025209E6B05CE"
+				item: "farm_and_charm:stuffed_chicken"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Rustic flavor with a gamey twist."]
+			hide_dependency_lines: true
+			id: "17A24A93C891EAA7"
+			rewards: [
+				{
+					id: "7C1B68607877BF08"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "1914B10776FD982D"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "0598B1C10B9FA0A5"
+					item: "homestead:cozy_crumbs"
+					type: "item"
+				}
+				{
+					id: "389CE04A6F2F0F05"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine an Onion, Raw Rabbit, and a Carrot in a Stove."
+			tasks: [{
+				id: "32CFFE0E553C5BD7"
+				item: "farm_and_charm:stuffed_rabbit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Decadent and worthy of royalty."]
+			hide_dependency_lines: true
+			id: "7FBC3615A5B722D0"
+			rewards: [
+				{
+					id: "2B311937FE5B9FE3"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "222630F7B076DE2D"
+					item: "candlelight:wine_glass"
+					type: "item"
+				}
+				{
+					id: "392B950F93307327"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Dough, Lamb Ham, and Mushroom Soup in a Stove."
+			tasks: [{
+				id: "26DCD8A51A92EC48"
+				item: {
+					Count: 1
+					id: "candlelight:beef_wellington"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Creamy comfort with a culinary kick."]
+			hide_dependency_lines: true
+			id: "6F74FCD7E03CC337"
+			rewards: [
+				{
+					id: "4AD0C5F9B46A1B4D"
+					item: "expandeddelight:cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "4FBBD7F157F6A5F9"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F2A2F2B7EE0A98F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Pasta, Chicken Parts, and any Wine in a Stove."
+			tasks: [{
+				id: "6823BE7C560050EB"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_alfredo"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A wholesome platter of goodness."]
+			hide_dependency_lines: true
+			id: "55022F47D9CC8F99"
+			rewards: [
+				{
+					id: "34C6C055D601FFEC"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "2C28C018CAE35E9D"
+					item: "farm_and_charm:lettuce"
+					type: "item"
+				}
+				{
+					id: "52CB10FC7A43060A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Chicken Parts, any White Grape Wine, and a Harvest Plate in a Stove."
+			tasks: [{
+				id: "2AA50A6B90D87979"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_with_vegetables"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Layered joy in every bite."]
+			hide_dependency_lines: true
+			id: "63468A28AC75EC4E"
+			rewards: [
+				{
+					id: "0550F264B2DAA9B4"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					id: "61EE9A9B60172F24"
+					item: "farm_and_charm:tool_rack"
+					type: "item"
+				}
+				{
+					id: "2F4700A6ADA199C4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Pasta, any Cheese, and Bolognese in a Stove."
+			tasks: [{
+				id: "6CDE3909573232AF"
+				item: {
+					Count: 1
+					id: "candlelight:lasagne"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Sweet and sticky with a smoky edge."]
+			hide_dependency_lines: true
+			id: "6CABA4BAA0519C22"
+			rewards: [
+				{
+					id: "1EFA65F0BF18EB8C"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "3A7C66A72EFEB46A"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "119593A853751B47"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine a Raw Porkchop, Honey Bottle, and any Red Grape Wine in a Stove."
+			tasks: [{
+				id: "1B9060C9B6A1BF13"
+				item: {
+					Count: 1
+					id: "candlelight:pork_ribs"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["Savory, saucy, and full of flavor."]
+			hide_dependency_lines: true
+			id: "34D36742434DDABF"
+			rewards: [
+				{
+					id: "3D8594F72B199D8B"
+					item: "clutter:bread_food_box"
+					type: "item"
+				}
+				{
+					id: "35EFD65C78A2CC10"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "316C07F05FEB99B6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Combine Raw Beef, a Carrot, and any Red Grape Wine in a Stove."
+			tasks: [{
+				id: "2D86BB0828CFE4F3"
+				item: {
+					Count: 1
+					id: "candlelight:roastbeef_with_glazed_carrots"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E45BA90FA0F257A"]
+			description: ["A tropical taste of elegance."]
+			hide_dependency_lines: true
+			id: "2C1EA56A24E66529"
+			rewards: [
+				{
+					id: "166FAF92946F63BD"
+					item: "candlelight:candlelight_banner"
+					type: "item"
+				}
+				{
+					id: "3366F88E9D57561B"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0634510A28E50E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Combine a Tropical Fish, Lettuce, and any White Grape Wine in a Stove."
+			tasks: [{
+				id: "11D282EA61C10760"
+				item: {
+					Count: 1
+					id: "candlelight:tropical_fish_supreme"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The next essential tool in your kitchen is the Mincer. The mincer is where you will convert wheat into flour, and dough into pasta. It is also where you can turn meats obtained from animals into various different versions for cooking, such as raw mutton being ground into lamb ham or raw pork providing bacon. Once your mincer is placed you need only right click on it with the item to load it in and hold it down right click with an empty hand to grind it up."
+				""
+				"&lTip: Food isn’t the only thing the mincer can grind up! It can also strip vanilla logs of bark for you or break iron into nuggets.&r"
+			]
+			id: "5DA495EE70E0ABFD"
+			rewards: [
+				{
+					count: 5
+					id: "309F0BADE31F81FD"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "22A4B4DE8096F81A"
+					item: {
+						Count: 1
+						id: "farm_and_charm:compost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Mincer, Craft Flour, Craft Pasta"
+			tasks: [
+				{
+					id: "17DEA1D12557D3B3"
+					item: "farm_and_charm:flour"
+					type: "item"
+				}
+				{
+					id: "3A397D69D7A035CF"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "53910A63F69EAAFC"
+					item: "farm_and_charm:mincer"
+					type: "item"
+				}
+			]
+			title: "On The Grind"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"With your crops watered you’ll want to begin exploring ways to enrich your soil for better growth. To do so you’ll want to craft a silo. "
+				""
+				"To make 2 wooden silos all you need to do is combine 9 wooden planks in a crafting table. "
+				""
+				"The silo is a useful structure that dries rotten flesh or bone meal into fertilizer. Combine 4 fertilizer together to create compost, an item that behaves like a multi-use bone meal with the added bonus of affecting more than one block. "
+				""
+				"The silo is also important to the Let’s do Brewery mod and can be used to dry grains for beers. Silos can be stacked on top of each other to increase capacity and for better drying times."
+			]
+			id: "56DD851614712E4F"
+			rewards: [
+				{
+					count: 9
+					id: "61DC743F28700A43"
+					item: "farm_and_charm:fertilizer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "64A8E98B8327570E"
+					item: "farm_and_charm:silo_copper"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4 wooden silos"
+			tasks: [{
+				count: 4L
+				id: "11C69A91A2561F22"
+				item: { Count: 4, id: "farm_and_charm:silo_wood" }
+				type: "item"
+			}]
+			title: "A Song of Silos"
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "Seasoned and Settled"
+}
