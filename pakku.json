@@ -1,19 +1,5 @@
 {
     "name": "Homestead",
     "description": "Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create...",
-    "version": "1.2.3",
-    "overrides": [
-        "config",
-        "defaultconfigs",
-        "kubejs",
-        "!kubejs/probe/**"
-    ],
-    "server_overrides": [
-        "server.jar",
-        "server.properties",
-        "server-icon.png"
-    ],
-    "client_overrides": [
-        "resourcepacks"
-    ]
+    "version": "1.2.3"
 }
