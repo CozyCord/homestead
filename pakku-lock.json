@@ -17926,7 +17926,54 @@
         {
             "pakku_id": "LjdXwtntlVaJaBfX",
             "pakku_links": [
-                "oIkIn5hRgKWLtPUw"
+                "oIkIn5hRgKWLtPUw",
+                "wDNhnr4DDwe4DwiX"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "more-pumpkins!"
+            },
+            "name": {
+                "modrinth": "Pumpkins Accelerated"
+            },
+            "id": {
+                "modrinth": "k5tJFQ1E"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "pumpkinsAccelerated-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/k5tJFQ1E/versions/uLlQWUPT/pumpkinsAccelerated-1.20.1.jar",
+                    "id": "uLlQWUPT",
+                    "parent_id": "k5tJFQ1E",
+                    "hashes": {
+                        "sha512": "b041781ae541e5154a0d9883a81a33b881fcbd02f3732f72da2cdd89b82d6614402da5e7a878ade4779a89c896ecd65fe86e37a0339d5b9b5b75aaeb9b502189",
+                        "sha1": "0680118a97cb88314111f9fc9a26815481ea1b71"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 212155,
+                    "date_published": "2024-01-24T19:31:51.953766Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gpSnLNhxy2TowrSE",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw",
+                "wDNhnr4DDwe4DwiX"
             ],
             "type": "MOD",
             "side": "BOTH",
