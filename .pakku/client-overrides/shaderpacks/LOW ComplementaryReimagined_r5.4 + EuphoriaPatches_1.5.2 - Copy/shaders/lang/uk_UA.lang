@@ -1,0 +1,2256 @@
+#shaders/lang/uk_UA.lang
+
+#Profiles
+profile.POTATO=§aКартопля
+profile.VERYLOW=§aДуже низький
+profile.LOW=§aНизький
+profile.MEDIUM=§aПосередній
+profile.HIGH=§eВисокий (за замовч.)
+profile.VERYHIGH=§cДуже високий
+profile.ULTRA=§4§lУльтра
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=Профілі шейдерів змінюють налаштування продуктивности з максимально оптимізованим співвідношенням візуальної точности та продуктивности. §e[*]§r Рекомендовано використовувати один із цих профілів для налаштувань, якщо ви не знаєте, що робите. §e[*]§r Усі параметри, яких це стосується, можна знайти в меню «налаштування продуктивности»
+
+#Information
+screen.INFORMATION=Інформація
+screen.INFORMATION.comment=Цей розділ містить кнопки, які існують лише для надання інформації
+
+option.info0=§bНаведіть курсор на кнопку
+value.info0.0=
+option.info0.comment=Цей розділ містить кнопки, які існують лише для надання інформації\n\n§2Якщо знайшли помилку в перекладі§r\nЯкщо ви знайшли помилку в §3§oукраїнському§r перекладі то можете написати мені в Disсord(§aStarman§r) або в коментарі до запиту на GitHub (§ahttps://github.com/EuphoriaPatches/langFiles/issues/31§r); і я це виправлю, §lякщо я буду вважати це за проблему§r
+
+option.info1=Як отримати кращу продуктивність
+value.info1.0=
+option.info1.comment=Продуктивність є складною темою в Minecraft, оскільки на неї впливає дуже багато речей, але ви можете спробувати це:. Зменште дальність промальовування, в ідеалі вона має бути від 6 до 16 майже для кожного пристрою. Зменште налаштування «профіль», вони були ретельно перевірені на найкраще співвідношення візуальної якости та продуктивности. Більше інформації буде додано пізніше
+
+option.info2=Які налаштування найкращі
+value.info2.0=
+option.info2.comment=Найкращі налаштування є суб’єктивними, але використання налаштувань за замовчуванням буде майже найкращим для більшості людей. Налаштування за замовчуванням були сформовані роками оцінок спільноти та відгуків, приділяючи велику увагу співвідношенню візуального вигляду та продуктивности. Але ви все одно можете сміливо налаштовувати та отримувати від цього задоволення!
+
+option.info3=Що таке профілі та візуальний стиль
+value.info3.0=
+option.info3.comment=«Профіль» змінює налаштування у «налаштування продуктивности», при цьому не впливаючи на налаштування на основі переваг. «Візуальний стиль» змінює «стиль за замовчуванням» значення, які існують для багатьох налаштувань на основі переваг, але це не впливає на продуктивність значною мірою
+
+option.info4=Що таке підтримка ПР
+value.info4.0=
+option.info4.comment=Підтримка пакетів ресурсів визначає, як пакет шейдерів обробляє різні блоки. Наприклад, §bIntegratedPBR+§r розглядає золоті блоки як відбиваючі речі, тоді як §elabPBR§r або §eseuspbr§r вимагають встановлення пакета ресурсів, щоб повідомити це шейдеру. Якщо встановити Підтримка ПР на §aБазова§r, жоден блок не буде «особливим», окрім кількох винятків, таких як вода
+
+option.info5=Як виправити проблеми з модом
+value.info5.0=
+option.info5.comment=Несумісність модів із пакетами шейдерів неминуча через те, як вони працюють, але ви можете переглянути цю інформаційну сторінку про проблеми модів із Complementary, щоб переглянути купу відомих виправлень. www.complementary.dev/mod-issues
+
+option.info6=
+value.info6.0=
+option.info6.comment= 
+
+option.info7=
+value.info7.0=
+option.info7.comment=
+
+option.info8=Як приєднатися до спільноти
+value.info8.0=
+option.info8.comment=Ви можете приєднатися до Discord-сервера Complementary, вступивши до нашої дружньої спільноти ви можете мати можливість зв’язатися з розробниками або досвідченими членами спільноти. www.complementary.dev/discord
+
+option.info9=Як підтримати Complementary
+value.info9.0=
+option.info9.comment=Найкращий спосіб підтримати розробку Complementary — поділитися нею з друзями або в соціальних мережах, але ви також можете підтримати розробника безпосередньо на Patreon. www.patreon.com/emingt
+
+option.info10=Згадки і подяки
+value.info10.0=
+option.info10.comment=EminGT: головний розробник Complementary. Capt Tatsu: розробник BSL Shaders, його щедрість зробила можливим Complementary в першу чергу. Спеціальна подяка: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap
+
+option.info11=§dЩо таке Euphoria Patches
+value.info11.0=
+option.info11.comment=Euphoria Patches — це доповнення до шейдерів Complementary від SpacEagle17. Воно має на меті розширити Complementary за допомогою нових функцій і налаштувань ручної роботи
+
+option.info12=Налаштування Euphoria Patches
+value.info12.0=
+option.info12.comment=Усі параметри Euphoria вимкнено за замовчуванням, і користувач може вирішити, що увімкнути. У категорії «популярні налаштування» можна знайти найпопулярніші функції Euphoria Patches. Існує незліченна кількість інших налаштувань, і з кожним оновленням додається більше, отримуйте задоволення!
+
+option.info13=Підтримка модів Euphoria
+value.info13.0=
+option.info13.comment=Euphoria Patches має на меті кращу підтримку блоків з модів, ніж Complementary завдяки підтримці блоків з модів за замовчуванням(див. block.properties). Виявлення джерела світла з автоматичним застосуванням випромінювання. Виявлення моделі листя з автоматичним застосуванням SSS
+
+option.info14=Найкращій завантажувач шейдерів
+value.info14.0=
+option.info14.comment=Euphoria Patches і Complementary використовують ексклюзивні функції Iris, які не працюють в Optifine. Для отримання оптимального досвіду рекомендується Iris. На Forge наразі рекомендовано Oculus, оскільки він, здається, підтримує більшість ексклюзивних функцій Iris
+
+option.info15=Згадки і подяки Euphoria Patches
+value.info15.0=
+option.info15.comment=Усі титри можна знайти на сторінці https://www.euphoriapatches.com/credits. isuewo - колишній співрозробник Euphoria Patches. EminGT: головний розробник Complementary. Capt Tatsu, gri573, SixthSurge, WoMspace (aka Sasha), Septonious, fayer3, Xonk, Memokii, dragoncat, TheNukeLore, dbrighthd, Surisen (Ruri), Acer (Alex), Folox_, Helgust
+
+option.info16=§nЯк підтримати Euphoria Patches
+value.info16.0=
+option.info16.comment=Ми можете підтримати Euphoria Patches цікавлячись новими оновленнями та ділячись ними з людьми, але ви також можете безпосередньо підтримувати SpacEagle17 на Patreon або Ko-Fi і отримати ексклюзивні бета-збірки. §l§neuphoriapatches.com/support
+
+option.info17=Бета-версія: SpacEagle17 Patreon
+value.info17.0=
+option.info17.comment=Ви можете підтримати SpacEagle17 на Patreon або Ko-Fi і отримати версію для розробників. §l§neuphoriapatches.com/support
+
+option.info18=Для Complementary r5.4
+value.info18.0=
+option.info18.comment=Дякую за встановлення Euphoria Patches :)
+
+option.info19=§aНОВЕ ОНОВЛЕННЯ
+value.info19.0=§cX.Y.Z §r->§a X.Y.Z
+option.info19.comment=Нова версія EuphoriaPatcher доступна. Завантажити: https://euphoriapatches.com/download
+
+option.info20=
+value.info20.0=§aeuphoriapatches.com/download
+option.info20.comment=Нова версія EuphoriaPatcher доступна. Завантажити: https://euphoriapatches.com/download
+
+#Style
+option.SHADER_STYLE=Візуальний стиль
+option.SHADER_STYLE.comment=Визначає стандартний візуальний стиль пакета шейдерів. §bПереосмислений§r: доповнює Minecraft, зберігаючи його унікальні візуальні елементи. §dНепов'язаний§r: переробка звичайного стилю у напівреалістичний стиль фентезі. §e[*]§r Впливає на: стиль води, хмар, сонця і місяця, північного сяйва, кут сонця і місяця, сяйні руди
+value.SHADER_STYLE.1=§bПереосмислений
+value.SHADER_STYLE.4=§dНепов'язаний
+
+#Screens
+screen.PERFORMANCE_SETTINGS=§eНалаштування продуктивности§r
+screen.PERFORMANCE_SETTINGS.comment=Налаштування, які безпосередньо стосуються продуктивности та змінюються різними профілями шейдерів
+
+screen.ATMOSPHERE_SETTINGS=Атмосфера
+screen.ATMOSPHERE_SETTINGS.comment=Налаштування, які стосуються атмосфери
+
+screen.ATM_COLOR_SETTINGS=Множники кольорів
+screen.ATM_COLOR_SETTINGS.comment=Вмикає налаштування кольорів атмосфери, в основному помітно на небі і тумані
+
+screen.MORNING_ATM_MULTS=Схід і захід сонця
+screen.NOON_ATM_MULTS=Полудень
+screen.NIGHT_ATM_MULTS=Ніч
+screen.RAIN_ATM_MULTS=Дощ
+screen.NETHER_ATM_MULTS=Незер
+screen.END_ATM_MULTS=Енд
+
+screen.CLOUD_SETTINGS=Хмари
+screen.CLOUD_SETTINGS.comment=Налаштування, які стосуються хмар
+
+screen.CLOUD_COLOR_SETTINGS=Колір хмар
+screen.CLOUD_COLOR_SETTINGS.comment=Змінює колір хмар
+
+screen.CLOUD_UNBOUND_SETTINGS=Налаштування «непов'язаних» хмар
+screen.CLOUD_REIMAGINED_SETTINGS=Налаштування «переосмислених» хмар
+
+screen.FOG_SETTINGS=Туман
+screen.FOG_SETTINGS.comment=Налаштування, які стосуються варіантів туману
+
+screen.SUN_MOON_SETTINGS=Сонце і місяць
+screen.SUN_MOON_SETTINGS.comment=Налаштування, які стосуються сонця і місяця
+
+screen.NETHER_SETTINGS=Незер
+screen.NETHER_SETTINGS.comment=Налаштування, які стосуються Незеру
+
+screen.WEATHER_SETTINGS=Дощ і погода
+screen.WEATHER_SETTINGS.comment=Налаштування, які стосуються погоди
+
+screen.CAMERA_SETTINGS=Камера
+screen.CAMERA_SETTINGS.comment=Налаштування, стосуються камери і погляду
+
+screen.TONEMAP_SETTINGS=Баланс кольорів
+screen.TONEMAP_SETTINGS.comment=Налаштування, які стосуються балансу кольорів і візуалу
+
+screen.COLORGRADING_SETTINGS=Градація кольорів
+screen.COLORGRADING_SETTINGS.comment=Налаштування для змішування кінцевих кольорових каналів
+
+screen.WORLD_BLUR_SETTINGS=Розмиття світу
+screen.WORLD_BLUR_SETTINGS.comment=Налаштування, які стосуються для красивого розмиття світу
+
+screen.MATERIAL_SETTINGS=Матеріали
+screen.MATERIAL_SETTINGS.comment=Налаштування, які стосуються матеріалів гри
+
+screen.IPBR_SETTINGS=Матеріали IntegratedPBR+
+screen.IPBR_SETTINGS.comment=Налаштування, які стосуються функції IntegratedPBR+
+
+screen.GLOWING_ORE_SETTINGS=Сяйні руди
+screen.GLOWING_ORE_SETTINGS.comment=Налаштування, які стосуються сяйної руди
+
+screen.GLOWING_STUFF_SETTINGS=Сяйні штучки
+screen.GLOWING_STUFF_SETTINGS.comment=Налаштування, які стосуються різних сяйних блоків
+
+screen.OTHER_IPBR_SETTINGS=Інші функції IPBR+
+screen.OTHER_IPBR_SETTINGS.comment=Різні налаштування IntegratedPBR+
+
+screen.CUSTOM_PBR_SETTINGS=Матеріали labPBR і seuspbr
+screen.CUSTOM_PBR_SETTINGS.comment=Налаштування, які стосуються labPBR і seuspbr
+
+screen.LIGHTING_SETTINGS=Освітлення
+screen.LIGHTING_SETTINGS.comment=Налаштування, які стосуються освітлення
+
+screen.LIGHT_COLOR_SETTINGS=Множник кольорів світла
+screen.LIGHT_COLOR_SETTINGS.comment=Вмикає налаштування кольорів світла, помітно по всіх поверхні
+
+screen.MORNING_LIGHT_MULTS=Схід і захід сонця
+screen.NOON_LIGHT_MULTS=Полудень
+screen.NIGHT_LIGHT_MULTS=Ніч
+screen.RAIN_LIGHT_MULTS=Дощ
+screen.NETHER_LIGHT_MULTS=Незер
+screen.END_LIGHT_MULTS=Енд
+
+screen.BLOCKLIGHT_COLOR_SETTINGS=Колір світла блоків §e[*]§r
+screen.BLOCKLIGHT_COLOR_SETTINGS.comment=Налаштування кольору світла, випромінюваного блоками, які є джерелами світла. §e[*]§r Ці налаштування кольорів не впливатимуть на більшість джерел світла, якщо увімкнено РКО, за винятком повзунка «інтенсивність» в цьому розділі
+
+screen.MOON_PHASE_INF_SETTINGS=Вплив фаз місяця
+screen.MOON_PHASE_INF_SETTINGS.comment=Налаштуваня які стосуються впливу різних фаз місяця на освітлення вночі
+
+screen.ACL_FEATURES_SETTINGS=Ексклюзивні функції РКО §e[*]§r
+screen.ACL_FEATURES_SETTINGS.comment=Налаштування, які стосуються ексклюзивних функцій розширеного кольорового освітлення. §e[*]§r Лише якщо РКО увімкнено та ваша система підтримує це
+
+screen.PIXELATED_LIGHTING_SETTINGS=Піксельне освітлення
+screen.PIXELATED_LIGHTING_SETTINGS.comment=Налаштування піксельних ефектів освітлення
+
+screen.WATER_SETTINGS=Вода
+screen.WATER_SETTINGS.comment=Налаштування, які стосуються води
+
+screen.WATER_COLOR_SETTINGS=Колір поверхні води
+screen.UNDERWATER_COLOR_SETTINGS=Колір підводою
+
+screen.WATER_WAVE_SETTINGS=Хвилі на воді §e[*]§r
+screen.WATER_WAVE_SETTINGS.comment=Налаштування напрямку хвиль, які видно на воді. §e[*]§r Працює лише якщо «стиль води» встановлено на «переосмислений + хвилі» або «непов'язаний»
+
+screen.WAVING_SETTINGS=Коливання
+screen.WAVING_SETTINGS.comment=Налаштування, які стосуються коливання
+
+screen.OTHER_SETTINGS=Інше
+screen.OTHER_SETTINGS.comment=Налаштування, яким не знайшлося місця в інших категоріях
+
+screen.SELECT_OUTLINE_SETTINGS=Контур блоків
+screen.SELECT_OUTLINE_SETTINGS.comment=Налаштування, які стосуються контуру блоків на які наведено камеру
+
+screen.WORLD_OUTLINE_SETTINGS=Контур світу
+screen.WORLD_OUTLINE_SETTINGS.comment=Налаштування, які стосуються ефекту контуру
+
+#Settings
+option.RP_MODE=Підтримка ПР
+option.RP_MODE.comment=Змінює багато внутрішніх розрахунків, щоб визначити, як відображатимуться різні блоки та матеріали. §bIntegrated PBR+§r: розрахування PBR і додаткові ефекти, рекомендовані для більшості випадків використання. §aБазова§r: Без PBR або додаткового ефекту. §elabPBR або seuspbr§r: Матеріали використовуються в необхідних пакетах ресурсів
+value.RP_MODE.0=§aБазова
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.2=§eseuspbr (треба ПР)
+value.RP_MODE.3=§elabPBR (треба ПР)
+
+option.WATER_REFLECT_QUALITY=Якість відблиску води
+option.WATER_REFLECT_QUALITY.comment=Визначає візуальну якість відблиску, які з’являються на напівпрозорих ділянках. §cПосередня§r: трасування променів на воді і напівпрозорих ділянках. §eКартопля§r: замінює воду та напівпрозорі відблиски швидшим методом, у деяких ситуаціях може виглядати неправильно. §aВИМК.§r: Без відблису
+value.WATER_REFLECT_QUALITY.-1=§aВИМК.
+value.WATER_REFLECT_QUALITY.0=§aЛише небо
+value.WATER_REFLECT_QUALITY.1=§eКартопля
+value.WATER_REFLECT_QUALITY.2=§cПосередня
+
+option.BLOCK_REFLECT_QUALITY=Якість відблиску блоків §e[*]§r
+option.BLOCK_REFLECT_QUALITY.comment=Визначає візуальну якість відблисків, які з’являються на матеріалах. §cВисока§r: відблиски сонця і місяця + більш плавні дзеркальні відблиски за допомогою тимчасового фільтра. §eПосередня§r: відблиски сонця і місяця + дзеркальні відблиски. §aНизька§r: лише відблиски сонця і місяця. §e[*]§r Підтримка ПР має бути будь-яка, окрім «базова», щоб з’явилися будь-які дзеркальні відблиски
+value.BLOCK_REFLECT_QUALITY.0=§aВИМК.
+value.BLOCK_REFLECT_QUALITY.1=§eНизька
+value.BLOCK_REFLECT_QUALITY.2=§cПосередня
+value.BLOCK_REFLECT_QUALITY.3=§cВисока
+
+option.SHADOW_QUALITY=Тіні в реальному часі
+option.SHADOW_QUALITY.comment=Визначає якість тіней. Кожен рівень додатково зменшує артефакти тіньового шуму, параметри нижче, ніж §eВисока§r увімкнуть оптимізоні тіней для листя, §eДуже низька§r значно зменшує тіні багатьма способами, §aВИМК.§r повністю вимикає тіні та світлові потоки
+value.SHADOW_QUALITY.-1=§aВИМК.
+value.SHADOW_QUALITY.0=§eДуже низька
+value.SHADOW_QUALITY.1=§eНизька
+value.SHADOW_QUALITY.2=§eПосередня
+value.SHADOW_QUALITY.3=§eВисока
+value.SHADOW_QUALITY.4=§cДуже висока
+value.SHADOW_QUALITY.5=§4§lУльтра
+
+option.LIGHTSHAFT_QUALI_DEFINE=Якість світлових потоків §e[*]§r
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Визначає якість світлових потоків. Кожен рівень додатково зменшує шумові артефакти світлового потоку. §e[*]§r «Якість тіней» має бути будь-яким, але не вимкнено, щоб світлові потоки працювали
+value.LIGHTSHAFT_QUALI_DEFINE.0=§aВИМК.
+value.LIGHTSHAFT_QUALI_DEFINE.1=§eНизька
+value.LIGHTSHAFT_QUALI_DEFINE.2=§eПосередня
+value.LIGHTSHAFT_QUALI_DEFINE.3=§cВисока
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§lДуже висока
+
+option.shadowDistance=Дальність тіней
+option.shadowDistance.comment=Визначає відстань від гравця, на якій тіні відображаються в реальному часі. §e[*]§r Значення внутрішньо обмежується дистанцією візуалізації. §c[-]§r Менші значення можуть спричинити надмірний витік світлового потоку
+value.shadowDistance.64.0=§a4 чанка §c[-]
+value.shadowDistance.80.0=§a5 чанків §c[-]
+value.shadowDistance.96.0=§a6 чанків §c[-]
+value.shadowDistance.112.0=§a7 чанків §c[-]
+value.shadowDistance.128.0=§a8 чанків
+value.shadowDistance.160.0=§e10 чанків
+value.shadowDistance.192.0=§e12 чанків
+value.shadowDistance.224.0=§e14 чанків
+value.shadowDistance.256.0=§c16 чанків
+value.shadowDistance.320.0=§c20 чанків
+value.shadowDistance.384.0=§4§l24 чанка
+value.shadowDistance.512.0=§4§l32 чанка
+value.shadowDistance.768.0=§4§k-§r§4§l§n§o48 чанків§r§4§k-
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 чанка§r§4§k-
+
+option.ENTITY_SHADOWS_DEFINE=Тіні від сутностей
+option.ENTITY_SHADOWS_DEFINE.comment=Дозволяє сутностям і блокам-сутностям відкидати тіні. §c[-]§r Це впливає на продуктивність набагато більше, ніж очікувалося, у деяких випадках втрачаючи понад 50% кадрів в секунду
+value.ENTITY_SHADOWS_DEFINE.-1=§aВИМК.
+value.ENTITY_SHADOWS_DEFINE.1=§4§k-§r§4§l§n§oУВІМК.§r§4§k- §r§c[-]
+
+option.DETAIL_QUALITY=Якість деталей
+option.DETAIL_QUALITY.comment=Налаштовує кілька дрібниць, які впливають на продуктивність. Налаштуйте якість: водного матеріалу, TAA, налаштування освітлення, нічної туманності, бурі Незеру, променів Енду, ефекту відблиску неба, точності дощової калюжі
+value.DETAIL_QUALITY.0=§aКартопля
+value.DETAIL_QUALITY.2=§eПосередня
+value.DETAIL_QUALITY.3=§cВисока
+
+option.CLOUD_QUALITY=Якість хмар
+option.CLOUD_QUALITY.comment=Налаштовує освітлення, деталізацію та якість «переосмисленого» і «непов'язаного» стилю хмар. §e[*]§r Це працює лише з «переосмисеним» або «непов'язаним» стилями хмари
+value.CLOUD_QUALITY.0=§aВИМК.
+value.CLOUD_QUALITY.1=§aНизька
+value.CLOUD_QUALITY.2=§eПосередня
+value.CLOUD_QUALITY.3=§cВисока
+
+option.FXAA_DEFINE=Згладжування (ШНЗ)
+option.FXAA_DEFINE.comment=Увімкнути швидке наближене згладжування (ШНЗ), це в основному ефект, який створює більш гладке зображення
+value.FXAA_DEFINE.-1=§aВИМК.
+value.FXAA_DEFINE.1=§eУВІМК.
+
+option.SSAO_QUALI_DEFINE=Якість краю (ЕПНО) тіней
+option.SSAO_QUALI_DEFINE.comment=Визначає якість екранного простору навколишньої оклюзії (ЕПНО), що додає додаткові тіні навколишнього середовища до країв сцени. Кожен рівень додатково зменшує шумові артефакти ЕПНО
+value.SSAO_QUALI_DEFINE.0=§aВИМК.
+value.SSAO_QUALI_DEFINE.2=§eПосередня
+value.SSAO_QUALI_DEFINE.3=§cВисока
+
+option.ANISOTROPIC_FILTER=Фільтрування текстур
+option.ANISOTROPIC_FILTER.comment=Покращує якість неправильно відображених текстур за допомогою анізотропної фільтрації. §e[*]§r Переконайтеся що «рівні MIP-текстурування» установлено на максимум (4) або вийде не дуже хороший результат
+value.ANISOTROPIC_FILTER.0=§aВИМК.
+value.ANISOTROPIC_FILTER.4=§e4x
+value.ANISOTROPIC_FILTER.8=§e8x
+value.ANISOTROPIC_FILTER.16=§4§l16x
+
+option.COLORED_LIGHTING=Розширене кольорове освітлення §e[*]§r
+option.COLORED_LIGHTING.comment=Використовує вокселізацію та заливне освітлення, щоб додати колір блоковому освітленню, а також представити деякі нові джерела світла. §e[*]§r Ця функція працює лише на Iris і підтримуваних платформах. §e[*]§r Це буде вимкнено, якщо «якість тіней» вимкнено. §a[+]§r Ця система також активує деякі інші функції, які ви можете окремо вмикати або вимикати в меню «інше» -> «ексклюзивні функції РКО». §c[-]§r Високі значення блоків для цього ефекту впливають на продуктивність набагато більше, ніж очікувалося, кожне збільшення на 2 чанки коштує більш ніж удвічі продуктивність попереднього рівня
+value.COLORED_LIGHTING.0=§aВИМК.
+value.COLORED_LIGHTING.128=§e4 чанки
+value.COLORED_LIGHTING.192=§c6 чанків
+value.COLORED_LIGHTING.256=§4§l8 чанків
+value.COLORED_LIGHTING.384=§4§l12 чанків
+value.COLORED_LIGHTING.512=§4§l§n§o16 чанків
+value.COLORED_LIGHTING.768=§4§l§n§o24 чанки§r§c[-]
+value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32 чанки§r§4§k- §r§c[-]
+
+option.SSAO_I=Інтенсивність краю тіней (ЕПНО)
+option.SSAO_I.comment=Визначає силу екранного простору навколишньої оклюзії (ЕПНО), що додає додаткові тіні навколишнього середовища до країв сцени. §e[*]§r Це не працюватиме, якщо ЕПНО вимкнено в «налаштуваннях продуктивности»
+value.SSAO_I.0=§cВИМК.
+
+option.VANILLAAO_I=Інтенсивність краю тіней (ванілла)
+option.VANILLAAO_I.comment=Визначає силу для навколишньої оклюзії гри, що додає додаткові тіні навколишнього середовища до країв сцени
+value.VANILLAAO_I.0=§cВИМК.
+
+option.BORDER_FOG=Межа туману
+option.BORDER_FOG.comment=Інтенсивний туман на межі видимого світу, щоб приховати межі чанків. §e[*]§r Рекомендовано вимкнути це під час гри з менш ніж 8 чанками
+
+option.ATM_FOG_MULT=Атмосферний туман
+option.ATM_FOG_MULT.comment=Визначає інтенсивність туману на основі висоти
+value.ATM_FOG_MULT.0.50=Дуже тонкий
+value.ATM_FOG_MULT.0.65=Тонкий
+value.ATM_FOG_MULT.0.80=Нормальний
+value.ATM_FOG_MULT.0.95=Товстий
+
+option.ATM_FOG_DISTANCE=Дальність атмосферного туману
+option.ATM_FOG_DISTANCE.comment=Визначає відстань від камери, на якій починає з’являтися атмосферний туман. §e[*]§r Зауважте, що відстань туману також автоматично регулюється «дальність промальовування» у налаштуваннях відео
+
+option.ATM_FOG_ALTITUDE=Висота атмосферного туману
+option.ATM_FOG_ALTITUDE.comment=Визначає висоту, на якій атмосферний туман є найбільш помітним
+
+option.CAVE_FOG=Печерний туман
+option.CAVE_FOG.comment=Вмикає додатковий туман глибоко під землею
+
+option.LIGHTSHAFT_BEHAVIOUR=Режим світлових потоків
+option.LIGHTSHAFT_BEHAVIOUR.comment=Визначає поведінку світлових потоків. §a[+]§r Свідомий режим автоматично перемикаються між звичайним і екстремальним режимами, щоб забезпечити найкращі результати. §c[-]§r Екстремальний режим не рекомендується використовувати для загального ігрового процесу, і він може серйозно вплинути на продуктивність
+value.LIGHTSHAFT_BEHAVIOUR.0=§cВИМК.
+value.LIGHTSHAFT_BEHAVIOUR.1=Свідомий §a[+]
+value.LIGHTSHAFT_BEHAVIOUR.2=Звичний
+value.LIGHTSHAFT_BEHAVIOUR.3=Екстремальний §c[-]
+
+option.LIGHTSHAFT_SMOKE=Світлові потоки диму
+option.LIGHTSHAFT_SMOKE.comment=Додає об'ємний дим у світлові потоки. §c[-]§r Цей ефект може вплинути на продуктивність
+
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=Спец. світлові потоки блідого саду
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=Робить світлові потоки надзвичайно специфічними в блідого саду
+
+option.LIGHTSHAFT_DAY_I=Множник вдень
+option.LIGHTSHAFT_NIGHT_I=Множник вночі
+option.LIGHTSHAFT_RAIN_I=Множник під час дощу
+
+option.CLOUD_STYLE_DEFINE=Стиль хмар
+option.CLOUD_STYLE_DEFINE.comment=Встановлює стиль хмар. §e[*]§r «За замовчуванням» означає, що налаштування буде автоматично визначено «візуальний стиль» налаштування шейдерів в головному меню. §e[*]§r «Ванілла» вимагає увімкнення хмар у налаштуваннях відео
+value.CLOUD_STYLE_DEFINE.-1=За замовчуванням
+value.CLOUD_STYLE_DEFINE.0=§cВИМК.
+value.CLOUD_STYLE_DEFINE.1=Переосмислений
+value.CLOUD_STYLE_DEFINE.3=Непов'язаний
+value.CLOUD_STYLE_DEFINE.50=Ванілла §e[*]
+
+option.CLOUD_SHADOWS=Тіні хмар
+option.CLOUD_SHADOWS.comment=Вмикає тіні, що відкидаються від хмар. §e[*]§r Це працює лише з «переосмисленим» або «непов’язаним» стилями хмари. §e[*]§r Тіні хмар генеруватимуться випадковим чином, якщо для стилю хмар встановлено значення «непов'язаний», через додаткову складність непов'язаних хмар
+
+option.CLOUD_CLOSED_AREA_CHECK=Прибирати хмари у закритих місцях
+option.CLOUD_CLOSED_AREA_CHECK.comment=Проводить додаткові перевірки для видалення хмар у закритих приміщеннях. §e[*]§r Це працює лише з «переосмисленим» або «непов’язаним» стилями хмари. §e[*]§r Це налаштування буде вимкнено, якщо «якість тіней» вимкнено
+
+option.CLOUD_ALT1=Висота хмар
+option.CLOUD_ALT1.comment=Визначає висоту, на якій з’являться хмари. §e[*]§r Це працює лише з «переосмисленим» або «непов’язаним» стилями хмари
+
+option.CLOUD_SPEED_MULT=Швидкість хмар
+option.CLOUD_SPEED_MULT.comment=Визначає з якою швидкістю рухаються хмари. «Синхронізовано зі світовим часом» використовує час гри для руху хмарі; це дозволяє хмарам виглядати однаково між гравцями на одному сервері. §e[*]§r Це працює лише з «переосмисленим» або «непов’язаним» стилями хмари
+value.CLOUD_SPEED_MULT.100=Синхрон. час
+
+option.CLOUD_R=Множник червоного
+option.CLOUD_G=Множник зеленого
+option.CLOUD_B=Множник синього
+
+option.CLOUD_UNBOUND_AMOUNT=Кількість хмар
+option.CLOUD_UNBOUND_AMOUNT.comment=Визначає кількість «непов’язаних» хмар
+
+option.CLOUD_UNBOUND_SIZE_MULT=Розмір хмар
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Визначає розмір «непов’язаних» хмар. Великі значення призведуть до маленьких хмар
+
+option.CLOUD_UNBOUND_RAIN_ADD=Доповнення дощових хмар
+option.CLOUD_UNBOUND_RAIN_ADD.comment=Налаштовує кількість хмар, які застосовуються під час дощу і снігопаду
+prefix.CLOUD_UNBOUND_RAIN_ADD=+
+
+option.DOUBLE_REIM_CLOUDS=Подвійні хмари
+option.DOUBLE_REIM_CLOUDS.comment=Вмикає другий шар для «переосмислених» хмар. §e[*]§r Це працює лише з «переосмисленими» хмарами
+
+option.CLOUD_ALT2=Висота другого шару хмар
+option.CLOUD_ALT2.comment=Визначає на якій висоті буде з'являтися другий шар хмар. §e[*]§r «Подвійні хмари» має бути увімкнено
+
+option.NETHER_STORM=Буря Незеру
+option.NETHER_STORM.comment=Додає димоподібний об’ємний ефект до Незеру. §c[-]§r Цей ефект може вплинути на продуктивність
+
+option.NETHER_STORM_I=Непрозорість бурі Незеру
+option.NETHER_STORM_I.comment=Налаштовує непрозорість бурі Незеру
+
+option.NETHER_STORM_LOWER_ALT=Нижня висота бурі Незеру
+option.NETHER_STORM_LOWER_ALT.comment=Визначає нижню початкову точку Бурі Пустоти. Буря Незеру не з’явиться нижче цієї висоти, і вона виглядатиме найяскравішою прямо над цією висотою
+
+option.NETHER_STORM_HEIGHT=Висота бурі Незеру
+option.NETHER_STORM_HEIGHT.comment=Визначає висоту бурі Незеру. Зменшення цього значення призведе до збирання бурі Незеру біля «нижньої висоти бурі Незеру»
+
+option.NETHER_VIEW_LIMIT=Дальність промальовування бурі Незеру
+option.NETHER_VIEW_LIMIT.comment=Визначає максимальну дистанцію, на якій туман буде видимим у Незері. §c[-]§r Збільшення цього параметра може вплинути на продуктивність, коли увімкнено «буря Незеру»
+value.NETHER_VIEW_LIMIT.96.0=6 чанків
+value.NETHER_VIEW_LIMIT.112.0=7 чанків
+value.NETHER_VIEW_LIMIT.128.0=8 чанків
+value.NETHER_VIEW_LIMIT.160.0=10 чанків
+value.NETHER_VIEW_LIMIT.192.0=12 чанків
+value.NETHER_VIEW_LIMIT.224.0=14 чанків
+value.NETHER_VIEW_LIMIT.256.0=16 чанків
+value.NETHER_VIEW_LIMIT.320.0=20 чанків
+value.NETHER_VIEW_LIMIT.384.0=24 чанка
+value.NETHER_VIEW_LIMIT.512.0=32 чанка §c[-]
+value.NETHER_VIEW_LIMIT.768.0=48 чанків §c[-]
+value.NETHER_VIEW_LIMIT.1024.0=64 чанка §c[-]
+value.NETHER_VIEW_LIMIT.99999.0=Безлімітна §c[-]
+
+option.NETHER_COLOR_MODE=Режим кольору
+option.NETHER_COLOR_MODE.comment=Визначає, як оброблятимуться кольори середовища в Незері. Незмінний: кольори не змінюватимуться між біомами. Біом: кольори змінюватимуться залежно від біома. Біом (модиф.): базується на біомі, але кольори були перебалансовані, щоб краще відповідати стандартному візуальному напрямку Complementary
+value.NETHER_COLOR_MODE.3=Біом (модиф.)
+value.NETHER_COLOR_MODE.2=Біом
+value.NETHER_COLOR_MODE.0=Незмінний
+
+option.T_EXPOSURE=Загальна яскравість
+option.T_EXPOSURE.comment=Також відомий як «експозиція мапи тональної». Визначає загальну яскравість всього зображення
+
+option.TM_WHITE_CURVE=Біла яскравість
+option.TM_WHITE_CURVE.comment=Також відомий як «біла крива мапи тонів». Визначає, наскільки легко кольори досягають повного білого
+
+option.T_UPPER_CURVE=Контраст яскравіших кольорів
+option.T_UPPER_CURVE.comment=Також відомий як «верхня крива мапи тонів». Визначає контраст яскравіших кольорів
+
+option.T_LOWER_CURVE=Контраст темних кольорів
+option.T_LOWER_CURVE.comment=Також відомий як «нижня крива мапи тонів». Визначає контрастність темніших кольорів
+
+option.T_SATURATION=Насиченість
+option.T_SATURATION.comment=Визначає загальну забарвленість зображення
+
+option.T_VIBRANCE=Насиченість більш блідих кольорів
+option.T_VIBRANCE.comment=Також відомий як «жвавість». Визначає барвистість зображення, але вже кольорові пікселі зазнають меншого впливу
+
+option.COLORGRADING=§eГрадація кольорів
+option.COLORGRADING.comment=Вмикає налаштування для вільного змішування кольорів
+option.GR_RR=Червоний в червоний
+option.GR_RG=Червоний в зелений
+option.GR_RB=Червоний в синій
+option.GR_RC=Крива червоного
+option.GR_GR=Зелений в червоний
+option.GR_GG=Зелений в зелений
+option.GR_GB=Зелений в синій
+option.GR_GC=Крива зеленого
+option.GR_BR=Синій в червоний
+option.GR_BG=Синій в зелений
+option.GR_BB=Синій в синій
+option.GR_BC=Крива синього
+
+option.WATER_STYLE_DEFINE=Стиль води
+option.WATER_STYLE_DEFINE.comment=Визначає стиль води. §e[*]§r «За замовчуванням» означає, що параметр автоматично визначатиметься параметром «візуальний стиль» у головному меню параметрів шейдера
+value.WATER_STYLE_DEFINE.-1=За замовч.
+value.WATER_STYLE_DEFINE.1=Переосмислений
+value.WATER_STYLE_DEFINE.2=Переосмислений + хвилі
+value.WATER_STYLE_DEFINE.3=Непов'язаний
+
+option.WATER_CAUSTIC_STYLE_DEFINE=Стиль водної каустики
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Визначає стиль водних тіней, також відомих як водна каустика
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Як і вода
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Переосмислений
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Непов'язаний
+
+option.WATER_REFRACTION_INTENSITY=Інтенсивність заломлення води §e[*]§r
+option.WATER_REFRACTION_INTENSITY.comment=Визначає інтенсивність заломлення води та спотворення зображення під водою. §e[*]§r Це повністю працює лише тоді, коли для «якість деталей» встановлено значення «висока», інакше він ледве спотворюватиме зображення під водою
+
+option.WATER_FOAM_I=Інтенсивність піни у води
+option.WATER_FOAM_I.comment=Визначає непрозорість піни, яку видно на краях води. §e[*]§r Це працює, лише якщо для «якість деталей» встановлено значення «посередня» або вище
+
+option.WATER_ALPHA_MULT=Фактор непрозорості води
+option.WATER_ALPHA_MULT.comment=Визначає непрозорість води. §c[-]§r Екстремальні значення порушать баланс освітлення води. §e[*]§r Це працює, лише якщо для «якість деталей» встановлено значення «посередня» або вище
+
+option.WATER_FOG_MULT=Фактор туману води
+option.WATER_FOG_MULT.comment=Визначає, наскільки близько видно туман води. Вищі значення забезпечують ближчий туман. §c[-]§r Екстремальні значення порушать баланс освітлення води
+
+option.WATERCOLOR_R=Множник червоного
+option.WATERCOLOR_G=Множник зеленого
+option.WATERCOLOR_B=Множник синього
+
+option.WATERCOLOR_MODE=Режим кольору
+option.WATERCOLOR_MODE.comment=Визначає, яким буде колір води. Незмінний: кольори води не змінюватимуться між біомами. Біом: колір змінюватиметься залежно від біома. Біом (закріплений): на основі біому, але запобігає дивному кольору поверхні в певних біомах. §e[*]§r Це не працюватиме належним чином у версіях нижче 1.13
+value.WATERCOLOR_MODE.3=Біом (закріплений)
+value.WATERCOLOR_MODE.2=Біом
+value.WATERCOLOR_MODE.0=Незмінний
+
+option.BRIGHT_CAVE_WATER=Більш яскрава мілководна і печерна вода
+option.BRIGHT_CAVE_WATER.comment=Робить мілководдя або воду в закритих місцях яскравішими для покращення видимости в печерах і додавання кольорових деталей до мілководних частин океану. §e[*]§r Це не працюватиме, якщо з технічних причин встановлено коефіцієнт непрозорості води вище 199
+
+option.UNDERWATERCOLOR_R=Множник червоного
+option.UNDERWATERCOLOR_G=Множник зеленого
+option.UNDERWATERCOLOR_B=Множник синього
+
+option.WATER_BUMPINESS=Сила хвиль
+option.WATER_BUMPINESS.comment=Визначає інтенсивність хвиль у напрямку поверхні, які видно на воді
+
+option.WATER_BUMP_SMALL=Сила хвиль - малі хвилі
+option.WATER_BUMP_SMALL.comment=Визначає інтенсивність хвиль, менших за інші
+
+option.WATER_BUMP_MED=Сила хвиль - середні хвилі
+option.WATER_BUMP_MED.comment=Визначає інтенсивність хвилі середнього розміру порівняно з іншими
+
+option.WATER_BUMP_BIG=Сила хвиль - великі хвилі
+option.WATER_BUMP_BIG.comment=Визначає інтенсивність хвиль, більших за інші
+
+option.WATER_SPEED_MULT=Швидкість хвиль
+option.WATER_SPEED_MULT.comment=Визначає швидкість руху хвиль, спрямованих на поверхню, видимих ​​на воді
+
+option.WATER_SIZE_MULT=Розмір хвиль
+option.WATER_SIZE_MULT.comment=Визначає розмір хвиль у напрямку поверхні на воді
+
+option.SUN_ANGLE=Кут сонця і місяця
+option.SUN_ANGLE.comment=Визначає кут сонця і місяця відносно світу опівдні. Модель освітлення §a[+]§r Переосмислено спеціально розроблена, щоб кут сонця 0 працював так само добре, як і інші
+value.SUN_ANGLE.-1=За замовч.
+value.SUN_ANGLE.60=60
+value.SUN_ANGLE.55=55
+value.SUN_ANGLE.50=50
+value.SUN_ANGLE.45=45
+value.SUN_ANGLE.40=40
+value.SUN_ANGLE.35=35
+value.SUN_ANGLE.30=30
+value.SUN_ANGLE.25=25
+value.SUN_ANGLE.20=20
+value.SUN_ANGLE.15=15
+value.SUN_ANGLE.10=10
+value.SUN_ANGLE.5=5
+value.SUN_ANGLE.0=0 §r(§bПереосмислений§r)
+value.SUN_ANGLE.-5=-5
+value.SUN_ANGLE.-10=-10
+value.SUN_ANGLE.-15=-15
+value.SUN_ANGLE.-20=-20
+value.SUN_ANGLE.-25=-25
+value.SUN_ANGLE.-30=-30
+value.SUN_ANGLE.-35=-35
+value.SUN_ANGLE.-40=-40 §r(§dНепов'язаний§r)
+value.SUN_ANGLE.-45=-45
+value.SUN_ANGLE.-50=-50
+value.SUN_ANGLE.-55=-55
+value.SUN_ANGLE.-60=-60
+
+option.SUN_MOON_STYLE_DEFINE=Стиль сонця і місяця
+option.SUN_MOON_STYLE_DEFINE.comment=Визначає стиль сонця і місяця. §e[*]§r Це може некоректно взаємодіяти з деякими пакетами ресурсів через обмеження диференціації сонця, місяця, неба
+value.SUN_MOON_STYLE_DEFINE.-1=За замовч.
+value.SUN_MOON_STYLE_DEFINE.1=Переосмислений
+value.SUN_MOON_STYLE_DEFINE.2=Непов'язаний
+value.SUN_MOON_STYLE_DEFINE.3=Непов'язаний - маленький
+
+option.SUN_MOON_HORIZON=Горизонт сонця і місяця
+option.SUN_MOON_HORIZON.comment=Запобігає появі сонця і місяця під лінією горизонту
+
+option.SUN_MOON_DURING_RAIN=Сонце і місяць під час дощу
+option.SUN_MOON_DURING_RAIN.comment=Визначає, чи буде сонце і місяць видно під час дощу чи ні
+
+option.NIGHT_STAR_AMOUNT=Кількість зірок вночі
+option.NIGHT_STAR_AMOUNT.comment=Визначає скількі зірок буде на нічному небі
+value.NIGHT_STAR_AMOUNT.2=Посередня
+value.NIGHT_STAR_AMOUNT.3=Багато
+
+option.RAINBOWS=Веселки
+option.RAINBOWS.comment=Вмикає веселки, які з’являються на протилежній стороні від сонця вранці і ввечері
+value.RAINBOWS.0=ВИМК.
+value.RAINBOWS.1=Після дощу
+value.RAINBOWS.3=Завжди
+
+option.AURORA_STYLE_DEFINE=Стиль північного сяйва
+option.AURORA_STYLE_DEFINE.comment=Визначає стиль північного сяйва, яке з’являється на нічному небі
+value.AURORA_STYLE_DEFINE.-1=За замовч.
+value.AURORA_STYLE_DEFINE.0=§cВИМК.
+value.AURORA_STYLE_DEFINE.1=Переосмислений
+value.AURORA_STYLE_DEFINE.2=Непов'язаний
+
+option.AURORA_CONDITION=Північне сяйво
+option.AURORA_CONDITION.comment=Визначає умову(-и) появи полярного сяйва. §e[*]§r Північне сяйво з’являтиметься лише вночі незалежно від цього налаштування
+value.AURORA_CONDITION.0=Щоночі
+value.AURORA_CONDITION.1=Повнолуння
+value.AURORA_CONDITION.2=Засніжені біоми
+value.AURORA_CONDITION.3=Повнолуння в сніжному біомі
+value.AURORA_CONDITION.4=Повнолуння чи сніжний біом
+
+option.NIGHT_NEBULA=Туманність
+option.NIGHT_NEBULA.comment=Додає на нічне небо туманності у стилі галактики. Туманності генеруються процедурно, і щовечора вони виглядатимуть по-різному. §c[-]§r Цей ефект може вплинути на продуктивність. §e[*]§r «Nebulae» - це не помилка, це «Nebula» в множині =D
+
+option.NIGHT_NEBULA_I=Яскравість туманностей
+option.NIGHT_NEBULA_I.comment=Визначає яскравість туманностей
+
+option.RAIN_STYLE=Стиль дощової погоди
+option.RAIN_STYLE.comment=Визначає стиль дощової погоди
+value.RAIN_STYLE.1=Світло і тепло
+value.RAIN_STYLE.2=Тьмяно і холодно
+
+option.SPECIAL_BIOME_WEATHER=Особлива холодна і суха погода
+option.SPECIAL_BIOME_WEATHER.comment=Змінює атмосферний баланс у холодних і сухих біомах, щоб усе було схоже на снігову або піщану бурю
+
+option.WEATHER_TEX_OPACITY=Непрозорість текстур погоди
+option.WEATHER_TEX_OPACITY.comment=Визначає непрозорість текстур дощу і снігопаду
+
+option.SHADOW_SMOOTHING=Гладкі тіні
+option.SHADOW_SMOOTHING.comment=Визначає різкість тіней. §c[-]§r Зниження цього параметра збільшить мерехтіння тіні та вплине на продуктивність. §e[*]§r Це працює, лише якщо для «якість тіней» встановлено значення «низька» або вище
+value.SHADOW_SMOOTHING.4=Дуже гладкі
+value.SHADOW_SMOOTHING.3=Гладкі
+value.SHADOW_SMOOTHING.2=Різкі §c[-]
+value.SHADOW_SMOOTHING.1=Дуже різкі §c[-]
+
+option.PIXELATED_SHADOWS=Піксельні тіні
+option.PIXELATED_SHADOWS.comment=Робить тіні від сонця та місяця піксельними
+
+option.PIXELATED_BLOCKLIGHT=Піксельне блоків світла
+option.PIXELATED_BLOCKLIGHT.comment=Робить піксельним освітлення, створене блоками джерелами світла
+
+option.PIXELATED_AO=Нерівні краї тіней
+option.PIXELATED_AO.comment=Робить ванілльну навколишню оклюзію гри піксельною
+
+option.PIXEL_SCALE=Масштаб піксельности
+option.PIXEL_SCALE.comment=Масштабування виконано за роздільною здатністю текстур
+value.PIXEL_SCALE.-2=0.25x
+value.PIXEL_SCALE.-1=0.5x
+value.PIXEL_SCALE.1=1x
+value.PIXEL_SCALE.2=2x
+value.PIXEL_SCALE.3=4x
+value.PIXEL_SCALE.4=8x
+value.PIXEL_SCALE.5=16x
+
+option.BLOOM=Світіння
+option.BLOOM.comment=Забезпечує розмите світіння від яскравих предметів і вологости
+
+option.BLOOM_STRENGTH=Сила світіння
+option.BLOOM_STRENGTH.comment=Визначає інтенсивність світіння яскравих речей і блиск від дощу вологости в печері. §c[-]§r Занадто багато світіння призведе до того, що зображення стане розмитішим і яскравішим, ніж передбачалося, особливо у вологих умовах
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80% §c[-]
+value.BLOOM_STRENGTH.0.16=85% §c[-]
+value.BLOOM_STRENGTH.0.17=90% §c[-]
+value.BLOOM_STRENGTH.0.18=95% §c[-]
+value.BLOOM_STRENGTH.0.19=100% §c[-]
+value.BLOOM_STRENGTH.0.21=110% §c[-]
+value.BLOOM_STRENGTH.0.23=120% §c[-]
+value.BLOOM_STRENGTH.0.25=130% §c[-]
+value.BLOOM_STRENGTH.0.28=150% §c[-]
+value.BLOOM_STRENGTH.0.32=180% §c[-]
+value.BLOOM_STRENGTH.10.00=§cБОЖЕВІЛЬНИЙ
+
+option.IMAGE_SHARPENING=Різкість зображення
+option.IMAGE_SHARPENING.comment=Робить зображення різкішим за допомогою фільтра. §c[-]§r Занадто велика різкість може спричинити візуальні артефакти, як-от згладжування, мерехтіння, шум і незначні зміни яскравости
+value.IMAGE_SHARPENING.0=ВИМК.
+value.IMAGE_SHARPENING.1=1x
+value.IMAGE_SHARPENING.2=2x
+value.IMAGE_SHARPENING.3=3x
+value.IMAGE_SHARPENING.4=4x
+value.IMAGE_SHARPENING.5=5x
+value.IMAGE_SHARPENING.6=6x §c[-]
+value.IMAGE_SHARPENING.7=7x §c[-]
+value.IMAGE_SHARPENING.8=8x §c[-]
+value.IMAGE_SHARPENING.9=9x §c[-]
+value.IMAGE_SHARPENING.10=10x §c[-]
+
+option.LENSFLARE_MODE=Відблиск об'єктива
+option.LENSFLARE_MODE.comment=Додає ефект відблиску об’єктива камери, коли він спрямований на сонце чи місяць. §c[-]§r Цей ефект може серйозно вплинути на продуктивність
+value.LENSFLARE_MODE.0=ВИМК.
+value.LENSFLARE_MODE.1=Лише сонце
+value.LENSFLARE_MODE.2=Сонце і місяць
+
+option.LENSFLARE_I=Інтенсивність відблиску об'єктива
+option.LENSFLARE_I.comment=Визначає силу відблиску об'єктива
+
+option.TAA_MODE=Тимчасовий фільтр
+option.TAA_MODE.comment=Визначає поведінку тимчасового згладжування. Розумний і тонкий §a[+]§r: фільтр застосовується в невеликих кількостях до зображення таким чином, щоб не викликати артефактів. Товстий §e[*]§r: забезпечує краще згладжування, але це спричинить додаткове розмазування та мерехтіння; це може бути кращим вибором із вищою частотою кадрів і роздільною здатністю. ВИМК.§c[-]§r: вимкнення призведе до погіршення продуктивности та погіршення якости ефекту
+value.TAA_MODE.1=Розумний і тонкий §a[+]
+value.TAA_MODE.2=Товстий §e[*]
+value.TAA_MODE.0=ВИМК. §c[-]
+
+option.DISTANT_LIGHT_BOKEH=Боке віддаленого світла
+option.DISTANT_LIGHT_BOKEH.comment=Робить віддалені джерела світла розсіяними, застосовуючи один піксель розмиття на відстані. §a[+]§r Цей ефект отримує переваги від IntegratedPBR+ (опціонально), регулюючи віддалені джерела світла для кращого вигляду
+
+option.MOTION_BLURRING=Розмиття в русі
+option.MOTION_BLURRING.comment=Застосовує розмиття зображення під час руху камери
+
+option.MOTION_BLURRING_STRENGTH=Сила розмиття в русі
+option.MOTION_BLURRING_STRENGTH.comment=Визначає чилу розмиття зображення під час руху камери
+
+option.WORLD_BLUR=§eРозмиття світу
+option.WORLD_BLUR.comment=Вмикає розмивання світу. Розмиття на відстані: розмиття наноситься як туман залежно від відстані від камери. Глибина різкости: розмиття відбувається залежно від точки фокусування камери. §c[-]§r Цей ефект може серйозно вплинути на продуктивність
+value.WORLD_BLUR.0=ВИМК.
+value.WORLD_BLUR.1=Розмиття на відстані
+value.WORLD_BLUR.2=Глибина різкости
+
+option.WB_FOV_SCALED=Збільшене розмиття поля зору
+option.WB_FOV_SCALED.comment=Масштабує «розмиття світу» до поля зору камери. «Розмиття світу» стане більш інтенсивним, якщо ви збільшите масштаб, коли це увімкнено
+
+option.WB_CHROMATIC=Кольорове розмиття
+option.WB_CHROMATIC.comment=Застосовує кольорове зміщення до розмитих ділянок, розділяючи різні кольори в розмитих областях
+
+option.WB_ANAMORPHIC=Спотворене розмиття
+option.WB_ANAMORPHIC.comment=Розтягує розмиття в одному напрямку. §c[-]§r Це може знизити якість розмиття світу
+
+option.WB_DOF_I=Глибина різкости
+option.WB_DOF_FOCUS=Фокус глибини різкости
+option.WB_DOF_FOCUS.comment=Визначає відстань фокусування камери. Авто: точка фокусування буде налаштована відповідно до центральної точки екрана. Яскравість: точка фокусування визначатиметься повзунком «яскравість» у налаштуваннях відео
+value.WB_DOF_FOCUS.-1=Яскравість §e[*]
+value.WB_DOF_FOCUS.0=Авто
+
+option.WB_DB_DAY_I=Д. розмиття день
+option.WB_DB_NIGHT_I=Д. розмиття ніч і темрява
+option.WB_DB_RAIN_I=Д. розмиття cнігопад і дощ
+option.WB_DB_WATER_I=Д. розмиття підводою
+option.WB_DB_NETHER_I=Д. розмиття Незер
+option.WB_DB_END_I=Д. розмиття Енд
+
+option.VIGNETTE_R=Віньєтка
+option.VIGNETTE_R.comment=Застосовує затемнення по краях екрана
+
+option.CHROMA_ABERRATION=Кольорове зміщення
+option.CHROMA_ABERRATION.comment=Розділяє різні кольори до країв екрана. §c[-]§r Це може спричинити розмитість зображення; високі значення не рекомендуються для гри
+value.CHROMA_ABERRATION.4=4 §c[-]
+value.CHROMA_ABERRATION.5=5 §c[-]
+value.CHROMA_ABERRATION.6=6 §c[-]
+value.CHROMA_ABERRATION.7=7 §c[-]
+value.CHROMA_ABERRATION.8=8 §c[-]
+
+option.IPBR_EMISSIVE_MODE=Сяйний режим IPBR+
+option.IPBR_EMISSIVE_MODE.comment=Визначає поводження сяйних пікселів в IntegratedPBR+. Вибір labPBR або seuspbr дозволяє сумісним пакетам ресурсів повністю замінювати сяяння IPBR+ на блоках, до яких прикріплено дзеркальні текстури. §c[-]§r Не рекомендується змінювати це, якщо ви не знаєте, що робите
+value.IPBR_EMISSIVE_MODE.1=Лише IPBR+
+value.IPBR_EMISSIVE_MODE.3=labPBR > IPBR+
+value.IPBR_EMISSIVE_MODE.2=seuspbr > IPBR+
+
+option.IPBR_PARTICLE_FEATURES=Функції частинок IPBR+
+option.IPBR_PARTICLE_FEATURES.comment=Вмикає кілька функцій для частинок, зокрема частинки лави, що світяться, і частинки води з кращим кольором
+
+option.FANCY_GLASS=Покращене скло
+option.FANCY_GLASS.comment=Покращує скло, додаючи до нього напівпрозорий шар. §c[-]§r Не працює на Iris через помилку Sodium. §e[*]§r Підтримка ПР має бути «Integrated PBR+»
+
+option.GREEN_SCREEN_LIME=Зелений екран
+option.GREEN_SCREEN_LIME.comment=Перетворює лаймовий бетон, шерсть і килим на зелені екрани для редагування відео. Порада 1: вимкніть «світіння», щоб покращити розділення. Порада 2: для освітлення встановіть джерела світла під лаймовими килимами. Порада 3: ви можете вимкнути згладжування (ШНЗ) і встановити якість деталей на «картопля» у налаштуваннях продуктивности, щоб вимкнути всі фільтри та отримати ідеальне розділення пікселів
+
+option.HAND_SWAYING=Похитування руки
+option.HAND_SWAYING.comment=Додає повільний рух руки гравця, щоб імітувати анімацію дихання
+value.HAND_SWAYING.0=ВИМК.
+value.HAND_SWAYING.1=Слабке
+value.HAND_SWAYING.2=Нормальне
+value.HAND_SWAYING.3=Сильне
+
+option.LESS_LAVA_FOG=Менше туману в лаві і сипкому снігу
+option.LESS_LAVA_FOG.comment=Зменшує туман в лаві і сипкому снігу, щоб покращити видимість усередині них
+
+option.REDUCE_CLOSE_PARTICLES=Зменшити частинки великим планом
+option.REDUCE_CLOSE_PARTICLES.comment=Зменшує непрозорість частинок, які знаходяться поблизу камери, щоб покращити видимість
+
+option.SNOWY_WORLD=Засніжений світ
+option.SNOWY_WORLD.comment=Робить весь світ засніженим
+
+option.SHOW_LIGHT_LEVEL=Рівень світла снігу
+option.SHOW_LIGHT_LEVEL.comment=У Верхньому світі: жовтий означає, що моби можуть з’являтися вночі, червоний означає, що моби можуть з’являтися будь-коли. У Нерезі або Енді: жовтий колір означає, що деякі моби можуть з’являтися, червоний означає, що всі моби можуть з’являтися. §e[*]§r Вимкніть «гладке освітлення» для точних результатів
+value.SHOW_LIGHT_LEVEL.0=ВИМК.
+value.SHOW_LIGHT_LEVEL.1=Коли в руці павуче око
+value.SHOW_LIGHT_LEVEL.2=Коли в руці джерело світла
+value.SHOW_LIGHT_LEVEL.3=Завжди УВІМК.
+
+option.COLOR_CODED_PROGRAMS=Програми з кольоровим кодуванням§c[-]§r
+option.COLOR_CODED_PROGRAMS.comment=Показує, які шейдерні програми використовуються для візуалізації геометрії. §c[-]§r Це призначено лише для розробки і не повинна використовуватися для ігрового процесу. §e[*]§r Значення кольорів можна знайти у файлах пакету шейдерів: shaders/lib/misc/colorCodedPrograms.glsl
+
+option.GLOWING_COLORED_PARTICLES=Сила сяйних частинок §c[-]§r
+option.GLOWING_COLORED_PARTICLES.comment=Змушує всі технічно «забарвлені» частинки бути сяйними. §c[-]§r Це не рекомендовано для загального ігрового процесу, оскільки він змушує багато частинок світитися, якщо вони виготовлені з матеріалів, які взагалі не повинні світитися
+
+option.MINIMUM_LIGHT_MODE=Печерне освітлення
+option.MINIMUM_LIGHT_MODE.comment=Додає додаткове освітлення в місця, де немає сонячного світла. §a[+]§r «За замовчуванням» визначає освітлення відповідно до повзунка «яскравість» у налаштуваннях відео. §c[-]§r Різка зміна цього параметра може порушити баланс освітлення
+value.MINIMUM_LIGHT_MODE.0=Дуже темне
+value.MINIMUM_LIGHT_MODE.1=Темне
+value.MINIMUM_LIGHT_MODE.2=За замовч.§a[+]
+value.MINIMUM_LIGHT_MODE.3=Яскраве
+value.MINIMUM_LIGHT_MODE.4=Дуже яскраве
+value.MINIMUM_LIGHT_MODE.5=Ультра §c[-]
+value.MINIMUM_LIGHT_MODE.6=Екстремальне §c[-]
+
+option.AMBIENT_MULT=Множник освітлення тіней
+option.AMBIENT_MULT.comment=Визначає кількість навколишнього освітлення, видимого в тіні. §c[-]§r Різка зміна цього параметра може порушити баланс освітлення
+
+option.PLAYER_SHADOW=Тінь від гравця §e[*]§r
+option.PLAYER_SHADOW.comment=Визначає, чи буде гравець відкидати тінь чи ні. §e[*]§r Це працює лише в Iris. §e[*]§r Це налаштування буде вимкнено, якщо «якість тіней» вимкнено
+value.PLAYER_SHADOW.-1=ВИМК.
+value.PLAYER_SHADOW.1=УВІМК.
+
+option.GENERATED_NORMALS=Генерація нерівностей
+option.GENERATED_NORMALS.comment=Додає автоматично створені нерівні деталі до поверхонь. §e[*]§r Підтримка ПР має бути «Integrated PBR+»
+
+option.COATED_TEXTURES=Покриття текстур
+option.COATED_TEXTURES.comment=Додає до текстур автоматично створені пилові деталі. Пітримка ПР має бути «Integrated PBR+»
+
+option.ENTITY_GN_AND_CT=ГН і ПТ на сутностях
+option.ENTITY_GN_AND_CT.comment=Визначає чи можна «генерація нерівностей» і «покриття текстур» застосовувати до сутностей. §e[*]§r Це не вмикає ГН і ПТ для сутностей, якщо ЗСЗ і ПТ вимкнено
+
+option.GENERATED_NORMAL_MULT=Сила генерації нерівностей
+option.GENERATED_NORMAL_MULT.comment=Визначає силу «генерація нерівностей»
+
+option.COATED_TEXTURE_MULT=Сила покриття текстур
+option.COATED_TEXTURE_MULT.comment=Визначає силу «покриття текстур»
+
+option.GLOWING_ORE_MASTER=§eСяйні руди
+option.GLOWING_ORE_MASTER.comment=Вмикає функцію сяйних руд. §e[*]§r Вибір «За замовчуванням» увімкне сяйні руди, лише якщо для «візуальний стиль» встановлено значення «непов’язаний». §e[*]§r Параметри нижче не працюватимуть, якщо це не увімкнено
+value.GLOWING_ORE_MASTER.0=§cВИМК.
+value.GLOWING_ORE_MASTER.1=За замовч. [*]
+value.GLOWING_ORE_MASTER.2=§aУВІМК.
+
+option.GLOWING_ORE_MULT=Сила сяйних руд
+option.GLOWING_ORE_MULT.comment=Визначає силу «увімкнути сяйні руди»
+
+option.GLOWING_ORE_IRON=Сяйна залізна руда
+option.GLOWING_ORE_GOLD=Сяйна золота руда
+option.GLOWING_ORE_COPPER=Сяйна мідна руда руда
+option.GLOWING_ORE_REDSTONE=Сяйна редстоунова руда §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r Уся редстоунова руда все ще світяться, якщо їх «активувати», незалежно від цього налаштування
+option.GLOWING_ORE_LAPIS=Сяйна лазуритова руда
+option.GLOWING_ORE_EMERALD=Сяйна смарагдова руда
+option.GLOWING_ORE_DIAMOND=Сяйна діамантова руда
+option.GLOWING_ORE_NETHERQUARTZ=Сяйна незерська кварцова руда
+option.GLOWING_ORE_NETHERGOLD=Сяйна незерська золота руда
+option.GLOWING_ORE_GILDEDBLACKSTONE=Сяйний позолочений чорнокамінь
+option.GLOWING_ORE_ANCIENTDEBRIS=Сяйні стародавні залишки
+option.GLOWING_ORE_MODDED=Сяйні руди з модів §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r Ви можете додати ID з мода руди до файлу «Complementary-->shaders-->block.properties», щоб вони світилися. Ви можете відкрити block.properties за допомогою будь-якого текстового редактора, як-от блокнот, а потім додати ID блоку руди з моду поруч із «block.10024=»
+
+option.GLOWING_AMETHYST=Сяйний аметист
+value.GLOWING_AMETHYST.0=§cВИМК.
+value.GLOWING_AMETHYST.1=Кристал
+value.GLOWING_AMETHYST.2=Кристал і блок
+
+option.GLOWING_LICHEN=Сяйний світлолишайник
+value.GLOWING_LICHEN.0=§cВИМК.
+value.GLOWING_LICHEN.1=У закритих приміщеннях
+value.GLOWING_LICHEN.2=Завжди
+
+option.EMISSIVE_REDSTONE_BLOCK=Сяйний блок редстоуну
+
+option.EMISSIVE_LAPIS_BLOCK=Сяйні блоки лазуриту
+
+option.GLOWING_ARMOR_TRIM=Сяйні орнаменти обладунків §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Робить орнаменти обладунків сяйними. §e[*]§r Ця функція працює лише на Iris, оскільки Optifine не підтримує виявлення орнаментів обладунків
+
+option.NORMAL_MAP_STRENGTH=Сила мап нерівностей
+option.NORMAL_MAP_STRENGTH.comment=Визначає силу нерівних деталей на поверхнях. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+
+option.CUSTOM_EMISSION_INTENSITY=Власна інтенсивність сяяння
+option.CUSTOM_EMISSION_INTENSITY.comment=Визначає інтенсивність сяяння поверхонь. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+
+option.POM=Оклюзія паралакса
+option.POM.comment=Вмикає 3D-ефект на поверхнях. §c[-]§r Цей ефект може серйозно вплинути на продуктивність. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+value.POM.false=ВИМК.
+value.POM.true=УВІМК. §c[-]
+
+option.POM_DEPTH=Глибина ОП
+option.POM_DEPTH.comment=Визначає глибину оклюзії паралакса. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+
+option.POM_QUALITY=Якість ОП
+option.POM_QUALITY.comment=Визначає різкість і точність оклюзії паралакса. §c[-]§r Значення вище 200 можуть серйозно вплинути на продуктивність. §e[*]§r Значення, нижчі за 100 у «режим освітлення ОП» зроблять «плавно». §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+value.POM_QUALITY.16=16 §e[*]
+value.POM_QUALITY.32=32 §e[*]
+value.POM_QUALITY.64=64 §e[*]
+value.POM_QUALITY.256=256 §c[-]
+value.POM_QUALITY.512=512 §c[-]
+
+option.POM_DISTANCE=Дистанція ОП
+option.POM_DISTANCE.comment=Визначає відстань оклюзії паралакса. §e[*]§r Рекомендується тримати це значення нижче 50, щоб отримати невеликий приріст продуктивности. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+value.POM_DISTANCE.64=64 §e[*]
+value.POM_DISTANCE.128=128 §e[*]
+value.POM_DISTANCE.256=256 §e[*]
+value.POM_DISTANCE.512=512 §e[*]
+value.POM_DISTANCE.1024=1024 §e[*]
+
+option.POM_LIGHTING_MODE=Режим освітлення ОП
+option.POM_LIGHTING_MODE.comment=Визначає стиль освітлення для поверхонь, уражених ОП. Різкий: ОП стіни не будуть освітлюватися, якщо вони не будуть спрямовані до світла. Гладкий: стіни не будуть освітлені, ніби вони не стіни. §e[*]§r Для цього має бути встановлено значення «гладкий», якщо «якість ОП» встановлено нижче 100
+value.POM_LIGHTING_MODE.1=Гладкий
+value.POM_LIGHTING_MODE.2=Різкий
+
+option.POM_ALLOW_CUTOUT=ОП на вирізаній поверхні §c[-]§r
+option.POM_ALLOW_CUTOUT.comment=Дозволяє ОП працювати з вирізаними блоковими секціями (як прогалини у листя). §c[-]§r Це може вплинути на продуктивність
+
+option.DIRECTIONAL_BLOCKLIGHT=Спрямоване освітлення блоків
+option.DIRECTIONAL_BLOCKLIGHT.comment=Додає глибину освітленю блоків залежно від нерівности поверхні. §c[-]§r У деяких ситуаціях може викликати візуальні артефакти. §c[-]§r Це може вплинути на продуктивність. §e[*]§r Підтримка ПР має бути labPBR або seuspbr, і потрібно використовувати сумісний пакет ресурсів
+value.DIRECTIONAL_BLOCKLIGHT.0=ВИМК.
+value.DIRECTIONAL_BLOCKLIGHT.3=Тонке §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.7=Нормальне §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.11=Товсте §c[-]
+
+option.HELD_LIGHTING_MODE=Динамічне освітлення
+option.HELD_LIGHTING_MODE.comment=Дозволяє джерелам світла світитися в руці
+value.HELD_LIGHTING_MODE.0=§cВИМК.
+value.HELD_LIGHTING_MODE.1=Слабке
+value.HELD_LIGHTING_MODE.2=Нормальне
+
+option.BLOCKLIGHT_FLICKERING=Мерехтіння блоків світла
+option.BLOCKLIGHT_FLICKERING.comment=Додає ефект мерехтіння до світла від блоків
+value.BLOCKLIGHT_FLICKERING.0=ВИМК.
+
+option.WAVING_SPEED=Швидкість коливання
+option.WAVING_SPEED.comment=Визначає, як швидко відбуваються ефекти коливання
+
+option.WAVING_I=Інтенсивність коливання
+option.WAVING_I.comment=Визначає швидкість руху блоків під час коливання. §c[-]§r Занадто велике значення може призвести до того, що блоки можуть «затискатися» між інших блоків
+value.WAVING_I.1.25=1.25 §c[-]
+value.WAVING_I.1.50=1.50 §c[-]
+value.WAVING_I.1.75=1.75 §c[-]
+value.WAVING_I.2.00=2.00 §c[-]
+value.WAVING_I.50.0=§cБОЖЕВІЛЬНЕ
+
+option.NO_WAVING_INDOORS=Коливання в закритих приміщеннях
+option.NO_WAVING_INDOORS.comment=Запобігає коливанню блоків у закритих приміщеннях за допомогою сонячного світла. §c[-]§r Увімкнення цього може викликати проблеми з деякими пакетами ресурсів або модами
+
+option.WAVING_I_RAIN_MULT=Множник коливання дощу
+option.WAVING_I_RAIN_MULT.comment=Збільшує швидкість та інтенсивність коливання під час дощу. §c[-]§r Занадто велика інтенсивність коливання може призвести до того, що коливаючі блоки затискаються в інші блоки та виходять з них. §c[-]§r Це може вплинути на продуктивність, якщо його значення перевищує 100
+value.WAVING_I.125=125 §c[-]
+value.WAVING_I.150=150 §c[-]
+value.WAVING_I.175=175 §c[-]
+value.WAVING_I.200=200 §c[-]
+
+option.WAVING_FOLIAGE=Коливання трави
+option.WAVING_FOLIAGE.comment=Додає коливання для трави і травоподібній, щоб імітувати вітер
+
+option.WAVING_LEAVES=Коливання листя
+option.WAVING_LEAVES.comment=Додає коливання для листям, щоб імітувати вітер
+
+option.WAVING_LAVA=Коливання лави
+option.WAVING_LAVA.comment=Додає коливання для лави. §e[*]§r на лаву не впливає налаштування «без хвилювання в закритих місцях»
+
+option.WAVING_LILY_PAD=Коливання латаття
+option.WAVING_LILY_PAD.comment=Додає коливання для латаття, щоб імітувати водних хвиль
+
+option.WAVING_WATER_VERTEX=Коливання води
+option.WAVING_WATER_VERTEX.comment=Додає коливання для води, щоб імітувати вітер. §e[*]§r Це не пов’язано із «сила хвилі у воді»
+
+option.WAVING_RAIN=Коливання дощу і снігу
+option.WAVING_RAIN.comment=Додає коливання для дощу та снігу, щоб зробити їх більш динамічними
+
+option.SPECIAL_PORTAL_EFFECTS=Спеціальні ефекти порталу
+option.SPECIAL_PORTAL_EFFECTS.comment=Додає спеціальні анімації та випромінювання до порталів Незеру, Енду і воріт Енду
+
+option.WORLD_OUTLINE=Контур світу
+option.WORLD_OUTLINE.comment=Додає яскраві контури для блоків. §c[-]§r Це може вплинути на продуктивність
+
+option.WORLD_OUTLINE_THICKNESS=Товщина контуру світу
+option.WORLD_OUTLINE_THICKNESS.comment=Визначає товщину контуру для блоків. §c[-]§r Збільшення цього може вплинути на продуктивність
+
+option.WORLD_OUTLINE_I=Яскравість контуру світу
+option.WORLD_OUTLINE_I.comment=Визначає, наскільки інтенсивним буде ефект контуру світу
+
+option.WORLD_OUTLINE_ON_ENTITIES=КОнтур світу на сутностях
+option.WORLD_OUTLINE_ON_ENTITIES.comment=Визначає, чи застосовуватиметься ефект контуру світу до сутностей чи ні. §c[-]§r Це може не працювати ідеально з деякими спеціальними пакетами ресурсів PBR
+
+option.DARK_OUTLINE=Темний контур
+option.DARK_OUTLINE.comment=Додає темний контур для блоків. §c[-]§r Це може вплинути на продуктивність
+
+option.DARK_OUTLINE_THICKNESS=Товщина темного контуру
+option.DARK_OUTLINE_THICKNESS.comment=Визначає товщину темного контуру для блоків. §c[-]§r Збільшення цього параметра може вплинути на продуктивність
+
+option.RAIN_PUDDLES=Дощові калюжі
+option.RAIN_PUDDLES.comment=Додає калюжі на місцевости під час дощу. §c[-]§r Дощові калюжі можуть серйозно вплинути на продуктивність
+value.RAIN_PUDDLES.0=ВИМК.
+value.RAIN_PUDDLES.1=§aУВІМК.
+value.RAIN_PUDDLES.2=Повне покриття
+value.RAIN_PUDDLES.3=§cЗавжди§a калюжі
+value.RAIN_PUDDLES.4=§cЗавжди§a повністю
+
+option.UNDERWATER_DISTORTION=Спотворення підводою
+option.UNDERWATER_DISTORTION.comment=Додає тонке заломлення, коли камера знаходиться у воді
+
+option.SELECT_OUTLINE=Тип контуру
+option.SELECT_OUTLINE.comment=Визначає колір контуру для блоків
+value.SELECT_OUTLINE.0=§cВИМК.
+value.SELECT_OUTLINE.1=За замовч.
+value.SELECT_OUTLINE.2=Веселковий
+value.SELECT_OUTLINE.3=Вибраний колір
+value.SELECT_OUTLINE.4=Універсальний
+
+option.SELECT_OUTLINE_AUTO_HIDE=Автоматично приховувати контур
+option.SELECT_OUTLINE_AUTO_HIDE.comment=Приховує контур вибораного блоку, якщо гравець не тримає нічого в руках або тримає лише джерело світла поза рукою
+
+option.SELECT_OUTLINE_I=Яскравість ТК
+option.SELECT_OUTLINE_R=ТК червоний
+option.SELECT_OUTLINE_G=ТК зелений
+option.SELECT_OUTLINE_B=ТК синій
+
+option.MOON_PHASE_INF_LIGHT=Нічне світло фаз місяця
+option.MOON_PHASE_INF_LIGHT.comment=В залежности від фази місяця буде різне освітлення в ночі
+
+option.MOON_PHASE_INF_ATMOSPHERE=Нічна атмосфера фаз місяця
+option.MOON_PHASE_INF_ATMOSPHERE.comment=В залежности від фази місяця буде різна яскравість відблиску
+
+option.MOON_PHASE_INF_REFLECTION=Відблиск фаз місяця
+option.MOON_PHASE_INF_REFLECTION.comment=В залежности від фази місяця буде різна яскравість відблиску
+
+option.MOON_PHASE_FULL=Інтенсивність повнолуння
+option.MOON_PHASE_FULL.comment=Визначає вплив під час фази повного місяця (найяскравіша фаза)
+
+option.MOON_PHASE_PARTIAL=Інтенсивність неповнолуння
+option.MOON_PHASE_PARTIAL.comment=Визначає вплив протягом усіх фаз місяця між повним і новим місяцем. Це фаза, яку ви найчастіше побачите в грі
+
+option.MOON_PHASE_DARK=Інтенсивність нового місяця
+option.MOON_PHASE_DARK.comment=Визначає вплив фази місяця під час нового місяця(новий місяць) (найтемніша фаза)
+
+option.CONNECTED_GLASS_EFFECT=Об'єднаняя скла
+option.CONNECTED_GLASS_EFFECT.comment=З’єднує всі види скла між собою. §e[*]§r Лише якщо РКО увімкнено та ваша система підтримує це. §e[*]§r Це автоматично вимкнеться, якщо встановлено мод «Continuity»
+
+option.PORTAL_EDGE_EFFECT=Сяйні краї порталів
+option.PORTAL_EDGE_EFFECT.comment=Додає ефект сяйної межі до порталів в Енд і Незер. §e[*]§r Лише якщо РКО увімкнено та ваша система підтримує це
+
+option.PUDDLE_VOXELIZATION=Виправлення калюж під склом
+option.PUDDLE_VOXELIZATION.comment=Запобігає утворенню дощових калюж у закритих приміщеннях зі скляним дахом, якщо увімкнено «дощові калюжі». §e[*]§r Лише якщо увімкнено РКО і система це підтримує
+
+option.COLORED_CANDLE_LIGHT=Кольорове світло свічок
+option.COLORED_CANDLE_LIGHT.comment=Робить вогні від свічок того самого кольору, що й їх основи. §e[*]§r Варіанти ненасиченого кольору свічок продовжуватимуть використовувати звичайний колір вогню
+
+option.COLORED_LIGHT_FOG=Кольорове світло туману
+option.COLORED_LIGHT_FOG.comment=Додає об’ємний блоковий туман до сцени, найбільш помітний вночі або під землею. §e[*]§r Лише якщо РКО увімкнено та ваша система підтримує це. §c[-]§r Цей ефект може серйозно вплинути на продуктивність
+
+option.COLORED_LIGHT_SATURATION=Насиченість кольорового освітлення
+option.COLORED_LIGHT_SATURATION.comment=Визначає, наскільки насиченими будуть кольори, створені за допомогою розширеного кольорового освітлення. §e[*]§r Не рекомендується змінювати це значення, оскільки візуальні ефекти створені таким чином, щоб вони виглядали найбільш збалансовано з насиченістю за замовчуванням
+
+option.COLORED_LIGHT_FOG_I=Інтенсивність світла туману
+option.COLORED_LIGHT_FOG_I.comment=Визначає яскравість «кольорове світло туману»
+
+option.LIGHT_COLOR_MULTS=§eМножники кольора освітлення
+option.LIGHT_COLOR_MULTS.comment=Вмикає налаштування кольорів освітлення, які видно на всіх поверхнях
+
+option.ATM_COLOR_MULTS=§eМножники кольорів атмосфери
+option.ATM_COLOR_MULTS.comment=Вмикає налаштування кольорів атмосфери, які видно на небі і тумані
+
+option.LIGHT_MORNING_R=Множник червоного
+option.LIGHT_MORNING_G=Множник зеленого
+option.LIGHT_MORNING_B=Множник синього
+option.LIGHT_MORNING_I=Множник інтенсивности
+option.ATM_MORNING_R=Множник червоного
+option.ATM_MORNING_G=Множник зеленого
+option.ATM_MORNING_B=Множник синього
+option.ATM_MORNING_I=Множник інтенсивности
+option.LIGHT_NOON_R=Множник червоного
+option.LIGHT_NOON_G=Множник зеленого
+option.LIGHT_NOON_B=Множник синього
+option.LIGHT_NOON_I=Множник інтенсивности
+option.ATM_NOON_R=Множник червоного
+option.ATM_NOON_G=Множник зеленого
+option.ATM_NOON_B=Множник синього
+option.ATM_NOON_I=Множник інтенсивности
+option.LIGHT_NIGHT_R=Множник червоного
+option.LIGHT_NIGHT_G=Множник зеленого
+option.LIGHT_NIGHT_B=Множник синього
+option.LIGHT_NIGHT_I=Множник інтенсивности
+option.ATM_NIGHT_R=Множник червоного
+option.ATM_NIGHT_G=Множник зеленого
+option.ATM_NIGHT_B=Множник синього
+option.ATM_NIGHT_I=Множник інтенсивности
+option.LIGHT_RAIN_R=Множник червоного
+option.LIGHT_RAIN_G=Множник зеленого
+option.LIGHT_RAIN_B=Множник синього
+option.LIGHT_RAIN_I=Множник інтенсивности
+option.ATM_RAIN_R=Множник червоного
+option.ATM_RAIN_G=Множник зеленого
+option.ATM_RAIN_B=Множник синього
+option.ATM_RAIN_I=Множник інтенсивности
+option.LIGHT_NETHER_R=Множник червоного
+option.LIGHT_NETHER_G=Множник зеленого
+option.LIGHT_NETHER_B=Множник синього
+option.LIGHT_NETHER_I=Множник інтенсивности
+option.ATM_NETHER_R=Множник червоного
+option.ATM_NETHER_G=Множник зеленого
+option.ATM_NETHER_B=Множник синього
+option.ATM_NETHER_I=Множник інтенсивности
+option.LIGHT_END_R=Множник червоного
+option.LIGHT_END_G=Множник зеленого
+option.LIGHT_END_B=Множник синього
+option.LIGHT_END_I=Множник інтенсивности
+option.ATM_END_R=Множник червоного
+option.ATM_END_G=Множник зеленого
+option.ATM_END_B=Множник синього
+option.ATM_END_I=Множник інтенсивности
+
+option.XLIGHT_R=Множник червоного
+option.XLIGHT_G=Множник зеленого
+option.XLIGHT_B=Множник синього
+option.XLIGHT_I=Множник інтенсивности
+
+####### Euphoria Patches #######
+
+profile.SPACEAGLE17=§f۞§kO§fНалагодження(не чіпати)§f§kO
+profile.POPULAR=§bПопулярні налаштування
+
+#WATERMARK
+option.WATERMARK=Complementary
+option.WATERMARK.comment=Euphoria Patches — це творіння любові, турботи та розчарування, покликане найкращим чином доповнити унікальний досвід гри, одночасно додаючи дивовижний додатковий пакет шейдерів. Будь ласка, не соромтеся приєднуватися до чудової спільноти Complementary тут: www.complementary.dev/discord. Водяний знак від Елізії
+value.WATERMARK.0=&§dEuphoria §rPatches
+value.WATERMARK.1=&§cE§6u§ep§aho§br§9i§da §rPatches
+value.WATERMARK.2=&§cE§6u§ep§aho§br§9i§da §rPatches - прихов.
+value.WATERMARK.3=&Приховано і тримати око павука
+option.WATERMARK_SIZE=Розмір вотермарка
+
+screen.EUPHORIA_SETTINGS=§dНалаштування Euphoria Patches
+screen.EUPHORIA_SETTINGS.comment=Налаштування, додані Euphoria Patches. §bВи можете підтримати SpacEagle17 на Patreon або Ko-Fi та отримувати за це ексклюзивні бета-збірки. §r§l§neuphoriapatches.com/support
+
+screen.ATMOSPHERE=Атмосфера
+screen.ATMOSPHERE.comment=Налаштування, які стосуються атмосфери
+screen.CLOUDS=Хмари
+screen.CLOUD_REIMAGINED_SETTINGS_EUPHORIA=Переосмислені хмари
+screen.CLOUD_UNBOUND_SETTINGS_EUPHORIA=Непов'язані хмари
+screen.AURORA_SETTINGS=Північне сяйво
+screen.AURORA_SETTINGS.comment=Налаштування, які стосуються північного сяйва
+screen.AURORA_COLOR_SETTINGS=Налаштування кольору північного сяйва
+screen.AURORA_COLOR_SETTINGS.comment=Налаштування, які стосуються кольорупівнічного сяйва
+screen.END_SKY=Небо Енду
+screen.END_SKY.comment=Налаштування, які стосуються неба Енду
+screen.END_BEAMS_SETTINGS=Налаштування промів Енду
+screen.END_BEAMS_SETTINGS.comment=Налаштування, які стосуються промів Енду
+screen.END_STAR=Налаштування зірок Енду
+screen.END_STAR.comment=Налаштування, які стосуються зірок Енду
+screen.STAR_COLORS_END=Колір зірjr Енду
+screen.STARS_OVERWORLD=Зірки
+screen.STAR_COLORS_OW=Колір зірок
+screen.RAIN_SETTINGS=Налаштування дощу
+screen.NIGHT_DESATURATION_SETTINGS=Знебарвлення темряви
+
+screen.WORLD=Світ
+screen.WORLD.comment=Налаштування, які стосуються світу
+screen.SPOOKY_SETTINGS=Налаштування страхоповнення
+screen.EYES_SETTINGS=Налаштування очей
+screen.BLOOD_MOON_SETTINGS=Налаштування кривавої місяця
+screen.OVERWORLD_WORLD=Верхній світ
+screen.OVERWORLD_BEAM=Промені Верхнього світу
+screen.OVERWORLD_BEAM.comment=Налаштування, які стосуються променів Верхнього світу
+screen.FOG=Туман
+screen.FOG.comment=Налаштування, які стосуються туману
+screen.FOG_CAVE=Печерний туман
+screen.FOG_CAVE.comment=Налаштування, які стосуються печерного туману
+screen.FOG_ATMOSPHERIC=Атмосферний туман
+screen.FOG_ATMOSPHERIC.comment=Налаштування, які стосуються атмосферного туману
+screen.FOG_BORDER_OVERWORLD=Межа туману
+screen.FOG_BORDER_OVERWORLD.comment=Налаштування, які стосуються межі туману
+screen.SEASON=Сезони
+screen.WINTER=Налаштування зими
+screen.AUTUMN=Налаштування осені
+screen.SPRING=Налаштування весни
+screen.SUMMER=Налаштування літа
+screen.NETHER_WORLD=Незер
+screen.FOG_BORDER_NETHER=Межа туману
+screen.FOG_BORDER_NETHER.comment=Налаштування, які стосуються межі туману
+screen.END_WORLD=Енд
+screen.END_AMBIENT=Середовище Енду
+screen.FOG_BORDER_END=Межа туману
+screen.FOG_BORDER_END.comment=Налаштування, які стосуються межі туману
+screen.LIGHT_SETTINGS=Налаштування світда
+screen.BLOCKLIGHT=Налаштування джерел світла
+screen.BLOCKLIGHT.comment=Налаштування, які стосуються блоків-джерел світла
+screen.COLORED_LIGHT=Кольорове освітлення
+screen.SSBL_SETTINGS=Екраний простір джерел світла
+screen.ACL_SETTINGS=Розширене кольорове освітлення
+screen.OVERLAY_NOISE=Накладання шуму
+screen.MOSS_NOISE_SETTINGS=Налаштування шуму моху
+screen.SAND_NOISE_SETTINGS=Налаштування шуму піску
+
+screen.MATERIALS=Матеріали
+screen.MATERIALS.comment=Налаштування, які стосуються матеріалів
+screen.EMISSIVE_MATERIALS=Сяйні матеріали
+screen.EMISSIVE_FLOWERS_SETTINGS=Сяйні квіти
+screen.WATER=Вода
+screen.WATER.comment=Налаштування, які стосуються води
+screen.IPBR_REDSTONE=Редстоун Integrated PBR
+screen.IPBR_REDSTONE.comment=Налаштування, які стосуються IntegratedPBR для редстоуну
+screen.DIRECTIONAL_LIGHTMAP_NORMALS_SETTINGS=Мапи нерівностей світла
+screen.LAVA_SETTINGS=Лава
+screen.LAVA_SETTINGS.comment=Налаштування, які стосуються гарячої палаючої лави
+screen.END_ROD_SETTINGS=Стрижень Енду
+screen.END_ROD_SETTINGS.comment=Налаштування, які стосуються стрижня Енду
+screen.FOLIAGE_SETTINGS=Рослинність
+screen.FOLIAGE_SETTINGS.comment=Налаштування, які стосуються рослинності
+screen.PORTAL_SETTINGS=Налаштування порталу
+screen.PORTAL_SETTINGS.comment=Налаштування, які стосуються порталу
+screen.MISC_SETTINGS=Різне
+screen.MISC_SETTINGS.comment=Налаштування, які не увійшли до інших категорій
+screen.MISC_EMISSIVE_SETTINGS=Різне сяйне
+
+screen.CAMERA=Камера
+screen.CAMERA.comment=Налаштування, які стосуються камери
+screen.TONEMAP_SETTINGS_EUPHORIA=Налаштування мапи тонів Euphoria
+screen.TONEMAP_SETTINGS_EUPHORIA_SPECIFIC=Налаштування спеціальної мапи тонів
+screen.ACES=Налаштування ACES
+screen.ACES.comment=Налаштування, які стосуються мапи тонів ACES
+screen.AGX_SETTINGS=Налаштування AgX
+screen.AGX_SETTINGS.comment=Налаштування, які стосуються мапи тонів AgX
+screen.CAMERA_EFFECTS=Ефекти камери
+screen.RETRO_SETTINGS=Ретро-налаштування
+screen.STATIC_NOISE_SETTINGS=Налаштування статичного шуму
+screen.HORIZONTAL_NOISE_SETTINGS=Налаштування горизонтального шуму
+screen.VERTICAL_SCREEN_DISPLACEMENT_SETTINGS=Налаштування веритинального переміщення екрану
+screen.PIXELATE_SCREEN_SETTINGS=Налаштування пікселювання
+screen.SCANLINE_SETTINGS=Налаштування сканування
+screen.HALFTONE_SETTINGS=Налаштування половинного тону
+screen.SPEED_LINES_SETTINGS=Налаштування швидкости лінії
+screen.CAMERA_NOISE_OVERLAY_SETTINGS=Налаштування накладання шуму камери
+screen.SCREEN_BORDER=Налаштування межі
+screen.LETTERBOX_SETTINGS=Налаштування звужування
+screen.GRID_SETTINGS=Налаштування сітки
+screen.WATERMARK_SETTINGS=Налаштування вотермарка
+screen.DOF_SETTINGS=Налаштування глибини різкости
+
+screen.FUN=Забава
+screen.FUN.comment=Давай розважимося :D
+screen.WORLD_CURVATURE_SETTINGS=Кривизна світу
+screen.WORLD_CURVATURE_SETTINGS.comment=Налаштування, які стосуються кривизни світу
+
+screen.POPULAR_SETTINGS=§dПопулярні налаштування
+screen.POPULAR_SETTINGS_2=Сторінка 2
+screen.POPULAR_SETTINGS_3=Сторінка 3
+screen.EP_VERSION=Euphoria Patches §d1.5.2
+screen.EP_VERSION.comment=§bІи можете підтримати SpacEagle17 на Patreon або Ko-Fi і отримати за це нові ексклюзивні бета-збірки. §r§d§l§neuphoriapatches.com/support
+
+option.DAYLIGHT_CYCLE_COMPAT=Час анімації світу
+option.DAYLIGHT_CYCLE_COMPAT.comment=Використовуйте це ТІЛЬКИ, якщо ігрове правилом doDaylightCycle встановлене на false. Якщо увімкнути хмари та інше, вони анімуються у світах із вимкненим циклом денного світла, але вони більше не синхронізуються між гравцями
+
+option.AURORA_COLOR_PRESET=Пресет кольору півн. сяйва
+option.AURORA_COLOR_PRESET.comment=Виберіть між типовим виглядом і спеціальними кольоровими північного сяйвами, різнокольоровими північними сяйвами, коли колір полярного сяйва змінюється кожного ігрового дня або місяця, або попередні налаштування кольорів
+value.AURORA_COLOR_PRESET.0=Власний
+value.AURORA_COLOR_PRESET.1=§o§lЗмінна - денний
+value.AURORA_COLOR_PRESET.2=§o§lЗмінна - місячний
+value.AURORA_COLOR_PRESET.3=§cП§6л§cо§6м§eі§6н§eь
+value.AURORA_COLOR_PRESET.4=§cП§4р§bи§3в§bи§9д
+value.AURORA_COLOR_PRESET.5=§9Тум§5ані§dсть
+value.AURORA_COLOR_PRESET.6=§9v§b4
+value.AURORA_COLOR_PRESET.7=§6Е§dн§5д
+value.AURORA_COLOR_PRESET.8=§bЛ§3і§9д
+value.AURORA_COLOR_PRESET.9=§cК§6а§cв§2у§aн
+value.AURORA_COLOR_PRESET.10=§bЕ§3ф§bі§dр§3н§dи§5й
+value.AURORA_COLOR_PRESET.11=§bВіч§3на §bме§3р§bз§3ло§cта
+value.AURORA_COLOR_PRESET.12=§dРо§5же§dви§5й
+value.AURORA_COLOR_PRESET.13=§aДжо§5кер
+value.AURORA_COLOR_PRESET.14=§cКривава §bванна
+value.AURORA_COLOR_PRESET.15=§bМісти§9чний
+
+option.RGB_AURORA=RGB півн. сяйва
+option.RGB_AURORA.comment=Станьте епічним гравцем із північним сяйвом §4R§2G§9B§r
+
+option.AURORA_UP_R=Верхня секція - червоний
+option.AURORA_UP_G=Верхня секція - зелений
+option.AURORA_UP_B=Верхня секція - синій
+option.AURORA_UP_I=Верхня секція - інтенсивність
+
+option.AURORA_DOWN_R=Нижня секція - червоний
+option.AURORA_DOWN_G=Нижня секція - зелений
+option.AURORA_DOWN_B=Нижня секція - синій
+option.AURORA_DOWN_I=Нижня секція - інтенсивність
+
+option.AURORA_SIZE=Щільність півн. сяйва
+option.AURORA_SIZE.comment=Щільність контролює видиму висоту та розмір північного сяйва
+
+option.AURORA_DRAW_DISTANCE=Дальність півн. сяйва
+option.AURORA_DRAW_DISTANCE.comment=Визначає, відстань промальовування північного сяйва
+
+option.AURORA_INFLUENCE=Вплив півн. сяйва
+option.AURORA_INFLUENCE.comment=Вплив кольору північного сяйва вплива на хмари та територію
+
+option.AURORA_CLOUD_INFLUENCE_INTENSITY=Інтенс. впливу на хмари
+option.AURORA_CLOUD_INFLUENCE_INTENSITY.comment=Зміна інтенсивности впливу північного сяйва на хмари
+value.AURORA_CLOUD_INFLUENCE_INTENSITY.0.00=ВИМК.
+
+option.AURORA_TERRAIN_INFLUENCE_INTENSITY=Інтенс. впливу на територію
+option.AURORA_TERRAIN_INFLUENCE_INTENSITY.comment=Зміна інтенсивности впливу північного сяйва на територію
+value.AURORA_TERRAIN_INFLUENCE_INTENSITY.0.00=ВИМК.
+
+option.CLOUD_ROUNDNESS=Округлість хмар §e[*]§r
+value.CLOUD_ROUNDNESS.0.025=Додат. кубічні §e[*]§r
+value.CLOUD_ROUNDNESS.0.05=Кубічна §e[*]§r
+value.CLOUD_ROUNDNESS.0.125=Збалансована
+value.CLOUD_ROUNDNESS.0.2=Кругла
+option.CLOUD_ROUNDNESS.comment=Змінює вигляд хмар. §e[*]§r Менша округлість призводить до більшої кількости шумових артефактів
+option.CLOUD_SHADOW_ROUNDNESS=Округлість тіні хмар
+value.CLOUD_SHADOW_ROUNDNESS.0.15=Додат. кубічні
+value.CLOUD_SHADOW_ROUNDNESS.0.25=Кубічна
+value.CLOUD_SHADOW_ROUNDNESS.0.35=Кругла
+option.CLOUD_SHADOW_ROUNDNESS.comment=Змінює вигляд круглих тіней від хмар
+option.CLOUD_NARROWNESS=Вузькість хмар
+value.CLOUD_NARROWNESS.0.1=Ультра тонка
+value.CLOUD_NARROWNESS.0.075=Тонка
+value.CLOUD_NARROWNESS.0.05=Посередня
+value.CLOUD_NARROWNESS.0.025=Широка
+option.CLOUD_NARROWNESS.comment=Змінює вузькість хмар на горизонтальній шкалі
+
+option.CLOUD_STRETCH=Висота хмар
+option.CLOUD_TRANSPARENCY=Прозорість хмар
+option.CLOUD_DIRECTION=Напрямок
+option.CLOUD_DIRECTION.comment=Змінює напрямок руху хмар
+option.CLOUD_MINECRAFT_TEXTURE=Текстура хмар
+value.CLOUD_DIRECTION.1=Захід-схід
+value.CLOUD_DIRECTION.2=Північ-південь
+option.INCREASED_RAIN_STRENGTH=Підвищена сила дощу
+option.INCREASED_RAIN_STRENGTH.comment=Робить анімацію, пов’язану з вітром, швидшою під час дощу. §c[-]§r Якщо це увімкнено, хмари та інші пов’язані анімації вітру швидко змінюються, коли починається або припиняється дощ, що не можна виправити. Не рекомендується
+value.INCREASED_RAIN_STRENGTH.0=ВИМК.
+value.INCREASED_RAIN_STRENGTH.1=Швидкий перехід
+value.INCREASED_RAIN_STRENGTH.2=Без переходу
+option.RAINBOW_CLOUD=Веселкові хмари
+value.RAINBOW_CLOUD.0=ВИМК.
+value.RAINBOW_CLOUD.1=Зона дії 10%
+value.RAINBOW_CLOUD.2=Зона дії 20%
+value.RAINBOW_CLOUD.3=Зона дії 30%
+value.RAINBOW_CLOUD.4=Зона дії 40%
+value.RAINBOW_CLOUD.5=Зона дії 50%
+value.RAINBOW_CLOUD.6=Зона дії 60%
+value.RAINBOW_CLOUD.7=Зона дії 70%
+value.RAINBOW_CLOUD.8=Зона дії 80%
+value.RAINBOW_CLOUD.9=Зона дії 90%
+value.RAINBOW_CLOUD.10=Зона дії 100%
+
+option.CLOUD_RENDER_DISTANCE=Дальність промал. хмар
+option.CLOUD_RENDER_DISTANCE.comment=Визначає дальність промальовування хмар
+
+option.NIGHT_CLOUD_UNBOUND_REMOVE=Видалити кі-сть хмар вночі
+option.NIGHT_CLOUD_UNBOUND_REMOVE.comment=Кількість хмар, які видаляються протягом ночі
+
+option.HIGH_QUALITY_CLOUDS=Висока якість хмар
+option.HIGH_QUALITY_CLOUDS.comment=Підвищує якість хмар, їб буде більше, ніж у межах звичайних налаштуваннях Complementary. §c[-]§r Увімкнення цього параметра може вплинути на продуктивність
+
+option.END_SMOKE=Дим
+option.END_SMOKE.comment=О ні, хтось залишив вогонь без нагляду, і тепер Енд димить згори і знизу!
+option.E_SKY_COLORR=Небо Енду - червоний
+option.E_SKY_COLORG=Небо Енду - зелений
+option.E_SKY_COLORB=Небо Енду - синій
+option.E_SKY_COLORI=Небо Енду - інтенсивність
+option.END_SKY_FOG_INFLUENCE=Вплив кольору неба на туман
+option.END_SKY_FOG_INFLUENCE.comment=Визначає, наскільки колір туману біомів модів впливає на кольори неба
+
+option.GLOWING_EMERALD_BLOCK=Сяйна смарагдова руда
+option.GLOWING_EMERALD_BLOCK.comment=Сяйна смарагдова руда. §e[*]§r Підтримка ПР має бути Integrated PBR+
+
+option.EMISSIVE_ENCHANTING_TABLE=Сяйний стіл зачарування
+option.EMISSIVE_ENCHANTING_TABLE.comment=Робить діамантові частини на столі зачарування сяйним. §e[*]§r Підтримка ПР має бути PBR+
+
+option.GLOWING_WART=Сяйний незерський наріст
+option.GLOWING_WART.comment=Якщо увімкнено робить незерський наріст анімованим і сяйним. §e[*]§r Підтримка ПР має бути Integrated PBR+
+
+option.GLOWING_NETHER_TREES=Сяйні незерські дерева
+option.GLOWING_NETHER_TREES.comment=Сяйні химерні і багряні ніжки
+
+option.OVERWORLD_BEAMS=Промені Верхнього світу
+option.OVERWORLD_BEAMS.comment=Налаштування, яке вмикає промені, схожі на туманності, протягом ночі у Верхньому світі
+option.OVERWORLD_BEAMS_CONDITION=Кондиція
+option.OVERWORLD_BEAMS_CONDITION.comment=За замовчуванням вони з’являються лише під час повного місяця, змінивши це, вони з’являються щоночі
+value.OVERWORLD_BEAMS_CONDITION.0=Повний місяць
+value.OVERWORLD_BEAMS_CONDITION.1=Щоночі
+option.OVERWORLD_BEAMS_INTENSITY=Інтенс. променів Верхнього світу
+option.BEAMS_AMBIENT_INFLUENCE=Вплив кольору на туман
+option.BEAMS_AMBIENT_INFLUENCE.comment=Промені матимуть колір туману 0.00 і визначений користувачем колір 1.00
+option.OW_BEAM_R=Промені Верхнього світу - червоний
+option.OW_BEAM_G=Промені Верхнього світу - зелений
+option.OW_BEAM_B=Промені Верхнього світу - синій
+
+option.END_BEAMS=Промені Енду
+option.END_BEAMS.comment=Налаштування, яке вмикає туманноподібні промені в Енді
+option.END_CRYSTAL_VORTEX=Вихрові кристали Енду
+option.END_CRYSTAL_VORTEX.comment=Налаштування, яке дозволяє променям енергії йти вгору від кінцевих кристалів до кінця. §4[***]§r Вмикає §cТіні сутностей§r. [§e*§r] Лише Iris. [§e*§r] Не працює в MacOS
+value.END_CRYSTAL_VORTEX.0=ВИМК.
+value.END_CRYSTAL_VORTEX.1=Вихровий
+value.END_CRYSTAL_VORTEX.2=Промінь зцілення
+value.END_CRYSTAL_VORTEX.3=Обидва
+option.DRAGON_DEATH_EFFECT=Ефект смерті дракона
+option.DRAGON_DEATH_EFFECT.comment=Налаштування, яке замінює промені смерті дракона об’ємним ефектом. §4[***]§r Вмикає §cтіні сутностей§r. [§e*§r] Лише Iris. [§e*§r] Не працює в MacOS
+option.E_BEAMS_AMBIENT_INFLUENCE=Вплив кольору на середовище
+option.E_BEAMS_AMBIENT_INFLUENCE.comment=Промені матимуть навколишній колір 0.00 і визначений користувачем колір 1.00. Не стосується променів дракона Енду
+option.E_BEAM_R=Промені Енду - червоний
+option.E_BEAM_G=Промені Енду - зелений
+option.E_BEAM_B=Промені Енду - синій
+option.E_BEAM_I=Промені Енду - інтенсивність
+option.E_DRAGON_BEAM_R=Промені дракона Енду - червоний
+option.E_DRAGON_BEAM_R.comment=Колір променя Енду під час бою з драконом - червоний
+option.E_DRAGON_BEAM_G=Промені дракона Енду - зелений
+option.E_DRAGON_BEAM_G.comment=Колір променя Енду під час бою з драконом - зелений
+option.E_DRAGON_BEAM_B=Промені дракона Енду - синій
+option.E_DRAGON_BEAM_B.comment=Колір променя Енду під час бою з драконом - синій
+option.E_DRAGON_BEAM_I=Промені дракона Енду - інтенсивність
+option.E_DRAGON_BEAM_I.comment=Колір променя Енду під час бою з драконом - інтенсивність
+option.BEAMS_NEAR_PLAYER=Промені Енду біля гравця
+option.BEAMS_NEAR_PLAYER.comment=Вмикає або вимикає промені Енду біля гравця
+
+option.END_STARS=Зірки Енду
+option.END_STARS.comment=Вмикає або вимикає зірки в Енді
+option.END_STAR_BRIGHTNESS=Яскравість
+option.END_STAR_SIZE=Розмір
+option.END_STAR_AMOUNT=Кількість
+value.END_STAR_AMOUNT.0=Мало
+value.END_STAR_AMOUNT.1=Посередньо
+value.END_STAR_AMOUNT.2=Багато
+value.END_STAR_AMOUNT.3=Дуже багато
+value.END_STAR_AMOUNT.4=ІЩЕ БІЛЬШЕ
+option.END_TWINKLING_STARS=Мерехтіння
+value.END_TWINKLING_STARS.0=ВИМК.
+value.END_TWINKLING_STARS.1=0.1
+value.END_TWINKLING_STARS.2=0.2
+value.END_TWINKLING_STARS.3=0.3
+value.END_TWINKLING_STARS.4=0.4
+value.END_TWINKLING_STARS.5=0.5
+value.END_TWINKLING_STARS.6=0.6
+value.END_TWINKLING_STARS.7=0.7
+value.END_TWINKLING_STARS.8=0.8
+value.END_TWINKLING_STARS.9=0.9
+value.END_TWINKLING_STARS.10=1.0
+value.END_TWINKLING_STARS.11=1.1
+value.END_TWINKLING_STARS.12=1.2
+value.END_TWINKLING_STARS.13=1.3
+value.END_TWINKLING_STARS.14=1.4
+value.END_TWINKLING_STARS.15=1.5
+value.END_TWINKLING_STARS.16=1.6
+value.END_TWINKLING_STARS.17=1.7
+value.END_TWINKLING_STARS.18=1.8
+value.END_TWINKLING_STARS.19=1.9
+value.END_TWINKLING_STARS.20=2.0
+
+option.STAR_BRIGHTNESS=Яскравість
+option.STAR_BRIGHTNESS.comment=Яскравість зірок
+value.STAR_BRIGHTNESS.3=ВИМК.
+value.STAR_BRIGHTNESS.4=0.1
+value.STAR_BRIGHTNESS.5=0.2
+value.STAR_BRIGHTNESS.6=0.3
+value.STAR_BRIGHTNESS.7=0.4
+value.STAR_BRIGHTNESS.8=0.5
+value.STAR_BRIGHTNESS.9=0.6
+value.STAR_BRIGHTNESS.10=0.7
+value.STAR_BRIGHTNESS.11=0.8
+value.STAR_BRIGHTNESS.12=0.9
+value.STAR_BRIGHTNESS.13=1.0
+value.STAR_BRIGHTNESS.14=1.1
+value.STAR_BRIGHTNESS.15=1.2
+value.STAR_BRIGHTNESS.16=1.3
+value.STAR_BRIGHTNESS.17=1.4
+value.STAR_BRIGHTNESS.18=1.5
+value.STAR_BRIGHTNESS.19=1.6
+value.STAR_BRIGHTNESS.20=1.7
+value.STAR_BRIGHTNESS.21=1.8
+value.STAR_BRIGHTNESS.22=1.9
+value.STAR_BRIGHTNESS.23=2.0
+value.STAR_BRIGHTNESS.24=2.1
+value.STAR_BRIGHTNESS.25=2.2
+value.STAR_BRIGHTNESS.26=2.3
+value.STAR_BRIGHTNESS.27=2.4
+value.STAR_BRIGHTNESS.28=2.5
+value.STAR_BRIGHTNESS.29=2.6
+value.STAR_BRIGHTNESS.30=2.7
+value.STAR_BRIGHTNESS.31=2.8
+value.STAR_BRIGHTNESS.32=2.9
+value.STAR_BRIGHTNESS.33=3.0
+
+option.MORE_STARS_OVERWORLD=Більше зірок
+option.MORE_STARS_OVERWORLD.comment=Перезаписує кількість зірок Complementary та встановлює для неї вищу. Застосовується до Верхнього світу
+value.MORE_STARS_OVERWORLD.0=ВИМК.
+value.MORE_STARS_OVERWORLD.1=Багато
+value.MORE_STARS_OVERWORLD.2=Занадто багато
+
+option.TWINKLING_STARS=Мерехтіння
+option.TWINKLING_STARS.comment=Зірки перед вами будуть мерехтіти
+value.TWINKLING_STARS.0=ВИМК.
+value.TWINKLING_STARS.1=0.1
+value.TWINKLING_STARS.2=0.2
+value.TWINKLING_STARS.3=0.3
+value.TWINKLING_STARS.4=0.4
+value.TWINKLING_STARS.5=0.5
+value.TWINKLING_STARS.6=0.6
+value.TWINKLING_STARS.7=0.7
+value.TWINKLING_STARS.8=0.8
+value.TWINKLING_STARS.9=0.9
+value.TWINKLING_STARS.10=1.0
+value.TWINKLING_STARS.11=1.1
+value.TWINKLING_STARS.12=1.2
+value.TWINKLING_STARS.13=1.3
+value.TWINKLING_STARS.14=1.4
+value.TWINKLING_STARS.15=1.5
+value.TWINKLING_STARS.16=1.6
+value.TWINKLING_STARS.17=1.7
+value.TWINKLING_STARS.18=1.8
+value.TWINKLING_STARS.19=1.9
+value.TWINKLING_STARS.20=2.0
+option.STAR_SIZE=Розмір
+option.STAR_SIZE.comment=Змінює розмір зірок
+
+option.SITUATIONAL_ORES=Ситуаційні руди
+option.SITUATIONAL_ORES.comment=Руди будуть сяяти в печері і вночі. §e[*]§r Щоб це працювало, потрібно увімкнути «сяйні руди»
+
+option.GLOWING_RAW_BLOCKS=Сяйні необр. блоки
+
+option.EMISSION_MULTIPLIER=Множник сяяння
+option.EMISSION_MULTIPLIER.comment=Множник сяяння
+
+option.UNDERWATER_DISTORTION_STRENGTH=Сила спотворення під водою
+option.UNDERWATER_DISTORTION_STRENGTH.comment=Налаштування для зміни сили спотворення під водою
+option.FRESNEL_MULTIPLIER=Сила відбиття підводної поверхні
+option.FRESNEL_MULTIPLIER.comment=Змінює силу підводного відбиття поверхні води
+option.SHADER_WATER=Водні тіні
+option.SHADER_WATER.comment=Перемикач, щоб увімкнути або вимкнути тіні води
+
+option.WATER_GENERATED_NORMALS=Норамалі створені водою
+
+option.RANDOM_BLOCKLIGHT=Випад. колір джерел світла
+option.RANDOM_BLOCKLIGHT_SIZE=Розмір випадових колір джерел світла
+
+option.NORMAL_RES=Розділ. здат. нерівностей
+option.NORMAL_RES.comment=Змініть роздільну здатність, з якою відображаються інтегровані мапи нерівностей. §e[*]§r Підтримка ПР має бути Integrated PBR+ і увімкнено «генерація нерівностей»
+
+option.COATED_TEXTURE_RES=Розділ. здат. покриття текстур
+option.COATED_TEXTURE_RES.comment=Змінює роздільну здатність, з якою візуалізуються текстури з шумовим покриттям. §e[*]§rПідтримка ПР має бути «Integrated PBR+», і «покриття текстур» має бути увімкнено
+
+option.DIRECTIONAL_LIGHTMAP_NORMALS=Нерівності світлових мап
+option.DIRECTIONAL_LIGHTMAP_NORMALS.comment=Змушує інтегровані мапи нерівностей працювати з джерелами світла. §e[*]§r Підтримка ПР має бути Integrated PBR+ і «генерувація нерівностей» увімкнено
+option.DIRECTIONAL_LIGHTMAP_NORMALS_BLOCK_STRENGTH=Інтенсивність блоків
+option.DIRECTIONAL_LIGHTMAP_NORMALS_HANDHELD_STRENGTH=Ручна інтенсивність
+
+option.CAVE_FOG=Печерний туман
+option.CAVE_FOG.comment=Вмиккає або вимикає печерний туман
+option.CAVE_FOG_R=Печерний туман - червоний
+option.CAVE_FOG_G=Печерний туман - зелений
+option.CAVE_FOG_B=Печерний туман - синій
+option.CAVE_FOG_I=Печерний туман - інтенсивність
+option.CAVE_FOG_DENSITY=Щільність печерного туману
+
+option.ATMOSPHERIC_FOG=Атмосферний туман
+option.ATMOSPHERIC_FOG_R=Атмосферний туман - червоний
+option.ATMOSPHERIC_FOG_G=Атмосферний туман - зелений
+option.ATMOSPHERIC_FOG_B=Атмосферний туман - синій
+option.ATMOSPHERIC_FOG_I=Атмосферний туман - інтенсивність
+option.ATMOSPHERIC_FOG_DENSITY=Щільність атмосферного туману
+option.RADIOACTIVE_ATMOSPHERIC_FOG=Радіоактивний атмосферний туман
+option.RADIOACTIVE_ATMOSPHERIC_FOG.comment=Це ще одна нездорова звичка. Дуже помітно вночі
+
+option.BORDER_FOG_DISTANCE_OVERWORLD=Д. межі туману
+option.BORDER_FOG_DISTANCE_OVERWORLD.comment=Визначає дальність межі туману у Верхньому світі
+value.BORDER_FOG_DISTANCE_OVERWORLD.1=0.25
+value.BORDER_FOG_DISTANCE_OVERWORLD.2=0.40
+value.BORDER_FOG_DISTANCE_OVERWORLD.3=0.50
+value.BORDER_FOG_DISTANCE_OVERWORLD.6=1.00
+value.BORDER_FOG_DISTANCE_OVERWORLD.10=1.25
+value.BORDER_FOG_DISTANCE_OVERWORLD.50=1.50
+value.BORDER_FOG_DISTANCE_OVERWORLD.100=1.75
+value.BORDER_FOG_DISTANCE_OVERWORLD.500=2.00
+value.BORDER_FOG_DISTANCE_OVERWORLD.1000=2.50
+
+option.BORDER_FOG_DENSITY_OVERWORLD=Щільність межі туману
+option.BORDER_FOG_DENSITY_OVERWORLD.comment=Визначає щільність межі туману Верхнього світу
+
+option.BORDER_FOG_DISTANCE_NETHER=Д. межі туману
+option.BORDER_FOG_DISTANCE_NETHER.comment=Визначає дальність межі туману у Незері
+value.BORDER_FOG_DISTANCE_NETHER.1=0.25
+value.BORDER_FOG_DISTANCE_NETHER.2=0.40
+value.BORDER_FOG_DISTANCE_NETHER.3=0.50
+value.BORDER_FOG_DISTANCE_NETHER.6=1.00
+value.BORDER_FOG_DISTANCE_NETHER.10=1.25
+value.BORDER_FOG_DISTANCE_NETHER.50=1.50
+value.BORDER_FOG_DISTANCE_NETHER.100=1.75
+value.BORDER_FOG_DISTANCE_NETHER.500=2.00
+value.BORDER_FOG_DISTANCE_NETHER.1000=2.50
+
+option.BORDER_FOG_DENSITY_NETHER=Щільність межі туману
+option.BORDER_FOG_DENSITY_NETHER.comment=Визначає щільність межі туману у Незері
+
+option.BORDER_FOG_DISTANCE_END=Д. межі туману
+option.BORDER_FOG_DISTANCE_END.comment=Визначає дальність межі туману в Енді
+value.BORDER_FOG_DISTANCE_END.1=0.25
+value.BORDER_FOG_DISTANCE_END.2=0.40
+value.BORDER_FOG_DISTANCE_END.3=0.50
+value.BORDER_FOG_DISTANCE_END.6=1.00
+value.BORDER_FOG_DISTANCE_END.10=1.25
+value.BORDER_FOG_DISTANCE_END.50=1.50
+value.BORDER_FOG_DISTANCE_END.100=1.75
+value.BORDER_FOG_DISTANCE_END.500=2.00
+value.BORDER_FOG_DISTANCE_END.1000=2.50
+
+option.BORDER_FOG_DENSITY_END=Щільність межі туману
+option.BORDER_FOG_DENSITY_END.comment=Визначає щільність межі туману в Енді
+
+option.NETHER_PORTAL_VARIATION=Пресет порталу у Незер
+option.NETHER_PORTAL_VARIATION.comment=Можливість вибору між різними пресетами порталу у Незер. §e[*]§r Підтримка ПР має бути Integrated PBR+
+value.NETHER_PORTAL_VARIATION.0=Ванілльний
+value.NETHER_PORTAL_VARIATION.1=Complementary
+value.NETHER_PORTAL_VARIATION.2=Фіолетова порожнеча
+
+option.BIOME_COLORED_NETHER_PORTALS=Хамелеон портал у Незер
+option.BIOME_COLORED_NETHER_PORTALS.comment=Портали Незеру в Незеру будуть позначені кольором залежно від біома, у якому ви зараз перебуваєте
+
+option.END_PORTAL_VARIATION=Пресет порталу в Енд
+option.END_PORTAL_VARIATION.comment=Можливість вибору між різними пресетами порталу в Енд. §e[*]§r Підтримка ПР має бути Integrated PBR+
+value.END_PORTAL_VARIATION.0=Complementary
+value.END_PORTAL_VARIATION.1=Розмазані струни
+value.END_PORTAL_VARIATION.3=Піксельна сальса
+
+option.END_PORTAL_BEAM=Промені порталу Енду
+option.END_PORTAL_BEAM.comment=Додає промені світла по краях порталу в Енд. Схоже на Minecraft Dungeons. [§e*§r] Лише Iris. [§e*§r] Не працює на MacOS
+
+option.SILHOUETTE=Силует
+option.SILHOUETTE.comment=Коли увімкнено, блоки, спрямовані проти сонця, чорніють, що корисно для знімків екрану
+value.SILHOUETTE.0=ВИМК.
+value.SILHOUETTE.1=Лише вночі
+value.SILHOUETTE.2=Завжди УВІМК.
+option.SILHOUETTE_BRIGHTNESS=Яскравість силуету
+
+option.RAIN_ATMOSPHERE=Епічна гроза
+option.RAIN_ATMOSPHERE.comment=Значно покращує грозу, коли вдаряє блискавка. §e[*]§r Набагато краще працює з Iris
+
+option.BLUE_SCREEN=Синій екран
+option.BLUE_SCREEN.comment=Перетворює сині бетон, вовну і килим на сині екрани для редагування відео. Порада 1: вимкніть «світіння», щоб покращити розділення. Порада 2: для освітлення встановіть джерела світла під синіми килимами. Порада 3: ви можете вимкнути згладжування (ШНЗ) і встановити якість деталей на «картопля» у налаштуваннях продуктивности, щоб вимкнути всі фільтри та отримати ідеальне розділення пікселів
+
+option.MIRROR_DIMENSION=Дзеркальний вимір
+option.MIRROR_DIMENSION.comment=Ви навчилися мистецтву магії і досить сміливі, щоб увійти в дзеркальний вимір
+
+option.WORLD_CURVATURE=Викревлення світу
+option.OVERWORLD_CURVATURE_SIZE=Розмір викривлення Верхнього світу
+option.NETHER_CURVATURE_SIZE=Розмір викривлення Незеру
+option.END_CURVATURE_SIZE=Розмір викривлення Енду
+
+option.LAVA_VARIATION=Пресети лави
+option.LAVA_VARIATION.comment=Гарячі пресети у вашому регіоні. Виберіть зараз!
+value.LAVA_VARIATION.0=Complementary
+value.LAVA_VARIATION.1=Адаптивний шум (раджу)
+value.LAVA_VARIATION.2=Рум'яна гарячість
+value.LAVA_VARIATION.3=Розплавлений сир
+value.LAVA_VARIATION.4=Темні острови
+
+option.LAVA_TEMPERATURE=Температура лави
+option.LAVA_TEMPERATURE.comment=Змінює температуру лави, робить її більш червоною або білою
+
+option.WAVIER_LAVA=Коливання лави
+option.WAVIER_LAVA.comment=Робить коливання лави більш екстремальною в Незері
+
+option.LAVA_EMISSION=Сяяння лави
+
+option.LAVA_NOISE_INTENSITY=Інтенсивність шуму лави
+option.LAVA_NOISE_INTENSITY.comment=Змінює непрозорість шуму пресету лави
+
+option.LAVA_NOISE_AMOUNT=Кількість шуму лави
+option.LAVA_NOISE_AMOUNT.comment=Змінює кількість шуму лави
+
+option.LAVA_EDGE_EFFECT=Ефект краю лави
+option.LAVA_EDGE_EFFECT.comment=Додає краї лаві, коли вона торкається інших блоків. §e[*]§r Лише якщо РКО увімкнено
+
+option.NETHER_BRIGHTNESS=Яскравість Незеру
+option.NETHER_BRIGHTNESS.comment=Змінює навколишню яскравість Незеру
+
+option.END_ROD_COLOR_PROFILE=Профіль стрижня Енду
+option.END_ROD_COLOR_PROFILE.comment=Змінюйте стандартні кольори стрижнів Енду із Complementary на ваші власні. §e[*]§r Підтримка ПР має бути Integrated PBR+
+value.END_ROD_COLOR_PROFILE.0=Complementary
+value.END_ROD_COLOR_PROFILE.1=Власний
+value.END_ROD_COLOR_PROFILE.2=Веселковий
+value.END_ROD_COLOR_PROFILE.3=Веселковий - Верхній світ
+option.END_ROD_R=Стрижень Енду - червоний
+option.END_ROD_G=Стрижень Енду - зелений
+option.END_ROD_B=Стрижень Енду - синій
+option.END_ROD_I=Стрижень Енду - інтенсивність
+option.RAINBOW_END_ROD_COORD_OFFSET=Зміщення кольорів веселки
+value.RAINBOW_END_ROD_COORD_OFFSET.0=Все синхрон.
+value.RAINBOW_END_ROD_COORD_OFFSET.3=Мінімальне
+value.RAINBOW_END_ROD_COORD_OFFSET.5=За замовч.
+value.RAINBOW_END_ROD_COORD_OFFSET.7=Посереднє
+value.RAINBOW_END_ROD_COORD_OFFSET.11=Сильне
+value.RAINBOW_END_ROD_COORD_OFFSET.13=Дуже сильне
+option.END_ROD_RAINBOW_ANIMATE=Швидкість веселки
+value.END_ROD_RAINBOW_ANIMATE.0.0=ВИМК.
+
+option.REDSTONE_IPBR=Редстоун IntegratedPBR
+option.REDSTONE_IPBR.comment=Це робить червоні пікселі на блоках, пов’язаних з редстоуном, сяйними. Найкраще працює з пакетами ресурсів редстоуну. §e[*]§r RP Підтримка ПР має бути Integrated PBR+
+option.REDSTONE_IPBR_R=Виялення червоного
+option.REDSTONE_IPBR_R.comment=Змініть це, якщо виявлення не працює з вашим пакетом ресурсів. Збільште, якщо пікселів більше червоного, зменшіть, якщо їх менше
+option.REDSTONE_IPBR_G=Виялення зеленого
+option.REDSTONE_IPBR_G.comment=Змініть це, якщо виявлення не працює з вашим пакетом ресурсів. Збільште, якщо пікселів більше зеленого, зменшіть, якщо їх менше
+option.REDSTONE_IPBR_B=Виялення синього
+option.REDSTONE_IPBR_B.comment=Змініть це, якщо виявлення не працює з вашим пакетом ресурсів. Збільште, якщо пікселів більше синього, зменшіть, якщо їх менше
+option.REDSTONE_IPBR_I=Сила сяяння
+option.REDSTONE_IPBR_I.comment=Змінює силу сяяння IntegratedPBR-редстоуну
+
+option.LETTERBOXING=Звужування
+option.LETTERBOXING.comment=Додає чорні смуги вгорі та внизу вікна
+value.LETTERBOXING.0=ВИМК.
+value.LETTERBOXING.1=УВІМК.
+value.LETTERBOXING.2=Підкрадаючись
+
+option.ASPECT_RATIO=Співвідношення сторін
+option.ASPECT_RATIO.comment=Змінює співвідношення між шириною та висотою обрізаного зображення
+
+option.EXCLUDE_ENTITIES=Виключити сутності
+option.EXCLUDE_ENTITIES.comment=Визначає, чи слід виключати сутності із звужених областей
+
+option.LETTERBOXING_TRANSPARENCY=Прозорість звжування
+
+option.BAD_APPLE=Bad Apple
+option.BAD_APPLE.comment=Робить екран чорним, за винятком сутностей, які будуть білими. §l§bhttps://youtu.be/div8JofEHS0?si=gMPQf8wa533j8SrC§r :D
+
+option.tonemap=Мапа тонів
+option.tonemap.comment=Змінює використовувану мапу тонів
+value.tonemap.DoBSLTonemap=BSL/Complementary
+value.tonemap.ACESTonemap=ACES
+value.tonemap.ACESRedModified=Модифікатор червоного ACES
+value.tonemap.BurgessTonemap=Берджесс
+value.tonemap.LottesTonemap=Лоттес
+value.tonemap.uncharted2_tonemap_partial=Недосліджений 2
+value.tonemap.uncharted2_filmic=Недосліджений 2 - кінофільм
+value.tonemap.reinhard2=Рейнхард2
+value.tonemap.filmic=Кінофільм
+value.tonemap.GTTonemap=Ґран турісмо
+value.tonemap.uchimura=Учімура
+value.tonemap.agxTonemap=AgX
+
+option.TONEMAP_COMPARISON=Зіставлення мап тонів
+option.TONEMAP_COMPARISON.comment=Можливість порівняння мап тонів
+
+option.tonemap_left=Ліво мапи тонів
+option.tonemap_left.comment=Змінює використовувану мапу тонів
+value.tonemap_left.DoBSLTonemap=BSL/Complementary
+value.tonemap_left.ACESTonemap=ACES
+value.tonemap_left.ACESRedModified=Модифікатор червоного ACES
+value.tonemap_left.BurgessTonemap=Берджесс
+value.tonemap_left.LottesTonemap=Лоттес
+value.tonemap_left.uncharted2_tonemap_partial=Недосліджений 2
+value.tonemap_left.uncharted2_filmic=Недосліджений 2 - кінофільм
+value.tonemap_left.reinhard2=Рейнхард2
+value.tonemap_left.filmic=Кінофільм
+value.tonemap_left.GTTonemap=Ґран турісмо
+value.tonemap_left.uchimura=Учімура
+value.tonemap_left.agxTonemap=AgX
+
+option.tonemap_right=Право мапи тонів
+option.tonemap_right.comment=Змінює використовувану мапу тонів
+value.tonemap_right.DoBSLTonemap=BSL/Complementary
+value.tonemap_right.ACESTonemap=ACES
+value.tonemap_right.ACESRedModified=Модифікатор червоного ACES
+value.tonemap_right.BurgessTonemap=Берджесс
+value.tonemap_right.LottesTonemap=Лоттес
+value.tonemap_right.uncharted2_tonemap_partial=Недосліджений 2
+value.tonemap_right.uncharted2_filmic=Недосліджений 2 - кінофільм
+value.tonemap_right.reinhard2=Рейнхард2
+value.tonemap_right.filmic=Кінофільм
+value.tonemap_right.GTTonemap=Ґран турісмо
+value.tonemap_right.uchimura=Учімура
+value.tonemap_right.agxTonemap=AgX
+
+option.ACES_EXPOSURE=Виставлення
+option.ACES_EXPOSURE.comment=Регулює загальну яскравість зображення
+
+option.ACES_WHITE=Крива білого
+option.ACES_WHITE.comment=Визначає, наскільки легко кольори досягають повного білого
+
+option.AGX_LOOK=Вигляд AgX
+value.AGX_LOOK.0=За замовч.
+value.AGX_LOOK.1=Залотий
+value.AGX_LOOK.2=Пробивний
+value.AGX_LOOK.3=Власний
+option.AGX_R=AgX - червоний
+option.AGX_G=AgX - зелений
+option.AGX_B=AgX - синій
+option.AGX_POWER=Сила -AgX-
+option.AGX_SATURATION=Насиченість AgX
+
+option.COLOR_MULTIPLIER_COMPARISON=Порівняння множників кольорів
+option.COLOR_MULTIPLIER_COMPARISON.comment=Це дає змогу легко порівняти значення множника кольору освітлення та атмосфери зі значеннями за замовчуванням пакета шейдерів
+
+option.REFLECTIVE_WORLD=Світловідбиваючий світ
+option.REFLECTIVE_WORLD.comment=Весь світ - дзеркало, але ти не можеш побачити себе. RIP
+
+option.WAVE_EVERYTHING=Хвилесвіт
+option.WAVE_EVERYTHING.comment=Dale a tu cuerpo alegría Macarena
+
+option.INTERACTIVE_FOLIAGE=Інтерактивне листя
+option.INTERACTIVE_FOLIAGE.comment=Змушує листя нахилятися від гравця від першої особи
+
+option.EMIN_BOAT=Емін Ч О В Е Н
+option.EMIN_BOAT.comment=Покатайтеся на човнах, як задумав Емін
+
+option.MONOTONE_WORLD=Однотоний світ
+option.MONOTONE_WORLD.comment=Робить колі безколірним! Вауууу!
+value.MONOTONE_WORLD.0=ВИМК.
+value.MONOTONE_WORLD.1=Білий
+value.MONOTONE_WORLD.2=Чорний
+value.MONOTONE_WORLD.3=Сірий
+
+option.SEASONS=Сезони
+option.SEASONS.comment=Змінює кольори середовища на основі світового часу. Взимку теж буває сніг! §e[*]§r Підтримка ПР рекомендовано має бути Integrated PBR+
+value.SEASONS.0=ВИМК.
+value.SEASONS.1=Циклічний
+value.SEASONS.2=Літо
+value.SEASONS.3=Осінь
+value.SEASONS.4=Зима
+value.SEASONS.5=Весна
+
+option.SEASON_START=Початок сезону
+option.SEASON_START.comment=Сезон, з якого починається цикл
+value.SEASON_START.0=Літо
+value.SEASON_START.1=Осінь
+value.SEASON_START.2=Зима
+value.SEASON_START.3=Весна
+
+option.SEASON_LENGTH=Тривалість сезону
+option.SEASON_LENGTH.comment=Тривалість сезону в ігрових днях
+value.SEASON_LENGTH.1=1 ігровий день
+suffix.SEASON_LENGTH=\ ігрових днів
+
+option.SEASON_TRANSITION_START=Початок переходу
+option.SEASON_TRANSITION_START.comment=Перехід до наступного сезону розпочнеться, коли пройде цей відсоток сезону
+value.SEASON_TRANSITION_START.0=Миттєво
+value.SEASON_TRANSITION_START.1=Півсезону
+value.SEASON_TRANSITION_START.2=66%
+value.SEASON_TRANSITION_START.3=75%
+value.SEASON_TRANSITION_START.4=80%
+value.SEASON_TRANSITION_START.9=90%
+
+option.SEASON_COLOR_DESATURATION=Знебарвлення
+option.SEASON_COLOR_DESATURATION.commnet=Знебарвлює кольори середовища
+
+option.SNOW_CONDITION=Стан снігу
+option.SNOW_CONDITION.comment=Визначає умови для сходження снігу
+value.SNOW_CONDITION.0=Сніжний біом і дощ
+value.SNOW_CONDITION.1=Сніжний біом
+value.SNOW_CONDITION.2=Всюди
+
+option.SNOW_NOISE_INTENSITY=Внтенсивність шуму
+option.SNOW_NOISE_INTENSITY.comment=Змінити рівень шуму снігу
+
+option.SNOW_NOISE_REMOVE_INTENSITY=Видалити інтенсивність снігу
+
+option.SNOW_SIZE=Розділ. здат. снігу
+option.SNOW_SIZE.comment=Змінює роздільну здатність або розмір шуму
+value.SNOW_SIZE.0=Авто
+
+option.MELTING_RADIUS=Радіус плавлення
+option.MELTING_RADIUS.comment=Зміна радіуса танення снігу навколо джерел світла
+
+option.SNOW_TRANSPARENCY=Прозорість снігу
+option.SNOW_TRANSPARENCY.comment=Змінює прозорість снігу
+
+option.SSS_SEASON_SNOW=Сезон снігу SSS
+option.SSS_SEASON_SNOW.comment=Додає підповерхневе розсіювання до снігу з параметра сезонів
+
+option.WINTER_GREEN_AMOUNT=Кількість зеленого взимку
+
+option.LESS_LEAVES=Менше листя
+value.LESS_LEAVES.0=ВИМК.
+
+option.AUTUMN_CONDITION=Лише в лісі
+
+option.AUTUMN_NOISE_SIZE=Розмір кольору шуму
+option.AUTUMN_NOISE_SIZE.comment=Розмір шуму, який створює градієнт кольору листя
+
+option.LEAVES_ON_GROUND=Листя на землі
+
+option.AUTUMN_STRENGTH=Сила осені
+option.AUTUMN_STRENGTH.comment=Змінює колір, що перезаписується восени
+
+option.FLOWER_DENSITY=Щільність квітів
+option.FLOWER_SIZE=Розділ. здат. квітів
+option.FLOWER_AMOUNT=Кількість квітів
+value.FLOWER_AMOUNT.0=ВИМК.
+option.SPRING_GREEN_INTENSITY=Інтенсивність весни
+option.EMISSIVE_SPRING_FLOWERS=Сяйні квіти
+option.EMISSIVE_SPRING_FLOWERS.comment=Можливість вимкнути сяяння весняних квітів, якщо використовуються «сяйні квіти» на сторінці налаштувань маеріалів Euphoria
+
+option.SUMMER_STRENGTH=Сила літа
+
+option.INTENSE_DEEP_DARK=Інтенсивність темних глибин
+option.INTENSE_DEEP_DARK.comment=Робить темні глибини інтенсивнішими. §e[*]§r Гравець повинен мати ефект темряви
+
+option.END_AMBIENT_INFLUENCE=Вплив кольору середовища
+option.END_AMBIENT_INFLUENCE.comment=Колір навколишнього середовища за замовчуванням 0,00, а користувач визначає 1,00
+option.END_AMBIENT_R=Кольори середовища - червноний
+option.END_AMBIENT_G=Кольори середовища - зелений
+option.END_AMBIENT_B=Кольори середовища - синій
+option.END_AMBIENT_I=Кольори середовища - інтенсивність
+
+option.ATLAS_ROTATION=Обертання атласу
+option.ATLAS_ROTATION.comment=:)
+
+option.NETHER_NOISE=Шум неба Незеру
+option.NETHER_NOISE.comment=Робить небо Незеру над стелею... цікавішим...
+
+option.MCBL_MAIN_DEFINE=Кольорове освітлення Euphoria
+option.MCBL_MAIN_DEFINE.comment=Вмикає багатокольорові джерела світла. §e[*]§rЛише 1.16.5 і вище
+value.MCBL_MAIN_DEFINE.0=ВИМК.
+value.MCBL_MAIN_DEFINE.1=Екран-простір
+
+option.MCBL_INFLUENCE=Вплив багатокол. джерел світла
+option.MCBL_INFLUENCE.comment=Визначає, наскільки різнокольорове підсвічування впливає на колір блоку за замовчуванням
+
+option.SSS_SNOW_ICE=Сніг і лід SSS
+option.SSS_SNOW_ICE.comment=Додає підповерхневе розсіювання на блоки снігу та льоду
+
+option.BEDROCK_NOISE=Шум корінної породи
+option.BEDROCK_NOISE.comment=Додає шумовий ефект під корінною породою в Незері і Верхньому світі
+
+option.SOUL_SAND_VALLEY_OVERHAUL=Ремонт долини піску душ
+option.SOUL_SAND_VALLEY_OVERHAUL.comment=Робить пов’язані з вогнем блоки, сутності та частинки синіми в долині піску душ
+
+option.PURPLE_END_FIRE=Фіолетовий вогонь Енду
+option.PURPLE_END_FIRE.comment=Робить пов’язані з вогнем блоки, сутності та частинки фіолетовими в Енді
+
+option.NO_RAIN_ABOVE_CLOUDS=Без дощу вище хмар
+option.NO_RAIN_ABOVE_CLOUDS.comment=Прибирає дощ над хмарами. Не працює належним чином, якщо висоту ванілльних хмар було змінено з увімкненою ванілльними хмарами
+
+option.WORLD_BLUR_SNEAK=Розмиття світу при підкрадані
+option.WORLD_BLUR_SNEAK.comment=Активуйте опцію розмиття світу лише під час підкрадані
+
+option.CLEAR_SKY_WHEN_RAINING=Ясніше небо під час дощу
+option.CLEAR_SKY_WHEN_RAINING.comment=Робить зірки та інші ефекти неба трохи видимими під час дощу
+
+option.RETRO_ON=Залальний перемикач ретро
+
+option.RETRO_LOOK=Ретро погляд
+option.RETRO_LOOK.comment=Перемикайтеся між різними стилями ретро
+value.RETRO_LOOK.0=ВИМК.
+value.RETRO_LOOK.1=Контури
+value.RETRO_LOOK.2=Контури - лише нічне бачення
+
+option.RETRO_LOOK_R=Ретро погляд - червоний
+option.RETRO_LOOK_G=Ретро погляд - зелений
+option.RETRO_LOOK_B=Ретро погляд - синій
+option.RETRO_LOOK_I=Ретро погляд - інтенсивність
+
+option.CURVE_DISPLAY=Кривий дисплей
+option.CURVE_DISPLAY.comment=Робить дисплей кривим
+option.CURVATURE_AMOUNT=Кількість кривизни
+option.BORDER_AMOUNT=Кількість меж
+option.SCREEN_ROUNDNESS=Округлість екрану
+
+option.STATIC_NOISE=Статичний шум
+value.STATIC_NOISE.0=ВИМК.
+option.MIN_STATIC_STRENGTH=Максимум
+option.MAX_STATIC_STRENGTH=Мінімум
+option.STATIC_SPEED=Статична швидкість шуму
+
+option.HORIZONTAL_NOISE=Горизонтальний шум
+value.HORIZONTAL_NOISE.0=ВИМК.
+option.HORIZONTAL_NOISE_INTENSITY=Інтенсивність горизонтального шуму
+option.HORIZONTAL_NOISE_SPEED=Швидкість горизонтального шуму
+
+option.VERTICAL_SCREEN_DISPLACEMENT=Вертикальне зміщення екрана
+option.VERTICAL_EDGE_GLITCH=Інтенсивність країв
+value.VERTICAL_EDGE_GLITCH.1.00=ВИМК
+option.VERTICAL_SCROLL_SPEED=Швидкість прокрутки
+value.VERTICAL_SCROLL_SPEED.0.00=ВИМК.
+option.VERTICAL_STUTTER_SPEED=Швидкість фрізів
+value.VERTICAL_STUTTER_SPEED.0.00=ВИМК.
+option.VERTICAL_SCROLL_FREQUENCY=Частота прокрутки
+option.VERTICAL_STUTTER_FREQUENCY=Частота фрізів
+
+option.PIXELATE_SCREEN=Піксельний
+option.PIXEL_SIZE_SCREEN=Розмір пікселя
+
+option.SCANLINE=Сканування
+value.SCANLINE.0=ВИМК.
+option.SCANLINE_FREQUENCY=Частота сканування
+option.SCANLINE_SPEED=Швидкість сканування
+option.SCANLINE_AMOUNT=Кількість сканування
+option.SCANLINE_MONOCHROME=Одноколірний
+option.SCANLINE_DIRECTION=Напрямок сканування
+value.SCANLINE_DIRECTION.0=Горизонтальний
+value.SCANLINE_DIRECTION.1=Вертикальний
+option.SCANLINE_R=Множник червоного
+option.SCANLINE_G=Множник зеленого
+option.SCANLINE_B=Множник синього
+
+option.HALFTONE=Півтону
+option.HALFTONE_MONOCHROME=Відтінки сірого
+option.HALFTONE_BRIGHTNESS=Яскравість півтону
+option.HALFTONE_SCALE=Шкала точок
+option.HALFTONE_ANGLE=Кут точки
+
+option.SPEED_LINES=Швидкість ліній
+value.SPEED_LINES.0=ВИМК.
+value.SPEED_LINES.1=При бігу
+value.SPEED_LINES.2=УВІМК.
+option.SPEED_LINES_TRANSPARENCY=Прозорість швидкости ліній
+option.SPEED_LINES_SPEED=Інтенсивність
+option.SPEED_LINE_THICKNESS=Розмір лінії
+
+option.CAMERA_NOISE_OVERLAY=Накладання шуму камери
+value.CAMERA_NOISE_OVERLAY.0=ВИМК.
+value.CAMERA_NOISE_OVERLAY.1=Шум 1
+option.CAMERA_NOISE_OVERLAY_INTENSITY=Інтенсивність шуму
+
+option.LONG_EXPOSURE=Тривале виставлення
+option.LONG_EXPOSURE.comment=Приховайте інтерфейс, натиснувши F1, і зупиніться. Небесний режим створено спеціально для покращення вигляду зірок і яскравих об’єктів, тоді як об’єкти в часовому режимі з часом зникають
+value.LONG_EXPOSURE.0=ВИМК.
+value.LONG_EXPOSURE.1=Небесне накопичення
+value.LONG_EXPOSURE.2=Тимчасове зважування
+
+option.TILT_SHIFT=Нахил X
+option.TILT_SHIFT.comment=Горизонтальний ефект нахилу
+value.TILT_SHIFT.0=ВИМК.
+
+option.TILT_SHIFT2=Нахил Y
+option.TILT_SHIFT2.comment=Вертикальний ефект нахилу
+value.TILT_SHIFT2.0=ВИМК.
+
+option.DOF_VIEW_FOCUS_NEW=Фокус межі ГР(не чіпати)
+option.DOF_VIEW_FOCUS_NEW.comment=Робить видимою площину фокусування глибини різкости, коли видимий графічний інтерфейс
+
+option.LET_THERE_BE_COLORS=ХАЙ БУДУТЬ КОЛЬОРИ
+
+option.MOSS_NOISE=Шум моху
+option.MOSS_SIZE=Розмір пікселя
+option.MOSS_NOISE_INTENSITY=Інтенсивність шуму
+option.MOSS_NOISE_REMOVE_INTENSITY=Видалити інтенсивність шуму
+option.MOSS_TRANSPARENCY=Прозорість моху
+option.MOSS_IN_CAVES=Мох активний в
+value.MOSS_IN_CAVES.0=Ефект лише в пишних печерах
+value.MOSS_IN_CAVES.1=Повсюди
+value.MOSS_IN_CAVES.2=ВИМК.
+option.MOSS_SIDE_INTENSITY=Інтенсивність моху на стінах
+option.MOSS_NOISE_DISTANCE=Д. шуму моху
+
+option.SAND_NOISE=Шум піску
+option.SAND_CONDITION=Стан піску
+value.SAND_CONDITION.0=Лише в піщаних біомах
+value.SAND_CONDITION.1=Всі спекотні біоми
+value.SAND_CONDITION.2=Повсюди
+option.SAND_SIZE=Розмір пікселя
+option.SAND_NOISE_INTENSITY=Інтенсивність шуму
+option.SAND_NOISE_REMOVE_INTENSITY=Видалити інтенсивність шуму
+option.SAND_TRANSPARENCY=Прозорість піску
+option.SAND_IN_CAVES=Пісок в печерах
+value.SAND_IN_CAVES.true=УВІМК.
+value.SAND_IN_CAVES.false=ВИМК.
+option.SAND_SIDE_INTENSITY=Інтенсивність моху на піску
+option.SAND_NOISE_DISTANCE=Д. шуму піску
+
+option.MAIN_GRID_INTERVAL=Головна сітка
+value.MAIN_GRID_INTERVAL.1=ВИМК.
+option.SUB_GRID_INTERVAL=Підсітка
+value.SUB_GRID_INTERVAL.1=ВИМК.
+option.GRID_CONDITION=Стан сітки
+value.GRID_CONDITION.0=Без стану
+value.GRID_CONDITION.1=Підкрадаючись
+value.GRID_CONDITION.2=Тримаючи підзорну трубу
+
+option.EMISSIVE_FLOWERS=Сяйні квіти
+value.EMISSIVE_FLOWERS.0=ВИМК.
+value.EMISSIVE_FLOWERS.1=УВІМК.
+value.EMISSIVE_FLOWERS.2=Темний чи дощовий
+
+option.EMISSIVE_FLOWERS_TYPE=Тип сяйних квітів
+value.EMISSIVE_FLOWERS_TYPE.0=Усі
+value.EMISSIVE_FLOWERS_TYPE.1=Холодні кольори
+value.EMISSIVE_FLOWERS_TYPE.2=Теплі кольори
+
+option.EMISSIVE_FLOWERS_STRENGTH=Інтенствність сяяння
+
+option.SPOOKY=Страхоповнення
+option.SPOOKY.comment=Вмикає багато страшних функцій :)
+option.EYES=Очі
+option.EYE_FREQUENCY=Частота очей
+option.EYE_SPEED=Швидкість очей
+option.EYE_RED_PROBABILITY=Ймовірність червоних очей
+option.BLOOD_MOON=Кривавий місяць
+value.BLOOD_MOON.0=ВИМК.
+value.BLOOD_MOON.1=Повнолуння
+value.BLOOD_MOON.2=Завжди ніч
+option.EMISSIVE_BLOOD_MOON_FLOWERS=Сяйні квіти при кривавому місяці
+
+option.DISTANCE_MIN_LIGHT=Зникання печерного освітлення
+option.DISTANCE_MIN_LIGHT.comment=Робить печери темнішими зі збільшенням відстані від гравця. Покращує зовнішній вигляд печер за допомогою вищого значеня печерного освітлення
+
+option.EMISSIVE_DRAGON_EGG=Сяйне яйце дракона
+
+option.VANILLA_ENTITY_SHADOWS=Ванілльні тіні сутностей
+option.VANILLA_ENTITY_SHADOWS.comment=Вмикає ванільні тіні сутностей, коли тіні в реальному часі вимкнено
+
+option.FROGLIGHT_SATURATION=Насиченість жаб. світла
+value.FROGLIGHT_SATURATION.1=За замовч.
+value.FROGLIGHT_SATURATION.2=2x
+value.FROGLIGHT_SATURATION.3=3x
+
+option.RENKO_CUT=Обрізання EP від Renko
+option.RENKO_CUT.comment=Зароблено в чесній боротьбі в Complisseum
+
+option.GLITTER_RAIN=Блискучий дощ
+option.GLITTER_RAIN.comment=Посипає краплі дощу блискітками
+value.GLITTER_RAIN.0=ВИМК.
+value.GLITTER_RAIN.1=Випадково
+value.GLITTER_RAIN.2=Завжди
+
+option.HAND_BLOCKLIGHT_FLICKERING=Мерехтіння ручних джерел світла
+value.HAND_BLOCKLIGHT_FLICKERING.0=ВИМК.
+
+option.SSS_STRENGTH=Підповерхневе розсіювання
+value.SSS_STRENGTH.0=ВИМК.
+value.SSS_STRENGTH.1=УВІМК.
+
+option.PIXEL_WATER=Процедурна піксельна вода
+option.PIXEL_WATER.comment=Згенерована процедурна піксельна текстура води
+value.PIXEL_WATER.0=ВИМК.
+value.PIXEL_WATER.1=УВІМК.
+
+option.COMP_WATER_TWEAKS=Налаштування води Complementary
+option.COMP_WATER_TWEAKS.comment=Налаштування кольору води, зроблено пакетом шейдерів
+
+option.CAVE_SMOKE=Печерний дим
+option.CAVE_SMOKE.comment=Додає ефект диму до об’ємного блокового туману під час перебування в печері. §c[-]§r Це може вплинути на продуктивність. §e[*]§r Лише якщо РКО увімкнено
+
+option.WAVING_SUGAR_CANE=Похитування цукрової тростини
+
+option.SUN_GLARE_AMOUNT=Кількість відблисків сонця і місяця
+value.SUN_GLARE_AMOUNT.0=ВИМК.
+
+option.DAYLIGHT_STARS=Денні зірки
+option.DAYLIGHT_STARS.comment=Вмикає зірки вдень
+
+option.FROZEN_TIME=Стоп-час
+
+option.DARKER_DEPTH_OCEANS=Глибший темніший океан
+option.DARKER_DEPTH_OCEANS.comment=Світло зменшується з глибиною океану
+
+option.WEATHER_TEX_R=Текстура погоди - червоний
+option.WEATHER_TEX_G=Текстура погоди - зелений
+option.WEATHER_TEX_B=Текстура погоди - синій
+
+option.EMISSIVE_SOUL_SAND=Сяйні очі піска душ
+option.EMISSIVE_SOUL_SAND.comment=Змушує очі піску душ сяяти, коли ви стоїте на ньому.§e[*]§r Підтримка ПР має бути Integrated PBR+. За замовчуванням лише ванілльна текстура
+
+option.BEACON_BEAM_EMISSION=Сяяння променя маяка
+option.BEACON_BEAM_EMISSION.comment=Змінює силу сяяння променя маяка
+
+option.PINKER_CHERRY_LEAVES=Рожевіше листя вишні
+
+option.UPPER_LIGHTMAP_CURVE=Верхня крива мапи світла
+option.UPPER_LIGHTMAP_CURVE.comment=Змінює інтенсивність верхньої кривої мапи світла
+option.LOWER_LIGHTMAP_CURVE=Нижня крива мапи світла
+option.LOWER_LIGHTMAP_CURVE.comment=Змінює інтенсивність нижньої кривої мапи світла
+
+option.ALTERNATIVE_AMETHYST_STYLE=Інший аметист
+value.ALTERNATIVE_AMETHYST_STYLE.0=За замовч.
+value.ALTERNATIVE_AMETHYST_STYLE.1=Блискучий рожевий
+
+option.SHOCKWAVE=Ударна хвиля
+value.SHOCKWAVE.0=ВИМК.
+value.SHOCKWAVE.1=Кругла
+value.SHOCKWAVE.2=Квадратна
+
+option.STAR_LAYER_OW=Шар зірок
+option.STAR_LAYER_OW.comment=Додає додаткові зірки до поточних зірок, на більших або менших шарах
+value.STAR_LAYER_OW.0=ВИМК.
+value.STAR_LAYER_OW.1=Менший шар
+value.STAR_LAYER_OW.2=Більший шар
+value.STAR_LAYER_OW.3=Обидва шари
+
+option.STAR_LAYER_END=Шар зірок
+option.STAR_LAYER_END.comment=Додає додаткові зірки до поточних зірок, на більших або менших шарах
+value.STAR_LAYER_END.0=ВИМК.
+value.STAR_LAYER_END.1=Менший шар
+value.STAR_LAYER_END.2=Більший шар
+value.STAR_LAYER_END.3=Обидва шари
+
+option.STAR_ROUNDNESS_END=Круглі зірки
+value.STAR_ROUNDNESS_END.0=ВИМК.
+
+option.STAR_ROUNDNESS_OW=Круглі зірки
+value.STAR_ROUNDNESS_OW.0=ВИМК.
+
+option.STAR_SOFTNESS_OW=М'якість зірок
+
+option.STAR_SOFTNESS_END=М'якість зірок
+
+option.STAR_COLOR_1_OW_R=Зірка 1 - червоний
+option.STAR_COLOR_1_OW_G=Зірка 1 - зелений
+option.STAR_COLOR_1_OW_B=Зірка 1 - синій
+
+option.STAR_COLOR_2_OW_R=Зірка 2 - червоний
+option.STAR_COLOR_2_OW_G=Зірка 2 - зелений
+option.STAR_COLOR_2_OW_B=Зірка 2 - синій
+
+option.STAR_COLOR_3_OW_R=Зірка 3 - червоний
+option.STAR_COLOR_3_OW_G=Зірка 3 - зелений
+option.STAR_COLOR_3_OW_B=Зірка 3 - синій
+
+option.STAR_COLOR_VARIATION_OW=Інтенсивіність кольору
+value.STAR_COLOR_VARIATION_OW.0.0=ВИМК.
+
+option.STAR_COLOR_1_END_R=Зірка 1 - червоний
+option.STAR_COLOR_1_END_G=Зірка 1 - зелений
+option.STAR_COLOR_1_END_B=Зірка 1 - синій
+
+option.STAR_COLOR_2_END_R=Зірка 2 - червоний
+option.STAR_COLOR_2_END_G=Зірка 2 - зелений
+option.STAR_COLOR_2_END_B=Зірка 2 - синій
+
+option.STAR_COLOR_3_END_R=Зірка 3 - червоний
+option.STAR_COLOR_3_END_G=Зірка 3 - зелений
+option.STAR_COLOR_3_END_B=Зірка 3 - синій
+
+option.STAR_COLOR_VARIATION_END=Інтенсивіність кольору
+value.STAR_COLOR_VARIATION_END.0.0=ВИМК.
+
+option.SITUATIONAL_GLOWING_TRIMS=Ситуативні сяйні орнаменти обладунків
+option.SITUATIONAL_GLOWING_TRIMS.comment=Орнаменти обладунків сяятимуть лише в печерах і вночі. §e[*]§r Сяйні орнаменти обладунків мають бути увімкні
+
+option.DO_IPBR_LIGHTS=РКО IPBR світла
+option.DO_IPBR_LIGHTS.comment=Це змушує джерела світла в грі випромінювати світло, якщо воно випромінюється через шейдери (рекомендовано: УВІМК.)
+
+option.NIGHT_DESATURATION=Знебарвлення темряви
+option.NIGHT_DESATURATION.comment=Знебарвлює середовище в темних областях
+
+option.NIGHT_DESATURATION_OW=Інтенсивність Верхнього світу
+value.NIGHT_DESATURATION_OW.0=ВИМК.
+value.NIGHT_DESATURATION_OW.300=Чорний/білий
+
+option.NIGHT_DESATURATION_NETHER=Інтенсивність Незеру
+value.NIGHT_DESATURATION_NETHER.0=ВИМК.
+value.NIGHT_DESATURATION_NETHER.300=Чорний/білий
+
+option.NIGHT_DESATURATION_END=Інтенсивність Енду
+value.NIGHT_DESATURATION_END.0=ВИМК.
+value.NIGHT_DESATURATION_END.300=Чорний/білий
+
+option.NIGHT_CAVE_DESATURATION=Знебарвлення печер
+option.NIGHT_CAVE_DESATURATION.comment=Знебарвлює середовище в печерах
+value.NIGHT_CAVE_DESATURATION.0=ВИМК.
+
+option.NIGHT_DESATURATION_REMOVE_NEAR_LIGHTS=Видалити ближнє світло
+option.NIGHT_DESATURATION_REMOVE_NEAR_LIGHTS.comment=Усуває ефект знебарвлення поблизу джерел світла
+option.NIGHT_DESATURATION_REMOVE_LIGHTS_IN_HAND=Видалити в руці
+option.NIGHT_DESATURATION_REMOVE_LIGHTS_IN_HAND.comment=Усуває ефект знебарвлення під час тримання в руці джерела світла
+option.NIGHT_DESATURATION_REMOVE_NIGHT_VISION=Видалити з нічним баченням
+option.NIGHT_DESATURATION_REMOVE_NIGHT_VISION.comment=Усуває ефект знебарвлення з нічним баченням
+option.PURKINJE_RENDER_DISTANCE_FADE=Дальність промал. зникання
+
+option.DELTARUNE_BATTLE_BACKGROUND=Бойове тло Deltarune
+value.DELTARUNE_BATTLE_BACKGROUND.0=ВИМК.
+value.DELTARUNE_BATTLE_BACKGROUND.1=УВІМК. - лише небо
+value.DELTARUNE_BATTLE_BACKGROUND.2=УВІМК. - крім сутностей

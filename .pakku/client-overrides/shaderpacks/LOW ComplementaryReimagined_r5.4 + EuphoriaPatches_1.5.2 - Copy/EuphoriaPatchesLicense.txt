@@ -1,0 +1,70 @@
+Euphoria Patches License Agreement 1.0
+======================================
+
+0. Terminology
+--------------
+  0.1. The "Patcher Mod" or "EuphoriaPatcher Mod" refers to the mod named
+       EuphoriaPatcher used to generate the shader pack Euphoria Patches.
+  0.2. "Dev Versions" are development versions accessible through the 
+       Support Pages of the Euphoria Patches Developer.
+  0.3. The Patcher Mod is publicly available on Modrinth and CurseForge.
+  0.4. In the "Original Pack" terminology from the Complementary License Agreement (CLA):
+       If This Pack is an original Euphoria Patches product, then "Original Pack" 
+       refers to This Pack.
+
+1. Extension
+------------
+  1.1. This agreement extends the CLA, 
+       inheriting all of its terminology and terms:
+        a. All definitions and terminology in the CLA are applicable here.
+        b. All terms and conditions from the CLA are also transferred to this license.
+
+2. Grants
+---------
+  2.1. The direct redistribution of This Pack is not allowed.
+  
+  2.2. his Pack must be generated through the Patcher Mod unless:
+         a. The version is classified as a Dev Version, which does not
+            require the Patcher Mod.
+
+  2.3. This Pack is allowed to be redistributed inside a Modpack as long as
+       the following conditions are met:
+         a. The EuphoriaPatcher Mod used to generate this pack is included
+            in the Modpack.
+         b. The EuphoriaPatcher Mod must be included in the Modpack on the
+            distribution sites this pack uses 
+
+  2.4. This Pack is only allowed to be redistributed in a Modified Pack as long as
+       the following conditions are met:
+         a. It is also distributed through a patching mechanism similar to
+            the EuphoriaPatcher Mod.
+         b. The Modified Pack must retain this license file without alterations
+            and update it to the latest version available in the Original Pack
+            whenever using new content from the Original Pack.
+         c. The Modified Pack must not include "Euphoria" in its name, 
+            and there must be at least a three-character difference between 
+            the Modified Pack's name and This Pack; adding/removing non-alphabetic
+            characters does not count.
+
+3. Denied Cases
+---------------
+  3.1. Any usage or redistribution of any part of This Pack that isn't
+       explicitly covered in the "Grants" section of this license should be
+       treated as "All Rights Reserved". Only exceptions are the files that
+       contain a notice that they are covered by a different license.
+
+  3.2. This agreement only applies to the version of This Pack that this exact
+       file can be found in. This agreement is not valid for future or past
+       versions of The Pack unless they contain the exact same agreement.
+
+4. License Infringement
+-----------------------
+  4.1. By using This Pack for any purpose, you agree that Euphoria Patches
+       has the right to take action against you in the case of a
+       license infringement, regardless of This Pack being the Original Pack
+       or not.
+
+  4.2. Euphoria Patches reserves its rights to not take action
+       against cases that it deems harmless. For this reason, cases that
+       Euphoria Patches did not take action against in the past
+       cannot be used as an excuse to ignore this agreement.

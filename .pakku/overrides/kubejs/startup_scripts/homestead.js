@@ -1,0 +1,1 @@
+Platform.mods.modrinth_logo_mod.name = 'Homestead Logo Mod'
