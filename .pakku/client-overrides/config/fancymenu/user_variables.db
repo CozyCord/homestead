@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = disclaimer_shown
+  value = false
+  reset_on_launch = false
+}
+

@@ -1,0 +1,104 @@
+#Slow speed modifier toggled by the sprint key
+#Range: -1.0 ~ 0.0
+slow_speed = -0.65
+
+#Configuration for all carts and cart-like vehicles, check log for automatic "pull_animals" list.
+[carts]
+
+	#The Supply Cart, a type of cart that stores items
+	[carts.supply_cart]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Hand Cart, a player pulled cart that stores items
+	[carts.handCart]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = ["minecraft:player"]
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Animal Cart, a type of cart to haul other animals
+	[carts.animal_cart]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Plow, an animal pulled machine for tilling soil and creating paths
+	[carts.plow]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Seed Drill, a cart that plants crops
+	[carts.seed_drill]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Reaper, a cart that harvests crops
+	[carts.reaper]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.1
+		pull_speed = -0.1
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true
+
+	#The Covered wagon, a horse drawn cart that multiple people and/or lots of items
+	[carts.wagon]
+		#Entity that are able to pull this cart, such as ["minecraft:horse"]
+		#An empty list defaults to all which may wear a saddle but not steered by an item
+		pull_animals = []
+		#Base speed modifier applied to animals (-0.5 = half normal speed)
+		#Range: -1.0 ~ -0.20000000298023224
+		pull_speed = -0.20000000298023224
+		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
+		#Range: 1 ~ 100
+		destroy_damage = 4
+		#Players in adventure mode can interact with cart
+		adventure_mode_interact = true

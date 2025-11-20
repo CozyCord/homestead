@@ -1,0 +1,155 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.mehvahdjukaar.amendments.client.gui.LecternBookEditScreen {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_443 {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_7944 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_407 {
+}
+
+net.wisecase2.stutterfix.gui.StutterFixOptionsGUI {
+}
+
+net.minecraft.class_6777 {
+}
+
+net.minecraft.class_479 {
+}
+
+net.minecraft.class_3873 {
+}
+
+net.minecraft.class_3871 {
+}
+
+net.minecraft.class_3874 {
+}
+
+vazkii.patchouli.client.book.gui.GuiBookLanding {
+}
+
+net.minecraft.class_3979 {
+}
+
+net.mehvahdjukaar.sawmill.SawmillScreen {
+}
+
+net.minecraft.class_3934 {
+}
+
+net.minecraft.class_4895 {
+}
+
+net.minecraft.class_3802 {
+}
+
+net.minecraft.class_494 {
+}
+
+net.minecraft.class_476 {
+}
+
+net.minecraft.class_7744 {
+}
+
+net.minecraft.class_498 {
+}
+
+fuzs.puzzlesapi.api.client.statues.v1.gui.screens.armorstand.ArmorStandRotationsScreen {
+}
+
+net.minecraft.class_466 {
+}
+
+net.minecraft.class_472 {
+}
+
+fuzs.easymagic.client.gui.screens.inventory.ModEnchantmentScreen {
+}
+
+net.minecraft.class_495 {
+}
+
+tech.thatgravyboat.ironchests.client.ChestScreen {
+}
+
+net.satisfy.wildernature.client.gui.screens.BountyBlockScreen {
+}
+
+net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen {
+}
+
+net.satisfy.vinery.client.gui.FermentationBarrelGui {
+}
+
+net.satisfy.vinery.client.gui.ApplePressGui {
+}
+
+com.tom.storagemod.gui.CraftingTerminalScreen {
+}
+
+net.minecraft.class_490 {
+}
+
+net.minecraft.class_481 {
+}
+
+net.minecraft.class_525 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen {
+}
+
+net.minecraft.class_442 {
+}
+

@@ -1,0 +1,93 @@
+{
+  "disableCrouchMining": false,
+  "disableExtraToolDamage": false,
+  "disableExtraFoodExhaustion": false,
+  "treeLifetimeLength": 4.0,
+  "dynamicMiningSpeed": {
+    "disable": false,
+    "speedMultiplication": 0.5,
+    "maxSpeedMultiplication": 16.0
+  },
+  "trees": {
+    "genericTree": {
+      "algorithm": {
+        "maxLeavesRadius": 10,
+        "maxLogAmount": 256,
+        "shouldIgnorePersistentLeaves": true
+      },
+      "logFilter": {
+        "whitelistedTags": [
+          "minecraft:logs",
+          "regions_unexplored:branches",
+          "regions_unexplored:joshua_logs",
+          "c:logs",
+          "regions_unexplored:brimwood_logs"
+        ],
+        "whitelist": [
+          "mysticsbiomes:cherry_log",
+          "mysticsbiomes:strawberry_log",
+          "mysticsbiomes:peach_log",
+          "mysticsbiomes:maple_log",
+          "mysticsbiomes:sea_foam_log",
+          "mysticsbiomes:tropical_log",
+          "mysticsbiomes:jacaranda_log"
+        ],
+        "blacklist": []
+      },
+      "leavesFilter": {
+        "whitelistedTags": [
+          "minecraft:leaves",
+          "regions_unexplored:branches",
+          "c:leaves"
+        ],
+        "whitelist": [],
+        "blacklist": []
+      },
+      "enabled": true,
+      "requireTool": true,
+      "allowedToolFilter": {
+        "whitelistedTags": [
+          "minecraft:axes",
+          "obsidianequipment:axes"
+        ],
+        "whitelist": [],
+        "blacklist": []
+      }
+    },
+    "verticalTree": {
+      "filter": {
+        "whitelistedTags": [],
+        "whitelist": [
+          "minecraft:cactus",
+          "minecraft:bamboo"
+        ],
+        "blacklist": []
+      },
+      "enabled": true,
+      "requireTool": false,
+      "allowedToolFilter": {
+        "whitelistedTags": [],
+        "whitelist": [],
+        "blacklist": []
+      }
+    },
+    "chorusTree": {
+      "enabled": true,
+      "requireTool": false,
+      "allowedToolFilter": {
+        "whitelistedTags": [],
+        "whitelist": [],
+        "blacklist": []
+      }
+    },
+    "mushroomTree": {
+      "enabled": true,
+      "requireTool": false,
+      "allowedToolFilter": {
+        "whitelistedTags": [],
+        "whitelist": [],
+        "blacklist": []
+      }
+    }
+  }
+}

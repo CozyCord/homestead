@@ -1,0 +1,13 @@
+#Configuration to disable the rendering of certain supplies in the supply cart
+#Enables/Disables the rendering of all supplies
+render_supplies = true
+#Falls back to rendering as items if false
+render_supply_gear = true
+#Falls back to rendering as items if false
+render_supply_flowers = false
+#Falls back to rendering as items if false
+render_supply_paintings = true
+#Falls back to rendering as items if false
+render_supply_wheel = true
+#Render boxes used for debugging the carts when Hitbox rendering is enabled
+render_debug_boxes = false

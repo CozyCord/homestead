@@ -1,0 +1,162 @@
+{
+	// General settings
+	general: {
+		// Sets the interval in milliseconds in which interactions are sent to the server.
+		// Lower numbers increase the speed but might be rejected by servers.
+		// default: 10
+		// 	Must be greater or equal to 1
+		interaction-rate: 10
+		// Sets the interval in milliseconds for singleplayer and local multiplayer.
+		// default: 1
+		// 	Must be greater or equal to 1
+		integrated-interaction-rate: 1
+		// Enables quick swapping of armor pieces and elytra pieces by clicking them while in hand.
+		// default: true
+		enable-quick-armor-swapping: true
+		// Enables dropping items when holding the drop modifier (alt by default) and clicking on them.
+		// The modifier can be changed in the vanilla controls menu.
+		// default: true
+		enable-drop-modifier: true
+		// Enables right-clicking in recipe books/villager trading to swiftly craft/trade.
+		// default: true
+		enable-quick-craft: true
+		// Whether item types should check nbt data.
+		// This is for example used by scrolling and drop-clicking.
+		// NONE disables this, ALL checks for exactly the same nbt and SOME allows for differences in damage and enchantments.
+		// default: SOME
+		item-kinds-nbt-match-mode: SOME
+		// Lets you define how the hotbar will be treated when e.g. scrolling or sorting items in the inventory.
+		//   HARD: The hotbar will always be treated separately.
+		//   SOFT: The hotbar will be treated as part of the inventory. This does not apply when sending the whole inventory (ctrl+shift).
+		//   NONE: The hotbar will be treated as part of the inventory. This also applies when sending the whole inventory (ctrl+shift).
+		// default: SOFT
+		hotbar-scoping: SOFT
+		// This helps when you regularly move your mouse faster than the game can pick up.
+		// This will impact performance though.
+		// default: false
+		better-fast-dragging: false
+		// Enable clicking and dragging the bundle in the inventory to easily put in or out multiple stacks.
+		// default: true
+		enable-bundle-dragging: true
+	}
+	// With this feature, scrolling while hovering over a stack lets you easily move single items in or out of your inventory.
+	// In combination with modifiers such as Shift and Control (changeable in the Controls settings) you can scroll whole stacks, all of a kind of item or even all items in an inventory.
+	scrolling: {
+		// default: true
+		enable: true
+		// Invert the scroll direction when scrolling items.
+		// default: false
+		invert: false
+		// If enabled, items will be moved based on the visual position on the screen:
+		// When scrolling up, items will be sent to the upper inventory, when scrolling down to the lower inventory.
+		// If disabled, scrolling will instead affect the amount of items:
+		// When scrolling up, items will be moved towards the stack, when scrolling down items will be sent to the opposite inventory.
+		// 
+		// Using "Invert scroll direction", you can swap the up and down behavior for these actions.
+		// default: true
+		directional-scrolling: true
+		// Sets whether to by default scroll items out of the creative menu.
+		// default: true
+		scroll-creative-menu-items: true
+		// Sets whether creative mode tabs can be switched by scrolling over them.
+		// default: true
+		scroll-creative-menu-tabs: true
+	}
+	// Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY.
+	// For Minecraft 1.19 and up there's also CREATIVE_SEARCH.
+	sort: {
+		// Sets the sort mode for normal sorting.
+		// default: creative
+		primary-sort: creative
+		// Sets the sort mode for sorting whilst pressing shift.
+		// default: quantity
+		shift-sort: quantity
+		// Sets the sort mode for sorting whilst pressing control.
+		// default: alphabet
+		control-sort: alphabet
+		// Whether to use close to instant sorting when in singleplayer or if Mouse Wheelie is installed on the server.
+		// default: true
+		server-accelerated-sorting: true
+		// Whether the creative search sorting should be optimized for performance.
+		// This will make use of more memory in exchange for processor time, only disable this if you run into memory issues.
+		// default: true
+		optimize-creative-search-sort: true
+	}
+	// Item refilling is a feature that automatically loads more items from your inventory when your current stack runs out.
+	// This is for example useful when building with a lot of the same block, so you don't have to constantly open your inventory.
+	// 
+	// The first section of this config concerns which or under which circumstances items will get refilled.
+	// The "Refill rules" section, allows you to configure how the replacement stack will be determined by searching your inventory.
+	refill: {
+		// Enables item refilling.
+		// Turn this off to disable refilling entirely.
+		// default: true
+		enable: true
+		// Plays a sound after refilling a stack.
+		// default: true
+		play-sound: true
+		// Refills stacks in the off hand.
+		// default: true
+		off-hand: true
+		// Restore the refilled item to the originally selected slot.
+		// This will take a tad more time. You might want to turn this off on slow connections.
+		// default: false
+		restore-selected-slot: false
+		// Refill when the item just used changes to a different item.
+		// This is e.g. triggered when filling or emptying water buckets.
+		// default: true
+		item-changes: true
+		// Refill when the last food item in the hand has been consumed.
+		// default: true
+		eat: true
+		// Refill when dropping stacks from the hotbar.
+		// default: true
+		drop: true
+		// Refill when using up items, like tools or weapons.
+		// default: true
+		use: true
+		// Refill on other occasions.
+		// default: true
+		other: true
+		// Configure with which new item the previous stack will be refilled.
+		rules: {
+			// Tries to find any other block items.
+			// default: false
+			any-block: false
+			// Find items that are in the same creative inventory tab.
+			// default: false
+			itemgroup: false
+			// Try to find similar items through the item type hierarchy.
+			// This usually indicates a similar functionality.
+			// default: false
+			item-hierarchy: false
+			// Try to find similar block items through the block type hierarchy.
+			// This usually indicates a similar functionality.
+			// default: false
+			block-hierarchy: false
+			// Try to find any other food item.
+			// default: false
+			food: false
+			// Try to find equal items (no NBT matching).
+			// default: true
+			equal-items: true
+			// Try to find equal stacks (NBT matching).
+			// default: true
+			equal-stacks: true
+		}
+	}
+	// Configure when and how picking the correct tool for the currently faced block will work.
+	// By default tool picking will be triggered when middle clicking, that may be changed through the Vanilla Controls menu.
+	tool-picking: {
+		// Pick correct tool when middle clicking (rebindable) whilst holding a tool.
+		// default: true
+		hold-tool: true
+		// Pick correct tool when middle clicking (rebindable) whilst holding the same block as faced.
+		// default: false
+		hold-block: false
+		// Allows picking tools from the whole inventory.
+		// If disabled picking will only happen from the hotbar.
+		// default: true
+		pick-from-inventory: true
+	}
+}
