@@ -7036,6 +7036,75 @@
             ]
         },
         {
+            "pakku_id": "5U67lRVZRNQs1sWL",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw",
+                "TG70NNJkY18vBsPI"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "expanded-delight",
+                "modrinth": "expanded-delight"
+            },
+            "name": {
+                "curseforge": "Expanded Delight",
+                "modrinth": "Expanded Delight"
+            },
+            "id": {
+                "curseforge": "620770",
+                "modrinth": "e9V6wFcR"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "expandeddelight-0.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5708/81/expandeddelight-0.3.2.jar",
+                    "id": "5708081",
+                    "parent_id": "620770",
+                    "hashes": {
+                        "sha1": "694a256f1dae0d70c352fe34c9ce6727c2ef37b3",
+                        "md5": "3055a9aaea49481eb17e784b286465d5"
+                    },
+                    "required_dependencies": [],
+                    "size": 323205,
+                    "date_published": "2024-09-09T21:28:20.423Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "expandeddelight-0.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/e9V6wFcR/versions/4KEfJPHI/expandeddelight-0.3.2.jar",
+                    "id": "4KEfJPHI",
+                    "parent_id": "e9V6wFcR",
+                    "hashes": {
+                        "sha512": "bee505d4f291f779ac62000476489d26eaa5d649f887223a2dc37ca03378e7b076cdfa5ba7c895d6866cabdea9a362a96a4e56f6d964243b892fde194a988b4b",
+                        "sha1": "694a256f1dae0d70c352fe34c9ce6727c2ef37b3"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "7vxePowz"
+                    ],
+                    "size": 323205,
+                    "date_published": "2024-09-09T21:35:35.077260Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "7bn4X5V6G5lcO8ZX",
             "type": "MOD",
             "side": "BOTH",
