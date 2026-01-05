@@ -838,17 +838,6 @@
 					type: "item"
 				}
 				{
-					id: "5AE89C803EDF6953"
-					item: {
-						Count: 1
-						id: "minecraft:elytra"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "6108667D13FC564E"
 					item: "minecraft:cake"
 					type: "item"
@@ -856,7 +845,12 @@
 				{
 					id: "06CE27829020C773"
 					type: "xp"
-					xp: 500
+					xp: 1000
+				}
+				{
+					id: "24030BA31E6E198A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
 				}
 			]
 			subtitle: "Reach Day 1000."

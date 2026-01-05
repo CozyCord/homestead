@@ -1,0 +1,16 @@
+
+["The Garden Awakens"]
+	#toggle whether music should fade on the pale garden
+	pale_garden_music_fade = true
+
+["Bats and Pots"]
+	#Use the updated bat model for bats
+	updated_bat_model = true
+
+["Spring to Life"]
+	#allow falling leaves particles to generate
+	falling_leaves = true
+	#how often should falling leaves particles generate
+	#Range: 0.0 ~ 1.0
+	falling_leaves_frequency = 0.01
+

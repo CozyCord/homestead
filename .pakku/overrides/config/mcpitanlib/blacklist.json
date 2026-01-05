@@ -1,0 +1,5 @@
+{
+  "item": "examplemod:hogehoge_item,examplemod:fuga_item",
+  "block": "examplemod:hogehoge_block,examplemod:fuga_block",
+  "debugMode": false
+}

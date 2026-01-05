@@ -1,0 +1,35 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+axeStripParticles = true
+axeScrapeParticlesDisplayType = "DEFAULT"
+axeWaxOffParticlesDisplayType = "DEFAULT"
+boneMealUsingParticles = true
+flintAndSteelParticles = true
+increasedItemBreakParticles = true
+waterEvaporateFromBucketSteam = true
+waterBucketUseParticles = true
+lavaBucketUseParticles = true
+powderSnowBucketUseParticles = true
+lingeringPotionClouds = true
+splashPotionClouds = true
+structureVoidItemMarker = true
+
+[itemRarity]
+particlesDisplayType = "ON"
+particleColorType = "NAME_COLOR"
+mixedColorName = true
+useItemBorder = true
+colorOverrides = [  ]
+particleMaxHeight = 1.0
+particleMaxSpeed = 1.0
+particleDensity = 1.0
+
+[projectiles]
+enderPearlTrailDensity = 0.5
+xpBottleParticlesDisplayType = "DEFAULT"
+xpBottleParticlesDensity = 10
+eggSmashSoundVolume = 0.5
+eggSplatParticles = true
+snowballTrailDensity = 0.5
+snowballPoofsHaveSnowflakes = true
+snowballPoofSoundVolume = 0.3

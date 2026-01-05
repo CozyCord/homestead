@@ -1,0 +1,103 @@
+{
+  "name": "Roots Take Hold",
+  "icon": "minecraft:flower_pot",
+  "category": "patchouli:journey",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Of Soil and Sky",
+      "text": "I first stepped onto this land with nothing but the crunch of dirt beneath my boots and the breeze curling through the leaves above. It felt like the world held its breath, just for a moment, to see if I would stay.There is a stillness here\u2014not empty, but *listening*."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/of_soil_and_sky.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "The Shape of Shelter",
+      "text": "$(br)A roof is more than wood and nails. It\u2019s a promise to yourself.Even the smallest lean-to feels like a fortress when you build it with your own two hands.Walls don\u2019t need to be perfect, just true. Find the heart of your shelter. Let it beat with warmth."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/the_shape_of_shelter.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "The Language of Leaves",
+      "text": "$(br)The trees whisper if you pay attention. Their leaves change tone with the seasons, with the soil, with the winds.A sharp green for energy, a tired brown for change. Some glow golden not to fade, but to shine one last time.Listen. They will guide you."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/the_language_of_leaves.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "Underfoot, Unseen",
+      "text": "$(br)Roots hold secrets. Not just water and minerals, but stories. Old ones.I once unearthed a stone carved with symbols under a birch. Perhaps from another traveler like me. Or a warning. Or a blessing.The soil remembers. Even when we do not."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/underfoot_unseen.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "Harvests Small and Sweet",
+      "text": "$(br)I found my first berries by accident\u2014my hands stained purple for days.Not every harvest needs to be grand. Sometimes, it\u2019s a single apple. A mushroom after rain. A handful of grain shared with a friend.It\u2019s not what you gather. It\u2019s how you savor it."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/harvests_small_and_sweet.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "Hands in Harmony",
+      "text": "$(br)The rhythm of shaping wood, of placing stone\u2014it hums like music.My hands ache at day\u2019s end, but my heart feels light. When you craft with care, the world responds in kind."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/hands_in_harmony.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "Nights That Hold You",
+      "text": "$(br)Nights used to scare me. The silence. The dark.But then I learned to light candles. To build fires. To wrap myself in warmth.Now the night feels like a blanket\u2014not to trap me, but to tuck me in. There\u2019s beauty in the quiet."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/nights_that_hold_you.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "Pages Yet to Grow",
+      "text": "$(br)My story isn't finished. Neither is yours.If you\u2019ve read this far, then your roots are planted too. *Let them grow.*"
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/roots/pages_yet_to_grow.png"
+      ],
+      "border": true
+    }
+  ]
+}

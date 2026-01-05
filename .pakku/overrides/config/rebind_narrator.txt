@@ -1,0 +1,16 @@
+% Options for Rebind Narrator.
+
+% Does the Control key need to be held to activate the narrator keybind?
+% (Does nothing if AMECS support is enabled and AMECS is loaded - it adds its
+% own, better way to bind key modifiers through the controls screen.)
+Require CTRL = true
+
+Compat = {
+	% Provide support for key modifiers through the 'Amecs' mod?
+	% Does nothing if AMECS isn't loaded. Requires a game restart to turn on/off.
+	AMECS support = true
+
+	% Provide support for key alternates through the 'No More Useless Keys' mod?
+	% Does nothing if NMUK isn't loaded. Requires a game restart to turn on/off.
+	NMUK support = true
+}

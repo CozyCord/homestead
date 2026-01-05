@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Toekimi",
+      "uniqueId": "531e8c6b-b536-43ff-b204-3db7cb42ee17"
+    },
+    "time": 1763406686579,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LrlyBKJHSQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Toekimi",
+      "uniqueId": "531e8c6b-b536-43ff-b204-3db7cb42ee17"
+    },
+    "time": 1762813761877,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SRpOseWO9c"
+    }
+  }
+]

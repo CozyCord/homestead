@@ -1,0 +1,95 @@
+{
+  "blocks": {
+    "enableBonemealEffect": true,
+    "fertilizedSoilRange": 5,
+    "waterSprinklerRange": 8,
+    "enableRainGrowthEffect": true,
+    "rainGrowthMultiplier": 0.5,
+    "feedingTroughRange": 8
+  },
+  "items": {
+    "enableFertilizer": true,
+    "enableTaming": true,
+    "enableHorseTaming": true,
+    "enableHorseEffects": true,
+    "enableChickenEffects": true,
+    "enableCatTamingChance": true,
+    "nutrition": {
+      "oatPancakeNutrition": 5,
+      "oatPancakeSaturationMod": 0.6,
+      "roastedCornNutrition": 5,
+      "roastedCornSaturationMod": 0.5,
+      "potatoWithRoastMeatNutrition": 7,
+      "potatoWithRoastMeatSaturationMod": 0.7,
+      "bakedLambHamNutrition": 8,
+      "bakedLambHamSaturationMod": 0.9,
+      "farmersBreakfastNutrition": 12,
+      "farmersBreakfastSaturationMod": 1.2,
+      "stuffedChickenNutrition": 8,
+      "stuffedChickenSaturationMod": 0.8,
+      "stuffedRabbitNutrition": 9,
+      "stuffedRabbitSaturationMod": 0.9,
+      "grandmothersStrawberryCakeNutrition": 4,
+      "grandmothersStrawberryCakeSaturationMod": 0.7,
+      "farmersBreadNutrition": 6,
+      "farmersBreadSaturationMod": 0.8,
+      "farmerSaladNutrition": 7,
+      "farmerSaladSaturationMod": 0.6,
+      "goulashNutrition": 8,
+      "goulashSaturationMod": 0.9,
+      "simpleTomatoSoupNutrition": 6,
+      "simpleTomatoSoupSaturationMod": 0.6,
+      "barleySoupNutrition": 5,
+      "barleySoupSaturationMod": 0.8,
+      "onionSoupNutrition": 7,
+      "onionSoupSaturationMod": 0.6,
+      "potatoSoupNutrition": 5,
+      "potatoSoupSaturationMod": 0.6,
+      "pastaWithOnionSauceNutrition": 6,
+      "pastaWithOnionSauceSaturationMod": 0.7,
+      "cornGritsNutrition": 6,
+      "cornGritsSaturationMod": 0.5,
+      "oatmealWithStrawberriesNutrition": 4,
+      "oatmealWithStrawberriesSaturationMod": 0.8,
+      "sausageWithOatPattyNutrition": 8,
+      "sausageWithOatPattySaturationMod": 0.9,
+      "lambWithCornNutrition": 8,
+      "lambWithCornSaturationMod": 0.8,
+      "beefPattyWithVegetablesNutrition": 6,
+      "beefPattyWithVegetablesSaturationMod": 0.8,
+      "barleyPattiesWithPotatoesNutrition": 5,
+      "barleyPattiesWithPotatoesSaturationMod": 0.9,
+      "baconWithEggsNutrition": 6,
+      "baconWithEggsSaturationMod": 0.7,
+      "chickenWrappedInBaconNutrition": 9,
+      "chickenWrappedInBaconSaturationMod": 0.9,
+      "cookedSalmonNutrition": 7,
+      "cookedSalmonSaturationMod": 0.9,
+      "cookedCodNutrition": 7,
+      "cookedCodSaturationMod": 0.9,
+      "roastedChickenNutrition": 5,
+      "roastedChickenSaturationMod": 0.8
+    }
+  },
+  "effects": {
+    "chickenEffect": {
+      "chickenEffectTickInterval": 120,
+      "chickenEffectEggChance": 20,
+      "chickenEffectFeatherChance": 20
+    },
+    "feastEffect": {
+      "feastEffectSatiationInterval": 40,
+      "feastEffectSustenanceInterval": 200,
+      "feastEffectHealAmount": 1
+    },
+    "sustenanceEffect": {
+      "sustenanceEffectInterval": 200,
+      "sustenanceEffectHealAmount": 1,
+      "sustenanceEffectFoodIncrement": 1
+    },
+    "satiationEffect": {
+      "satiationEffectInterval": 40,
+      "satiationEffectHealAmount": 1
+    }
+  }
+}

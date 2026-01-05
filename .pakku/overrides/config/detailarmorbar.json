@@ -1,0 +1,17 @@
+{
+  "effectType": "AURA",
+  "effectSpeed": "NORMAL",
+  "effectThorn": "ANIMATION",
+  "toggleEnchants": true,
+  "toggleNetherites": true,
+  "toggleArmorTypes": true,
+  "toggleThorns": true,
+  "toggleDurability": true,
+  "toggleMending": true,
+  "toggleEmptyBar": true,
+  "toggleItemBar": true,
+  "toggleVanillaTexture": true,
+  "toggleCompatibleHeartMod": false,
+  "toggleInverseSlot": false,
+  "toggleSortSpecialItem": true
+}

@@ -1,0 +1,22 @@
+{
+  "tranquilLanternRadius": 35,
+  "tranquilLanternBump": true,
+  "tranquilLanternBurn": false,
+  "extraKilnRecipes": [
+    "minecraft:cobblestone -\u003e minecraft:stone",
+    "minecraft:sand -\u003e minecraft:glass"
+  ],
+  "kilnConfigDefaultXp": 0.1,
+  "kilnConfigDefaultTime": 100,
+  "peacefulHunger": true,
+  "enableMasonTrades": true,
+  "maxStackSizeOverride": 64,
+  "enableRightClickRecolor": true,
+  "recolorWool": true,
+  "recolorBeds": true,
+  "recolorBanners": true,
+  "fernlingBonemealRadius": 3,
+  "fernlingBonemealCooldownMin": 600,
+  "fernlingBonemealCooldownMax": 2400,
+  "fernlingBonemealChance": 0.15
+}

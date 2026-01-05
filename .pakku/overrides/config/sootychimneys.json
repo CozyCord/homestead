@@ -1,0 +1,6 @@
+{
+  "smokeStrength": 1.0,
+  "dirtyChance": 0.05,
+  "windEnabled": true,
+  "windStrengthMultiplier": 0.05
+}

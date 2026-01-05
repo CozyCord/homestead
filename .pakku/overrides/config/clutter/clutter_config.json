@@ -1,0 +1,154 @@
+{
+  "spawn_warped_newts": {
+    "comment": "Spawn Warped Newts.",
+    "value": true
+  },
+  "greed_chance_per_level": {
+    "comment": "Coin drop rate per level of Greed. (expressed as a decimal number where the default, 0.01, is equal to 1%)",
+    "value": 0.01
+  },
+  "meltdown_destroys_blocks": {
+    "comment": "Does the explosions caused by Meltdown destroy blocks?",
+    "value": false
+  },
+  "spawn_clutter_mobs": {
+    "comment": "Spawn Clutter Mobs.",
+    "value": true
+  },
+  "spawn_mossblooms": {
+    "comment": "Spawn Mossblooms.",
+    "value": true
+  },
+  "generate_seashells": {
+    "comment": "Will Seashells generate?",
+    "value": true
+  },
+  "spawn_beavers": {
+    "comment": "Spawn Beavers.",
+    "value": true
+  },
+  "mobs_drop_coin_pouches": {
+    "comment": "Will Coin Pouches drop from certain mobs?",
+    "value": true
+  },
+  "do_trinkets_elytra_flight": {
+    "comment": "Will the Elytra and it´s variants work while worn in the cape slot provided by Trinkets?",
+    "value": true
+  },
+  "generate_biomes": {
+    "comment": "Will Biomes added by Clutter generate?",
+    "value": true
+  },
+  "generate_clams": {
+    "comment": "Will Clams generate?",
+    "value": true
+  },
+  "spawn_ember_tortoises": {
+    "comment": "Spawn Ember Tortoises.",
+    "value": true
+  },
+  "generate_geodes": {
+    "comment": "Will Geodes added by Clutter generate?",
+    "value": true
+  },
+  "generate_foliage": {
+    "comment": "Will Foliage generate?",
+    "value": true
+  },
+  "spawn_capybaras": {
+    "comment": "Spawn Capybaras.",
+    "value": true
+  },
+  "spawn_chameleons": {
+    "comment": "Spawn Chameleons.",
+    "value": true
+  },
+  "generate_underwater_features": {
+    "comment": "Will Underwater Features generate?",
+    "value": true
+  },
+  "spawn_echofins": {
+    "comment": "Spawn Echofins.",
+    "value": true
+  },
+  "spawn_jellyfishes": {
+    "comment": "Spawn Jellyfishes.",
+    "value": true
+  },
+  "spawn_manta_rays": {
+    "comment": "Spawn Manta Rays.",
+    "value": true
+  },
+  "spawn_crimson_newts": {
+    "comment": "Spawn Crimson Newts.",
+    "value": true
+  },
+  "spawn_butterflies": {
+    "comment": "Spawn Butterflies.",
+    "value": true
+  },
+  "spawn_kiwis": {
+    "comment": "Spawn Kiwis.",
+    "value": true
+  },
+  "generate_ores": {
+    "comment": "Will Ores added by Clutter generate?",
+    "value": true
+  },
+  "generate_silver_ores": {
+    "comment": "Will Silver Ores generate?",
+    "value": true
+  },
+  "generate_redwood_forests": {
+    "comment": "Will Redwood Forests generate?",
+    "value": true
+  },
+  "generate_small_sea_sponges": {
+    "comment": "Will Small Sea Sponges generate in Coral Reefs?",
+    "value": true
+  },
+  "generate_onyx_geodes": {
+    "comment": "Will Onyx Geodes generate?",
+    "value": true
+  },
+  "spawn_emperor_penguins": {
+    "comment": "Spawn Emperor Penguins.",
+    "value": true
+  },
+  "chest_loot_coin_pouches": {
+    "comment": "Will Coin Pouches generate in certain chests?",
+    "value": true
+  },
+  "spawn_seahorses": {
+    "comment": "Spawn Seahorses.",
+    "value": true
+  },
+  "generate_sulphur_ores": {
+    "comment": "Will Sulphur Ores generate?",
+    "value": true
+  },
+  "cherry_drop_rate": {
+    "comment": "Drop rate for Cherries. (expressed as a decimal number where the default, 0.075, is equal to 7.5%)",
+    "value": 0.075
+  },
+  "do_coin_drops_and_loot_generation": {
+    "comment": "Will Coins drop from mobs and Coin Pouches generate in certain chests.",
+    "value": true
+  },
+  "generate_misc_features": {
+    "comment": "Will Miscellaneous Features generate?",
+    "value": true
+  },
+  "generate_lupine_fields": {
+    "comment": "Will Lupine Fields generate?",
+    "value": true
+  },
+  "do_greed_generation": {
+    "comment": "Will Greed generate in certain chests.",
+    "value": true
+  },
+  "do_enhanced_beacon_display": {
+    "comment": "Change the way Payment Items in the Beacon´s menu are displayed.",
+    "value": true
+  }
+}

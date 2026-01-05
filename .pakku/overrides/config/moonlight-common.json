@@ -1,0 +1,8 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "clear_dynamic_resources": false,
+    "extra_debug": false,
+    "extra_children_debug": false
+  }
+}

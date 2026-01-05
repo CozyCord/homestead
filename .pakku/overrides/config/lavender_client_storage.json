@@ -1,0 +1,19 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "10120ae9-2953-433d-93ea-872542330d34": [
+      "things:almanac"
+    ]
+  },
+  "viewed_entries": {
+    "10120ae9-2953-433d-93ea-872542330d34": {
+      "things:almanac": [
+        "things:items/apples",
+        "things:diamond_pressure_plate",
+        "things:items/item_magnet",
+        "things:items/hardening_catalyst",
+        "things:trinkets/agglomeration"
+      ]
+    }
+  }
+}

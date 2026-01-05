@@ -1,0 +1,10 @@
+[loot_table_chances]
+	#Chance for plushies to appear in village loot tables (default: 0.1)
+	#Range: 0.0 ~ 1.0
+	villageLootTableChance = 0.1
+	#Chance for plushies to appear in buried treasure loot tables (default: 0.5)
+	#Range: 0.0 ~ 1.0
+	buriedTreasureLootTableChance = 0.5
+	#Chance for plushies to appear in archaeology loot tables (default: 0.1)
+	#Range: 0.0 ~ 1.0
+	archaeologyLootTableChance = 0.1

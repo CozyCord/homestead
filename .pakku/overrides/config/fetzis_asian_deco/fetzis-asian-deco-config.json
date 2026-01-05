@@ -1,0 +1,10 @@
+{
+  "modVersion": "1.7.2",
+  "configWiki": "https://fetzis-orga.gitbook.io/fetzis-asian-decoration/config-settings",
+  "chatMessageOnJoin": false,
+  "chatMessageOnce": false,
+  "weightKoi": 5,
+  "minCountKoi": 2,
+  "maxCountKoi": 5,
+  "gongAttractRange": 50
+}

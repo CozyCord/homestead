@@ -1,0 +1,42 @@
+{
+  "name": "Blueprints & Builds",
+  "icon": "create:crafting_blueprint",
+  "category": "patchouli:basics",
+  "pages": [
+    {
+      "type": "text",
+      "title": "About These Blueprints",
+      "text": "$(br)These are pages copied from the side notebooks of T.M. Gearsprocket—simple diagrams of small machines, annotated with cozy explanations. They're not to scale. They're not to code. But they turn just fine."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["homestead:textures/farm_diagram.png"],
+      "title": "Farm Diagram",
+      "text": "A simple rotating farm using harvesters and a mechanical bearing."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["homestead:textures/millstone_diagram.png"],
+      "title": "Vertical Millstone",
+      "text": "A water wheel powered vertically into a millstone. Good for grinding wheat, seeds, or bone blocks. Place a chute or funnel beneath to catch the flour."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["homestead:textures/press_diagram.png"],
+      "title": "Basic Press Setup",
+      "text": "Drop ingots on the depot. Power the press from behind or above. Smack it into sheets. Very satisfying. Do not stand under the press."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["homestead:textures/power_diagram.png"],
+      "title": "Power Train Example",
+      "text": "Using cogwheels and a gearbox to transfer rotation in two directions. Useful when you need one machine spinning one way, and another the other."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["homestead:textures/chute_diagram.png"],
+      "title": "Chute & Funnel Chain",
+      "text": "Drop items down automatically through a chute into a a crate, chest or barrel. Good for sorting or timed drops."
+    }
+  ]
+}

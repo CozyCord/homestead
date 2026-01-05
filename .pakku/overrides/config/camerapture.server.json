@@ -1,0 +1,12 @@
+{
+  "version": 5,
+  "max_image_bytes": 200000,
+  "max_image_resolution": 1280,
+  "ms_per_picture": 20,
+  "can_rotate_pictures": true,
+  "check_frame_position": false,
+  "permission_levels": {
+    "take_picture": 0,
+    "upload": 0
+  }
+}

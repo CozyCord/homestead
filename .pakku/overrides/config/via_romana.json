@@ -1,0 +1,62 @@
+{
+  "infrastructure_check_radius": 1,
+  "node_distance_minimum": 4,
+  "node_distance_maximum": 8,
+  "node_utility_distance": 3,
+  "path_quality_threshold": 0.6,
+  "travel_fatigue_cooldown": 30,
+  "fog_of_war_distance": 10,
+  "spline_animation_speed": 2.0,
+  "maximum_map_dimension": 512,
+  "map_refresh_interval": 10,
+  "map_save_interval": 5,
+  "enable_surveyor_landmark": false,
+  "enable_surveyor_landmark_coloring": false,
+  "invalid_entities": [],
+  "invalid_dimensions": [],
+  "path_block_ids": [
+    "minecraft:dirt_path",
+    "minecraft:packed_mud",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt"
+  ],
+  "path_block_tags": [
+    "minecraft:slabs",
+    "minecraft:stairs",
+    "minecraft:wool",
+    "minecraft:wool_carpets",
+    "minecraft:planks",
+    "minecraft:logs",
+    "minecraft:rails",
+    "minecraft:buttons",
+    "minecraft:pressure_plates"
+  ],
+  "path_block_strings": [
+    "sandstone",
+    "polished",
+    "cobble",
+    "brick",
+    "smooth",
+    "basalt",
+    "path",
+    "road",
+    "concrete",
+    "pavement",
+    "terracotta",
+    "tile",
+    "wall",
+    "fence"
+  ],
+  "warp_block_ids": [
+    "via_romana:warp_block"
+  ],
+  "warp_block_tags": [
+    "minecraft:all_signs"
+  ],
+  "block_string_blacklist": [
+    "diagonalwalls:",
+    "diagonalfences:",
+    "diagonalwindows:"
+  ],
+  "invalid_block_overlay_opacity": 0.4
+}

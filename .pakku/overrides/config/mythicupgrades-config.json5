@@ -1,0 +1,37 @@
+{
+	"aquamarineConfig": {
+		"tools_freeze_duration": 0.5,
+		"ice_shield_duration": 1.0,
+		"ice_shield_amplifier": 2
+	},
+	"peridotConfig": {
+		"tools_poison_duration": 1.5,
+		"tools_poison_amplifier": 2,
+		"poisonous_thorns_poison_duration": 3.0,
+		"poisonous_thorns_amplifier": 1
+	},
+	"rubyConfig": {
+		"tools_haste_amplifier": 0,
+		"spelunker_amplifier": 5
+	},
+	"sapphireConfig": {
+		"tools_percentage_damage_percent": 5.0,
+		"damage_deflection_amplifier": 2
+	},
+	"topazConfig": {
+		"topaz_tools_fire_seconds": 10.0,
+		"item_mastery_amplifier": 4
+	},
+	"ametrineConfig": {
+		"tools_levitation_duration": 0.75,
+		"tools_levitation_amplifier": 4,
+		"arcane_aura_duration": 0.75,
+		"arcane_aura_amplifier": 2
+	},
+	"jadeConfig": {
+		"tools_bouncer_duration": 2.0,
+		"tools_bouncer_amplifier": 4,
+		"speed_amplifier": 2,
+		"jump_boost_amplifier": 2
+	}
+}

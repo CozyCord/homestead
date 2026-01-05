@@ -1,0 +1,7 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "enable_tooltips": true,
+    "portal_fluid_seed": 1.0
+  }
+}

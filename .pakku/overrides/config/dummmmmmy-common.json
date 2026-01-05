@@ -1,0 +1,24 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "scarecrow": {
+    "mobs_whitelist": [
+      ""
+    ],
+    "mobs_blacklist": [
+      ""
+    ],
+    "scare_radius": 12
+  },
+  "general": {
+    "DPS_mode": "DYNAMIC",
+    "disable_equipment_damage": true,
+    "dummy_decoy": false,
+    "xp_per_damage_on_hit": 0.0,
+    "boss_health_color": "YELLOW",
+    "boss_health": 200
+  },
+  "mobs_damage_numbers": {
+    "damage_mode": "NONE",
+    "healing_mode": "NONE"
+  }
+}

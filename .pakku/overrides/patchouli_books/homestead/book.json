@@ -1,0 +1,15 @@
+{
+    "name": "Gears Awakening",
+    "landing_text": "Welcome, Tinkerer! You’ve made your first auto machine. Now the real spinning begins.",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "show_progress": false,
+    "subtitle": "The Cozy Engineer Guide",
+    "use_blocky_font": true,
+    "i18n": false,
+    "model": "patchouli:book_cyan",
+    "pamphlet": true,
+    "default_category": "homestead:basics",
+    "use_resource_pack": true
+}

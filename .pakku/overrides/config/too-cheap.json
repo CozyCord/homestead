@@ -1,0 +1,12 @@
+{
+  "maxLevelCost": 2147483647,
+  "breakChance": 0.12,
+  "nextCoefficient": 2,
+  "nextSummand": 1,
+  "doRenameCost": false,
+  "renameCost": 1,
+  "doRepairCost": false,
+  "maybeRepairCost": 0,
+  "doEnchantmentCost": false,
+  "maybeEnchantmentCost": 0
+}

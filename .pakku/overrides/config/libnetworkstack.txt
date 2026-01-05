@@ -1,0 +1,17 @@
+# LibNetworkStack configuration file.
+# Removing an option will reset it back to the default value.
+# Removing or altering comments doesn't replace them.
+
+# True to enable all debug logging.
+debug.log=false
+
+# True to enable recording type information when writing packets
+# (which is used when an exception is thrown while reading packets)
+debug.record_types=false
+
+# True to enable recording stacktraces when writing packets
+# (which is used when an exception is thrown while reading packets)
+# Unlike 'debug.record_types' this adds quite a lot of overhead,
+# so should only be used when absolutely necessary.
+debug.record_stacktraces=false
+

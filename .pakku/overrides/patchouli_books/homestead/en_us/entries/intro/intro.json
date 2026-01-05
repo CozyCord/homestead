@@ -1,0 +1,32 @@
+{
+  "name": "Automation Awakening",
+  "icon": "create:mechanical_bearing",
+  "category": "patchouli:basics",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Welcome, Tinkerer",
+      "text": "So... you built your first automated crop farm, did you? You've tasted the power of motion.You've witnessed your crops harvest themselves. And now, you want more. Good."
+    },
+    {
+      "type": "text",
+      "title": "The Bones of a Machine",
+      "text": "$(br)Every contraption begins with two things... $(#f00)$(l)Power $() and $(#f00)$(l)Purpose. $()Automation is a loop: $(#b182e5)$(l)Power,  $(#e5e582)Motion,  $(#e58282)Action,  $(#82d7e5)Results."
+    },
+    {
+      "type": "text",
+      "title": "Farm Tips",
+      "text": "$(li)Use $(#FFAA00)$(l)Brass Funnels $()to filter outputs.$(li)Stack $(#7BC35C)$(l)Bearings   $()to grow large farms.$(li)Use $(#AAAAAA)$(l)Deployers   $()to replant seeds for full automation."
+    },
+    {
+      "type": "text",
+      "title": "Things to Try Next",
+      "text": "$(br)Try $(#c6c6c6)$(l)Mechanical Mixers,  $(#ff9c00)Crafters,   $()and $(#ed83ff)$(l)Sequenced Assembly   $()for more complex automation. Yes... eventually... even $(#83b1ff)$(l)Trains."
+    },
+    {
+      "type": "text",
+      "title": "Final Words",
+      "text": "$(br)Your machines will grow more complex. Your gears will spin faster. But don't forget your first harvest. May your shafts never snap, and your belts stay turning. $(l)- 2013 T.M. Gearsprocket"
+    }
+  ]
+}

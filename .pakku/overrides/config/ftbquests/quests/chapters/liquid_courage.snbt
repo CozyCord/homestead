@@ -334,7 +334,7 @@
 				item: "alcocraftplus:kvass"
 				type: "item"
 			}]
-			subtitle: "Brew Kvass with: Hop, Apple, Honeycomb, Bread."
+			subtitle: "Brew Kvass with: Sugar, Apple, Honeycomb, Bread."
 			tasks: [{
 				id: "69D4CA7D1A275E19"
 				item: "alcocraftplus:kvass"

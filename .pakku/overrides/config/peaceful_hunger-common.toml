@@ -1,0 +1,5 @@
+# Peaceful = 0, Easy = 1, Normal = 2, Hard = 3
+hunger_difficulty = 3
+
+# Determines whether the "Natural Regeneration" game rule will affect players in Peaceful
+natural_regen_in_peaceful = false

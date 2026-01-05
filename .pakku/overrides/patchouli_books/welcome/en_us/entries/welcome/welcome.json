@@ -1,0 +1,40 @@
+{
+  "name": "Welcome to Homestead",
+  "icon": "homestead:golden_leaf",
+  "category": "patchouli:welcome",
+  "pages": [
+    {
+      "type": "text",
+      "title": "A Labor of Love",
+      "text": "$(br)Homestead is more than a modpack; it's a hand-built world shaped by the patience, passion, and creativity of Tokimi and the CozyCord Staff Team. Over 4 months in the making, it’s the result of hundreds of hours, thousands of dollars, and more cups of tea than we care to count."
+    },
+    {
+      "type": "text",
+      "title": "The Heart of the Pack",
+      "text": "$(br)Homestead is Vanilla Plus at its coziest; familiar enough to feel like home, yet filled with new mechanics, biomes, creatures, and curiosities waiting to be discovered. Whether you're crafting contraptions or cultivating the quietest corners of the world, there's something here for you."
+    },
+    {
+      "type": "text",
+      "title": "A Guide Through the Quiet",
+      "text": "$(br)The quest book is your companion; your whispering guide through the progression of this new world. It’s designed to gently nudge you toward key discoveries, reward your wanderings, and help you shape your journey at your own pace."
+    },
+    {
+      "type": "text",
+      "title": "Don't Miss the Tips",
+      "text": "$(br)Be sure to check the Tips section of the quest book! It’s full of helpful tricks, lesser-known mod features, and small touches that might surprise you. Even seasoned players will find something new in these pages."
+    },
+    {
+      "type": "text",
+      "title": "Enjoy the Journey",
+      "text": "$(br)Whether you're here to build, explore, automate, or simply unwind, we hope you enjoy Homestead as much as we do. There's magic in the soil, mystery in the stone, and a story in every seed you plant. Welcome home."
+    },
+    {
+      "type": "image",
+      "images": [
+        "homestead:textures/welcome/logo.png"
+      ],
+      "border": true,
+      "text": "$(br)Shoutout to Meleon, Army, Lyn, Yuki, Nylon, Alexelle, Gonzo, Cobra, Mama, Bloxcrew, Snowy, Wist, Xod, and Navinor for all your contribution towards the alpha and beta test phase ♡"
+    }
+  ]
+}

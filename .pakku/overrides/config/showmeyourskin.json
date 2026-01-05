@@ -1,0 +1,77 @@
+{
+  "globalEnabled": true,
+  "overridesEnabledInServerMode": false,
+  "combatCooldown": 16.0,
+  "fadeOutTime": 2.0,
+  "global": {
+    "pieces": {
+      "HAT": {
+        "transparency": 100
+      },
+      "SHIELD": {
+        "transparency": 100
+      },
+      "LEGS": {
+        "transparency": 100
+      },
+      "CHEST": {
+        "transparency": 100
+      },
+      "FEET": {
+        "transparency": 100
+      },
+      "ELYTRA": {
+        "transparency": 100
+      },
+      "HEAD": {
+        "transparency": 100
+      }
+    },
+    "trims": {
+      "MAINHAND": {
+        "transparency": 100
+      },
+      "CHEST": {
+        "transparency": 100
+      },
+      "FEET": {
+        "transparency": 100
+      },
+      "OFFHAND": {
+        "transparency": 100
+      },
+      "HEAD": {
+        "transparency": 100
+      },
+      "LEGS": {
+        "transparency": 100
+      }
+    },
+    "glints": {
+      "HAT": {
+        "transparency": 100
+      },
+      "SHIELD": {
+        "transparency": 100
+      },
+      "LEGS": {
+        "transparency": 100
+      },
+      "CHEST": {
+        "transparency": 100
+      },
+      "FEET": {
+        "transparency": 100
+      },
+      "ELYTRA": {
+        "transparency": 100
+      },
+      "HEAD": {
+        "transparency": 100
+      }
+    },
+    "showInCombat": true,
+    "showNameTag": true
+  },
+  "overrides": {}
+}

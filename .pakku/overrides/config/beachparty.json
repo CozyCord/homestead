@@ -1,0 +1,9 @@
+{
+  "spawnPalms": true,
+  "spawnSeashells": true,
+  "spawnSandwaves": true,
+  "allowBottleSpawning": true,
+  "bottleMaxCount": 2,
+  "bottleSpawnInterval": 6000,
+  "destroySandcastle": true
+}

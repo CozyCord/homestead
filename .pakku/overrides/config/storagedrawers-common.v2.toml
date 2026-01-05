@@ -1,0 +1,385 @@
+# General mod configuration
+[General]
+	# Enables excessive logging around certain parts of the mod.
+	# Can be ignored unless asked by the developer to enable.
+	debugTrace = false
+	# 
+	# Whether blocks with UI components are allowed to open them.
+	# Disabling UI will restrict some mod functionality.
+	enableUI = true
+	# 
+	# Whether to log actions such as adding rules or deny list entries.
+	# You may wish to disable this if you've added many such entries.
+	logStartupActivity = true
+	# 
+	# Internal use to record what version the config file was first written with.
+	configVersion = 2
+
+# Configuration around drawer storage blocks
+[Drawers]
+	# A base value multiplied against the storage size of all drawer slots.
+	# Change this to uniformly increase all storage amounts
+	baseStackStorage = 1
+
+	# Configuration for individual drawer configurations.
+	# Units are the number of stacks a slot holds before the base stack storage value is multiplied.
+	[Drawers.Blocks]
+
+		[Drawers.Blocks.FullStorage1x1]
+			unitsPerSlot = 32
+
+		[Drawers.Blocks.FullStorage1x2]
+			unitsPerSlot = 16
+
+		[Drawers.Blocks.FullStorage2x2]
+			unitsPerSlot = 8
+
+		[Drawers.Blocks.FullCompacting]
+			unitsPerSlot = 32
+
+		[Drawers.Blocks.HalfStorage1x1]
+			unitsPerSlot = 16
+
+		[Drawers.Blocks.HalfStorage1x2]
+			unitsPerSlot = 8
+
+		[Drawers.Blocks.HalfStorage2x2]
+			unitsPerSlot = 4
+
+		[Drawers.Blocks.HalfCompacting]
+			unitsPerSlot = 16
+
+	# Configuration around the auto compacting feature
+	[Drawers.Compacting]
+		# Whether compacting function is supported.  Disabling does not remove the block.
+		enabled = true
+		# 
+		# Enables additional rules for some Minecraft items, like quartz, brick, and clay.
+		# See logs for full set of rules that get added.
+		enableExtraCompactingRules = true
+		# 
+		# Compacting drawers require 2-way 2x2 or 3x3 recipes to associate items.
+		# Add additional rules here in the form: <big_item>, <small_item>, <amount>
+		compactingRules = ["minecraft:clay, minecraft:clay_ball, 4"]
+
+	# Configuration around detached drawers, which are individual drawer slots pulled from a drawer block.
+	[Drawers.Detached]
+		# Allows individual drawer slots to be pulled out from a drawer block.
+		enable = true
+		# 
+		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
+		# Debuff can be mitigated with portability upgrade, if it's enabled.
+		heavyDrawers = false
+		# 
+		# Drawers track the capacity upgrades from the block they were taken from.
+		# When enabled, drawers can only be placed back into a block with the same or lower max capacity.
+		# Drawers can still only be inserted into a block with enough capacity for the items held.
+		forceMaxCapacityCheck = false
+		# 
+		# Allows detached drawers to be stored in containers like bundles and shulker boxes.
+		# Due to current limitation, this rule will also apply to storing empty drawers in those containers.
+		canStoreInContainers = false
+
+	# Configuration around dropped drawer blocks that still have items inside them.
+	[Drawers.Filled]
+		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
+		# Debuff can be mitigated with portability upgrade, if it's enabled.
+		heavyDrawers = false
+		# 
+		# Allows filled drawers to be stored in other drawer blocks.
+		canStoreInDrawers = false
+		# 
+		# Allows filled drawers to be stored in containers like bundles and shulker boxes.
+		# Due to current limitation, this rule will also apply to storing empty drawers in those containers.
+		canStoreInContainers = false
+
+	# Configuration around framed drawers, which take their appearance from other blocks used as materials.
+	[Drawers.Framed]
+		# Allows crafting framed drawers.  Disabling does not remove existing framed drawers.
+		enable = true
+		# 
+		# Attempts to only allow solid, full-cube blocks to be used as materials.
+		# This check may still allow non-solid blocks if the blocks' properties indicate they should be solid but are not.
+		# Some non-solid blocks are also counted as non-opaque, and may be restricted by that setting as well.
+		enforceSolidMaterials = true
+		# 
+		# Attempts to only allow fully opaque blocks to be used as materials.
+		# This check may still allow non-opaque blocks if the blocks' properties indicate they should be opaque but are not.
+		enforceOpaqueMaterials = false
+		# 
+		# Each entry should be a namespace or fully namespaced block, e.g. minecraft:cobblestone
+		# Any items on the deny list are prevented from being used as any drawer material.
+		materialDenyList = []
+
+	# Configuration around storage of items.
+	[Drawers.Storage]
+		# 
+		# Each entry should be a namespace or fully namespaced item, e.g. minecraft:cobblestone
+		# Any items on the deny list are prevented from being stored in drawers
+		storeDenyList = ["storagedrawers:creative_vending_upgrade"]
+		# 
+		# What a drawer should do with its items when broken.  Acceptable values are:
+		# KEEP: Drawer retains all items in the dropped item, like shulker boxes.  This is the default behavior.
+		# DROP: Drawer drops items into the world, up to the dropStackLimit value.  Stored items over that limit are voided.
+		# VOID: Drawer voids all items when dropped.
+		#Allowed Values: KEEP, DROP, VOID
+		dropMode = "KEEP"
+		# 
+		# If dropMode is set to DROP, this is the maximum number of stacks that can be spilled into the world
+		# from the entire block.  By default, this is set to the amount a vanilla chest could drop.
+		dropStackLimit = 32
+
+# Configuration around the controller and drawer networks.
+[Controller]
+	# Controller range defines how far away a drawer can be connected on X, Y, or Z planes.
+	# The largest recommended range is around 75, or the expected chunk load distance.
+	# If setting this value higher, drawers will be unavailable if their chunks become unloaded.
+	controllerRange = 50
+
+# Configuration around upgrade items that can be inserted into drawer blocks.
+[Upgrades]
+
+	# Storage upgrades multiply storage capacity by the given amount.
+	# When multiple storage upgrades are used together, their multipliers are added before being applied.
+	[Upgrades.StorageTiers]
+
+		[Upgrades.StorageTiers.Obsidian]
+			enableUpgrade = true
+			storageMultiplier = 2
+
+		[Upgrades.StorageTiers.Copper]
+			enableUpgrade = true
+			storageMultiplier = 4
+
+		[Upgrades.StorageTiers.Iron]
+			enableUpgrade = true
+			storageMultiplier = 8
+
+		[Upgrades.StorageTiers.Gold]
+			enableUpgrade = true
+			storageMultiplier = 16
+
+		[Upgrades.StorageTiers.Emerald]
+			enableUpgrade = true
+			storageMultiplier = 64
+
+		[Upgrades.StorageTiers.Diamond]
+			enableUpgrade = true
+			storageMultiplier = 256
+
+		[Upgrades.StorageTiers.Netherite]
+			enableUpgrade = true
+			storageMultiplier = 2048
+
+	# Allows same-item slots to balance out their amounts when items are added or removed from a slot.
+	# Works across networks when acting through a controller.
+	[Upgrades.Balance]
+		enableUpgrade = true
+
+	# Allows the automatic conversion of same-type items based on configuration.
+	[Upgrades.Conversion]
+		enableUpgrade = true
+		# 
+		# Each type will be combined with each material to create a set of allow list entries.
+		# This is mainly a convenience for common ore-based materials.
+		oreTypeAllowList = ["forge:storage_blocks", "forge:ingots", "forge:nuggets"]
+		# 
+		# Each type will be combined with each material to create a set of allow list entries.
+		# This is mainly a convenience for common ore-based materials.
+		oreMaterialAllowList = ["aluminum", "constantan", "steel", "uranium", "invar", "tin", "lead", "silver", "platinum", "nickel", "osmium", "bronze", "electrum"]
+		# 
+		# Each allow list entry should be a fully namespaced tag, e.g. c:ingots/copper
+		tagAllowList = []
+		# 
+		# Each deny list entry should be a fully namespaced tag, e.g. c:ingots/copper.
+		# All items not on the allow list are denied implicitly.  This can be used to exclude
+		# specific entries created from the ore allow list set.
+		tagDenyList = []
+		# 
+		# Each entry is a semicolon-separated list of fully-namespaced items. All items within the
+		# same entry are considered equivalent and convertible/interchangeable.
+		# Example: ["thermal:nickel_ore;immersiveengineering:ore_nickel"]
+		itemEquivalenceGroups = []
+
+	# Allows storing ~2.1 billion (MAX_INT) items in each drawer slot.
+	[Upgrades.CreativeStorage]
+		enableUpgrade = true
+
+	# Allows vending infinite amounts of the items in each drawer slot.
+	[Upgrades.CreativeVending]
+		enableUpgrade = true
+
+	# Adds fill bars to the face of drawers.
+	[Upgrades.FillLevel]
+		enableUpgrade = true
+
+	# Renders drawer labels brighter than surrounding environment would allow.
+	[Upgrades.Illumination]
+		enableUpgrade = true
+		# 
+		# Renders labels at minimum light level between 0 - 15
+		#Range: 0 ~ 15
+		illuminationLevel = 13
+		# 
+		# Renders labels without upgrade at minimum light level between 0 - 15
+		#Range: 0 ~ 15
+		minIlluminationLevel = 1
+
+	# Collects matching items through its top like a vanilla hopper.
+	[Upgrades.Hopper]
+		enableUpgrade = true
+
+	# Collects nearby matching items by teleporting them instantly to the drawer
+	[Upgrades.Magnet]
+		# 
+		# When multiple magnet upgrades are used, their ranges are added together.
+		additiveRange = true
+		# 
+		# Range is blocks out from drawer as: [horizontal, up, down]
+		# If ranges from multiple upgrades are added, they are not allowed to exceed these values.
+		maxRange = [24, 8, 0]
+
+		[Upgrades.Magnet.Level1]
+			enableUpgrade = true
+			# 
+			# Range is blocks out from drawer as: [horizontal, up, down]
+			range = [1, 1, 0]
+			# 
+			# Ticks between active collection when this is the highest upgrade tier.
+			activeSpeed = 20
+			# 
+			# Ticks between collection checks when this is the highest upgrade tier.
+			# Collection is idle when items have not been collected within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Magnet.Level2]
+			enableUpgrade = true
+			# 
+			# Range is blocks out from drawer as: [horizontal, up, down]
+			range = [4, 2, 0]
+			# 
+			# Ticks between active collection when this is the highest upgrade tier.
+			activeSpeed = 10
+			# 
+			# Ticks between collection checks when this is the highest upgrade tier.
+			# Collection is idle when items have not been collected within the last idleSpeed interval.
+			idleSpeed = 20
+
+		[Upgrades.Magnet.Level3]
+			enableUpgrade = true
+			# 
+			# Range is blocks out from drawer as: [horizontal, up, down]
+			range = [8, 3, 0]
+			# 
+			# Ticks between active collection when this is the highest upgrade tier.
+			activeSpeed = 5
+			# 
+			# Ticks between collection checks when this is the highest upgrade tier.
+			# Collection is idle when items have not been collected within the last idleSpeed interval.
+			idleSpeed = 20
+
+	# Restricts capacity of drawer to one stack.
+	[Upgrades.OneStack]
+		enableUpgrade = true
+
+	# Allows drawers with contents to be freely carried when heavy drawers is enabled.
+	[Upgrades.Portability]
+		enableUpgrade = true
+
+	# Lets drawers emit redstone signals based on their fill level.
+	[Upgrades.Redstone]
+		enableUpgrade = true
+		# 
+		# Min redstone upgrades output the minimum signal of all drawers in block.
+		enableMinUpgrade = true
+		# 
+		# Max redstone upgrades output the maximum signal of all drawers in block.
+		enableMaxUpgrade = true
+		# 
+		# Whether redstone upgrades should emit an analog redstone signal,
+		# requiring the use of a comparator to read it.
+		analogOutput = true
+
+	# Lets drawers connect to a controller wirelessly.
+	[Upgrades.Remote]
+		enableUpgrade = true
+		# 
+		# Group variant connects all drawers connected to the upgraded block.
+		enableGroupUpgrade = true
+		# 
+		# Sets the max range of the single-variant remote upgrade.
+		# The range is capped by the controller range.  Set to 0 to match controller range.
+		maxRange = 0
+		# 
+		# Sets the max range of the group-variant remote upgrade.
+		# The range is capped by the controller range.  Set to 0 to match controller range.
+		maxGroupRange = 0
+
+	# Causes drawers to accept but void compatible items when they are filled to capacity.
+	[Upgrades.Void]
+		enableUpgrade = true
+
+# Configuration around tools, namely the various 'keys' that can be used on drawers.
+[Tools]
+
+	# Drawer keys are used to lock drawers to the items they already hold.
+	[Tools.DrawerKey]
+		enable = true
+
+	# Quantify keys are used to show or hide the count of items on the face of drawers.
+	[Tools.QuantifyKey]
+		enable = true
+		# 
+		# Show labels by default on newly placed drawers.
+		showDefault = false
+
+	# Concealment keys are used to show or hide the item labels on the face of drawers.
+	# The primary use of this key is for performance by disabling the more expensive dynamic rendering.
+	[Tools.ConcealmentKey]
+		enable = true
+
+	# Personal keys allow drawers to be locked to their owners, so only they can place or take items.
+	[Tools.PersonalKey]
+		enable = true
+
+	# Priority keys change the priority of drawers when finding a compatible slot to insert items into.
+	[Tools.PriorityKey]
+		enable = true
+
+	# Suspend keys stop external interaction, e.g. from hopper or magnet upgrades.
+	[Tools.PauseKey]
+		enable = true
+
+# Configuration around integration with third party mods.
+[Integration]
+
+	# Configuration around the CoFH Core mod.
+	# Adds support for a CoFH groups personal key.
+	[Integration.CoFHCore]
+		# Enables CoFH Core integration if mod is present.
+		enable = true
+
+	# Configuration around the FTB Chunks mod.
+	# Improves support for claimed chunks.
+	[Integration.FTBChunks]
+		# Enables FTB Chunks integration if mod is present.
+		enable = true
+
+	# Configuration around the FTB Teams mod.
+	# Adds support for a teams personal key.
+	[Integration.FTBTeams]
+		# Enables FTB Teams integration if mod is present.
+		enable = true
+		# 
+		# Enables recipe to obtain key from another supported personal key in crafting grid.
+		enableCycleRecipe = true
+
+	# Configuration around the WAILA/HWYLA/Jade family of block inspection mods.
+	[Integration.WAILA]
+		# Enables Jade integration if mod is present.
+		enable = true
+		# When true, shows quantity as NxS + R (by stack size) rather than count
+		stackRemainder = true
+		# 
+		# When true, does not show current quantities unless quantify key was used
+		respectQuantifyKey = false

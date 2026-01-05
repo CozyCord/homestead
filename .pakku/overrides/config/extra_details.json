@@ -1,0 +1,35 @@
+{
+  "blockSettings": {
+    "blacklist": [],
+    "sign": {
+      "enabled": true,
+      "pitchTilt": 2.0,
+      "yawTilt": 5.0,
+      "rollTilt": 5.0,
+      "randomTilt": true
+    },
+    "hangingSign": {
+      "enabled": true
+    },
+    "door": {
+      "enabled": true,
+      "animationSpeed": 1.0
+    },
+    "trapdoor": {
+      "enabled": true,
+      "animationSpeed": 1.0
+    },
+    "fenceGate": {
+      "enabled": true,
+      "animationSpeed": 1.0
+    },
+    "lever": {
+      "enabled": true,
+      "animationSpeed": 1.0
+    },
+    "chest": {
+      "enabled": true,
+      "animationSpeed": 1.0
+    }
+  }
+}

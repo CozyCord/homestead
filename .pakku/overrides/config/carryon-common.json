@@ -178,7 +178,8 @@
       "mekanismgenerators:heat_generator",
       "mna:filler_block",
       "spudaciousshops:*",
-      "spawn:sunflower"
+      "spawn:sunflower",
+      "connectiblechains:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -205,7 +206,9 @@
       "taterzens:npc",
       "easy_npc:*",
       "bodiesbodies:dead_body",
-      "spawn:hamster"
+      "spawn:hamster",
+      "connectiblechains:*",
+      "connectiblechains:chain_knot"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [

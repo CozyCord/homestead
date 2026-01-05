@@ -1,0 +1,10 @@
+{
+  "renameCost": 0,
+  "renameCostPerWholeStack": true,
+  "dropNameTagsOnDeath": true,
+  "dropNameTagsOnNameChange": true,
+  "enableNameTagShearing": true,
+  "enableRenameScreen": true,
+  "enableCraftingRecipe": true,
+  "denylist": []
+}

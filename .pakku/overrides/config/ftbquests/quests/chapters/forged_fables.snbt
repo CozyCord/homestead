@@ -849,7 +849,7 @@
 				}
 				{
 					id: "13BFFB2201BC0E65"
-					item: "vanillabackport:red_harness"
+					item: "minecraft:red_harness"
 					type: "item"
 				}
 			]
@@ -1088,7 +1088,7 @@
 				}
 				{
 					id: "22FB0827C1FB151D"
-					item: "vanillabackport:orange_harness"
+					item: "minecraft:orange_harness"
 					type: "item"
 				}
 			]
@@ -1128,7 +1128,7 @@
 				}
 				{
 					id: "6E2F9E1FC4640E0B"
-					item: "vanillabackport:lime_harness"
+					item: "minecraft:lime_harness"
 					type: "item"
 				}
 			]
@@ -1168,7 +1168,7 @@
 				}
 				{
 					id: "36DC0C5F21837038"
-					item: "vanillabackport:light_blue_harness"
+					item: "minecraft:light_blue_harness"
 					type: "item"
 				}
 			]
@@ -1208,7 +1208,7 @@
 				}
 				{
 					id: "717CFAFBDFC0F295"
-					item: "vanillabackport:blue_harness"
+					item: "minecraft:blue_harness"
 					type: "item"
 				}
 			]
@@ -1248,7 +1248,7 @@
 				}
 				{
 					id: "051FE204CEC94F01"
-					item: "vanillabackport:magenta_harness"
+					item: "minecraft:magenta_harness"
 					type: "item"
 				}
 			]
@@ -2283,7 +2283,7 @@
 				}
 				{
 					id: "148D29DC0D6E1975"
-					item: "vanillabackport:green_harness"
+					item: "minecraft:green_harness"
 					type: "item"
 				}
 			]

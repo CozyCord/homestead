@@ -1,0 +1,9 @@
+{
+  "common": {
+    "enableGolemBossBar": true,
+    "biomes": [
+      "minecraft:swamp",
+      "minecraft:mangrove_swamp"
+    ]
+  }
+}

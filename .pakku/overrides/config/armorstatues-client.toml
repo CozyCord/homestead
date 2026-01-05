@@ -1,0 +1,8 @@
+#Do not check if the client has the necessary permission level for executing the '/data' command when trying to edit an armor stand. Useful when the current server is using custom permissions handling.
+override_client_permissions_check = false
+#The delay in ticks for sending queued client commands for editing armor stands to the server. Increase this values if commands are sent too quickly and the server fails to process all of them.
+#Range: > 20
+client_command_delay = 20
+#Allows for using this mod on a server without it (like a vanilla server) when the Vanilla Tweaks Armor Statues data pack is installed without the need for being a server operator.
+#Download the Vanilla Tweaks Armor Statues data pack from here: https://vanillatweaks.net/
+use_vanilla_tweaks_triggers = false

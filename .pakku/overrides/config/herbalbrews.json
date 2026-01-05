@@ -1,0 +1,17 @@
+{
+  "items": {
+    "banner": {
+      "giveEffect": true,
+      "showTooltip": true
+    },
+    "hat": {
+      "damageReductionEnabled": true,
+      "damageReductionAmount": 40
+    }
+  },
+  "blocks": {
+    "brewingDuration": 1200,
+    "dryingDuration": 900,
+    "jugEffectDuration": 900
+  }
+}

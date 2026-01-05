@@ -1,0 +1,82 @@
+[biome]
+	has_cedar_thicket = true
+	has_xeric_plains = true
+	has_boreal_taiga = true
+	has_redwood_forest = true
+	has_carnation_fields = true
+	has_arid_savanna = true
+	has_marigold_meadows = true
+	has_shrubland = true
+	has_arid_highlands = true
+	has_stratified_desert = true
+	has_tropical_basin = true
+	has_marsh = true
+	has_coniferous_covert = true
+	has_flowering_shrubland = true
+	has_tropical_shores = true
+	has_snowcapped_red_peaks = true
+	has_sugi_forest = true
+	has_golden_wilds = true
+	has_prairie = true
+	has_blooming_sugi_forest = true
+	has_bamboo_wetlands = true
+	has_dusty_slopes = true
+	has_lavender_fields = true
+	has_tropical_woods = true
+	has_heather_fields = true
+	has_wisteria_forest = true
+	has_oak_savanna = true
+	has_fir_forest = true
+	has_blooming_highlands = true
+	has_floral_ridges = true
+	has_alpine_highlands = true
+	has_woody_highlands = true
+	has_lively_dunes = true
+	has_sleeted_slopes = true
+	has_tundra = true
+	has_snowy_fir_forest = true
+	has_cypress_fields = true
+	has_red_peaks = true
+	has_aspen_forest = true
+	has_windswept_sugi_forest = true
+	has_maple_woodlands = true
+	has_scorched_dunes = true
+	has_sparse_tropical_woods = true
+	has_shrubby_highlands = true
+	has_drylands = true
+	has_alpine_clearings = true
+	has_blooming_dunes = true
+	has_white_cliffs = true
+	has_chaparral = true
+	has_snowy_redwood_forest = true
+	has_wooded_drylands = true
+
+[region]
+	terra_solaris_frequency = 4
+	terra_ferax_frequency = 4
+	terra_flava_frequency = 4
+	terra_laeta_frequency = 4
+	terra_mater_frequency = 4
+
+[datapacks]
+	jungle_toggle = true
+	savanna_toggle = true
+	windswept_hills_toggle = true
+	mountain_biomes_toggle = true
+	desert_toggle = true
+	swamp_toggle = true
+	flower_forest_toggle = true
+	birch_forest_toggle = true
+	vanilla_trees_toggle = false
+	badlands_toggle = true
+	dark_forest_toggle = true
+
+[misc]
+	#Toggle the additional creative inventory tab
+	creative_tab = true
+	#Calcite clusters from coral feature
+	calcite_generator = true
+	#Toggle the Pillar Generation (turn off for lower end devices)
+	sugi_and_stratified_pillars = true
+	#Toggle the Deepslate Generator
+	deepslate_generator = true

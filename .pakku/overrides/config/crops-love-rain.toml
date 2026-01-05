@@ -1,0 +1,14 @@
+[individual]
+	useGeneralSpeedSaplings = true
+	sugarCaneCustomSpeed = 10
+	bambooCustomSpeed = 10
+	useGeneralSpeedBamboo = true
+	useGeneralSpeedCrops = true
+	cropsCustomSpeed = 10
+	useGeneralSpeedSugarCane = true
+	useIndividualSpeeds = false
+	saplingCustomSpeed = 10
+
+[general]
+	rainGrowthSpeed = 3
+	useRainGrowthSpeed = true

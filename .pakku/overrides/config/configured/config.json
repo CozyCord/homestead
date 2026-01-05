@@ -1,0 +1,12 @@
+{
+  "motd": "_",
+  "fakeHardcore": false,
+  "disablePlayerConnections": false,
+  "disablePlayerConnectionsJoinMessage": "",
+  "disableEnd": false,
+  "disableEndPortalFrameFilling": false,
+  "disableEyeOfEnderCasting": false,
+  "disableEndGateways": false,
+  "disableNether": false,
+  "disablePVP": false
+}

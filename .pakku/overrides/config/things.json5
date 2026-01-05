@@ -1,0 +1,20 @@
+{
+	"generateGleamingOre": true,
+	"appleTrinket": true,
+	"waxGlandMultiplier": 10.0,
+	"infernalScepterDurability": 64,
+	"nerfBeaconsWithMomentum": true,
+	"renderTrinkets": true,
+	"renderAppleTrinket": true,
+	"renderAgglomerationTrinket": true,
+	"makeLockedContainersUnbreakable": false,
+	"enableAgglomeration": true,
+	"enableAgglomerationInvScrollSelection": true,
+	"displacementTomeFuelConsumption": 1,
+	"sockPerLevelSpeedAmplifier": 0.019999999552965164,
+	"effectLevels": {
+		"mossNecklaceRegen": 2,
+		"miningGloveMomentum": 2,
+		"riotGauntletStrength": 1
+	}
+}

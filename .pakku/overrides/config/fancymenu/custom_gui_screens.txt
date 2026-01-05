@@ -1,0 +1,27 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = welcomescreen_update
+  title = What's New?
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = welcomescreen_welcome
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+

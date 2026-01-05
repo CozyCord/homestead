@@ -1,0 +1,196 @@
+# Render a 3D preview of tiered items (swords, axes, etc.) on the left side of the tooltip.
+# 
+# Default: true
+TIERED_ITEMS_RENDERER = true
+# Render a 3D preview of armor pieces on the left side of the tooltip.
+# 
+# Default: true
+ARMOR_ITEMS_RENDERER = true
+# Apply a custom frame overlay texture to every item. This option is overrided if the hovered itemstack has a custom frame. Write
+# down the texture location (such as tooltipoverhaul:textures/overlay/silver_frame.png) or leave it empty. No frame overlays are
+# applied globally by default.
+# 
+# Default:
+GLOBAL_FRAME_OVERLAY_LOCATION = ""
+# Disable tooltip scrolling
+# 
+# Default: false
+DISABLE_TOOLTIP_SCROLLING = false
+# Disable the divider line
+# 
+# Default: false
+DISABLE_DIVIDER_LINE = false
+# Horizontal offset (in pixels) for the second panel when a 3D preview is shown. Negative = left, positive = right.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_X = 0
+# Vertical offset (in pixels) for the second panel when a 3D preview is shown. Negative = up, positive = down.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_Y = 0
+# Default inner overlay style for tooltips. Options: glint, solid (monochrome), gradient.
+# 
+# Default: gradient
+DEFAULT_INNER_OVERLAY_TYPE = "gradient"
+# Default tooltip background color in ARGB format (#AARRGGBB). Example: #F0010110.
+# 
+# Default: #F0000000
+DEFAULT_BACKGROUND_COLOR = -268435456
+# Override vanilla tooltips even when no ItemStack is present (e.g., JEI category buttons or unsupported stacks). To disable custom
+# tooltips for specific items, edit your custom_frames.json and set disableTooltip=true for those items (or tags).
+# 
+# Default: true
+SHOW_TOOLTIP_WITHOUT_STACK = true
+# Horizontal padding for the main panel.
+# 
+# Default: 2
+# Range: -Infinity ~ Infinity
+MAIN_PANEL_PADDING_X = 2
+# Vertical padding for the main panel.
+# 
+# Default: 2
+# Range: -Infinity ~ Infinity
+MAIN_PANEL_PADDING_Y = 2
+# Title alignment. Options: left, middle, right.
+# 
+# Default: left
+TITLE_X_ALIGNMENT = "left"
+# Rating alignment. Options: left, middle, right.
+# 
+# Default: left
+RATING_X_ALIGNMENT = "left"
+# Icon background type. Options: focus, void, slot, slot_border and glow
+# 
+# Default: slot_border
+ICON_BACKGROUND_TYPE = "slot_border"
+# Show rating text.
+# 
+# Default: false
+SHOW_RATING = false
+# Disable the item icon.
+# 
+# Default: false
+DISABLE_ICON = false
+# Animation style for the icon appearance.
+# 
+# Default: skew
+ICON_APPEAR_ANIMATION = "skew"
+# Rotation speed of the icon.
+# 
+# Default: 0.0
+# Range: -Infinity ~ Infinity
+ICON_ROTATING_SPEED = 0.0
+# Rotation speed multiplier for the tiered item preview in the second panel.
+# 
+# Default: 1.0
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_RENDERER_SPEED = 1.0
+# Divider line color. Options: 'match_inner_frame_color', 'match_item_name_color' or a hex ARGB color (e.g., 0xA0EFEFEF).
+# 
+# Default: match_inner_frame_color
+DIVIDER_LINE_COLOR = "match_inner_frame_color"
+# Color palette for COMMON rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF969696, 0xFF575757, 0xFF3C3C3C
+COMMON_PALETTE_COLORS = "0xFF969696, 0xFF575757, 0xFF3C3C3C"
+# Color palette for UNCOMMON rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF9CA028, 0xFF6A6D18, 0xFF4B4D0E
+UNCOMMON_PALETTE_COLORS = "0xFF9CA028, 0xFF6A6D18, 0xFF4B4D0E"
+# Color palette for RARE rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF335FA0, 0xFF193A6D, 0xFF0A1D38
+RARE_PALETTE_COLORS = "0xFF335FA0, 0xFF193A6D, 0xFF0A1D38"
+# Color palette for EPIC rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFFA02283, 0xFF691356, 0xFF3C0730
+EPIC_PALETTE_COLORS = "0xFFA02283, 0xFF691356, 0xFF3C0730"
+# Color palette for LEGENDARY rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFFA0803C, 0xFF815F19, 0xFF372808
+LEGENDARY_PALETTE_COLORS = "0xFFA0803C, 0xFF815F19, 0xFF372808"
+# Color palette for CHAOS rarity (bright to dark). Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF9F373A, 0xFF81191B, 0xFF370809
+CHAOS_PALETTE_COLORS = "0xFF9F373A, 0xFF81191B, 0xFF370809"
+# Size (in pixels) of the second panel in the X axis when a 3D preview is shown.
+# 
+# Default: 30
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_SIZE_X = 30
+# Size (in pixels) of the second panel in the Y axis when a 3D preview is shown.
+# 
+# Default: 60
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_SIZE_Y = 60
+# Automatically reposition the preview panel (second panel) to the right side when there is insufficient space on the left. If set to
+# false, the panel will always remain on the left.
+# 
+# Default: true
+AUTO_REPOSITION_PREVIEW_PANEL = true
+# Horizontal offset (in pixels) for the tooltip. Negative = left, positive = right.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+TOOLTIP_POSITION_X = 0
+# Vertical offset (in pixels) for the tooltip. Negative = up, positive = down.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+TOOLTIP_POSITION_Y = 0
+# Extra padding above the divider line
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+DIVIDER_LINE_TOP_PADDING = 0
+# Extra padding below the divider line
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+DIVIDER_LINE_BOTTOM_PADDING = 0
+# Horizontal padding for the main panel when there isn't a stack present.
+# 
+# Default: 1
+# Range: -Infinity ~ Infinity
+NO_STACK_TOOLTIP_PADDING_X = 1
+# Vertical padding for the main panel when there isn't a stack present.
+# 
+# Default: 1
+# Range: -Infinity ~ Infinity
+NO_STACK_TOOLTIP_PADDING_Y = 1
+# Effects. Options: cinder, echo, galaxy, magic_orbs, speed_lines, nebula, spiral, white_dust, metal_shining, rim_light, ripples,
+# sonar, stars. You can chain effects together, for example: 'white_dust, nebula'
+# 
+# Default:
+EFFECTS = ""
+# Enable the tooltip shadow.
+# 
+# Default: false
+SHOW_TOOLTIP_SHADOW = false
+# Vignette entries for gradient overlays around the tooltip background. Each vignette must be written in parentheses in this exact
+# order: (type, position, color, radius, extraPositionX, extraPositionY). Example: (circular, top_left, #FF567823, 0.4, 0, 0). You
+# can define multiple vignettes by separating them with commas: (...), (...), (...). type = vignette shape (options: circular, hole).
+# position = anchor on the tooltip (e.g. top_left, top_right, middle, right, bottom_left). color = ARGB hex in #AARRGGBB. radius =
+# relative size factor (e.g. radius 0.4). extraPositionX / extraPositionY = additional pixel offset from the chosen position.
+# 
+# Default:
+VIGNETTES = ""
+# Divider line type. Options: 'gradient', 'static', 'linear'
+# 
+# Default: gradient
+DIVIDER_LINE_TYPE = "gradient"
+# Preview model to render in the second panel. Options: armor_stand, player_skin.
+# 
+# Default: armor_stand
+PREVIEW_PANEL_MODEL = "armor_stand"
+# If PREVIEW_PANEL_MODEL is set to player_skin, renders the current player skin (true) or a placeholder skin (false).
+# 
+# Default: true
+USE_PLAYER_SKIN_IN_PREVIEW = true
+# Color palette for tooltips without a stack. Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF969696, 0xFF575757, 0xFF3C3C3C
+NO_STACK_PALETTE_COLORS = "0xFF969696, 0xFF575757, 0xFF3C3C3C"
+

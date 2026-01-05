@@ -1,1 +1,0 @@
-This version of Euphoria Patches is an add-on for Complementary Shaders r5.4 by EminGT

@@ -1,0 +1,57 @@
+{
+  "name": "The Shift (Lore)",
+  "icon": "create:cogwheel",
+  "category": "patchouli:basics",
+  "pages": [
+    {
+      "type": "text",
+      "title": "First Turn",
+      "text": "Long before steam hissed or gears clicked, the world turned in silence. Then came the Great Shift—a time when something deep beneath the soil began to spin. The earth groaned. The rivers flowed faster. And with them, came motion. No one knows what started it. Some say it was a seed of pure brass planted by the first dreamer. Others say it was a forgotten machine waking up."
+    },
+    {
+      "type": "text",
+      "title": "The First Engineers",
+      "text": "$(br)The first to understand the Turning were not kings or warriors—they were tinkerers. Farmers who glued levers to carts. Shepherds who spun windmills to grind wheat. Their descendants are the engineers of today: humble, clever, curious. Carving machines not for conquest, but for comfort."
+    },
+    {
+      "type": "text",
+      "title": "A Gentle Power",
+      "text": "$(br)Here, in the land shaped by moss and motion, power is not loud. It is quiet. It hums through oak beams and stone shafts, through raindrops on water wheels and the soft clack of cogwheels under starlight. In this world, progress whispers instead of roars."
+    },
+    {
+      "type": "text",
+      "title": "T.M. Gearsprocket",
+      "text": "$(br)Among the earliest engineers was a gentle soul named T.M. Gearsprocket. A tea; drinking thinker with oil; stained sleeves, Gearsprocket believed machines should bring ease, not empire. His journals, filled with diagrams and doodles, became the foundation of cozy engineering as we know it."
+    },
+    {
+      "type": "text",
+      "title": "The Journals",
+      "text": "$(br)Scattered across the land, Gearsprocket's journals are said to contain not only instructions, but musings—on why the wind turns, how light falls on brass, and what it means to build something with care. Some pages are smudged with jam. Others with soot. All are treasures."
+    },
+    {
+      "type": "text",
+      "title": "The Great Spinmill",
+      "text": "$(br)It is said that in the center of the old woods, hidden beneath ivy and mushrooms, there lies a Spinmill so grand it once turned an entire valley. No one remembers what it powered. Some say it powered dreams. Others say it simply turned, because it could."
+    },
+    {
+      "type": "text",
+      "title": "The Cogfolk",
+      "text": "$(br)In the quiet corners of the world, some claim to have met the Cogfolk—small beings of copper and curiosity. Not machines, not quite people. They fix broken belts, whistle in chimneys, and vanish if you thank them. Gearsprocket swore they helped him build his first bearing."
+    },
+    {
+      "type": "text",
+      "title": "On Super Glue",
+      "text": "$(br)T.M. Gearsprocket once wrote, 'Super Glue is less an adhesive and more a promise. A promise that one block shall always stay with another, no matter how far they spin.' This entry was accompanied by a sketch of two sheep tied to a rotating platform. It was labeled 'DO NOT REPEAT'."
+    },
+    {
+      "type": "text",
+      "title": "Why We Build",
+      "text": "$(br)We do not build to dominate. We build to make tea without standing up. We build so that wheat harvests itself and our backs do not ache. We build to hear the quiet whirr of purpose in the morning fog. That is enough. That is everything."
+    },
+    {
+      "type": "text",
+      "title": "In the Turning",
+      "text": "$(br)To build is to remember. To turn the gear is to honor the Turning. And so long as there are hands to place a shaft and hearts to wonder why it spins, the world will never truly be still."
+    }
+  ]
+}

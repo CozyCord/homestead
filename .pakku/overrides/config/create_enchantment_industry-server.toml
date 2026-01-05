@@ -1,0 +1,64 @@
+#.
+#The Tank Capacity of the Disenchanter
+#[@cui:RequiresReload:server]
+#Range: > 0
+disenchanterTankCapacity = 1000
+#.
+#The Tank Capacity of the Copier
+#[@cui:RequiresReload:server]
+#Range: > 0
+copierTankCapacity = 4000
+#.
+#The Tank Capacity of the Blaze Enchanter
+#[@cui:RequiresReload:server]
+#Range: > 0
+blazeEnchanterTankCapacity = 2000
+#.
+#The Maximum Extended Levels beyond Enchantment's Max Level that can be reached through Hyper-Enchanting
+#Range: > 0
+maxHyperEnchantingLevelExtension = 2
+#.
+#The Chance of whether Deployer-killed entities will drop Experience Nugget
+#Range: 0.0 ~ 1.0
+deployerXpDropChance = 1.0
+#.
+enableHyperEnchant = true
+#.
+#Range: 0.009999999776482582 ~ 100.0
+enchantByBlazeEnchanterCostCoefficient = 1.0
+#.
+#Range: 0.009999999776482582 ~ 100.0
+hyperEnchantByBlazeEnchanterCostCoefficient = 1.0
+#.
+#Range: 0.009999999776482582 ~ 100.0
+copyEnchantedBookCostCoefficient = 1.0
+#.
+#Range: 0.009999999776482582 ~ 100.0
+copyEnchantedBookWithHyperExperienceCostCoefficient = 1.0
+#.
+#The amount of ink needed to be consumed by Copying one page of Written Book
+#Range: 1 ~ 100
+copyWrittenBookCostPerPage = 5
+#.
+#The amount of liquid experience needed to be consumed by Copying Name Tag
+#Range: 1 ~ 1000
+copyNameTagCost = 7
+#.
+#The amount of ink needed to be consumed by Copying Train Schedule
+#Range: 1 ~ 1000
+copyTrainScheduleCost = 10
+#.
+#The amount of ink needed to be consumed by Copying Clipboard
+#Range: 1 ~ 1000
+copyClipboardCost = 10
+#.
+#The probability of dropping Experience Nugget after killing a creature on the Crushing Wheel
+#Range: 0.0 ~ 1.0
+crushingWheelDropExpRate = 0.30000001192092896
+#.
+#The Scale of Experience Nugget dropped by Crushing-Wheel-killed entities
+#Range: 0.10000000149011612 ~ 100.0
+crushingWheelDropExpScale = 0.3400000035762787
+#.
+#Whether or not copying a written book always get original version. Setting it to false let you always get copy version of the book.
+copyingWrittenBookAlwaysGetOriginalVersion = true

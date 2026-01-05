@@ -1,0 +1,8 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Modifier key relevant to the search-passing behavior. Not relevant if the behavior is ALWAYS or NEVER
+modifier = "ALT"
+# How to pass the current search query to a child entry. When satisfied, the child screen will open with the current search term pre-loaded in its search bar.
+behavior = "HOLD_MODIFIER"
+# When true a config GUI will clear its search query when opened, otherwise it will cache and maintain the query.
+clearSearch = true

@@ -1,0 +1,25 @@
+	["Perfect Plushies Common Config"."Wandering Plushie Trader Config"]
+		#How long to wait to try and spawn after server starts
+		#Range: 0 ~ 10000
+		trader-default-tick-delay = 1200
+		#Ticks between attempting to spawn
+		#Range: 0 ~ 1000000
+		trader-default-spawn-delay = 24000
+		#Starting chance to attempt to spawn
+		#Range: 0 ~ 100
+		trader-default-spawn-chance = 25
+		#Minimum Chance to attempt to spawn
+		#Range: 0 ~ 100
+		trader-min-spawn-chance = 25
+		#Maximum Chance to attempt to spawn
+		#Range: 0 ~ 100
+		trader-max-spawn-chance = 75
+		#Amount to change the Attempt Chance on Attempt Failure
+		#Range: -100 ~ 100
+		trader-spawn-chance-increase = 25
+		#Actual spawn chance when attempt succeeds
+		#Range: 1 ~ 100
+		trader-spawn-one-in-x-chance = 10
+		#On spawn Failure, how many times to re-attempt spawning(basically if it tries spawning where it can't spawn, try again somewhere else) 
+		#Range: 0 ~ 100
+		trader-number-of-spawn-attempts = 10

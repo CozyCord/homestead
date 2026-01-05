@@ -1,0 +1,8 @@
+{
+  "gliding": "true",
+  "wind_catching": "true",
+  "slow_falling": "GLIDING_ONLY",
+  "smoke_boosting": "WIND_CATCHING_ONLY",
+  "durability": "true",
+  "enchantment_glint": "false"
+}

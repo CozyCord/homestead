@@ -1,0 +1,50 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "misc": {
+    "spelunkery_creative_tab": true,
+    "diamond_grindstone_deplete_chance": 64,
+    "parachute_opening_delay": 10,
+    "enable_mores": true,
+    "enable_rough_gems": true,
+    "enable_raw_nuggets": true,
+    "ores_drop_base_stone": false
+  },
+  "utilities": {
+    "hammer_and_chisel_charge_time": 20,
+    "tuning_fork_range": 128,
+    "echo_fork_range": 16,
+    "echo_fork_cooldown": 600,
+    "echo_glow_duration": 1200,
+    "sculk_drops_with_shears": true,
+    "magnet_range": 8,
+    "magnetite_range": 64
+  },
+  "nether_portals_and_portal_fluid": {
+    "flint_and_steel_portal_lighting": true,
+    "portal_destruction_crying_obsidian": true,
+    "portal_creation_sound": true,
+    "portal_destruction_sound": true,
+    "portal_fluid_drinking": true,
+    "instant_teleportation": true,
+    "piglins_give_crying_obsidian": true,
+    "dimensional_tears_from_crying_obsidian": false,
+    "dimensional_tears_from_respawn_anchor": true,
+    "portal_fluid_ocean": true,
+    "end_ocean_bucketable": false
+  },
+  "slimes": {
+    "slimes_spawn_in_all_caves": false,
+    "create_slimes_in_cauldrons": true,
+    "slimes_friendly_to_players_with_regeneration": true,
+    "slimes_always_friendly": false,
+    "slime_eating_cooldown": 150,
+    "enable_slime_growth": true,
+    "slime_growth_chance": 10,
+    "slime_growth_max": 5
+  },
+  "worldgen": {
+    "stone_stripe_features": false,
+    "sporophytes_in_lush_caves": true,
+    "dark_forest_portabellas": true
+  }
+}

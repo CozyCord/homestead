@@ -1,0 +1,141 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+redstoneBlockDust = true
+redstoneBlockDustDensity = "DEFAULT"
+redstoneDustEmittingBlocks = [
+    "minecraft:redstone_block"
+]
+glowstoneBlockDust = true
+glowstoneBlockDustDensity = "DEFAULT"
+glowstoneDustEmittingBlocks = [
+    "minecraft:glowstone"
+]
+netherOnlyGlowstoneBlockDust = false
+beehivesHaveSleepingZs = true
+torchflowerSmoke = "DEFAULT"
+torchflowerFlames = true
+dragonEggParticles = true
+replaceEndPortalSmoke = true
+pumpkinCarvedParticles = true
+anvilBreakParticles = true
+anvilUseParticles = true
+grindstoneUseParticles = true
+smithingTableUseParticles = true
+stonecutterUseParticles = true
+cauldronUseParticles = true
+cauldronCleanItemSounds = true
+compostingCompostParticles = true
+compostingItemParticles = true
+commandBlockParticles = "ON"
+commandBlockParticlesDensity = 1.0
+slimeBlockBounceSounds = true
+beaconParticlesDisplayType = "ON"
+beaconParticlesDensity = 10
+beaconParticlesSpeed = 1.0
+respawnAnchorParticles = true
+beehiveShearParticles = true
+endPortalParticles = true
+leavesDecayEffects = true
+farmlandDestroyEffects = true
+amethystSparkleDisplayType = "ON"
+amethystSparkleEmittingBlocks = [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst"
+]
+amethystSparkleSounds = true
+floweringAzaleaPetals = true
+sculkBlockSculkDust = true
+sculkVeinSculkDust = true
+sculkShriekerDestroySouls = true
+sculkCatalystDestroySouls = true
+calibratedSculkSensorAmethystSparkle = true
+campfireSizzlingSoundVolume = 0.5
+replacePowderSnowFlakes = true
+lavaCauldronEffects = true
+enderEyePlacedRings = true
+enderEyePlacedRingsDuration = 10
+enderEyePlacedParticlesDisplayType = "BOTH"
+eyeColors = [
+    [ "minecraft:ender_eye", { r = 122, g = 186, b = 171 } ]
+]
+endPortalFrameParticlesDisplayType = "SMOKE"
+endPortalFrameParticlesDensity = 1.0
+replaceOminousVaultConnection = true
+cobwebMovementSounds = true
+cakeEatParticles = true
+cakeEatSounds = true
+rainWaterRipples = true
+rainWaterRipplesDensity = 0.35
+underwaterBlockBreakBubbles = true
+decoratedPotsSpawnBubbles = true
+openingBarrelsSpawnsBubbles = true
+openingChestsSpawnsBubbles = true
+chestsOpenRandomlyUnderwater = true
+randomChestOpeningNeedsSoulSand = false
+dispenseItemBubbles = true
+rainIncreasesLeavesSpawningParticles = true
+
+[sparks]
+removeVanillaCampfireSparks = true
+candleSparks = true
+furnaceSparks = true
+fireSparks = true
+campfireSparks = true
+torchSparks = true
+lanternSparksDensity = 5
+lavaSparksDisplayType = "ON"
+lavaSparksDensity = 1.0
+brewingStandSparks = true
+
+[updatedSmoke]
+candleSmoke = true
+furnaceSmoke = true
+fireSmoke = true
+torchSmoke = true
+campfireDowseSmoke = true
+
+[steam]
+lavaFizzSteam = true
+replaceCampfireFoodSmoke = true
+spongeDryingOutSteam = true
+replaceRainEvaporationSteam = true
+lavaCauldronsEvaporateRain = true
+spawnLogic = "BRIGHTNESS"
+steamingWater = false
+boilingWater = false
+steamingWaterCauldron = false
+boilingWaterCauldron = false
+steamingThreshold = 11
+boilingThreshold = 13
+
+[fallingBlocks]
+dustyBlocks = [
+    "minecraft:sand",
+    "minecraft:suspicious_sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel",
+    "minecraft:white_concrete_powder",
+    "minecraft:orange_concrete_powder",
+    "minecraft:magenta_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:yellow_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:gray_concrete_powder",
+    "minecraft:light_gray_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:blue_concrete_powder",
+    "minecraft:brown_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:red_concrete_powder",
+    "minecraft:black_concrete_powder"
+]
+whileFallingDust = true
+whileFallingDustStartDistance = 3
+onLandDust = true
+onLandSound = true
+weakSupportDust = true
+weakSupportDustDensity = 1
+replaceDustWithBubblesUnderwater = true

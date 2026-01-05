@@ -1,0 +1,21 @@
+{
+	/* The version of this JSON file
+	   Don't modify!
+	*/
+	"jankson:schema_version": 0,
+	// Mods may override any of these options, but the config file will not change.
+	isDebug: false,
+	useWindOnNonFrozenServers: true,
+	saveItemCooldowns: false,
+	removeExperimentalWarning: false,
+	wardenSpawnTrackerCommand: false,
+	fileTransferServer: true,
+	fileTransferClient: true,
+	cape: "frozenlib:dummy",
+	dataFixer: {
+		// Mods can only add to this list. User settings will always apply.
+		disabledDataFixTypes: [
+			"world_gen_settings",
+		],
+	},
+}

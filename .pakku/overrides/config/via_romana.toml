@@ -1,0 +1,15 @@
+[Variables]
+infrastructure_check_radius = 1.0
+node_distance_minimum = 10.0
+node_distance_maximum = 20.0
+path_quality_threshold = 0.6
+path_distance_minimum = 10.0
+path_distance_maximum = 100000.0
+travel_fatigue_cooldown = 30.0
+[Management]
+valid_entities = "minecraft:player, minecraft:boat, minecraft:horse, minecraft:pig, minecraft:strider, minecraft:camel"
+valid_dimensions = "minecraft:overworld, minecraft:the_end"
+valid_block_tags = "via_romana:path_block"
+valid_block_ids = ""
+valid_block_strings = ""
+valid_sign_strings = "supplementaries:sign_post"
