@@ -2,7 +2,7 @@
 
 # Homestead Modpack Copyright License
 
-### Copyright © 2025 CozyCord Team. All rights reserved.
+### Copyright © 2026 CozyCord Team. All rights reserved.
 
 ## Permitted Uses
 
