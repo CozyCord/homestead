@@ -16,13 +16,13 @@
 <table align="center" style="width: 100%;">
   <tr>
     <td align="center" style="width: 33%;">
-      <a href="https://github.com/iamtokimi/homestead/wiki">Read Wiki</a>
+      <a href="https://cozystudios.org/homestead/intro/">Read Wiki</a>
     </td>
     <td align="center" style="width: 33%;">
       <a href="https://github.com/iamtokimi/homestead/issues">Report Issues / Make Feature Requests</a>
     </td>
     <td align="center" style="width: 33%;">
-      <a href="https://github.com/iamtokimi/homestead/tree/main/branding">Use our Brand Assets!</a>
+      <a href="https://cozystudios.org/resources/">Use our Brand Assets!</a>
     </td>
   </tr>
 </table>
