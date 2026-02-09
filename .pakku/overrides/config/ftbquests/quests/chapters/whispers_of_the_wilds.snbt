@@ -546,7 +546,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["Woah.. those trees are tall. So that’s where Skyrise comes from."]
+			description: ["Woah.. those trees are tall. So that’s where Skyris comes from."]
 			id: "65965C1AA647732A"
 			rewards: [{
 				id: "41197FF4BE0A624A"
@@ -559,12 +559,12 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Visit a Skyrise Vale biome."
+			subtitle: "Visit a Skyris Vale biome."
 			tasks: [{
-				biome: "biomeswevegone:skyrise_vale"
+				biome: "biomeswevegone:skyris_vale"
 				icon: "biomeswevegone:skyris_sapling"
 				id: "2B7522B5F8B91DF5"
-				title: "Visit a Skyrise Vale biome."
+				title: "Visit a Skyris Vale biome."
 				type: "biome"
 			}]
 			title: "Breath of the Vale"

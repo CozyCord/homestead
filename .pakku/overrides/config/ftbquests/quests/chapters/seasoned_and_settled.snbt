@@ -1215,7 +1215,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 2 Minced Beef, Oat, Carrot, Butter, Potato and a Bowl in a Cooking Pot."
+			subtitle: "Combine 2 Minced Beef, Oat, Carrot, Butter, Potato and a Bowl in a Roaster."
 			tasks: [{
 				id: "75C80E8A9E7CD785"
 				item: "farm_and_charm:sausage_with_oat_patty"

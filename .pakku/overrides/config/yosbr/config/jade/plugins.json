@@ -1,0 +1,7 @@
+{
+    "minecraft": {
+        "harvest_tool.show_unbreakable": true,
+        "harvest_tool.effective_tool": false,
+        "harvest_tool.creative": true
+    }
+}

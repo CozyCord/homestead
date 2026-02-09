@@ -1,0 +1,13 @@
+[fixes]
+    [clientSideConfig.modifyMaxVDConfig]
+        enabled = false
+
+[noTickViewDistance]
+    compatibilityMode = false
+    maxConcurrentChunkLoads = 2
+
+[ioSystem]
+    gcFreeChunkSerializer = true
+
+[threadedWorldGen]
+    enabled = true

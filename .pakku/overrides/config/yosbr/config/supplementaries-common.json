@@ -1,0 +1,14 @@
+{
+    "functional": {
+        "soap": {
+            "special_blocks": {
+                "minecraft:sticky_piston": "minecraft:piston"
+            }
+        }
+    },
+    "tools": {
+        "quiver": {
+            "quiver_skeleton_spawn_chance": 0.03
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#ui {
+    center-search-bar: false;
+    recipe-screenshot-button: true;
+    left-sidebar-pages: none;
+    left-sidebar-size: 7, 100;
+    left-sidebar-margins: 2, 2, 1, 2;
+    left-sidebar-align: left, bottom;
+    right-sidebar-size: 8, 65;
+    right-sidebar-margins: 2, 5, 2, 5;
+    right-sidebar-align: right, center;
+    top-sidebar-pages: favorites;
+    top-sidebar-size: 3, 9;
+    top-sidebar-margins: 2, 2, 1, 2;
+    top-sidebar-align: left, center;
+}

@@ -1,0 +1,11 @@
+{
+    "misc": {
+        "spelunkery_creative_tab": true
+    },
+    "slimes": {
+        "slimes_spawn_in_all_caves": false
+    },
+    "worldgen": {
+        "stone_stripe_features": false
+    }
+}

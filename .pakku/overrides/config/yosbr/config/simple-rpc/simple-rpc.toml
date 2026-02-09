@@ -1,0 +1,46 @@
+[general]
+    rpcImageServer = true
+    rpcImageServerUrl = "https://cdn.modrinth.com/data/6HvKwSky/d100be12ed4f630466412f805e068da29b6e4898_96.webp"
+
+[init]
+    [[init.presence]]
+        description = "Homestead is loading"
+        state = "Homestead Starting..."
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[main_menu]
+    [[main_menu.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[server_list]
+    [[server_list.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[realms_list]
+    [[realms_list.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[join_game]
+    [[join_game.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[single_player]
+    [[single_player.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[multi_player]
+    [[multi_player.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[realms]
+    [[realms.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[paused]
+    [[paused.presence]]
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"
+
+[generic]
+    [[generic.presence]]
+        description = "Playing Homestead"
+        largeImageText = "It's Minecraft {{game.version}}, but on the Homestead Modpack!"

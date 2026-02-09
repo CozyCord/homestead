@@ -1,0 +1,12 @@
+{
+    "hanging_sign": {
+        "swing_physics": {
+            "min_angle": 0.79999965
+        }
+    },
+    "lantern": {
+        "swing_physics": {
+            "min_angle": 0.79999965
+        }
+    }
+}

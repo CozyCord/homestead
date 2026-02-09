@@ -1,0 +1,15 @@
+{
+    "blacklist": {
+        "forbiddenTiles": [
+            "copycats:*",
+            "spudaciousshops:*",
+            "spawn:sunflower",
+            "connectiblechains:*"
+        ],
+        "forbiddenEntities": [
+            "spawn:hamster",
+            "connectiblechains:*",
+            "connectiblechains:chain_knot"
+        ]
+    }
+}

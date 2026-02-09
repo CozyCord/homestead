@@ -1,0 +1,15 @@
+{
+  "configVersion": 2,
+  "blacklisted_items": [
+    "spelunkery:iron_pick_on_a_stick",
+    "wildernature:bounty_board",
+    "clutter:red_polypore",
+    "clutter:yellow_polypore",
+    "spelunkery:charcoal_lump",
+    "beachparty:rubber_ring_blue",
+    "beachparty:rubber_ring_pink",
+    "beachparty:rubber_ring_stripped",
+    "beachparty:rubber_ring_axolotl",
+    "beachparty:rubber_ring_pelican"
+  ]
+}

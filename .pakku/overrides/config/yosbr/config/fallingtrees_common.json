@@ -1,0 +1,40 @@
+{
+    "trees": {
+        "genericTree": {
+            "algorithm": {
+                "maxLeavesRadius": 10
+            },
+            "logFilter": {
+                "whitelistedTags": [
+                    "regions_unexplored:branches",
+                    "regions_unexplored:joshua_logs",
+                    "c:logs",
+                    "regions_unexplored:brimwood_logs"
+                ],
+                "whitelist": [
+                    "mysticsbiomes:cherry_log",
+                    "mysticsbiomes:strawberry_log",
+                    "mysticsbiomes:peach_log",
+                    "mysticsbiomes:maple_log",
+                    "mysticsbiomes:sea_foam_log",
+                    "mysticsbiomes:tropical_log",
+                    "mysticsbiomes:jacaranda_log"
+                ]
+            }
+        },
+        "leavesFilter": {
+            "whitelistedTags": [
+                "minecraft:leaves",
+                "regions_unexplored:branches",
+                "c:leaves"
+            ]
+        },
+        "requireTool": true,
+        "allowedToolFilter": {
+            "whitelistedTags": [
+                "minecraft:axes",
+                "obsidianequipment:axes"
+            ]
+        }
+    }
+}

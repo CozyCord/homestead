@@ -55,13 +55,17 @@
 		{
 			dependencies: ["32B932B74284FF9D"]
 			description: [
-				"Magical herbs grow in many places, but the best place to find them is the Enchanted Bayou, where all four magical herbs grow. Ghost ferns are exclusive to these bayous. That said the other three can be found in the following biomes:"
+				"Magical herbs grow in many places and will require you to journey out to locate them. They can be found in the following biomes or in Herbalist Huts found in swamps and mangrove swamps:"
+				""
+				"Siren Kelp comes from Oceans."
+				""
+				"Ghost Ferns grow in Dark Forests."
 				""
 				"Spirit Blooms are native to swamps and Mangrove swamps. "
 				""
 				"Dreamshrooms are found in Old growth Pine Taiga and Mushroom Field biomes."
 				""
-				"Siren kelp is found in Ocean and Deep Ocean biomes. You should gather a good amount of these as they’re the base to create the dirt required to duplicate these special herbs."
+				"Celestial Herbs are found in meadows."
 			]
 			id: "5063703BFDF49E1C"
 			rewards: [
@@ -76,7 +80,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Visit an Enchanted Bayou or other biomes to find the 4 magical herbs"
+			subtitle: "Obtain 1 dreamshroom, 1 spirit bloom, 1 ghost fern, 1 celestial herb and 4 siren kelp"
 			tasks: [
 				{
 					id: "18E555746F9E7DDC"
@@ -101,43 +105,11 @@
 				}
 			]
 			title: "Herbs Of Might and Magic"
-			x: -3.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5063703BFDF49E1C"]
-			description: ["Saltsprouts may not have the same magic properties as the magical herbs, but they’re no less important. They can be crushed into salt with a mortar and pestle to create salts you will need for rituals or for purifying salts later on. They grow naturally on sand, but can also be planted on Infused Dirt."]
-			id: "0491DFA4A0C8400B"
-			rewards: [
-				{
-					count: 3
-					id: "068114E99859BBD7"
-					item: "hexalia:saltsprout"
-					type: "item"
-				}
-				{
-					id: "2183F214A5043569"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					id: "4E5A1E91DF6FCBB2"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Visit a desert and look for a Barren Hut to obtain Saltsprouts."
-			tasks: [{
-				id: "609AA0526338A865"
-				item: "hexalia:saltsprout"
-				type: "item"
-			}]
-			title: "Structures and Saltsprouts"
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0491DFA4A0C8400B"]
 			description: ["This special dirt is vital to your magical garden. When you plant magical herbs on this dirt you can bonemeal them to duplicate them. You can also hoe it to make Infused Farmland which allows your crops to grow without a water source! You can even plant Sugar cane on this rich soil."]
 			id: "6D6C1F72F284C0B1"
 			rewards: [
@@ -160,11 +132,11 @@
 				type: "item"
 			}]
 			title: "Spilling Dirt and Planting Seeds"
-			x: 1.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["6D6C1F72F284C0B1"]
+			dependencies: ["00FC0C7A57ACA5C5"]
 			description: ["You usually have to process your magical herbs to use them, but they can be used in their raw form by burning them in a censer to provide an aoe effect in the area they’re burned in. Prevent fire damage or make hostile mobs neutral with a combination of burnt herbs. See your grimoire and look up the censer in the blocks section for the specific combinations and what they do!"]
 			id: "42B3BACDD80247CE"
 			rewards: [
@@ -207,11 +179,6 @@
 					type: "item"
 				}
 				{
-					id: "42F001BFD079633E"
-					item: "hexalia:witch_salad"
-					type: "item"
-				}
-				{
 					id: "3AE523482921B892"
 					type: "xp"
 					xp: 25
@@ -229,63 +196,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["18B0100C3B9B5D38"]
-			description: [
-				"Some rituals and brews require tree resin. To get said resin you’ll need to use a stone dagger on dark oak or cotton wood trees."
-				""
-				"&7&oShhh, you can also use it on the Farmer's Delight Cutting Board ;)&r&r"
-			]
-			hide_dependency_lines: true
-			id: "6486D3D5918599A8"
-			rewards: [
-				{
-					count: 4
-					id: "573AFB6647629562"
-					item: "minecraft:dark_oak_sapling"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "544A58C575B6DEC2"
-					item: "hexalia:cottonwood_sapling"
-					type: "item"
-				}
-				{
-					id: "75E9047CB769B92D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Craft a stone dagger by combining a stick with a cobblestone block."
-			tasks: [
-				{
-					id: "462EF56F538BC2E3"
-					item: {
-						Count: 1
-						id: "hexalia:stone_dagger"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "753277D5C2CD0CA4"
-					item: { Count: 3, id: "hexalia:tree_resin" }
-					type: "item"
-				}
-			]
-			title: "Sticks and Stones"
-			x: 5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6486D3D5918599A8"]
+			dependencies: ["19555C07B2FE2873"]
 			description: ["You’re drawing close to tapping into the magic of the materials you’ve gathered so far, but to do so you’ll need to craft a special tool to help you channel that magic. This is done through the Hex Focus! To obtain a ritual table and perform rituals you’ll need the Hex Focus. It can also activate special enchanted plants you can make through rituals that have various uses. "]
 			id: "6504CD999F1EA929"
 			rewards: [
@@ -320,7 +235,9 @@
 		{
 			dependencies: ["6504CD999F1EA929"]
 			description: [
-				"It’s time to get your ritual table set up! To perform rituals you’ll need enough space as every ritual requires grown crops to perform. Once you’ve picked a good spot, place down some cobbled or normal deepslate and right-click on it with your Hex Focus to change it into a ritual table. To create the braziers place down wood planks of any kind and right click them with a stone dagger while sneaking. With the table as the center, follow the below picture:"
+				"It’s time to get your ritual table set up! To perform rituals you’ll need enough space as every ritual requires grown crops to perform. Once you’ve picked a good spot, place down some cobbled or normal deepslate and right-click on it with your Hex Focus to change it into a ritual table. To create the braziers place down wood planks of any kind and right click them with a Athame while sneaking. With the table as the center place braziers at the cardinal directions and plant a minimum of 8 crops nearby. Every ritual will require these crops and consumes them upon activation, reverting them to seedlings."
+				""
+				"With the table as the center, follow the below picture:"
 				""
 				"{image:ftbquests:textures/homestead/ritual_setup.png width:165 height:100 align:center}"
 			]
@@ -338,7 +255,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Obtain a piece of cobbled or normal deepslate, 4 ritual braziers, and 16 Infused Dirt"
+			subtitle: "Obtain a piece of cobbled or normal deepslate, 4 ritual braziers, and plant 8 crops within 8 blocks of your table."
 			tasks: [
 				{
 					count: 4L
@@ -390,16 +307,12 @@
 				type: "item"
 			}]
 			title: "Ritual of Transmutation"
-			x: -1.0d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2E56970957B56B51"]
-			description: [
-				"The second ritual is much simpler than the ritual of transmutation. To perform it simply place the required item on a ritual brazier with two celestial blooms planted near the brazier and wait for the item to transform. "
-				""
-				"For this quest, place a glow berry on a ritual brazier with 2 celestial blooms planted nearby."
-			]
+			description: ["The second ritual is much simpler than the ritual of transmutation. To perform it simply place the required item on a ritual brazier with two celestial blooms planted near the brazier and wait for the item to transform. "]
 			id: "2F1F286E20C77088"
 			rewards: [
 				{
@@ -414,14 +327,14 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Gale Berry"
+			subtitle: "Place a glow berry on a ritual brazier with 2 celestial blooms planted nearby."
 			tasks: [{
 				id: "75C28B5924F3A0FA"
 				item: "hexalia:galeberries"
 				type: "item"
 			}]
 			title: "Moonlight Ritual"
-			x: -3.0d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -789,6 +702,86 @@
 			}]
 			x: -6.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6D6C1F72F284C0B1"]
+			description: ["A special blade used to harvest tree resin from Dark Oak or Cottonwood trees, it's also used to harvest Lotus blossoms from lotus flowers and craft ritual braziers by sneaking and using them on planks."]
+			id: "00FC0C7A57ACA5C5"
+			rewards: [
+				{
+					count: 4
+					id: "755AD4F893B82BCF"
+					item: "hexalia:cottonwood_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D321921080004AC"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "0A75F1A5737A3BB8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft an Athame and harvest 3 tree resin."
+			tasks: [{
+				id: "205E36B857473778"
+				item: {
+					Count: 1
+					id: "hexalia:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Blade of Rituals"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18B0100C3B9B5D38"]
+			description: ["Before you can get to doing rituals you'll need to obtain special salt that comes from Salt Sprouts to consecrate your braziers. These sprouts can be found in Herbalist Huts, but can also be obtained by mutating a cactus using Mutavis, as special powder that changes plants. It can also make other herbs or even transmute certain blocks into new ones, see your grimoire for more details! "]
+			hide_dependency_lines: true
+			id: "19555C07B2FE2873"
+			rewards: [
+				{
+					count: 4
+					id: "241B7004A6773873"
+					item: "hexalia:salt"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "667459342DAAAC6F"
+					item: "hexalia:mutavis"
+					type: "item"
+				}
+				{
+					id: "02C6FD2B678E6D1A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Use a bonemeal, tree resin and 2 of any powdered herb craft Mutavis and use it on a cactus. "
+			tasks: [
+				{
+					id: "092FB66E28186AFD"
+					item: "hexalia:mutavis"
+					type: "item"
+				}
+				{
+					id: "3F127940E9588431"
+					item: "hexalia:saltsprout"
+					type: "item"
+				}
+			]
+			title: "Magical Mutating Powder"
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 	title: "Herbal Hexes"

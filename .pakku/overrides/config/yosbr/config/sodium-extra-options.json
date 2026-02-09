@@ -1,0 +1,27 @@
+{
+    "particle_settings": {
+        "other": {
+            "amendments:fluid_splash": true,
+            "effective:splash": true,
+            "effective:ripple": true,
+            "particlerain:ripple": true,
+            "create:fluid_drip": true,
+            "create:fluid_particle": true,
+            "visuality:water_circle": true,
+            "supplementaries:falling_liquid": true,
+            "supplementaries:dripping_liquid": true,
+            "supplementaries:splashing_liquid": true,
+            "minecraft:splash": true,
+            "minecraft:falling_water": true,
+            "effective:waterfall_cloud": false,
+            "minecraft:end_rod": true,
+            "minecraft:heart": true,
+            "effective:eyes": false
+        }
+    },
+    "render_settings": {
+        "dimensionFogDistance": {
+            "minecraft:overworld": 0
+        }
+    }
+}

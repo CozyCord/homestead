@@ -1,0 +1,12 @@
+{
+    "blocks": {
+        "hat_stand": {
+            "swing_physics": {
+                "max_angle": 54.99998
+            }
+        }
+    },
+    "general": {
+        "config_button": false
+    }
+}
