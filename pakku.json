@@ -2,5 +2,10 @@
     "name": "Homestead",
     "version": "1.2.10",
     "description": "Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create...",
-    "author": "CozyStudios"
+    "author": "CozyStudios",
+    "projects": {
+        "fastboot": {
+            "redistributable": true
+        }
+    }
 }
