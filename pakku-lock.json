@@ -10987,19 +10987,48 @@
             ]
         },
         {
-            "pakku_id": "kc7rJOIp5lJAqv0v",
+            "pakku_id": "soxQGXpbWKrWMqsB",
+            "pakku_links": [
+                "v6jsR4lPo47ISs7F"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
+                "curseforge": "just-enough-professions-jep",
                 "modrinth": "just-enough-professions-jep"
             },
             "name": {
+                "curseforge": "Just Enough Professions (JEP)",
                 "modrinth": "Just Enough Professions (JEP)"
             },
             "id": {
+                "curseforge": "417645",
                 "modrinth": "kB56GtWA"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JustEnoughProfessions-fabric-1.20.1-3.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/4587/23/JustEnoughProfessions-fabric-1.20.1-3.0.1.jar",
+                    "id": "4587023",
+                    "parent_id": "417645",
+                    "hashes": {
+                        "sha1": "a627f96d8d184574772cf9bc92f5fe5c0f5021ae",
+                        "md5": "63c17de2058b25b76d211518e34db129"
+                    },
+                    "required_dependencies": [
+                        "238222"
+                    ],
+                    "size": 23365,
+                    "date_published": "2023-06-14T18:02:51.060Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "JustEnoughProfessions-fabric-1.20.1-3.0.1.jar",
@@ -11158,47 +11187,84 @@
             ]
         },
         {
-            "pakku_id": "DwDB5yWq6FrBcsnN",
+            "pakku_id": "jXOQuqfXF3xwQyhU",
+            "pakku_links": [
+                "1kCvqtzBDKqYEKj1"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                "modrinth": "keybind-fix-updated"
+                "curseforge": "keybind-fix",
+                "modrinth": "keybind-fix"
             },
             "name": {
-                "modrinth": "Keybind Fix Updated"
+                "curseforge": "Keybind Fix",
+                "modrinth": "Keybind Fix"
             },
             "id": {
-                "modrinth": "U1hgptta"
+                "curseforge": "640307",
+                "modrinth": "vuWNr14n"
             },
             "files": [
                 {
-                    "type": "modrinth",
+                    "type": "curseforge",
                     "file_name": "keybind_fix-1.0.0.jar",
                     "mc_versions": [
-                        "1.20.1",
                         "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21"
+                        "1.20.1",
+                        "1.20"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/U1hgptta/versions/Yu9WvhAV/keybind_fix-1.0.0.jar",
-                    "id": "Yu9WvhAV",
-                    "parent_id": "U1hgptta",
+                    "url": "https://edge.forgecdn.net/files/3860/971/keybind_fix-1.0.0.jar",
+                    "id": "3860971",
+                    "parent_id": "640307",
                     "hashes": {
-                        "sha512": "0749df77daee95caff792ae2aad70c491ba89608ad413e200b3781a8cf4ae6e304d7e52939f70777d7d5edbc9fb7f427131362a77a9e81f2c247cb69823ea3d5",
-                        "sha1": "ed71fc323ccec46032fcf5aee4a2a2765d56758e"
+                        "sha1": "22d779169f893f48bd3d16e7b6f8f3dd65c8fbbb",
+                        "md5": "bbfbaeab152076eaf1d523f0b37f6c9a"
+                    },
+                    "required_dependencies": [
+                        "308769"
+                    ],
+                    "size": 17468,
+                    "date_published": "2022-07-06T02:01:18.290Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "keybind_fix-1.0.0.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vuWNr14n/versions/4VeEKlR8/keybind_fix-1.0.0.jar",
+                    "id": "4VeEKlR8",
+                    "parent_id": "vuWNr14n",
+                    "hashes": {
+                        "sha512": "c8c75e78be39a79875543d4b2134d804ccd289d03b377eb7048065becf103375627a9e305da074f2b53a548f238bd3788c10b63bbb92d15b278ab5c7e3f30b92",
+                        "sha1": "d99355fe589dfb41b2d7d7e2c20b733ca3a086d8"
                     },
                     "required_dependencies": [
                         "Ha28R6CL"
                     ],
-                    "size": 16083,
-                    "date_published": "2024-08-03T22:06:34.561157Z"
+                    "size": 16312,
+                    "date_published": "2022-11-17T22:59:33.608897Z"
                 }
             ]
         },
@@ -12123,19 +12189,50 @@
             ]
         },
         {
-            "pakku_id": "0dwzqnFOggyzemph",
+            "pakku_id": "LbbbcifNVpI7dTNp",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
+                "curseforge": "lambdynamiclights",
                 "modrinth": "lambdynamiclights"
             },
             "name": {
+                "curseforge": "LambDynamicLights",
                 "modrinth": "LambDynamicLights - Dynamic Lights"
             },
             "id": {
+                "curseforge": "393442",
                 "modrinth": "yBW8D80W"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lambdynamiclights-4.4.0+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7010/532/lambdynamiclights-4.4.0+1.20.1.jar",
+                    "id": "7010532",
+                    "parent_id": "393442",
+                    "hashes": {
+                        "sha1": "eeab178cb91f18bc72f990c2097b5f0103f01c06",
+                        "md5": "3e8855009b0f24673329637f985d4a06"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1114373,
+                    "date_published": "2025-09-18T22:55:31.310Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "lambdynamiclights-4.4.0+1.20.1.jar",
@@ -13659,7 +13756,7 @@
             ]
         },
         {
-            "pakku_id": "F59DD4YB2vObIugc",
+            "pakku_id": "JLQZILC1kFYSYXUL",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14020,23 +14117,23 @@
             ]
         },
         {
-            "pakku_id": "imuxcXBA2jl1sppI",
+            "pakku_id": "fzS482RAIuYYc36o",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw"
             ],
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                "modrinth": "mobexplosiongriefinggamerule",
-                "curseforge": "modexplosingriefinggamerule"
+                "curseforge": "modexplosingriefinggamerule",
+                "modrinth": "mobexplosiongriefinggamerule"
             },
             "name": {
-                "modrinth": "Mob Explosion Griefing Gamerule",
-                "curseforge": "MobExplosionGriefingGamerule"
+                "curseforge": "MobExplosionGriefingGamerule",
+                "modrinth": "Mob Explosion Griefing Gamerule"
             },
             "id": {
-                "modrinth": "l9H9JPmo",
-                "curseforge": "759584"
+                "curseforge": "759584",
+                "modrinth": "l9H9JPmo"
             },
             "files": [
                 {
@@ -24431,7 +24528,8 @@
             "pakku_links": [
                 "ak1GhJzhdZyV9DtG",
                 "fMZ8DObsLI00TO7N",
-                "fSrlrE8izdLk55PE"
+                "fSrlrE8izdLk55PE",
+                "LbbbcifNVpI7dTNp"
             ],
             "type": "MOD",
             "side": "BOTH",
