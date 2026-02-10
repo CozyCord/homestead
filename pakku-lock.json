@@ -479,6 +479,9 @@
         },
         {
             "pakku_id": "WfLrkyiNgtquvzfU",
+            "pakku_links": [
+                "bC2xcVQgu3RIMvEC"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14049,7 +14052,8 @@
         {
             "pakku_id": "DcFzYCwxtXTG9r5C",
             "pakku_links": [
-                "tUMyqHNLsVHv1QJk"
+                "tUMyqHNLsVHv1QJk",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -14492,22 +14496,28 @@
             ]
         },
         {
-            "pakku_id": "6h2zwtz9bpwJG90P",
+            "pakku_id": "bC2xcVQgu3RIMvEC",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "modrinth": "moonlight"
+                "modrinth": "moonlight",
+                "curseforge": "selene"
             },
             "name": {
-                "modrinth": "Moonlight Lib"
+                "modrinth": "Moonlight Lib",
+                "curseforge": "Moonlight Lib"
             },
             "id": {
-                "modrinth": "twkfQtEc"
+                "modrinth": "twkfQtEc",
+                "curseforge": "499980"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "moonlight-1.20-2.16.16-fabric.jar",
+                    "file_name": "moonlight-1.20-2.16.27-fabric.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -14515,18 +14525,41 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/1yJlkP4n/moonlight-1.20-2.16.16-fabric.jar",
-                    "id": "1yJlkP4n",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/5NAhKbX6/moonlight-1.20-2.16.27-fabric.jar",
+                    "id": "5NAhKbX6",
                     "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha512": "007d918889a84d9d3a40b503bce48fa73cb446bd08b29da73578426dbb2dee4552cc191fe772e4f40bcaf2a3165980a02e7660f0438a2742af06700eb4bb4069",
-                        "sha1": "1c87cd8e6cf95c2de82d1a14fa509d47ba6e547b"
+                        "sha512": "50dc4bf904673550614aa6d796010d58d034ff0922460b2a0f6249f9c061a847d6e2322d39c87c4ed321c9e6df9dddaaa6cd0d585351f149881393d82ba0c036",
+                        "sha1": "0f493a245b69768d267cfd03e86df82f47dd2220"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 1310017,
-                    "date_published": "2025-11-06T12:29:43.462224Z"
+                    "size": 1364033,
+                    "date_published": "2026-01-28T16:55:23.667403Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-1.20-2.16.27-fabric.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7541/534/moonlight-1.20-2.16.27-fabric.jar",
+                    "id": "7541534",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "0f493a245b69768d267cfd03e86df82f47dd2220",
+                        "md5": "d8ee08ccfd90424faa5fda67d39a0b2b"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1364033,
+                    "date_published": "2026-01-28T16:55:06.520Z"
                 }
             ]
         },
@@ -15736,7 +15769,7 @@
             ]
         },
         {
-            "pakku_id": "aslpaz0mXZsPj3xX",
+            "pakku_id": "XQOMsqFOj0TVs4T5",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -19173,7 +19206,8 @@
             "pakku_id": "XPONk4DiRJjsdsAz",
             "pakku_links": [
                 "tUMyqHNLsVHv1QJk",
-                "oIkIn5hRgKWLtPUw"
+                "oIkIn5hRgKWLtPUw",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -19388,19 +19422,48 @@
             ]
         },
         {
-            "pakku_id": "peIY3iWAnv0Ku2Ca",
+            "pakku_id": "rpbCd2XvIMkSscft",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
+                "curseforge": "searchables",
                 "modrinth": "searchables"
             },
             "name": {
+                "curseforge": "Searchables",
                 "modrinth": "Searchables"
             },
             "id": {
+                "curseforge": "858542",
                 "modrinth": "fuuu3xnx"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Searchables-fabric-1.20.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5284/14/Searchables-fabric-1.20.1-1.0.3.jar",
+                    "id": "5284014",
+                    "parent_id": "858542",
+                    "hashes": {
+                        "sha1": "3fe28bfd8de8f13adeefb4dd5c9a8f97b233a0a1",
+                        "md5": "92d987a6bc23a419a439f876fd9e4d59"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 80283,
+                    "date_published": "2024-04-23T06:56:46.973Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "Searchables-fabric-1.20.1-1.0.3.jar",
@@ -19716,7 +19779,7 @@
             ]
         },
         {
-            "pakku_id": "EaOwP417AISTVKCd",
+            "pakku_id": "Dtt6ynPKGbZiV9vw",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -20116,46 +20179,71 @@
             ]
         },
         {
-            "pakku_id": "MhkAadJ9CxUTFE7f",
+            "pakku_id": "Ya7lsKRqF984uqKQ",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
+                "curseforge": "smartbrainlib",
                 "modrinth": "smartbrainlib"
             },
             "name": {
+                "curseforge": "SmartBrainLib (Forge/Fabric/Quilt)",
                 "modrinth": "SmartBrainLib"
             },
             "id": {
+                "curseforge": "661293",
                 "modrinth": "PuyPazRT"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "SmartBrainLib-neoforge-1.20.1-1.15.jar",
+                    "type": "curseforge",
+                    "file_name": "SmartBrainLib-fabric-1.20.1-1.15.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "neoforge"
+                        "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/EPH5uBb1/SmartBrainLib-neoforge-1.20.1-1.15.jar",
-                    "id": "EPH5uBb1",
-                    "parent_id": "PuyPazRT",
+                    "url": "https://edge.forgecdn.net/files/5654/969/SmartBrainLib-fabric-1.20.1-1.15.jar",
+                    "id": "5654969",
+                    "parent_id": "661293",
                     "hashes": {
-                        "sha512": "5e5ea856451f6b35747dbe79d4e84198969364857df3e8376660048f3a57f74e53d26a383074e68960ec9b01d0ddc70e26b9b1b8ff15fbf4b891909cfe5dcb83",
-                        "sha1": "7982cd1b9d77897d153800facb4b4abf0d7fa52f"
+                        "sha1": "6abaa9601d02c9941134fa310a7a3665d9bad285",
+                        "md5": "91ab518d6de31c22e092e53bda448adb"
                     },
                     "required_dependencies": [],
-                    "size": 361325,
-                    "date_published": "2024-08-23T04:29:05.410913Z"
+                    "size": 359760,
+                    "date_published": "2024-08-23T04:26:01.143Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "SmartBrainLib-fabric-1.20.1-1.15.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/ft0ElRBl/SmartBrainLib-fabric-1.20.1-1.15.jar",
+                    "id": "ft0ElRBl",
+                    "parent_id": "PuyPazRT",
+                    "hashes": {
+                        "sha512": "3f009c5b75980ffcb155bad9a95a9dbdbc3bbd282760c00dd2d7115a88dbb61eb9083ee2fe5b29b348058f7216846079e73ccaa1ff5a6904e762aa3bdfacc736",
+                        "sha1": "8426b6718d52d69fb66a268de63c6e886f0d6d4c"
+                    },
+                    "required_dependencies": [],
+                    "size": 359760,
+                    "date_published": "2024-08-23T04:25:35.016202Z"
                 }
             ]
         },
         {
             "pakku_id": "8wcyuM2fKvsHgPBK",
             "pakku_links": [
-                "tUMyqHNLsVHv1QJk"
+                "tUMyqHNLsVHv1QJk",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "SERVER",
@@ -21137,7 +21225,8 @@
         {
             "pakku_id": "Y40pEGct7EndZSp2",
             "pakku_links": [
-                "tUMyqHNLsVHv1QJk"
+                "tUMyqHNLsVHv1QJk",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -21799,19 +21888,48 @@
             ]
         },
         {
-            "pakku_id": "vzgpKrAIMPKVidvG",
+            "pakku_id": "VC3rcZsKwJpspas6",
+            "pakku_links": [
+                "oIkIn5hRgKWLtPUw"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
+                "curseforge": "storage-drawers",
                 "modrinth": "storagedrawers"
             },
             "name": {
+                "curseforge": "Storage Drawers",
                 "modrinth": "Storage Drawers"
             },
             "id": {
+                "curseforge": "223852",
                 "modrinth": "guitPqEi"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "StorageDrawers-fabric-1.20.1-12.14.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6994/478/StorageDrawers-fabric-1.20.1-12.14.3.jar",
+                    "id": "6994478",
+                    "parent_id": "223852",
+                    "hashes": {
+                        "sha1": "dc5f3841e2d0fb61c2aebf57068ca3ddb804b8e9",
+                        "md5": "7356aa307be2cf1668dcd8fe4764bc37"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1131889,
+                    "date_published": "2025-09-14T00:30:27.867Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "StorageDrawers-fabric-1.20.1-12.14.3.jar",
@@ -21840,7 +21958,8 @@
         {
             "pakku_id": "bywVzyqGkcJlHoFC",
             "pakku_links": [
-                "tUMyqHNLsVHv1QJk"
+                "tUMyqHNLsVHv1QJk",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -22330,7 +22449,8 @@
         {
             "pakku_id": "eEQ237adXAV1EI6L",
             "pakku_links": [
-                "tUMyqHNLsVHv1QJk"
+                "tUMyqHNLsVHv1QJk",
+                "bC2xcVQgu3RIMvEC"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -22399,6 +22519,9 @@
         },
         {
             "pakku_id": "ujvkE5P6FXttjlXf",
+            "pakku_links": [
+                "bC2xcVQgu3RIMvEC"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -22467,19 +22590,46 @@
             ]
         },
         {
-            "pakku_id": "b6LwJxYqpkpD6eRd",
+            "pakku_id": "P5oYtjEWrW8BDOgK",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
+                "curseforge": "swingthrough",
                 "modrinth": "swingthrough"
             },
             "name": {
+                "curseforge": "SwingThrough",
                 "modrinth": "SwingThrough"
             },
             "id": {
+                "curseforge": "1402841",
                 "modrinth": "JyKlunuD"
             },
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "swingthrough-1.0.6+1.20.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7323/157/swingthrough-1.0.6+1.20.jar",
+                    "id": "7323157",
+                    "parent_id": "1402841",
+                    "hashes": {
+                        "sha1": "927e8a82f1fe7fdeb893f5377719b70f7302c546",
+                        "md5": "11ed340f446acd89bf88fe37b397b925"
+                    },
+                    "required_dependencies": [],
+                    "size": 22346,
+                    "date_published": "2025-12-12T03:25:33.003Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "swingthrough-1.0.6+1.20.jar",
@@ -24244,6 +24394,9 @@
         },
         {
             "pakku_id": "sheqmOmSHVPE06gu",
+            "pakku_links": [
+                "bC2xcVQgu3RIMvEC"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
