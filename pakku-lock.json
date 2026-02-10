@@ -3019,6 +3019,67 @@
             ]
         },
         {
+            "pakku_id": "IoFJydDjMBV7auh1",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "configurable",
+                "modrinth": "configurable"
+            },
+            "name": {
+                "curseforge": "Configurable",
+                "modrinth": "Configurable"
+            },
+            "id": {
+                "curseforge": "1092048",
+                "modrinth": "lGffrQ3O"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5915/857/Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                    "id": "5915857",
+                    "parent_id": "1092048",
+                    "hashes": {
+                        "sha1": "f5047294f0a407807ac59d71f3e615718a39e37c",
+                        "md5": "d22b274e6f13ed5634a726eea5c52d5b"
+                    },
+                    "required_dependencies": [],
+                    "size": 643570,
+                    "date_published": "2024-11-18T02:25:31.443Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lGffrQ3O/versions/Hqxe5vgj/Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                    "id": "Hqxe5vgj",
+                    "parent_id": "lGffrQ3O",
+                    "hashes": {
+                        "sha512": "72f07d4f040eb350e3c4dedfb83ab98709c559d7e3d75ab8716e04c61de6e657ff013a66a3cf58da710994bd792af220d45b1fdc5ada2139b4d6ae4a85fca7d8",
+                        "sha1": "f5047294f0a407807ac59d71f3e615718a39e37c"
+                    },
+                    "required_dependencies": [],
+                    "size": 643570,
+                    "date_published": "2024-11-18T02:25:32.287812Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "1zh6rfQ003OT3F6w",
             "type": "MOD",
             "side": "SERVER",
@@ -6323,52 +6384,6 @@
                     "required_dependencies": [],
                     "size": 1218710,
                     "date_published": "2024-03-26T13:29:57.382945Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "1zo2FqSJ1g1H64be",
-            "pakku_links": [
-                "oIkIn5hRgKWLtPUw"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "effective",
-                "modrinth": "effective"
-            },
-            "name": {
-                "curseforge": "Effective",
-                "modrinth": "Effective"
-            },
-            "id": {
-                "curseforge": "556381",
-                "modrinth": "pcPXJeZi"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "effective-2.3.2-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/pcPXJeZi/versions/vwgKoecR/effective-2.3.2-1.20.1.jar",
-                    "id": "vwgKoecR",
-                    "parent_id": "pcPXJeZi",
-                    "hashes": {
-                        "sha512": "8e1a74ffc8fada2b2bde59e5d51e5964591ad0b6a17fa128ed4215b9d5b654533c3d39dcb1b4461d9febd4dae2406e856eb4c1f3360e453de33200a364958308",
-                        "sha1": "2fef4f6cc068eaeef6111f579653b30fe70a52e4"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 35483882,
-                    "date_published": "2024-09-24T14:09:42.385037Z"
                 }
             ]
         },
@@ -15403,6 +15418,76 @@
             ]
         },
         {
+            "pakku_id": "3OFzLv11tSZAb5ra",
+            "pakku_links": [
+                "IoFJydDjMBV7auh1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "neruina",
+                "modrinth": "neruina"
+            },
+            "name": {
+                "curseforge": "Neruina - Ticking Entity Fixer",
+                "modrinth": "Neruina - Ticking Entity Fixer"
+            },
+            "id": {
+                "curseforge": "851046",
+                "modrinth": "1s5x833P"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "neruina-3.2.1+1.20.1-fabric.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7597/7/neruina-3.2.1+1.20.1-fabric.jar",
+                    "id": "7597007",
+                    "parent_id": "851046",
+                    "hashes": {
+                        "sha1": "ef2c886a995a7830273ea28adf265db1f6395e1d",
+                        "md5": "9b1fb5a7e75a5686955a9e971a7aa465"
+                    },
+                    "required_dependencies": [
+                        "1092048"
+                    ],
+                    "size": 843265,
+                    "date_published": "2026-02-08T23:44:18.990Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "neruina-3.2.1+1.20.1-fabric.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1s5x833P/versions/IhZjnul1/neruina-3.2.1+1.20.1-fabric.jar",
+                    "id": "IhZjnul1",
+                    "parent_id": "1s5x833P",
+                    "hashes": {
+                        "sha512": "19c44751f442bb9489cbeb1b73e0f4466d74bee9d1616b5fa22d15112308949faa1be5d4407fa439c201c03362209d6a8e6a853c9fbd71f43bdb1c5e5ca726f4",
+                        "sha1": "ef2c886a995a7830273ea28adf265db1f6395e1d"
+                    },
+                    "required_dependencies": [
+                        "lGffrQ3O"
+                    ],
+                    "size": 843265,
+                    "date_published": "2026-02-08T23:44:17.928508Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GuF517ml2v9cQKKr",
             "pakku_links": [
                 "oIkIn5hRgKWLtPUw",
@@ -22243,53 +22328,46 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                    "type": "modrinth",
+                    "file_name": "celesteconfig-fabric-1.20.1-1.1.2.jar",
                     "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
                         "1.20.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5504/402/Celestial Configuration-fabric-1.20.1-1.1.1.jar",
-                    "id": "5504402",
-                    "parent_id": "656398",
+                    "url": "https://cdn.modrinth.com/data/C5tEOKu9/versions/PudROtuJ/celesteconfig-fabric-1.20.1-1.1.2.jar",
+                    "id": "PudROtuJ",
+                    "parent_id": "C5tEOKu9",
                     "hashes": {
-                        "sha1": "0f14d49b738fcde70e1e0a1419ef1bb6a8ba16d0",
-                        "md5": "91d09067c7070ea64be61040f16cfcd0"
+                        "sha512": "76db83bc34d8db5bf634263690c96e4a8e4b20832422837e33eab2419508c389b2da1dd2669de723500b060d42fa1273d2715f43a569d4fe72c958202eec5a91",
+                        "sha1": "5c33467134a135c8034b5c1679434a0c0db8becd"
                     },
                     "required_dependencies": [],
-                    "size": 137613,
-                    "date_published": "2024-07-05T13:31:21.833Z"
+                    "size": 21673,
+                    "date_published": "2026-01-18T02:01:53.476298Z"
                 },
                 {
-                    "type": "modrinth",
-                    "file_name": "Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                    "type": "curseforge",
+                    "file_name": "celesteconfig-fabric-1.20.1-1.1.2.jar",
                     "mc_versions": [
-                        "1.20.1",
-                        "1.20.2",
-                        "1.20.3"
+                        "1.20.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/C5tEOKu9/versions/wCZadXy8/Celestial Configuration-fabric-1.20.1-1.1.1.jar",
-                    "id": "wCZadXy8",
-                    "parent_id": "C5tEOKu9",
+                    "url": "https://edge.forgecdn.net/files/7478/501/celesteconfig-fabric-1.20.1-1.1.2.jar",
+                    "id": "7478501",
+                    "parent_id": "656398",
                     "hashes": {
-                        "sha512": "c61c49f86141a08d4aeee3102bfcb72ca5dba37de3ae0968917435256e8574b9aad55a70bbf83e536f93d822807dc2ffc529e2bb1b97b8101a62aca29acc8664",
-                        "sha1": "0f14d49b738fcde70e1e0a1419ef1bb6a8ba16d0"
+                        "sha1": "5c33467134a135c8034b5c1679434a0c0db8becd",
+                        "md5": "66f4fab2495054bf5be684b3f3d0710a"
                     },
-                    "required_dependencies": [
-                        "9s6osm5g",
-                        "P7dR8mSH"
-                    ],
-                    "size": 137613,
-                    "date_published": "2024-07-05T14:35:19.044720Z"
+                    "required_dependencies": [],
+                    "size": 21673,
+                    "date_published": "2026-01-18T02:01:53.237Z"
                 }
             ]
         },

@@ -6,6 +6,27 @@
     "projects": {
         "fastboot": {
             "redistributable": true
+        },
+        "ftb-essentials": {
+            "redistributable": false
+        },
+        "ftb-filter-system": {
+            "redistributable": false
+        },
+        "ftb-library-fabric": {
+            "redistributable": false
+        },
+        "ftb-quests-fabric": {
+            "redistributable": false
+        },
+        "ftb-teams-fabric": {
+            "redistributable": false
+        },
+        "ftb-xmod-compat": {
+            "redistributable": false
+        },
+        "quests-additions-fabric": {
+            "redistributable": false
         }
     }
 }
